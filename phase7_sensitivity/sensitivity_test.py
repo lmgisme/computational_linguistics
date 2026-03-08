@@ -147,13 +147,18 @@ def run_sensitivity_test():
     for kl_lang, kl_gloss, source, evidence, cat in KNOWN_LOANS:
         found = False
         kl_g = kl_gloss.lower()
+        # Build list of gloss variants to try
+        gloss_variants = GLOSS_ALTERNATES.get(kl_g, [kl_g])
         # Pass 1: exact match. Pass 2: substring (for compound glosses).
         for exact in (True, False):
             if found:
                 break
             for row in scores:
                 rg = row["gloss"].lower()
-                hit = (rg == kl_g) if exact else (kl_g in rg)
+                if exact:
+                    hit = any(rg == gv for gv in gloss_variants)
+                else:
+                    hit = any(gv in rg for gv in gloss_variants)
                 if row["language"] == kl_lang and hit:
                     branch = LANG_TO_BRANCH.get(kl_lang, "unknown")
                     bt = branch_thresholds.get(branch, FAMILY_WIDE_THRESHOLD)
