@@ -1,0 +1,5 @@
+group,calibration_langs,n_calibration,mean,std,threshold
+A_oghuz,"Azerbaijani, Turkish",2311,-0.6511,0.1474,-0.8722
+A_kipchak,"Kazakh, Uzbek",2277,-0.8673,0.1385,-1.0751
+B_yakut,Yakut,1072,-1.0982,0.1197,-1.2778
+C_chuvash,Chuvash,1167,-1.0399,0.102,-1.1929

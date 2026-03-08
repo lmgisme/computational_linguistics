@@ -1,0 +1,341 @@
+language,gloss,form,ipa_tokens,group,cogid_source,adjusted_score,central_score,cond1_anomalous,cond2_pass,loan_class,thin_lang_flag
+Kazakh,wish,mʊdːe,m ʊ dː e,A_kipchak,northeuralex,-2.2809,-2.2809,True,True,unknown,False
+Kazakh,feather,ʒe,ʒ e,A_kipchak,lexstat,-1.4027,-1.4027,True,True,unknown,False
+Kazakh,three,ʊʃ,ʊ ʃ,A_kipchak,northeuralex,-1.2697,-1.2697,True,True,unknown,False
+Uzbek,flesh,ɡoʃt,g o ʃ t,A_kipchak,lexstat,-1.2322,-1.2322,True,True,unknown,False
+Kazakh,woman,bɪjke,b ɪ j k e,A_kipchak,lexstat,-1.2314,-1.2314,True,True,unknown,False
+Uzbek,seven,ɛtːi,ɛ tː i,A_kipchak,northeuralex,-1.2267,-1.2267,True,True,unknown,False
+Uzbek,tree,daraχt,d a r a χ t,A_kipchak,lexstat,-1.218,-1.218,True,True,unknown,False
+Kazakh,collar,ʒɑʁɑ,ʒ ɑ ʁ ɑ,A_kipchak,northeuralex,-1.2069,-1.2069,True,True,unknown,False
+Kazakh,flower,ɡʊl,g ʊ l,A_kipchak,northeuralex,-1.1981,-1.1981,True,True,unknown,False
+Kazakh,wood,ɑʁɑʃ,ɑ ʁ ɑ ʃ,A_kipchak,northeuralex,-1.1957,-1.1957,True,True,unknown,False
+Kazakh,tip,ʉʃə,ʉ ʃ ə,A_kipchak,northeuralex,-1.1883,-1.1883,True,True,unknown,False
+Kazakh,war,soʁəs,s o ʁ ə s,A_kipchak,northeuralex,-1.1769,-1.1769,True,True,unknown,False
+Kazakh,cave,ʊŋɡəɾ,ʊ ŋ g ə ɾ,A_kipchak,northeuralex,-1.1714,-1.1714,True,True,unknown,False
+Uzbek,big,bujuk,b u j u k,A_kipchak,lexstat,-1.1705,-1.1705,True,True,unknown,False
+Kazakh,towel,sʊlɡə,s ʊ l g ə,A_kipchak,northeuralex,-1.1685,-1.1685,True,True,unknown,False
+Uzbek,egg,tuχum,t u χ u m,A_kipchak,lexstat,-1.1666,-1.1666,True,True,unknown,False
+Kazakh,ski,ʃɑŋʁə,ʃ ɑ ŋ ʁ ə,A_kipchak,northeuralex,-1.1647,-1.1647,True,True,unknown,False
+Kazakh,already,tʊɡe,t ʊ g e,A_kipchak,northeuralex,-1.1619,-1.1619,True,True,unknown,False
+Kazakh,brook,ʒəlʁɑ,ʒ ə l ʁ ɑ,A_kipchak,northeuralex,-1.1618,-1.1618,True,True,unknown,False
+Kazakh,broom,səpəɾʁəʃ,s ə p ə ɾ ʁ ə ʃ,A_kipchak,northeuralex,-1.1579,-1.1579,True,True,unknown,False
+Kazakh,coast,ʒɪjeɡə,ʒ ɪ j e g ə,A_kipchak,northeuralex,-1.1534,-1.1534,True,True,unknown,False
+Kazakh,walk,ʒʊɾəs,ʒ ʊ ɾ ə s,A_kipchak,northeuralex,-1.1526,-1.1526,True,True,unknown,False
+Kazakh,thread,ʒəp,ʒ ə p,A_kipchak,northeuralex,-1.1509,-1.1509,True,True,unknown,False
+Kazakh,string,ʒəp,ʒ ə p,A_kipchak,northeuralex,-1.1509,-1.1509,True,True,unknown,False
+Kazakh,light,ʃʉʁəlɑ,ʃ ʉ ʁ ə l ɑ,A_kipchak,northeuralex,-1.1501,-1.1501,True,True,unknown,False
+Kazakh,above,ʒoʁɑɾədɑ,ʒ o ʁ ɑ ɾ ə d ɑ,A_kipchak,northeuralex,-1.1497,-1.1497,True,True,unknown,False
+Kazakh,worker,ʒʊməsʃə,ʒ ʊ m ə s ʃ ə,A_kipchak,northeuralex,-1.1423,-1.1423,True,True,unknown,False
+Kazakh,warm,ʒələ,ʒ ə l ə,A_kipchak,northeuralex,-1.1415,-1.1415,True,True,unknown,False
+Kazakh,elk,bʉʁə,b ʉ ʁ ə,A_kipchak,northeuralex,-1.1409,-1.1409,True,True,unknown,False
+Kazakh,third,ʊʃənʃə,ʊ ʃ ə n ʃ ə,A_kipchak,northeuralex,-1.1403,-1.1403,True,True,unknown,False
+Kazakh,nail,ʃeɡe,ʃ e g e,A_kipchak,northeuralex,-1.1389,-1.1389,True,True,unknown,False
+Uzbek,empty,put͡ʃ,p u tʃ,A_kipchak,northeuralex,-1.1379,-1.1379,True,True,unknown,False
+Kazakh,song,ʒəɾ,ʒ ə ɾ,A_kipchak,northeuralex,-1.1346,-1.1346,True,True,unknown,False
+Kazakh,hungry,ɑʃ,ɑ ʃ,A_kipchak,northeuralex,-1.1336,-1.1336,True,True,unknown,False
+Uzbek,that,o(ʃa),o,A_kipchak,savelyev,-1.133,-1.133,True,True,unknown,False
+Kazakh,dense,ʒɪjə,ʒ ɪ j ə,A_kipchak,northeuralex,-1.1313,-1.1313,True,True,unknown,False
+Kazakh,box,ʒæʃək,ʒ æ ʃ ə k,A_kipchak,northeuralex,-1.13,-1.13,True,True,unknown,False
+Kazakh,strength,kʊʃ,k ʊ ʃ,A_kipchak,northeuralex,-1.1297,-1.1297,True,True,unknown,False
+Uzbek,odour,d͡ʒid,dʒ i d,A_kipchak,northeuralex,-1.1274,-1.1274,True,True,unknown,False
+Kazakh,fork,ɑʃɑ,ɑ ʃ ɑ,A_kipchak,northeuralex,-1.1262,-1.1262,True,True,unknown,False
+Kazakh,grandmother,æʒe,æ ʒ e,A_kipchak,northeuralex,-1.1257,-1.1257,True,True,unknown,False
+Kazakh,fir,ʃəɾʃɑ,ʃ ə ɾ ʃ ɑ,A_kipchak,northeuralex,-1.1252,-1.1252,True,True,unknown,False
+Kazakh,thither,æɾə,æ ɾ ə,A_kipchak,northeuralex,-1.1249,-1.1249,True,True,unknown,False
+Kazakh,memory,ʒɑdə,ʒ ɑ d ə,A_kipchak,northeuralex,-1.1238,-1.1238,True,True,unknown,False
+Kazakh,all,? ʒɯɣɯl,ʒ ɯ ɣ ɯ l,A_kipchak,lexstat,-1.1195,-1.1195,True,True,mongolic_candidate,False
+Kazakh,pointed,ʊʃkəɾ,ʊ ʃ k ə ɾ,A_kipchak,northeuralex,-1.1184,-1.1184,True,True,unknown,False
+Kazakh,forward,əlɡeɾə,ə l g e ɾ ə,A_kipchak,northeuralex,-1.1151,-1.1151,True,True,unknown,False
+Kazakh,east,kʊnʃəʁəs,k ʊ n ʃ ə ʁ ə s,A_kipchak,northeuralex,-1.1144,-1.1144,True,True,unknown,False
+Kazakh,height,ʒoʁɑɾələq,ʒ o ʁ ɑ ɾ ə l ə q,A_kipchak,northeuralex,-1.1131,-1.1131,True,True,unknown,False
+Kazakh,often,əlʁɪj,ə l ʁ ɪ j,A_kipchak,northeuralex,-1.1098,-1.1098,True,True,unknown,False
+Kazakh,dishes,ədəs,ə d ə s,A_kipchak,northeuralex,-1.1078,-1.1078,True,True,unknown,False
+Kazakh,run,ʒʊɡəɾu,ʒ ʊ g ə ɾ u,A_kipchak,northeuralex,-1.1061,-1.1061,True,True,unknown,False
+Uzbek,all,jiqil,j i q i l,A_kipchak,lexstat,-1.1056,-1.1056,True,True,unknown,False
+Kazakh,far,ɑləstɑʁə,ɑ l ə s t ɑ ʁ ə,A_kipchak,northeuralex,-1.1046,-1.1046,True,True,unknown,False
+Kazakh,because of,ʊʃən,ʊ ʃ ə n,A_kipchak,northeuralex,-1.1033,-1.1033,True,True,unknown,False
+Uzbek,leaf,barɡ,b a r g,A_kipchak,lexstat,-1.1017,-1.1017,True,True,unknown,False
+Kazakh,blunt,doʁɑl,d o ʁ ɑ l,A_kipchak,northeuralex,-1.1005,-1.1005,True,True,unknown,False
+Kazakh,year,ʒəl,ʒ ə l,A_kipchak,northeuralex,-1.0978,-1.0978,True,True,unknown,False
+Kazakh,current,ɑʁən,ɑ ʁ ə n,A_kipchak,northeuralex,-1.0974,-1.0974,True,True,unknown,False
+Uzbek,tip,ut͡ʃ,u tʃ,A_kipchak,northeuralex,-1.0962,-1.0962,True,True,unknown,False
+Uzbek,three,ut͡ʃ,u tʃ,A_kipchak,northeuralex,-1.0962,-1.0962,True,True,unknown,False
+Kazakh,end,soŋə,s o ŋ ə,A_kipchak,northeuralex,-1.0961,-1.0961,True,True,unknown,False
+Kazakh,tear,ʒɑs,ʒ ɑ s,A_kipchak,northeuralex,-1.0959,-1.0959,True,True,unknown,False
+Kazakh,age,ʒɑs,ʒ ɑ s,A_kipchak,northeuralex,-1.0959,-1.0959,True,True,unknown,False
+Uzbek,summit,t͡ʃoqːi,tʃ o qː i,A_kipchak,northeuralex,-1.0944,-1.0944,True,True,unknown,False
+Kazakh,"peel, husk",qɑbəʁə,q ɑ b ə ʁ ə,A_kipchak,northeuralex,-1.0935,-1.0935,True,True,unknown,False
+Kazakh,pit,oɾ,o ɾ,A_kipchak,northeuralex,-1.0935,-1.0935,True,True,unknown,False
+Kazakh,path,ʒol,ʒ o l,A_kipchak,northeuralex,-1.0925,-1.0925,True,True,unknown,False
+Kazakh,way,ʒol,ʒ o l,A_kipchak,northeuralex,-1.0925,-1.0925,True,True,unknown,False
+Kazakh,road,ʒol,ʒ o l,A_kipchak,northeuralex,-1.0925,-1.0925,True,True,unknown,False
+Kazakh,thin,ʒəŋəʃke,ʒ ə ŋ ə ʃ k e,A_kipchak,northeuralex,-1.0908,-1.0908,True,True,unknown,False
+Kazakh,first,ɑlʁɑʃqə,ɑ l ʁ ɑ ʃ q ə,A_kipchak,northeuralex,-1.0893,-1.0893,True,True,unknown,False
+Kazakh,character,æɾəp,æ ɾ ə p,A_kipchak,northeuralex,-1.0885,-1.0885,True,True,unknown,False
+Kazakh,still,ælə,æ l ə,A_kipchak,northeuralex,-1.0881,-1.0881,True,True,unknown,False
+Kazakh,doctor,dæɾəɡeɾ,d æ ɾ ə g e ɾ,A_kipchak,northeuralex,-1.0872,-1.0872,True,True,unknown,False
+Kazakh,seven,ʒetə,ʒ e t ə,A_kipchak,northeuralex,-1.0867,-1.0867,True,True,unknown,False
+Kazakh,living,təɾə,t ə ɾ ə,A_kipchak,northeuralex,-1.0861,-1.0861,True,True,unknown,False
+Kazakh,pig,ʃoʃqɑ,ʃ o ʃ q ɑ,A_kipchak,northeuralex,-1.0858,-1.0858,True,True,unknown,False
+Kazakh,next to,əɾɡede,ə ɾ g e d e,A_kipchak,northeuralex,-1.0856,-1.0856,True,True,unknown,False
+Uzbek,place,d͡ʒɒj,dʒ ɒ j,A_kipchak,northeuralex,-1.0835,-1.0835,True,True,unknown,False
+Kazakh,swarm,ʊjəɾ,ʊ j ə ɾ,A_kipchak,northeuralex,-1.0835,-1.0835,True,True,unknown,False
+Kazakh,nine,toʁəz,t o ʁ ə z,A_kipchak,northeuralex,-1.0829,-1.0829,True,True,unknown,False
+Uzbek,sleeve,jɛŋ,j ɛ ŋ,A_kipchak,northeuralex,-1.0823,-1.0823,True,True,unknown,False
+Kazakh,today,bʊɡən,b ʊ g ə n,A_kipchak,northeuralex,-1.0797,-1.0797,True,True,unknown,False
+Uzbek,stove,pɛt͡ʃka,p ɛ tʃ k a,A_kipchak,northeuralex,-1.0788,-1.0788,True,True,unknown,False
+Kazakh,expensive,bɑʁɑlə,b ɑ ʁ ɑ l ə,A_kipchak,northeuralex,-1.0784,-1.0784,True,True,unknown,False
+Kazakh,"cover, lid",ʒɑpqəʃ,ʒ ɑ p q ə ʃ,A_kipchak,northeuralex,-1.0782,-1.0782,True,True,unknown,False
+Kazakh,under,tʊp,t ʊ p,A_kipchak,northeuralex,-1.0774,-1.0774,True,True,unknown,False
+Kazakh,half,ʒɑɾtə,ʒ ɑ ɾ t ə,A_kipchak,northeuralex,-1.0768,-1.0768,True,True,unknown,False
+Kazakh,green,ʒɑsəl,ʒ ɑ s ə l,A_kipchak,northeuralex,-1.0761,-1.0761,True,True,unknown,False
+Kazakh,dream,tʊs,t ʊ s,A_kipchak,northeuralex,-1.076,-1.076,True,True,unknown,False
+Kazakh,milk,sʊt,s ʊ t,A_kipchak,northeuralex,-1.076,-1.076,True,True,unknown,False
+Kazakh,fresh,ʒɑŋɑ,ʒ ɑ ŋ ɑ,A_kipchak,northeuralex,-1.0759,-1.0759,True,True,unknown,False
+Kazakh,new,ʒɑŋɑ,ʒ ɑ ŋ ɑ,A_kipchak,northeuralex,-1.0759,-1.0759,True,True,unknown,False
+Kazakh,again,ʒɑŋɑ,ʒ ɑ ŋ ɑ,A_kipchak,northeuralex,-1.0759,-1.0759,True,True,unknown,False
+Kazakh,talk,æŋɡəme,æ ŋ g ə m e,A_kipchak,northeuralex,-1.0757,-1.0757,True,True,unknown,False
+Kazakh,story,æŋɡəme,æ ŋ g ə m e,A_kipchak,northeuralex,-1.0757,-1.0757,True,True,unknown,False
+Kazakh,glass,ʃənə,ʃ ə n ə,A_kipchak,northeuralex,-1.0756,-1.0756,True,True,unknown,False
+Kazakh,fringe,ʃetə,ʃ e t ə,A_kipchak,northeuralex,-1.0755,-1.0755,True,True,unknown,False
+Kazakh,odour,ɪjəs,ɪ j ə s,A_kipchak,northeuralex,-1.0751,-1.0751,True,True,unknown,False
+Turkmen,horn,Sah,ʃ a h,A_oghuz,lexstat,-2.386,-2.386,True,True,unknown,True
+Turkmen,grease,jaɣ,j a ɣ,A_oghuz,savelyev,-2.2015,-2.2015,True,True,mongolic_candidate,True
+Turkish,clever,zɛkiː,z ɛ k iː,A_oghuz,northeuralex,-1.9189,-1.9189,True,True,unknown,False
+Turkmen,small,kiʨi(ʥik),k i ʨ i ʥ i k,A_oghuz,savelyev,-1.8743,-1.8743,True,True,unknown,True
+Turkmen,tree,aɣaʨ,a ɣ a tɕ,A_oghuz,savelyev,-1.629,-1.629,True,True,mongolic_candidate,True
+Turkmen,what,nɛme,n æ m e,A_oghuz,savelyev,-1.6173,-1.6173,True,True,unknown,True
+Turkmen,bone,syŋk,s y ŋ k,A_oghuz,savelyev,-1.5433,-1.5433,True,True,unknown,True
+Azerbaijani,all,dyʃ,d y ʃ,A_oghuz,lexstat,-1.241,-1.241,True,True,unknown,False
+Azerbaijani,arrow,ɔχ,ɔ χ,A_oghuz,northeuralex,-1.1968,-1.1968,True,True,unknown,False
+Turkish,three,yt͡ʃ,y tʃ,A_oghuz,northeuralex,-1.1904,-1.1904,True,True,unknown,False
+Turkish,he,o,o,A_oghuz,northeuralex,-1.1765,-1.1765,True,True,unknown,False
+Azerbaijani,very,t͡ʃɔχ,tʃ ɔ χ,A_oghuz,northeuralex,-1.1745,-1.1745,True,True,unknown,False
+Turkish,all,dyʃ,d y ʃ,A_oghuz,lexstat,-1.1659,-1.1659,True,True,unknown,False
+Azerbaijani,three,yt͡ʃ,y tʃ,A_oghuz,northeuralex,-1.1382,-1.1382,True,True,unknown,False
+Azerbaijani,force,ɟyd͡ʒ,ɟ y dʒ,A_oghuz,northeuralex,-1.1338,-1.1338,True,True,unknown,False
+Azerbaijani,he,ɔ,ɔ,A_oghuz,northeuralex,-1.1189,-1.1189,True,True,unknown,False
+Azerbaijani,house,ɛv,ɛ v,A_oghuz,northeuralex,-1.1129,-1.1129,True,True,unknown,False
+Azerbaijani,home,ɛv,ɛ v,A_oghuz,northeuralex,-1.1129,-1.1129,True,True,unknown,False
+Turkish,third,yt͡ʃynd͡ʒy,y tʃ y n dʒ y,A_oghuz,northeuralex,-1.1082,-1.1082,True,True,unknown,False
+Azerbaijani,stove,pɛt͡ʃ,p ɛ tʃ,A_oghuz,northeuralex,-1.1026,-1.1026,True,True,unknown,False
+Azerbaijani,third,yt͡ʃynd͡ʒy,y tʃ y n dʒ y,A_oghuz,northeuralex,-1.0656,-1.0656,True,True,unknown,False
+Azerbaijani,palm,ɔvud͡ʒ,ɔ v u dʒ,A_oghuz,northeuralex,-1.0644,-1.0644,True,True,unknown,False
+Azerbaijani,string,ɪp,ɪ p,A_oghuz,northeuralex,-1.0632,-1.0632,True,True,unknown,False
+Turkish,body,vyd͡ʒut,v y dʒ u t,A_oghuz,northeuralex,-1.0562,-1.0562,True,True,unknown,False
+Turkish,house,ɛv,ɛ v,A_oghuz,northeuralex,-1.047,-1.047,True,True,unknown,False
+Turkish,home,ɛv,ɛ v,A_oghuz,northeuralex,-1.047,-1.047,True,True,unknown,False
+Turkish,and,vɛ,v ɛ,A_oghuz,northeuralex,-1.047,-1.047,True,True,unknown,False
+Azerbaijani,raw,t͡ʃɪj,tʃ ɪ j,A_oghuz,northeuralex,-1.0373,-1.0373,True,True,unknown,False
+Turkish,blanket,œɾty,œ ɾ t y,A_oghuz,northeuralex,-1.0299,-1.0299,True,True,unknown,False
+Turkish,net,aː,aː,A_oghuz,northeuralex,-1.0205,-1.0205,True,True,unknown,False
+Azerbaijani,tip,ud͡ʒ,u dʒ,A_oghuz,northeuralex,-1.018,-1.018,True,True,unknown,False
+Turkish,before,œnd͡ʒɛ,œ n dʒ ɛ,A_oghuz,northeuralex,-1.0158,-1.0158,True,True,unknown,False
+Azerbaijani,worker,ɪʃt͡ʃɪ,ɪ ʃ tʃ ɪ,A_oghuz,northeuralex,-1.0129,-1.0129,True,True,unknown,False
+Azerbaijani,often,t͡ʃɔχ_vɑχt,tʃ ɔ χ + v ɑ χ t,A_oghuz,northeuralex,-1.0124,-1.0124,True,True,unknown,False
+Azerbaijani,powerful,ɟyd͡ʒly,ɟ y dʒ l y,A_oghuz,northeuralex,-1.0106,-1.0106,True,True,unknown,False
+Azerbaijani,fire,ɔd,ɔ d,A_oghuz,northeuralex,-1.0082,-1.0082,True,True,unknown,False
+Azerbaijani,night,ɟɛd͡ʒæ,ɟ ɛ dʒ æ,A_oghuz,northeuralex,-1.0068,-1.0068,True,True,unknown,False
+Turkish,company,t͡ʃɛvɾɛ,tʃ ɛ v ɾ ɛ,A_oghuz,northeuralex,-1.0063,-1.0063,True,True,unknown,False
+Azerbaijani,cross,χɑt͡ʃ,χ ɑ tʃ,A_oghuz,northeuralex,-1.006,-1.006,True,True,unknown,False
+Turkish,flock,syɾy,s y ɾ y,A_oghuz,northeuralex,-1.0035,-1.0035,True,True,unknown,False
+Turkish,swarm,syɾy,s y ɾ y,A_oghuz,northeuralex,-1.0035,-1.0035,True,True,unknown,False
+Turkish,grass,ot,o t,A_oghuz,northeuralex,-1.0025,-1.0025,True,True,unknown,False
+Azerbaijani,sort,t͡ʃɛʃɪd,tʃ ɛ ʃ ɪ d,A_oghuz,northeuralex,-1.0002,-1.0002,True,True,unknown,False
+Turkish,walk,jyɾyjyʃ,j y ɾ y j y ʃ,A_oghuz,northeuralex,-0.9998,-0.9998,True,True,unknown,False
+Azerbaijani,sky,ɟœj,ɟ œ j,A_oghuz,northeuralex,-0.9994,-0.9994,True,True,unknown,False
+Azerbaijani,blue,ɟœj,ɟ œ j,A_oghuz,northeuralex,-0.9994,-0.9994,True,True,unknown,False
+Turkish,teacher,hod͡ʒa,h o dʒ a,A_oghuz,northeuralex,-0.9981,-0.9981,True,True,unknown,False
+Turkish,tip,ut͡ʃ,u tʃ,A_oghuz,northeuralex,-0.9963,-0.9963,True,True,unknown,False
+Turkish,end,ut͡ʃ,u tʃ,A_oghuz,northeuralex,-0.9963,-0.9963,True,True,unknown,False
+Turkish,willow,sœjyt,s œ j y t,A_oghuz,northeuralex,-0.9936,-0.9936,True,True,unknown,False
+Azerbaijani,because of,yt͡ʃyn,y tʃ y n,A_oghuz,northeuralex,-0.9896,-0.9896,True,True,unknown,False
+Turkish,area,jœɾɛ,j œ ɾ ɛ,A_oghuz,northeuralex,-0.9859,-0.9859,True,True,unknown,False
+Azerbaijani,weak,ɟyd͡ʒsyz,ɟ y dʒ s y z,A_oghuz,northeuralex,-0.9779,-0.9779,True,True,unknown,False
+Azerbaijani,mirror,ɟyzɟy,ɟ y z ɟ y,A_oghuz,northeuralex,-0.9704,-0.9704,True,True,unknown,False
+Azerbaijani,joy,sɛvɪnd͡ʒ,s ɛ v ɪ n dʒ,A_oghuz,northeuralex,-0.9692,-0.9692,True,True,unknown,False
+Turkish,desire,hɛvɛs,h ɛ v ɛ s,A_oghuz,northeuralex,-0.9619,-0.9619,True,True,unknown,False
+Azerbaijani,boss,ʃɛf,ʃ ɛ f,A_oghuz,northeuralex,-0.9605,-0.9605,True,True,unknown,False
+Turkish,cock,hoɾoz,h o ɾ o z,A_oghuz,northeuralex,-0.9567,-0.9567,True,True,unknown,False
+Turkish,fat,jaː,j aː,A_oghuz,northeuralex,-0.9539,-0.9539,True,True,unknown,False
+Turkish,oil,jaː,j aː,A_oghuz,northeuralex,-0.9539,-0.9539,True,True,unknown,False
+Azerbaijani,willow,sœjyd,s œ j y d,A_oghuz,northeuralex,-0.9539,-0.9539,True,True,unknown,False
+Azerbaijani,hungry,ɑd͡ʒ,ɑ dʒ,A_oghuz,northeuralex,-0.9511,-0.9511,True,True,unknown,False
+Azerbaijani,trunk,ɟœvdæ,ɟ œ v d æ,A_oghuz,northeuralex,-0.9474,-0.9474,True,True,unknown,False
+Turkish,thought,dyʃynd͡ʒɛ,d y ʃ y n dʒ ɛ,A_oghuz,northeuralex,-0.9473,-0.9473,True,True,unknown,False
+Azerbaijani,shoulder,t͡ʃɪjɪn,tʃ ɪ j ɪ n,A_oghuz,northeuralex,-0.9438,-0.9438,True,True,unknown,False
+Azerbaijani,pattern,ylɟy,y l ɟ y,A_oghuz,northeuralex,-0.941,-0.941,True,True,unknown,False
+Azerbaijani,bad,pɪs,p ɪ s,A_oghuz,northeuralex,-0.9399,-0.9399,True,True,unknown,False
+Turkish,milk,syt,s y t,A_oghuz,northeuralex,-0.9387,-0.9387,True,True,unknown,False
+Azerbaijani,item,ʃɛj,ʃ ɛ j,A_oghuz,northeuralex,-0.9376,-0.9376,True,True,unknown,False
+Azerbaijani,thing,ʃɛj,ʃ ɛ j,A_oghuz,northeuralex,-0.9376,-0.9376,True,True,unknown,False
+Azerbaijani,border,hydud,h y d u d,A_oghuz,northeuralex,-0.9368,-0.9368,True,True,unknown,False
+Azerbaijani,at that time,ɔ_vɑχt,ɔ + v ɑ χ t,A_oghuz,northeuralex,-0.9364,-0.9364,True,True,unknown,False
+Azerbaijani,pole,ʃyvyl,ʃ y v y l,A_oghuz,northeuralex,-0.9359,-0.9359,True,True,unknown,False
+Azerbaijani,staff,ʃyvyl,ʃ y v y l,A_oghuz,northeuralex,-0.9359,-0.9359,True,True,unknown,False
+Turkish,sad,yzyntyly,y z y n t y l y,A_oghuz,northeuralex,-0.9345,-0.9345,True,True,unknown,False
+Turkish,face,jyz,j y z,A_oghuz,northeuralex,-0.9326,-0.9326,True,True,unknown,False
+Azerbaijani,breast,dœʃ,d œ ʃ,A_oghuz,northeuralex,-0.9326,-0.9326,True,True,unknown,False
+Turkish,hill,tɛpɛ,t ɛ p ɛ,A_oghuz,northeuralex,-0.9295,-0.9295,True,True,unknown,False
+Azerbaijani,knot,dyjyn,d y j y n,A_oghuz,northeuralex,-0.9274,-0.9274,True,True,unknown,False
+Turkish,window,pɛnd͡ʒɛɾɛ,p ɛ n dʒ ɛ ɾ ɛ,A_oghuz,northeuralex,-0.9257,-0.9257,True,True,unknown,False
+Azerbaijani,work,ɪʃ,ɪ ʃ,A_oghuz,northeuralex,-0.9252,-0.9252,True,True,unknown,False
+Azerbaijani,matter,ɪʃ,ɪ ʃ,A_oghuz,northeuralex,-0.9252,-0.9252,True,True,unknown,False
+Azerbaijani,thought,dyʃynd͡ʒæ,d y ʃ y n dʒ æ,A_oghuz,northeuralex,-0.9204,-0.9204,True,True,unknown,False
+Azerbaijani,sleep,juχu,j u χ u,A_oghuz,northeuralex,-0.9199,-0.9199,True,True,unknown,False
+Turkish,speech,sœjlɛv,s œ j l ɛ v,A_oghuz,northeuralex,-0.9184,-0.9184,True,True,unknown,False
+Turkish,pot,tɛnd͡ʒɛɾɛ,t ɛ n dʒ ɛ ɾ ɛ,A_oghuz,northeuralex,-0.9169,-0.9169,True,True,unknown,False
+Turkish,chin,t͡ʃɛnɛ,tʃ ɛ n ɛ,A_oghuz,northeuralex,-0.9168,-0.9168,True,True,unknown,False
+Turkish,jaw,t͡ʃɛnɛ,tʃ ɛ n ɛ,A_oghuz,northeuralex,-0.9168,-0.9168,True,True,unknown,False
+Azerbaijani,tooth,dɪʃ,d ɪ ʃ,A_oghuz,northeuralex,-0.916,-0.916,True,True,unknown,False
+Turkish,noon,œjlɛ,œ j l ɛ,A_oghuz,northeuralex,-0.9158,-0.9158,True,True,unknown,False
+Turkish,so,œjlɛ,œ j l ɛ,A_oghuz,northeuralex,-0.9158,-0.9158,True,True,unknown,False
+Turkish,palm,avut͡ʃ,a v u tʃ,A_oghuz,northeuralex,-0.9156,-0.9156,True,True,unknown,False
+Turkish,fault,sut͡ʃ,s u tʃ,A_oghuz,northeuralex,-0.9152,-0.9152,True,True,unknown,False
+Azerbaijani,seven,jɛdːɪ,j ɛ dː ɪ,A_oghuz,northeuralex,-0.9149,-0.9149,True,True,unknown,False
+Turkish,wood,aːat͡ʃ,aː a tʃ,A_oghuz,northeuralex,-0.9141,-0.9141,True,True,unknown,False
+Turkish,meat,ɛt,ɛ t,A_oghuz,northeuralex,-0.9141,-0.9141,True,True,unknown,False
+Azerbaijani,milk,syd,s y d,A_oghuz,northeuralex,-0.9124,-0.9124,True,True,unknown,False
+Turkish,raw,t͡ʃij,tʃ i j,A_oghuz,northeuralex,-0.9122,-0.9122,True,True,unknown,False
+Turkish,fur,post,p o s t,A_oghuz,northeuralex,-0.912,-0.912,True,True,unknown,False
+Turkish,nail,t͡ʃivi,tʃ i v i,A_oghuz,northeuralex,-0.9117,-0.9117,True,True,unknown,False
+Turkish,cheap,ud͡ʒuz,u dʒ u z,A_oghuz,northeuralex,-0.9116,-0.9116,True,True,unknown,False
+Turkish,claw,pɛnt͡ʃɛ,p ɛ n tʃ ɛ,A_oghuz,northeuralex,-0.9114,-0.9114,True,True,unknown,False
+Turkish,wealth,sɛɾvɛt,s ɛ ɾ v ɛ t,A_oghuz,northeuralex,-0.9112,-0.9112,True,True,unknown,False
+Azerbaijani,backward,ɟɛrɪ,ɟ ɛ r ɪ,A_oghuz,northeuralex,-0.911,-0.911,True,True,unknown,False
+Azerbaijani,hardly,ɟyd͡ʒlæ,ɟ y dʒ l æ,A_oghuz,northeuralex,-0.911,-0.911,True,True,unknown,False
+Azerbaijani,new,jɛnɪ,j ɛ n ɪ,A_oghuz,northeuralex,-0.9102,-0.9102,True,True,unknown,False
+Azerbaijani,laughter,ɟylyʃ,ɟ y l y ʃ,A_oghuz,northeuralex,-0.9086,-0.9086,True,True,unknown,False
+Azerbaijani,how,nɛd͡ʒæ,n ɛ dʒ æ,A_oghuz,northeuralex,-0.8991,-0.8991,True,True,unknown,False
+Azerbaijani,wide,ɟɛnɪʃ,ɟ ɛ n ɪ ʃ,A_oghuz,northeuralex,-0.8951,-0.8951,True,True,unknown,False
+Turkish,cross,hat͡ʃ,h a tʃ,A_oghuz,northeuralex,-0.8949,-0.8949,True,True,unknown,False
+Turkish,everything,hɛɾ_ʃɛj,h ɛ ɾ + ʃ ɛ j,A_oghuz,northeuralex,-0.8949,-0.8949,True,True,unknown,False
+Azerbaijani,now,ɪndɪ,ɪ n d ɪ,A_oghuz,northeuralex,-0.894,-0.894,True,True,unknown,False
+Turkish,dust,toz,t o z,A_oghuz,northeuralex,-0.8937,-0.8937,True,True,unknown,False
+Turkish,ground,jɛɾ,j ɛ ɾ,A_oghuz,northeuralex,-0.8929,-0.8929,True,True,unknown,False
+Turkish,space,jɛɾ,j ɛ ɾ,A_oghuz,northeuralex,-0.8929,-0.8929,True,True,unknown,False
+Turkish,place,jɛɾ,j ɛ ɾ,A_oghuz,northeuralex,-0.8929,-0.8929,True,True,unknown,False
+Turkish,fence,t͡ʃit,tʃ i t,A_oghuz,northeuralex,-0.8926,-0.8926,True,True,unknown,False
+Turkish,violence,d͡ʒɛbiɾ,dʒ ɛ b i ɾ,A_oghuz,northeuralex,-0.8922,-0.8922,True,True,unknown,False
+Azerbaijani,person,ɑdɑm,ɑ d ɑ m,A_oghuz,lexstat,-0.8915,-0.8915,True,True,unknown,False
+Azerbaijani,time,vɑχt,v ɑ χ t,A_oghuz,northeuralex,-0.8908,-0.8908,True,True,unknown,False
+Azerbaijani,flat,dyz,d y z,A_oghuz,northeuralex,-0.8902,-0.8902,True,True,unknown,False
+Azerbaijani,ahead,dyz,d y z,A_oghuz,northeuralex,-0.8902,-0.8902,True,True,unknown,False
+Turkish,child,t͡ʃod͡ʒuk,tʃ o dʒ u k,A_oghuz,northeuralex,-0.8893,-0.8893,True,True,unknown,False
+Azerbaijani,limb,ʃɑχ,ʃ ɑ χ,A_oghuz,northeuralex,-0.889,-0.889,True,True,unknown,False
+Turkish,before,œnd͡ʒɛdɛn,œ n dʒ ɛ d ɛ n,A_oghuz,northeuralex,-0.8885,-0.8885,True,True,unknown,False
+Turkish,right,saː,s aː,A_oghuz,northeuralex,-0.8868,-0.8868,True,True,unknown,False
+Azerbaijani,face,yz,y z,A_oghuz,northeuralex,-0.8865,-0.8865,True,True,unknown,False
+Azerbaijani,"delicate, fine",ɪnd͡ʒæ,ɪ n dʒ æ,A_oghuz,northeuralex,-0.8862,-0.8862,True,True,unknown,False
+Azerbaijani,river,t͡ʃɑj,tʃ ɑ j,A_oghuz,northeuralex,-0.8846,-0.8846,True,True,unknown,False
+Azerbaijani,tea,t͡ʃɑj,tʃ ɑ j,A_oghuz,northeuralex,-0.8846,-0.8846,True,True,unknown,False
+Azerbaijani,pointed,sɪvrɪ,s ɪ v r ɪ,A_oghuz,northeuralex,-0.8845,-0.8845,True,True,unknown,False
+Turkish,parents,ɛbɛvɛjn,ɛ b ɛ v ɛ j n,A_oghuz,northeuralex,-0.8844,-0.8844,True,True,unknown,False
+Turkish,everywhere,hɛɾ_jɛɾdɛ,h ɛ ɾ + j ɛ ɾ d ɛ,A_oghuz,northeuralex,-0.8835,-0.8835,True,True,unknown,False
+Azerbaijani,day,ɟyn,ɟ y n,A_oghuz,northeuralex,-0.8828,-0.8828,True,True,unknown,False
+Turkish,violence,zoɾ,z o ɾ,A_oghuz,northeuralex,-0.8815,-0.8815,True,True,unknown,False
+Turkish,sort,t͡ʃɛʃit,tʃ ɛ ʃ i t,A_oghuz,northeuralex,-0.8812,-0.8812,True,True,unknown,False
+Turkish,butter,tɛɾɛjaːɯ,t ɛ ɾ ɛ j aː ɯ,A_oghuz,northeuralex,-0.8811,-0.8811,True,True,unknown,False
+Turkish,wool,jyn,j y n,A_oghuz,northeuralex,-0.8811,-0.8811,True,True,unknown,False
+Azerbaijani,animal,hɛjvɑn,h ɛ j v ɑ n,A_oghuz,northeuralex,-0.8801,-0.8801,True,True,unknown,False
+Turkish,four,dœɾt,d œ ɾ t,A_oghuz,northeuralex,-0.88,-0.88,True,True,unknown,False
+Turkish,still,haːlaː,h aː l aː,A_oghuz,northeuralex,-0.8789,-0.8789,True,True,unknown,False
+Turkish,still,hɛnyz,h ɛ n y z,A_oghuz,northeuralex,-0.8789,-0.8789,True,True,unknown,False
+Turkish,aunt,tɛjzɛ,t ɛ j z ɛ,A_oghuz,northeuralex,-0.8782,-0.8782,True,True,unknown,False
+Azerbaijani,broom,sypyrɟæ,s y p y r ɟ æ,A_oghuz,northeuralex,-0.8771,-0.8771,True,True,unknown,False
+Azerbaijani,first,bɪrɪnd͡ʒɪ,b ɪ r ɪ n dʒ ɪ,A_oghuz,northeuralex,-0.8765,-0.8765,True,True,unknown,False
+Azerbaijani,pit,t͡ʃuχur,tʃ u χ u r,A_oghuz,northeuralex,-0.8764,-0.8764,True,True,unknown,False
+Azerbaijani,stingy,χæsɪs,χ æ s ɪ s,A_oghuz,northeuralex,-0.8763,-0.8763,True,True,unknown,False
+Azerbaijani,and,væ,v æ,A_oghuz,northeuralex,-0.8759,-0.8759,True,True,unknown,False
+Turkish,pipe,boɾu,b o ɾ u,A_oghuz,northeuralex,-0.8758,-0.8758,True,True,unknown,False
+Turkish,soup,t͡ʃoɾba,tʃ o ɾ b a,A_oghuz,northeuralex,-0.8758,-0.8758,True,True,unknown,False
+Turkish,famous,ynly,y n l y,A_oghuz,northeuralex,-0.8755,-0.8755,True,True,unknown,False
+Turkish,thin,ind͡ʒɛ,i n dʒ ɛ,A_oghuz,northeuralex,-0.8754,-0.8754,True,True,unknown,False
+Turkish,"delicate, fine",ind͡ʒɛ,i n dʒ ɛ,A_oghuz,northeuralex,-0.8754,-0.8754,True,True,unknown,False
+Turkish,boss,ʃɛf,ʃ ɛ f,A_oghuz,northeuralex,-0.875,-0.875,True,True,unknown,False
+Azerbaijani,poor,jɔχsul,j ɔ χ s u l,A_oghuz,northeuralex,-0.8749,-0.8749,True,True,unknown,False
+Azerbaijani,slab,lœvhæ,l œ v h æ,A_oghuz,northeuralex,-0.8746,-0.8746,True,True,unknown,False
+Turkish,shop,dykːaːn,d y kː aː n,A_oghuz,northeuralex,-0.8743,-0.8743,True,True,unknown,False
+Azerbaijani,walk,jɛrɪʃ,j ɛ r ɪ ʃ,A_oghuz,northeuralex,-0.8735,-0.8735,True,True,unknown,False
+Turkish,dream,ɾyja,ɾ y j a,A_oghuz,northeuralex,-0.8723,-0.8723,True,True,unknown,False
+Yakut,vein,vʲena,vʲ e n a,B_yakut,northeuralex,-2.1495,-1.6355785490687689,True,True,unknown,False
+Yakut,drop,tamːax,t a mː a x,B_yakut,northeuralex,-2.0356,-1.3249889617334665,True,True,unknown,False
+Yakut,at that time,ocːoɣo,o cː o ɣ o,B_yakut,northeuralex,-1.5291,-1.4253582393026936,True,True,mongolic_candidate,False
+Yakut,so,ocːo,o cː o,B_yakut,northeuralex,-1.484,-2.1914326822405212,True,True,unknown,False
+Yakut,grumble,y͡øɣys,yø ɣ y s,B_yakut,northeuralex,-1.4835,-1.7314138837700912,True,True,mongolic_candidate,False
+Yakut,woman,ɟaxtaɾ,ɟ a x t a ɾ,B_yakut,lexstat,-1.3983,-1.270331997352317,True,True,unknown,False
+Yakut,alone,soɣotox,s o ɣ o t o x,B_yakut,northeuralex,-1.3852,-1.0956739249896736,True,True,mongolic_candidate,False
+Yakut,lip,u͡os,uo s,B_yakut,northeuralex,-1.3565,-3.08148883065676,True,True,unknown,False
+Yakut,trap,soxso,s o x s o,B_yakut,northeuralex,-1.3533,-1.380050673869721,True,True,unknown,False
+Yakut,"cove, bay",xomo,x o m o,B_yakut,northeuralex,-1.3356,-1.6790259411072213,True,True,unknown,False
+Yakut,butterfly,yɾymecːi,y ɾ y m e cː i,B_yakut,northeuralex,-1.3071,-1.1501249230728356,True,True,unknown,False
+Yakut,bow,ox,o x,B_yakut,northeuralex,-1.3053,-3.143574511680391,True,True,unknown,False
+Yakut,arrow,ox,o x,B_yakut,northeuralex,-1.3053,-3.143574511680391,True,True,unknown,False
+Yakut,good,yty͡ø,y t yø,B_yakut,northeuralex,-1.2993,-2.29242745481215,True,True,unknown,False
+Yakut,boat,oŋoco,o ŋ o c o,B_yakut,northeuralex,-1.295,-2.572289414016469,True,True,unknown,False
+Yakut,coal,cox,c o x,B_yakut,northeuralex,-1.2911,-4.095716341120261,True,True,unknown,False
+Yakut,silver,yɾyŋ_kømys,y ɾ y ŋ + k ø m y s,B_yakut,northeuralex,-1.289,-0.974121356024316,True,True,unknown,False
+Yakut,elbow,toɣonox,t o ɣ o n o x,B_yakut,northeuralex,-1.287,-1.0927581488045712,True,True,mongolic_candidate,False
+Yakut,green,ot_ky͡øɣe,o t + k yø ɣ e,B_yakut,northeuralex,-1.284,-1.2706867554733898,True,True,mongolic_candidate,False
+Yakut,head,sy:s,s yː s,B_yakut,savelyev,-1.2839,-2.1086517742090134,True,True,unknown,False
+Yakut,forehead,syːs,s yː s,B_yakut,northeuralex,-1.2839,-2.1086517742090134,True,True,unknown,False
+Yakut,fat,sɯ͡a,s ɯa,B_yakut,northeuralex,-1.2829,-3.08148883065676,True,True,unknown,False
+Yakut,sleigh,sɯ͡aɾɣa,s ɯa ɾ ɣ a,B_yakut,northeuralex,-1.2796,-1.3925713074038293,True,True,mongolic_candidate,False
+Yakut,stove,ohox,o h o x,B_yakut,northeuralex,-1.2778,-1.8309492553105136,True,True,unknown,False
+Chuvash,small,ˈpɘt͡ɕɘk,p ɘ tɕ ɘ k,C_chuvash,lexstat,-1.5966,-2.5854426282770984,True,True,unknown,False
+Chuvash,many,miˈɕ̬ɛ,m i ɕ ɛ,C_chuvash,lexstat,-1.4597,-1.7454071449778297,True,True,unknown,False
+Chuvash,flesh,aʂ,a ʂ,C_chuvash,lexstat,-1.3926,-3.061249047891651,True,True,unknown,False
+Chuvash,seven,ˈɕit͡ɕɘ,ɕ i tɕ ɘ,C_chuvash,northeuralex,-1.317,-3.085160063314808,True,True,unknown,False
+Chuvash,seven,ˈɕit͡ɕɘ,ɕ i tɕ ɘ,C_chuvash,northeuralex,-1.317,-3.085160063314808,True,True,unknown,False
+Chuvash,slice,ˈt͡ɕɘlɘ,tɕ ɘ l ɘ,C_chuvash,northeuralex,-1.2998,-3.0634943744243968,True,True,unknown,False
+Chuvash,little,ˈpɘt͡ɕɘk,p ɘ tɕ ɘ k,C_chuvash,northeuralex,-1.2966,-2.5854426282770984,True,True,unknown,False
+Chuvash,border,ˈt͡ɕikɘ,tɕ i k ɘ,C_chuvash,northeuralex,-1.2859,-1.6887675366832426,True,True,unknown,False
+Chuvash,heart,t͡ɕɘˈrɛ,tɕ ɘ r ɛ,C_chuvash,northeuralex,-1.2736,-1.7097708128465374,True,True,unknown,False
+Chuvash,green,ˈsimɘs,s i m ɘ s,C_chuvash,northeuralex,-1.2733,-1.338575352700054,True,True,unknown,False
+Chuvash,new,ˈɕɘnɘ,ɕ ɘ n ɘ,C_chuvash,northeuralex,-1.2654,-4.535641807004451,True,True,unknown,False
+Chuvash,spread,sɘr,s ɘ r,C_chuvash,northeuralex,-1.2619,-2.090609747856085,True,True,unknown,False
+Chuvash,wish,ˈɘmɘt,ɘ m ɘ t,C_chuvash,northeuralex,-1.2553,-3.130438583702012,True,True,unknown,False
+Chuvash,cough,ˈysɘr,y s ɘ r,C_chuvash,northeuralex,-1.2521,-1.6922907477259947,True,True,unknown,False
+Chuvash,break,ˈɕɘmɘr,ɕ ɘ m ɘ r,C_chuvash,northeuralex,-1.2521,-3.6501314599924113,True,True,unknown,False
+Chuvash,short,kɘsˈkɛ,k ɘ s k ɛ,C_chuvash,northeuralex,-1.2507,-1.5213089174598173,True,True,unknown,False
+Chuvash,grain,ˈtɘʂɘ,t ɘ ʂ ɘ,C_chuvash,northeuralex,-1.249,-4.594987154275182,True,True,unknown,False
+Chuvash,sort,tɘs,t ɘ s,C_chuvash,northeuralex,-1.2481,-2.1809754261380827,True,True,unknown,False
+Chuvash,milk,sɘt,s ɘ t,C_chuvash,northeuralex,-1.2481,-2.1809754261380827,True,True,unknown,False
+Chuvash,correct,ˈtɘrɘs,t ɘ r ɘ s,C_chuvash,northeuralex,-1.2432,-2.5303555721337965,True,True,unknown,False
+Chuvash,drag,ˈsɘtɘr,s ɘ t ɘ r,C_chuvash,northeuralex,-1.2432,-2.530355572133797,True,True,unknown,False
+Chuvash,seven,ɕit͡ɕ,ɕ i tɕ,C_chuvash,northeuralex,-1.241,-2.1135467510864108,True,True,unknown,False
+Chuvash,sharp,ˈɕiʋɘt͡ɕ,ɕ i ʋ ɘ tɕ,C_chuvash,northeuralex,-1.2371,-3.668128050651846,True,True,unknown,False
+Chuvash,wrap,t͡ɕɘrˈk̬ɛ,tɕ ɘ r k ɛ,C_chuvash,northeuralex,-1.2337,-1.4507026289719778,True,True,unknown,False
+Chuvash,strap,t͡ɕɘn,tɕ ɘ n,C_chuvash,northeuralex,-1.2315,-2.0860305860370425,True,True,unknown,False
+Chuvash,invite,t͡ɕɘn,tɕ ɘ n,C_chuvash,northeuralex,-1.2315,-2.0860305860370425,True,True,unknown,False
+Chuvash,name,t͡ɕɘn,tɕ ɘ n,C_chuvash,northeuralex,-1.2315,-2.0860305860370425,True,True,unknown,False
+Chuvash,call,t͡ɕɘn,tɕ ɘ n,C_chuvash,northeuralex,-1.2315,-2.0860305860370425,True,True,unknown,False
+Chuvash,frost,ˈsiʋɘ,s i ʋ ɘ,C_chuvash,northeuralex,-1.2312,-3.0970233461198573,True,True,unknown,False
+Chuvash,chill,ˈsiʋɘ,s i ʋ ɘ,C_chuvash,northeuralex,-1.2312,-3.0970233461198573,True,True,unknown,False
+Chuvash,cold,ˈsiʋɘ,s i ʋ ɘ,C_chuvash,northeuralex,-1.2312,-3.0970233461198573,True,True,unknown,False
+Chuvash,second,ˈikɘmɘʂ,i k ɘ m ɘ ʂ,C_chuvash,northeuralex,-1.2297,-3.130225222391161,True,True,unknown,False
+Chuvash,call,t͡ɕɘny,tɕ ɘ n y,C_chuvash,northeuralex,-1.2293,-1.6888563763617128,True,True,unknown,False
+Chuvash,dish,ˈɕimɘɕ,ɕ i m ɘ ɕ,C_chuvash,northeuralex,-1.2271,-3.6733842881746455,True,True,unknown,False
+Chuvash,nape,ɘnˈs̬ɛ,ɘ n s ɛ,C_chuvash,northeuralex,-1.2197,-1.7300630070923533,True,True,unknown,False
+Chuvash,cap,ˈɕɘlɘk,ɕ ɘ l ɘ k,C_chuvash,northeuralex,-1.219,-3.7105765722156,True,True,unknown,False
+Chuvash,fringe,ˈχɘrɘ,χ ɘ r ɘ,C_chuvash,northeuralex,-1.2137,-3.2545416750981166,True,True,unknown,False
+Chuvash,they,ʋɘˈs̬ɛm,ʋ ɘ s ɛ m,C_chuvash,northeuralex,-1.2137,-2.5838981036117863,True,True,unknown,False
+Chuvash,corner,kɘˈt̬ɛs,k ɘ t ɛ s,C_chuvash,northeuralex,-1.213,-1.5144126621852152,True,True,unknown,False
+Chuvash,angle,kɘˈt̬ɛs,k ɘ t ɛ s,C_chuvash,northeuralex,-1.213,-1.5144126621852152,True,True,unknown,False
+Chuvash,voice,ˈsasə,s a s ə,C_chuvash,northeuralex,-1.211,-1.6121133546025856,True,True,unknown,False
+Chuvash,sound,ˈsasə,s a s ə,C_chuvash,northeuralex,-1.211,-1.6121133546025856,True,True,unknown,False
+Chuvash,tone,ˈsasə,s a s ə,C_chuvash,northeuralex,-1.211,-1.6121133546025856,True,True,unknown,False
+Chuvash,blunt,ˈtɘrɘnt̬͡ɕɘk,t ɘ r ɘ n tɕ ɘ k,C_chuvash,northeuralex,-1.2088,-2.395165231367541,True,True,unknown,False
+Chuvash,hair,ɕyɕ,ɕ y ɕ,C_chuvash,savelyev,-1.2064,-4.165777915778574,True,True,unknown,False
+Chuvash,spade,kɘrɛˈɕ̬ɛ,k ɘ r ɛ ɕ ɛ,C_chuvash,northeuralex,-1.2062,-2.2921159589674422,True,True,unknown,False
+Chuvash,shovel,kɘrɛˈɕ̬ɛ,k ɘ r ɛ ɕ ɛ,C_chuvash,northeuralex,-1.2062,-2.2921159589674422,True,True,unknown,False
+Chuvash,boat,ˈkimɘ,k i m ɘ,C_chuvash,northeuralex,-1.2032,-1.695337833586742,True,True,unknown,False
+Chuvash,third,ˈʋiɕɘmɘʂ,ʋ i ɕ ɘ m ɘ ʂ,C_chuvash,northeuralex,-1.2029,-4.338131634410461,True,True,unknown,False
+Chuvash,three,ʋiɕ̬ɘ,ʋ i ɕ ɘ,C_chuvash,northeuralex,-1.2023,-4.556278930791477,True,True,unknown,False
+Chuvash,three,ˈʋiɕɘ,ʋ i ɕ ɘ,C_chuvash,northeuralex,-1.2023,-4.556278930791477,True,True,unknown,False
+Chuvash,shirt,kɘˈp̬ɛ,k ɘ p ɛ,C_chuvash,northeuralex,-1.202,-1.8565989375825644,True,True,unknown,False
+Chuvash,"nasty, dire",jɘrɘnt̬͡ɕɘk,j ɘ r ɘ n tɕ ɘ k,C_chuvash,northeuralex,-1.1982,-2.4079333605841997,True,True,unknown,False
+Chuvash,tremble,t͡ɕɘtˈrɛ,tɕ ɘ t r ɛ,C_chuvash,northeuralex,-1.196,-1.4438063736973754,True,True,unknown,False
+Chuvash,mirror,ˈtɘkɘr,t ɘ k ɘ r,C_chuvash,northeuralex,-1.1952,-2.5806460185658406,True,True,unknown,False
+Chuvash,hill,tɘmɛsˈkɛ,t ɘ m ɛ s k ɛ,C_chuvash,northeuralex,-1.1938,-1.189796595381641,True,True,unknown,False
+Chuvash,ahead,ˈtikɘs,t i k ɘ s,C_chuvash,northeuralex,-1.1934,-1.436494379010779,True,True,unknown,False

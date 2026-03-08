@@ -1,0 +1,5749 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="content-type"content="text/html; charset=utf-8">
+ </head>
+ <title>LingPy</title>
+<style>
+table.popup {
+	background-color: #b9d9f2; 
+	border: 4px solid black;
+}
+tr.popup {
+	background-color: #2f95e3;
+	border: 2px solid black;
+}
+th.popup {
+	text-align: left;
+	border: 2px solid black;
+}
+td.popup {
+	text-align: left;
+	vertical-align: top;
+	border: 2px solid black;
+}
+div.display{
+	position: fixed;
+	display: block;
+	width: 40%;
+	right: 400px;
+	overflow: auto;
+	height: 80%;
+}
+div.slot{
+	display: block;
+}
+table.display{
+	//border: 4px solid black;
+	background-color: #b9d9f2;
+}
+tr.display{
+	border: 2px solid black;
+}
+td.display{
+	border: 2px solid black;
+	vertical-align: center;
+}
+th.display{
+	border: 2px solid black;
+}
+td.char {
+	width: 30px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+li.display {
+	font-weight: bold;
+}
+a.display {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+span.char {
+	width: 30px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+tr.white {
+	background-color: white;
+}
+tr.gray {
+	background-color: lightgray;
+}
+tr.loan {
+	font-weight: bold;
+}
+td.white {
+	background-color: white;
+}
+td.gray {
+	background-color: lightgray;
+}
+td.loan {
+	font-weight: bold;
+}
+tr.empty {background-color: white;}
+td.empty {background-color: white;}
+hr.empty {background-color:white;border:color:white;border:0;height:2pt;}
+.mybut {
+	background-color: #b9d9f2;
+}
+td.dolgo_ERROR{background-color: white; color:red;}
+td.dolgo_V{background-color: #c86464;}
+td.dolgo_K{background-color: #c89664;} 
+td.dolgo_P{background-color: #c8c864;} 
+td.dolgo_H{background-color: #96c864;} 
+td.dolgo_J{background-color: #64c864;} 
+td.dolgo_M{background-color: #64c896;} 
+td.dolgo_N{background-color: #64c8c8;} 
+td.dolgo_S{background-color: #6496c8;} 
+td.dolgo_R{background-color: #6464c8;} 
+td.dolgo_T{background-color: #9664c8;} 
+td.dolgo_W{background-color: #c864c8;} 
+td.dolgo_TONE{background-color: #c86496;} 
+td.dolgo_X{background-color: #bbbbbb;}
+td.dolgo_GAP{background-color: #bbbbbb;}
+span.dolgo_ERROR{background-color: white; color:red;}
+span.dolgo_V{background-color: #c86464;}
+span.dolgo_K{background-color: #c89664;} 
+span.dolgo_P{background-color: #c8c864;} 
+span.dolgo_H{background-color: #96c864;} 
+span.dolgo_J{background-color: #64c864;} 
+span.dolgo_M{background-color: #64c896;} 
+span.dolgo_N{background-color: #64c8c8;} 
+span.dolgo_S{background-color: #6496c8;} 
+span.dolgo_R{background-color: #6464c8;} 
+span.dolgo_T{background-color: #9664c8;} 
+span.dolgo_W{background-color: #c864c8;} 
+span.dolgo_TONE{background-color: #c86496;} 
+span.dolgo_X{background-color: #bbbbbb;}
+span.dolgo_GAP{background-color: #bbbbbb;}
+
+</style>
+<script type="text/javascript">
+
+var dolgo = {};
+dolgo['char dolgo_ERROR'] = 'white';
+dolgo['char dolgo_V'] = '#c86464';
+dolgo['char dolgo_K'] = '#c89664';
+dolgo['char dolgo_P'] = '#c8c864';
+dolgo['char dolgo_H'] = '#96c864';
+dolgo['char dolgo_J'] = '#64c864';
+dolgo['char dolgo_M'] = '#64c896';
+dolgo['char dolgo_N'] = '#64c8c8';
+dolgo['char dolgo_S'] = '#6496c8';
+dolgo['char dolgo_R'] = '#6464c8';
+dolgo['char dolgo_T'] = '#9664c8';
+dolgo['char dolgo_W'] = '#c864c8';
+dolgo['char dolgo_TONE'] = '#c86496';
+dolgo['char dolgo_X']='#bbbbbb';
+dolgo['char dolgo_GAP'] = '#bbbbbb';
+
+var myprevious = ['','',''];
+
+function show(what){
+  var words = what.split('.'); 
+  var ar = document.getElementsByClassName('taxon');
+  var k=0;
+  for(var i=0;i<ar.length;i++)
+  {
+    var taxon = ar[i].getAttribute('taxon');
+    if(taxon==words[0]){
+      var chars = ar[i].children[3];
+      chars = chars.children[0];
+      chars = chars.children[0];
+      chars = chars.children[0].children;
+      for(j=0;j<chars.length;j++)
+      {
+        var this_char = chars[j].getAttribute('num');
+        if(this_char==what)
+        {
+          chars[j].style.backgroundColor='white';
+          chars[j].style.color='red';
+          var this_c = chars[j].getAttribute('class');
+          k++;
+        }
+        else
+        {
+          c = dolgo[chars[j].getAttribute('class')];
+          chars[j].style.backgroundColor=c;
+          chars[j].style.color='white';
+        }
+      }
+    }
+    else if(taxon==myprevious[0])
+    {
+      var chars = ar[i].children[3];
+      chars = chars.children[0];
+      chars = chars.children[0];
+      chars = chars.children[0].children;
+      for(j=0;j<chars.length;j++)
+      {
+        var this_char = chars[j].getAttribute('num');
+        if(this_char==myprevious[3])
+        {
+          chars[j].style.backgroundColor=dolgo[chars[j].getAttribute('class')];
+          chars[j].style.color='white';
+        }
+      }
+    }
+  }
+  var out = '<table class="popup"><tr class="popup"><th class="popup">';  
+  out = out + words[0]+' <span class="'+this_c+'">'+words[1]+'</span>, context <b>'+words[2]+'</b>, '+k+' occurrences: </th><th class="popup">All occurrences of <span class="'+this_c+'">'+words[1]+'</span>: </th></tr><tr><td class="popup">';
+  out = out+'<table class="display"><tr class="display"><th class="display">Language</th><th class="display">Sound</th><th class="display">Context</th><th class="display">Matches</th><th class="display">Frequency</th></tr>';
+  out = out+myjson[what][0]+'</table></td><td class="popup">';
+  
+  // try to find the best concepts
+  var concepts = myjson[what][1];
+  var cstring = '<ol class="display">';
+  for(var i=0;i<concepts.length;i++)
+  {
+  cstring = cstring+'<li class="display"><a class="display" href="#';
+  cstring = cstring+concepts[i]+'">'+concepts[i]+'</a></li>';
+  }
+  cstring = cstring + '</ol>';
+  //out = out + '<br>All occurrences of the sound:<br>';
+  out = out + cstring;
+  out = out + '</td></tr></table>';
+
+  var mod = document.getElementById('display');
+  mod.style.display = 'block';
+  mod.innerHTML = out; 
+  myprevious = [words[0], words[1], words[2], what];
+}
+
+function color(mode, what){
+  // switch off general display on side-panel
+  var mod = document.getElementById("display");
+  mod.style.display = 'none';
+
+  var ar = document.getElementsByClassName('taxon');
+  for(var i=0;i<ar.length;i++)
+  {
+    var taxon = ar[i].getAttribute('taxon');
+    if(taxon==myprevious[0])
+    {
+      var chars = ar[i].children[3];
+      chars = chars.children[0];
+      chars = chars.children[0];
+      chars = chars.children[0].children;
+      for(j=0;j<chars.length;j++)
+      {
+        var this_char = chars[j].getAttribute('num');
+        if(this_char==myprevious[3])
+        {
+          chars[j].style.backgroundColor=dolgo[chars[j].getAttribute('class')];
+          chars[j].style.color='white';
+        }
+      }
+    }
+  }
+
+  // choose relevant block
+  if(mode=='confidence')
+  {
+    var trs = document.getElementById(what).children[0].children;
+    for(var i=2;i<trs.length;i++)
+    {
+       var chars = trs[i].children[3];
+       chars = chars.children[0];
+       chars = chars.children[0];
+       chars = chars.children[0].children;
+       if(chars[0].innerHTML != '--')
+       {
+         for(var k=0;k<chars.length; k++)
+         {
+           // get the confidence color
+           var cf = chars[k].getAttribute('confidence');
+           var cfc = Math.round(255-(255*cf/100));
+           cfc = 'rgb('+cfc+','+cfc+','+cfc+')';
+           chars[k].style.backgroundColor=cfc;
+           var c = chars[k].getAttribute('char');
+           chars[k].innerHTML = c;
+           if(cf >= 50)
+           {
+             chars[k].style.color = "white";
+           }
+           else
+           {
+             chars[k].style.color = "black";
+           }  
+         }
+       }
+    }
+  }
+  // choose relevant block
+  else if(mode=='sound_classes')
+  {
+    var trs = document.getElementById(what).children[0].children;
+    for(var i=2;i<trs.length;i++)
+    {
+      var chars = trs[i].children[3];
+      chars = chars.children[0];
+      chars = chars.children[0];
+      chars = chars.children[0].children;
+      if(chars[0].innerHTML != '--' && typeof(chars) != 'undefined')
+      {
+        for(var k=0;k<chars.length; k++)
+        {
+          // get the sound class color
+          var col = dolgo[chars[k].getAttribute('class')];
+          var c = chars[k].getAttribute('char');
+          chars[k].style.backgroundColor=col;
+          chars[k].style.color = 'white';
+          chars[k].innerHTML = c;
+        }
+      }
+    }
+  }
+  // choose relevant block
+  else if(mode=='scores')
+  {
+    var trs = document.getElementById(what).children[0].children;
+    for(var i=2;i<trs.length;i++)
+    {
+      var chars = trs[i].children[3];
+      chars = chars.children[0];
+      chars = chars.children[0];
+      chars = chars.children[0].children;
+      if(chars[0].innerHTML != '--')
+      {
+        for(var k=0;k<chars.length; k++)
+        {
+          // get the confidence color
+          var cf = chars[k].getAttribute('confidence');
+          var cfc = Math.round(255-(255*cf/100));
+          cfc = 'rgb('+cfc+','+cfc+','+cfc+')';
+          chars[k].style.backgroundColor=cfc;
+          chars[k].innerHTML = cf;
+          if(cf >= 50)
+          {
+            chars[k].style.color = "white";
+          }
+          else
+          {
+            chars[k].style.color = "black";
+          }  
+        }
+      }
+    }
+  }
+}
+
+</script>
+<body>
+<h3 align="left">LingPy - Automatic Cognate Judgments and Alignments</h3>
+<h4 align="left">Dataset: lingpy-2026-03-03</h4>
+<div id="display" class="display"></div>
+<table align="left" style='border:0;background-color:#b9d9f2;'>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>all</i> (ID: 1)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>10</td>
+  <td>Azerbaijani</td>
+  <td>dyʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>10</td>
+  <td>Turkish</td>
+  <td>dyʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>10</td>
+  <td>Yakut</td>
+  <td>tys</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_S">s</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>11</td>
+  <td>Chuvash</td>
+  <td>yk</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>12</td>
+  <td>Kazakh</td>
+  <td>? ʒɯɣɯl</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>13</td>
+  <td>Kyrgyz</td>
+  <td>ʥɯɣɯl</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>15</td>
+  <td>Turkmen</td>
+  <td>jɯqɯl</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uyghur">
+  <td>16</td>
+  <td>Uyghur</td>
+  <td>ʒiqil</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>17</td>
+  <td>Uzbek</td>
+  <td>jiqil</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>bark</i> (ID: 2)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>18</td>
+  <td>Azerbaijani</td>
+  <td>ɢabɯɢ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">ɢ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>18</td>
+  <td>Chuvash</td>
+  <td>χubə</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">χ</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ə</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>18</td>
+  <td>Kazakh</td>
+  <td>qabɯq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>18</td>
+  <td>Kyrgyz</td>
+  <td>qabɯq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>18</td>
+  <td>Turkish</td>
+  <td>kabuk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>18</td>
+  <td>Turkmen</td>
+  <td>ɢabɯq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uyghur">
+  <td>24</td>
+  <td>Uyghur</td>
+  <td>qovzaq</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>25</td>
+  <td>Uzbek</td>
+  <td>qɒbiq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>26</td>
+  <td>Yakut</td>
+  <td>χatɯrɯk</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>big</i> (ID: 3)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>27</td>
+  <td>Azerbaijani</td>
+  <td>bøjyk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>28</td>
+  <td>Chuvash</td>
+  <td>pɯzə̈k</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>29</td>
+  <td>Kazakh</td>
+  <td>ylken</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkish">
+  <td>30</td>
+  <td>Turkish</td>
+  <td>byjyk</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>30</td>
+  <td>Uzbek</td>
+  <td>bujuk</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>31</td>
+  <td>Turkmen</td>
+  <td>ulɯ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>33</td>
+  <td>Yakut</td>
+  <td>ulaχan</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>bird</i> (ID: 4)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>34</td>
+  <td>Azerbaijani</td>
+  <td>ɢuʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>34</td>
+  <td>Kazakh</td>
+  <td>qus</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">s</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>34</td>
+  <td>Turkish</td>
+  <td>kuʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>34</td>
+  <td>Turkmen</td>
+  <td>ɢuʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>34</td>
+  <td>Uyghur</td>
+  <td>quʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>34</td>
+  <td>Uzbek</td>
+  <td>quʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>35</td>
+  <td>Chuvash</td>
+  <td>kajə̈k</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>37</td>
+  <td>Kyrgyz</td>
+  <td>qanattu:</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>42</td>
+  <td>Yakut</td>
+  <td>køtør</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>blood</i> (ID: 5)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>43</td>
+  <td>Azerbaijani</td>
+  <td>ɢan</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>43</td>
+  <td>Kazakh</td>
+  <td>qan</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>43</td>
+  <td>Kyrgyz</td>
+  <td>qan</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>43</td>
+  <td>Turkish</td>
+  <td>kan</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>43</td>
+  <td>Turkmen</td>
+  <td>ɢaːn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">aː</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>43</td>
+  <td>Uyghur</td>
+  <td>qan</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>43</td>
+  <td>Uzbek</td>
+  <td>qɔn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">ɔ</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>43</td>
+  <td>Yakut</td>
+  <td>χaːn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">χ</td>
+     <td class="char dolgo_V">aː</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>44</td>
+  <td>Chuvash</td>
+  <td>jun</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>bone</i> (ID: 6)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>45</td>
+  <td>Azerbaijani</td>
+  <td>symyk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>45</td>
+  <td>Chuvash</td>
+  <td>ʃŏmŏ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_V">ŏ</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">ŏ</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kazakh">
+  <td>47</td>
+  <td>Kazakh</td>
+  <td>syjek</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>48</td>
+  <td>Kyrgyz</td>
+  <td>søːk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">øː</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>48</td>
+  <td>Uyghur</td>
+  <td>søŋɛk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_N">ŋ</td>
+     <td class="char dolgo_V">ɛ</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkish">
+  <td>49</td>
+  <td>Turkish</td>
+  <td>kemik</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>50</td>
+  <td>Turkmen</td>
+  <td>syŋk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>52</td>
+  <td>Uzbek</td>
+  <td>sujak</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>53</td>
+  <td>Yakut</td>
+  <td>uŋuoχ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>dog</i> (ID: 7)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>54</td>
+  <td>Azerbaijani</td>
+  <td>it</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>54</td>
+  <td>Kazakh</td>
+  <td>it</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>54</td>
+  <td>Kyrgyz</td>
+  <td>it</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>54</td>
+  <td>Turkmen</td>
+  <td>it</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>54</td>
+  <td>Uzbek</td>
+  <td>it</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>54</td>
+  <td>Yakut</td>
+  <td>ɯt</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>55</td>
+  <td>Chuvash</td>
+  <td>jɯdə</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">ə</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uyghur">
+  <td>55</td>
+  <td>Uyghur</td>
+  <td>iʃt</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>58</td>
+  <td>Turkish</td>
+  <td>køpek</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>ear</i> (ID: 8)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>59</td>
+  <td>Azerbaijani</td>
+  <td>ɢulaɢ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">ɢ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>59</td>
+  <td>Kazakh</td>
+  <td>qulaq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>59</td>
+  <td>Kyrgyz</td>
+  <td>qulaq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>59</td>
+  <td>Turkish</td>
+  <td>kulak</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>59</td>
+  <td>Turkmen</td>
+  <td>ɢulaq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>59</td>
+  <td>Uyghur</td>
+  <td>qulaq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>59</td>
+  <td>Uzbek</td>
+  <td>qulɔq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">ɔ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>60</td>
+  <td>Chuvash</td>
+  <td>χölɣa</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>67</td>
+  <td>Yakut</td>
+  <td>kulga:χ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>egg</i> (ID: 9)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>68</td>
+  <td>Azerbaijani</td>
+  <td>jumurta</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>68</td>
+  <td>Chuvash</td>
+  <td>ɕŏmarda</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">ɕ</td>
+     <td class="char dolgo_V">ŏ</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>68</td>
+  <td>Turkish</td>
+  <td>jumurta</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kazakh">
+  <td>70</td>
+  <td>Kazakh</td>
+  <td>ʒumɯrtqa</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_S">ʒ</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>70</td>
+  <td>Kyrgyz</td>
+  <td>ʥumurtqa</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_K">ʥ</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>73</td>
+  <td>Turkmen</td>
+  <td>jumurtɢa</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>74</td>
+  <td>Uzbek</td>
+  <td>tuχum</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>75</td>
+  <td>Yakut</td>
+  <td>sɯmɯ:t</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>eye</i> (ID: 10)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>76</td>
+  <td>Azerbaijani</td>
+  <td>køz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>76</td>
+  <td>Kazakh</td>
+  <td>køz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>76</td>
+  <td>Kyrgyz</td>
+  <td>køz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>76</td>
+  <td>Turkish</td>
+  <td>gøz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">g</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>76</td>
+  <td>Turkmen</td>
+  <td>gøz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">g</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>76</td>
+  <td>Uyghur</td>
+  <td>køz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>76</td>
+  <td>Uzbek</td>
+  <td>koz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">o</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>77</td>
+  <td>Chuvash</td>
+  <td>kuɕ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>84</td>
+  <td>Yakut</td>
+  <td>χaraχ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>feather</i> (ID: 11)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>85</td>
+  <td>Azerbaijani</td>
+  <td>je</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">e</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>85</td>
+  <td>Chuvash</td>
+  <td>ɕi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">ɕ</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>85</td>
+  <td>Kazakh</td>
+  <td>ʒe</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">ʒ</td>
+     <td class="char dolgo_V">e</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>85</td>
+  <td>Kyrgyz</td>
+  <td>ʥe</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ʥ</td>
+     <td class="char dolgo_V">e</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>85</td>
+  <td>Turkish</td>
+  <td>je</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">e</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>85</td>
+  <td>Uzbek</td>
+  <td>je</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">e</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkmen">
+  <td>90</td>
+  <td>Turkmen</td>
+  <td>ij</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uyghur">
+  <td>90</td>
+  <td>Uyghur</td>
+  <td>ji</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>93</td>
+  <td>Yakut</td>
+  <td>aha:</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>fish</i> (ID: 12)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>94</td>
+  <td>Azerbaijani</td>
+  <td>balɯɢ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">ɢ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>94</td>
+  <td>Kazakh</td>
+  <td>balɯq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>94</td>
+  <td>Kyrgyz</td>
+  <td>balɯq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>94</td>
+  <td>Turkish</td>
+  <td>balɯq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>94</td>
+  <td>Turkmen</td>
+  <td>balɯq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>94</td>
+  <td>Uzbek</td>
+  <td>baliq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>95</td>
+  <td>Chuvash</td>
+  <td>pulə̈</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>100</td>
+  <td>Uyghur</td>
+  <td>beliq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>102</td>
+  <td>Yakut</td>
+  <td>balɯk</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>flesh</i> (ID: 13)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>103</td>
+  <td>Azerbaijani</td>
+  <td>æt</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">æ</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>103</td>
+  <td>Kazakh</td>
+  <td>et</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>103</td>
+  <td>Kyrgyz</td>
+  <td>et</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>103</td>
+  <td>Turkish</td>
+  <td>et</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>103</td>
+  <td>Turkmen</td>
+  <td>et</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>103</td>
+  <td>Yakut</td>
+  <td>et</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>104</td>
+  <td>Chuvash</td>
+  <td>aʂ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_S">ʂ</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>104</td>
+  <td>Uzbek</td>
+  <td>goʃt</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_K">g</td>
+     <td class="char dolgo_V">o</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>grease</i> (ID: 14)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>105</td>
+  <td>Azerbaijani</td>
+  <td>jaɣ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>106</td>
+  <td>Chuvash</td>
+  <td>ɕu</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_S">ɕ</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkish">
+  <td>106</td>
+  <td>Turkish</td>
+  <td>jaɣ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">ɣ</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>106</td>
+  <td>Yakut</td>
+  <td>sɯa</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>107</td>
+  <td>Kazakh</td>
+  <td>maj</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_J">j</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>107</td>
+  <td>Kyrgyz</td>
+  <td>maj</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_J">j</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>107</td>
+  <td>Uyghur</td>
+  <td>maj</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_J">j</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkmen">
+  <td>110</td>
+  <td>Turkmen</td>
+  <td>jaɣ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>112</td>
+  <td>Uzbek</td>
+  <td>jɔɣ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>hair</i> (ID: 15)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>113</td>
+  <td>Azerbaijani</td>
+  <td>satɕ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">tɕ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>113</td>
+  <td>Chuvash</td>
+  <td>ɕyɕ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">ɕ</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_S">ɕ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>113</td>
+  <td>Kazakh</td>
+  <td>ʃaʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>113</td>
+  <td>Turkish</td>
+  <td>satɕ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">tɕ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>113</td>
+  <td>Turkmen</td>
+  <td>satɕ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">tɕ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>113</td>
+  <td>Yakut</td>
+  <td>as</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_S">s</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>116</td>
+  <td>Kyrgyz</td>
+  <td>tɕatɕ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_K">tɕ</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">tɕ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uyghur">
+  <td>116</td>
+  <td>Uyghur</td>
+  <td>tɕatɕ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_K">tɕ</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">tɕ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>120</td>
+  <td>Uzbek</td>
+  <td>sɔʨ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>head</i> (ID: 16)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>121</td>
+  <td>Azerbaijani</td>
+  <td>alɯn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>121</td>
+  <td>Turkish</td>
+  <td>alɯn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>121</td>
+  <td>Turkmen</td>
+  <td>alɯn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>122</td>
+  <td>Chuvash</td>
+  <td>ɕamga</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>123</td>
+  <td>Kazakh</td>
+  <td>bas</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_S">s</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>123</td>
+  <td>Uyghur</td>
+  <td>baʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>123</td>
+  <td>Uzbek</td>
+  <td>bɔʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ɔ</td>
+     <td class="char dolgo_S">ʃ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>124</td>
+  <td>Kyrgyz</td>
+  <td>tɕeke</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_K">tɕ</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">e</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>124</td>
+  <td>Yakut</td>
+  <td>syːs</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">yː</td>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>horn</i> (ID: 17)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>125</td>
+  <td>Azerbaijani</td>
+  <td>bujnuz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>126</td>
+  <td>Chuvash</td>
+  <td>mŏjraga</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">ŏ</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">g</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>126</td>
+  <td>Uzbek</td>
+  <td>mugiz</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_K">g</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>127</td>
+  <td>Kazakh</td>
+  <td>myjɘz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>128</td>
+  <td>Kyrgyz</td>
+  <td>myjyz</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>129</td>
+  <td>Turkish</td>
+  <td>bojnuz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkmen">
+  <td>130</td>
+  <td>Turkmen</td>
+  <td>Sah</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>131</td>
+  <td>Uyghur</td>
+  <td>? myŋgyz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>133</td>
+  <td>Yakut</td>
+  <td>muos</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>I</i> (ID: 18)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>1</td>
+  <td>Azerbaijani</td>
+  <td>dɯrnaɢ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">ɢ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>1</td>
+  <td>Kazakh</td>
+  <td>tɯrnaq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>1</td>
+  <td>Turkish</td>
+  <td>tɯrnak</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>1</td>
+  <td>Turkmen</td>
+  <td>dɯrnaq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>1</td>
+  <td>Uzbek</td>
+  <td>tirnɔq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">ɔ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>2</td>
+  <td>Chuvash</td>
+  <td>ʨɘrne</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>4</td>
+  <td>Kyrgyz</td>
+  <td>tɯrmaq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>4</td>
+  <td>Uyghur</td>
+  <td>tirmaq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>9</td>
+  <td>Yakut</td>
+  <td>tɯŋɯraχ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>leaf</i> (ID: 19)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>134</td>
+  <td>Azerbaijani</td>
+  <td>jarpaɢ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_P">p</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">ɢ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>134</td>
+  <td>Uzbek</td>
+  <td>barg</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_K">g</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>135</td>
+  <td>Chuvash</td>
+  <td>ɕulʑə̈</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>136</td>
+  <td>Kazakh</td>
+  <td>ʒapɯraq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">ʒ</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_P">p</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>136</td>
+  <td>Kyrgyz</td>
+  <td>ʥalbɯraq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ʥ</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">l</td>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>136</td>
+  <td>Turkish</td>
+  <td>japrak</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_P">p</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>136</td>
+  <td>Turkmen</td>
+  <td>japraq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_P">p</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uyghur">
+  <td>140</td>
+  <td>Uyghur</td>
+  <td>jopurmaq</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>142</td>
+  <td>Yakut</td>
+  <td>sebirdeχ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>long</i> (ID: 20)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>143</td>
+  <td>Azerbaijani</td>
+  <td>uzun</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>143</td>
+  <td>Kazakh</td>
+  <td>uzɯn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>143</td>
+  <td>Kyrgyz</td>
+  <td>uzun</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>143</td>
+  <td>Turkish</td>
+  <td>uzun</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>143</td>
+  <td>Turkmen</td>
+  <td>uzɯn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>143</td>
+  <td>Uyghur</td>
+  <td>uzun</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>143</td>
+  <td>Uzbek</td>
+  <td>uzun</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>143</td>
+  <td>Yakut</td>
+  <td>uhun</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_H">h</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>144</td>
+  <td>Chuvash</td>
+  <td>vöröm</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>louse</i> (ID: 21)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>145</td>
+  <td>Azerbaijani</td>
+  <td>bit</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>145</td>
+  <td>Kazakh</td>
+  <td>bit</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>145</td>
+  <td>Kyrgyz</td>
+  <td>bit</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>145</td>
+  <td>Turkish</td>
+  <td>bit</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>145</td>
+  <td>Turkmen</td>
+  <td>bit</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>145</td>
+  <td>Uyghur</td>
+  <td>pit</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">p</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>145</td>
+  <td>Uzbek</td>
+  <td>bit</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>145</td>
+  <td>Yakut</td>
+  <td>bɯt</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_T">t</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>146</td>
+  <td>Chuvash</td>
+  <td>pɯjdə̈</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>man</i> (ID: 22)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>147</td>
+  <td>Azerbaijani</td>
+  <td>kiʃi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>148</td>
+  <td>Chuvash</td>
+  <td>arʑɯn</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_S">ʑ</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kazakh">
+  <td>148</td>
+  <td>Kazakh</td>
+  <td>erkek</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>148</td>
+  <td>Kyrgyz</td>
+  <td>erkekkiʃi</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkish">
+  <td>148</td>
+  <td>Turkish</td>
+  <td>erkek</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uyghur">
+  <td>148</td>
+  <td>Uyghur</td>
+  <td>ærkæk</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_V">æ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">æ</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>148</td>
+  <td>Uzbek</td>
+  <td>erkakkiʃi</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>148</td>
+  <td>Yakut</td>
+  <td>erkihi</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_H">h</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>152</td>
+  <td>Turkmen</td>
+  <td>erkek (adam)</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>many</i> (ID: 23)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>153</td>
+  <td>Azerbaijani</td>
+  <td>ʨoχ(lu)</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>154</td>
+  <td>Chuvash</td>
+  <td>miˈɕ̬ɛ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>155</td>
+  <td>Kazakh</td>
+  <td>køp</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>156</td>
+  <td>Kyrgyz</td>
+  <td>køp</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>157</td>
+  <td>Turkish</td>
+  <td>tɕok</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">tɕ</td>
+     <td class="char dolgo_V">o</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>157</td>
+  <td>Yakut</td>
+  <td>tøhø</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_H">h</td>
+     <td class="char dolgo_V">ø</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkmen">
+  <td>158</td>
+  <td>Turkmen</td>
+  <td>køp</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>159</td>
+  <td>Uyghur</td>
+  <td>køp</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>160</td>
+  <td>Uzbek</td>
+  <td>kop</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>not</i> (ID: 24)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>161</td>
+  <td>Azerbaijani</td>
+  <td>fɯrtdɯɢ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>162</td>
+  <td>Chuvash</td>
+  <td>ma</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>162</td>
+  <td>Uzbek</td>
+  <td>miʃiq</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>163</td>
+  <td>Kazakh</td>
+  <td>sɘŋbɘrɘk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>164</td>
+  <td>Kyrgyz</td>
+  <td>ʨimkirik</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>165</td>
+  <td>Turkish</td>
+  <td>symyk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>165</td>
+  <td>Turkmen</td>
+  <td>symyk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uyghur">
+  <td>167</td>
+  <td>Uyghur</td>
+  <td>maŋqa</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>169</td>
+  <td>Yakut</td>
+  <td>sɯ:ŋk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>one</i> (ID: 25)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>170</td>
+  <td>Azerbaijani</td>
+  <td>bir</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>170</td>
+  <td>Chuvash</td>
+  <td>pĭr</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">p</td>
+     <td class="char dolgo_V">ĭ</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>170</td>
+  <td>Kazakh</td>
+  <td>bĭr</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ĭ</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>170</td>
+  <td>Kyrgyz</td>
+  <td>bir</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>170</td>
+  <td>Turkish</td>
+  <td>bir</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>170</td>
+  <td>Turkmen</td>
+  <td>bir</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>170</td>
+  <td>Uyghur</td>
+  <td>bir</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>170</td>
+  <td>Uzbek</td>
+  <td>bir</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>170</td>
+  <td>Yakut</td>
+  <td>biːr</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">iː</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>person</i> (ID: 26)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>171</td>
+  <td>Azerbaijani</td>
+  <td>ɑdɑm</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>172</td>
+  <td>Chuvash</td>
+  <td>ɕɯn</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_S">ɕ</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkmen">
+  <td>172</td>
+  <td>Turkmen</td>
+  <td>unsan</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>173</td>
+  <td>Kazakh</td>
+  <td>kĭsĭ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ĭ</td>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">ĭ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>173</td>
+  <td>Kyrgyz</td>
+  <td>kiʃi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>173</td>
+  <td>Turkish</td>
+  <td>kiʃi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>173</td>
+  <td>Uyghur</td>
+  <td>kiʃi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>173</td>
+  <td>Uzbek</td>
+  <td>kiʃi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>173</td>
+  <td>Yakut</td>
+  <td>kihi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_H">h</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>root</i> (ID: 27)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>174</td>
+  <td>Azerbaijani</td>
+  <td>køk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>174</td>
+  <td>Turkish</td>
+  <td>køk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>174</td>
+  <td>Turkmen</td>
+  <td>køk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>175</td>
+  <td>Chuvash</td>
+  <td>tɯmar</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>176</td>
+  <td>Kazakh</td>
+  <td>tamɯr</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>176</td>
+  <td>Kyrgyz</td>
+  <td>tamɯr</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>176</td>
+  <td>Uyghur</td>
+  <td>tomur</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">o</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>181</td>
+  <td>Uzbek</td>
+  <td>ildiz</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>182</td>
+  <td>Yakut</td>
+  <td>silis</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>seed</i> (ID: 28)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>183</td>
+  <td>Azerbaijani</td>
+  <td>gʲør</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">gʲ</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>183</td>
+  <td>Chuvash</td>
+  <td>kur</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>183</td>
+  <td>Kazakh</td>
+  <td>kør</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>183</td>
+  <td>Kyrgyz</td>
+  <td>kør</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>183</td>
+  <td>Turkish</td>
+  <td>gør</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">g</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>183</td>
+  <td>Turkmen</td>
+  <td>gør</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">g</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>183</td>
+  <td>Uyghur</td>
+  <td>kør</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ø</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>183</td>
+  <td>Uzbek</td>
+  <td>kor</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">o</td>
+     <td class="char dolgo_R">r</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>191</td>
+  <td>Yakut</td>
+  <td>kør</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>skin</i> (ID: 29)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>192</td>
+  <td>Azerbaijani</td>
+  <td>dæri</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">æ</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>192</td>
+  <td>Chuvash</td>
+  <td>tirĭ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">ĭ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>192</td>
+  <td>Kazakh</td>
+  <td>terĭ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">ĭ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>192</td>
+  <td>Kyrgyz</td>
+  <td>teri</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>192</td>
+  <td>Turkish</td>
+  <td>deri</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>192</td>
+  <td>Turkmen</td>
+  <td>deri</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>192</td>
+  <td>Uyghur</td>
+  <td>teræ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">æ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>192</td>
+  <td>Uzbek</td>
+  <td>teri</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>192</td>
+  <td>Yakut</td>
+  <td>tiriː</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">iː</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>small</i> (ID: 30)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>193</td>
+  <td>Azerbaijani</td>
+  <td>kitɕik</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">tɕ</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>193</td>
+  <td>Turkish</td>
+  <td>kytɕyk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_K">tɕ</td>
+     <td class="char dolgo_V">y</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>194</td>
+  <td>Chuvash</td>
+  <td>ˈpɘt͡ɕɘk</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>195</td>
+  <td>Kazakh</td>
+  <td>kĭʃkene</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ĭ</td>
+     <td class="char dolgo_S">ʃ</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">e</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>195</td>
+  <td>Uzbek</td>
+  <td>kitɕkina</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">tɕ</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>196</td>
+  <td>Kyrgyz</td>
+  <td>kiʨinekej</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">ʨ</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_J">j</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uyghur">
+  <td>196</td>
+  <td>Uyghur</td>
+  <td>kitɕik</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">tɕ</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>198</td>
+  <td>Turkmen</td>
+  <td>kiʨi(ʥik)</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>201</td>
+  <td>Yakut</td>
+  <td>? kutɕ:uguj</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>tail</i> (ID: 31)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>202</td>
+  <td>Azerbaijani</td>
+  <td>ɢujruɢ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_K">ɢ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>202</td>
+  <td>Turkish</td>
+  <td>kujruk</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_K">k</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>203</td>
+  <td>Chuvash</td>
+  <td>χyre</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>204</td>
+  <td>Kazakh</td>
+  <td>qujrɯq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>204</td>
+  <td>Kyrgyz</td>
+  <td>qujruq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>204</td>
+  <td>Uyghur</td>
+  <td>qujruq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">q</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_J">j</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_K">q</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkmen">
+  <td>207</td>
+  <td>Turkmen</td>
+  <td>ɢujruq</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>209</td>
+  <td>Uzbek</td>
+  <td>qujruq</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>210</td>
+  <td>Yakut</td>
+  <td>kuturuk</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>that</i> (ID: 32)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>211</td>
+  <td>Azerbaijani</td>
+  <td>da</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>211</td>
+  <td>Kyrgyz</td>
+  <td>da</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>211</td>
+  <td>Turkish</td>
+  <td>ta</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">t</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>211</td>
+  <td>Turkmen</td>
+  <td>da</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>211</td>
+  <td>Uyghur</td>
+  <td>da</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>212</td>
+  <td>Chuvash</td>
+  <td>rA, dA, tA</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>213</td>
+  <td>Kazakh</td>
+  <td>ana(w)</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>218</td>
+  <td>Uzbek</td>
+  <td>o</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">o</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Yakut">
+  <td>218</td>
+  <td>Yakut</td>
+  <td>ɣa</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+     <td class="char dolgo_K">ɣ</td>
+     <td class="char dolgo_V">a</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>this</i> (ID: 33)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>219</td>
+  <td>Azerbaijani</td>
+  <td>bu</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>219</td>
+  <td>Kazakh</td>
+  <td>bul</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_R">l</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>219</td>
+  <td>Kyrgyz</td>
+  <td>bu</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>219</td>
+  <td>Turkish</td>
+  <td>bu</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>219</td>
+  <td>Turkmen</td>
+  <td>bu</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>219</td>
+  <td>Uyghur</td>
+  <td>bu</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>219</td>
+  <td>Uzbek</td>
+  <td>bu</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>219</td>
+  <td>Yakut</td>
+  <td>bu</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">u</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>220</td>
+  <td>Chuvash</td>
+  <td>ku</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>tree</i> (ID: 34)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>221</td>
+  <td>Azerbaijani</td>
+  <td>aɣaǰ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>222</td>
+  <td>Chuvash</td>
+  <td>jɯvə̈ɕ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>223</td>
+  <td>Kazakh</td>
+  <td>aɣaʃ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>224</td>
+  <td>Kyrgyz</td>
+  <td>ʥɯɣaʨ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>225</td>
+  <td>Turkish</td>
+  <td>aɣaʨ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkmen">
+  <td>226</td>
+  <td>Turkmen</td>
+  <td>aɣaʨ</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>227</td>
+  <td>Uyghur</td>
+  <td>jaɣaʨ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>228</td>
+  <td>Uzbek</td>
+  <td>daraχt</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>229</td>
+  <td>Yakut</td>
+  <td>mas</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>two</i> (ID: 35)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>230</td>
+  <td>Azerbaijani</td>
+  <td>iki</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>230</td>
+  <td>Chuvash</td>
+  <td>ikĭ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ĭ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>230</td>
+  <td>Kazakh</td>
+  <td>ekĭ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">ĭ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>230</td>
+  <td>Kyrgyz</td>
+  <td>eki</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>230</td>
+  <td>Turkish</td>
+  <td>iki</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>230</td>
+  <td>Turkmen</td>
+  <td>iki</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>230</td>
+  <td>Uyghur</td>
+  <td>ikːi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">kː</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>230</td>
+  <td>Uzbek</td>
+  <td>ikːi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">kː</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>230</td>
+  <td>Yakut</td>
+  <td>ikːi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">kː</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>we</i> (ID: 36)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>231</td>
+  <td>Azerbaijani</td>
+  <td>biz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>231</td>
+  <td>Kazakh</td>
+  <td>bĭz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">ĭ</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>231</td>
+  <td>Kyrgyz</td>
+  <td>biz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>231</td>
+  <td>Turkish</td>
+  <td>biz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>231</td>
+  <td>Turkmen</td>
+  <td>biz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>231</td>
+  <td>Uyghur</td>
+  <td>biz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>231</td>
+  <td>Uzbek</td>
+  <td>biz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_P">b</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>232</td>
+  <td>Chuvash</td>
+  <td>ebir</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>239</td>
+  <td>Yakut</td>
+  <td>bihigi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>what</i> (ID: 37)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>240</td>
+  <td>Azerbaijani</td>
+  <td>næ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">æ</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>240</td>
+  <td>Kazakh</td>
+  <td>ne</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>240</td>
+  <td>Turkish</td>
+  <td>ne</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>240</td>
+  <td>Turkmen</td>
+  <td>næme</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">æ</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_V">e</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>241</td>
+  <td>Chuvash</td>
+  <td>mɘn</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kyrgyz">
+  <td>243</td>
+  <td>Kyrgyz</td>
+  <td>emne</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">e</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>243</td>
+  <td>Uyghur</td>
+  <td>nimæ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_N">n</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_M">m</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">æ</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>247</td>
+  <td>Uzbek</td>
+  <td>nima</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>248</td>
+  <td>Yakut</td>
+  <td>tuoχ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>who</i> (ID: 38)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>249</td>
+  <td>Azerbaijani</td>
+  <td>kim</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>250</td>
+  <td>Chuvash</td>
+  <td>kam</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>251</td>
+  <td>Kazakh</td>
+  <td>kɘm</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>252</td>
+  <td>Kyrgyz</td>
+  <td>kim</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>253</td>
+  <td>Turkish</td>
+  <td>kim</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Turkmen">
+  <td>254</td>
+  <td>Turkmen</td>
+  <td>kim</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>255</td>
+  <td>Uyghur</td>
+  <td>kim</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>256</td>
+  <td>Uzbek</td>
+  <td>kim</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>257</td>
+  <td>Yakut</td>
+  <td>kim</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>woman</i> (ID: 39)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>258</td>
+  <td>Azerbaijani</td>
+  <td>ɢadɯn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">ɢ</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>258</td>
+  <td>Turkish</td>
+  <td>kadɯn</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_K">k</td>
+     <td class="char dolgo_V">a</td>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">ɯ</td>
+     <td class="char dolgo_N">n</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Chuvash">
+  <td>259</td>
+  <td>Chuvash</td>
+  <td>χɘrarə̈m</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>260</td>
+  <td>Kazakh</td>
+  <td>bɪjke</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Uzbek">
+  <td>262</td>
+  <td>Uzbek</td>
+  <td>χɔtin (kiʃi)</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>263</td>
+  <td>Yakut</td>
+  <td>ɟaxtaɾ</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+ <tr style="background-color:#2f95e3;border=0">
+  <td colspan="4"><b>Concept: <i>you_2sg</i> (ID: 40)</b></td>
+ </tr>
+ <tr>
+  <td><b>CogID</b></td>
+  <td><b>Language</b></td>
+  <td><b>Entry</b></td>
+  <td><b>Aligned Entry</b></td>
+ </tr>
+ <tr class="white taxon" taxon="Azerbaijani">
+  <td>265</td>
+  <td>Azerbaijani</td>
+  <td>siz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Chuvash">
+  <td>265</td>
+  <td>Chuvash</td>
+  <td>ezir</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Kazakh">
+  <td>265</td>
+  <td>Kazakh</td>
+  <td>sĭzder</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_V">ĭ</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_T">d</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_R">r</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkish">
+  <td>265</td>
+  <td>Turkish</td>
+  <td>siz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Turkmen">
+  <td>265</td>
+  <td>Turkmen</td>
+  <td>siz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uyghur">
+  <td>265</td>
+  <td>Uyghur</td>
+  <td>siz</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_S">s</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_S">z</td>
+     <td class="char dolgo_GAP">-</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Yakut">
+  <td>265</td>
+  <td>Yakut</td>
+  <td>ehigi</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">e</td>
+     <td class="char dolgo_H">h</td>
+     <td class="char dolgo_GAP">-</td>
+     <td class="char dolgo_V">i</td>
+     <td class="char dolgo_K">g</td>
+     <td class="char dolgo_V">i</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="gray taxon" taxon="Kyrgyz">
+  <td>267</td>
+  <td>Kyrgyz</td>
+  <td>siler</td>
+  <td class="gray">
+   <table class="gray">
+    <tr>
+      <td class="gray">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="white taxon" taxon="Uzbek">
+  <td>271</td>
+  <td>Uzbek</td>
+  <td>sizlar</td>
+  <td class="white">
+   <table class="white">
+    <tr>
+      <td class="white">--</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="empty"><td colspan="4" class="empty"><hr class="empty" /></td></tr>
+
+</table>
+</body>
+</html>

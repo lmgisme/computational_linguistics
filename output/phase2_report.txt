@@ -1,0 +1,181 @@
+======================================================================
+PHASE 2 REPORT
+======================================================================
+
+Correspondence pairs: 2035
+Unique contexts:      674
+High-entropy flags:   29
+LexStat threshold:    0.5
+LingPy used:          True
+
+FILES:
+  output/cognate_sets.tsv
+  output/alignments.html
+  output/correspondence_table.csv
+  output/prob_model.json
+  output/flagged_correspondences.csv
+
+----------------------------------------------------------------------
+TOP 30 CORRESPONDENCES BY FREQUENCY
+----------------------------------------------------------------------
+
+lang_a       lang_b        phon_a     top      P     n       H
+--------------------------------------------------------------
+Turkish      Turkmen            k       q  0.333    12   1.585
+Azerbaijani  Turkish            ɢ       k  0.909    11   0.439
+Kyrgyz       Uyghur             i       i  0.727    11   1.096
+Azerbaijani  Turkish            a       a  1.000    10  -0.000
+Chuvash      Uzbek              -       i  0.300    10   2.646
+Kazakh       Kyrgyz             q       q  1.000    10  -0.000
+Kyrgyz       Uyghur             k       k  0.800    10   0.922
+Kyrgyz       Uzbek              i       i  1.000    10  -0.000
+Turkish      Turkmen            a       a  0.900    10   0.469
+Turkish      Uzbek              k       q  0.500    10   1.361
+Uzbek        Yakut              i       i  0.500    10   1.761
+Azerbaijani  Turkish            i       i  0.778     9   0.764
+Azerbaijani  Turkish            u       u  1.000     9  -0.000
+Kazakh       Kyrgyz             a       a  1.000     9  -0.000
+Kazakh       Turkish            q       k  0.889     9   0.503
+Kazakh       Turkmen            q       q  0.556     9   0.991
+Kyrgyz       Turkish            i       i  0.778     9   0.764
+Kyrgyz       Yakut              i       i  0.444     9   1.837
+Turkish      Uyghur             i       i  0.889     9   0.503
+Azerbaijani  Kazakh             i       ĭ  0.500     8   1.500
+Azerbaijani  Kazakh             ɢ       q  1.000     8  -0.000
+Azerbaijani  Turkmen            a       a  0.875     8   0.544
+Azerbaijani  Turkmen            i       i  1.000     8  -0.000
+Azerbaijani  Turkmen            ɢ       q  0.500     8   1.000
+Kazakh       Kyrgyz             r       r  1.000     8  -0.000
+Kazakh       Turkish            a       a  1.000     8  -0.000
+Kazakh       Turkish            e       e  0.750     8   0.811
+Kazakh       Turkmen            a       a  0.875     8   0.544
+Kazakh       Uzbek              k       k  0.875     8   0.544
+Kyrgyz       Uyghur             e       æ  0.375     8   1.906
+
+
+======================================================================
+SOUND LAW VALIDATION
+======================================================================
+
+[PASS] law is top-ranked reflex in learned model
+[WEAK] law present but outranked by another reflex
+[MISS] law absent from extracted correspondences
+
+[MISS] *d > y in Turkish (vs Azerbaijani): 'y' absent; top='d' P=0.600
+[MISS] *d > y in Turkish (vs Turkmen): 'y' absent; top='t' P=0.667
+[MISS] *d > y in Turkish (vs Kazakh): 'y' absent; top='-' P=1.000
+[MISS] *d > y in Turkish (vs Kyrgyz): 'y' absent; top='t' P=1.000
+[MISS] *d > y in Turkish (vs Uyghur): 'y' absent; top='t' P=1.000
+[MISS] *d > y in Turkish (vs Chuvash): 'y' absent; top='t' P=1.000
+[MISS] *d > y in Turkish (vs Azerbaijani): 'y' absent; top='d' P=1.000
+[MISS] *d > y in Turkish (vs Yakut): 'y' absent; top='t' P=1.000
+[MISS] *d > y in Turkish (vs Chuvash): 'y' absent; top='t' P=1.000
+[MISS] *d > y in Turkish (vs Kazakh): 'y' absent; top='t' P=1.000
+[MISS] *d > y in Turkish (vs Kyrgyz): 'y' absent; top='t' P=1.000
+[MISS] *d > y in Turkish (vs Turkmen): 'y' absent; top='d' P=1.000
+[MISS] *d > y in Turkish (vs Uyghur): 'y' absent; top='t' P=1.000
+[MISS] *d > y in Turkish (vs Uzbek): 'y' absent; top='t' P=1.000
+[MISS] *d > s in Yakut (vs Kazakh): 's' absent; top='-' P=1.000
+[MISS] *d > s in Yakut (vs Azerbaijani): 's' absent; top='t' P=1.000
+[MISS] *d > s in Yakut (vs Turkish): 's' absent; top='t' P=1.000
+[MISS] *d > s in Yakut (vs Turkmen): 's' absent; top='t' P=1.000
+[MISS] *d > ś in Chuvash (vs Kazakh): 'ś' absent; top='-' P=1.000
+[MISS] *d > ś in Chuvash (vs Uyghur): 'ś' absent; top='t' P=1.000
+[MISS] *d > ś in Chuvash (vs Azerbaijani): 'ś' absent; top='t' P=1.000
+[MISS] *d > ś in Chuvash (vs Turkish): 'ś' absent; top='t' P=1.000
+[MISS] *d > ś in Chuvash (vs Azerbaijani): 'ś' absent; top='t' P=1.000
+[MISS] *d > ś in Chuvash (vs Turkish): 'ś' absent; top='t' P=1.000
+[MISS] *d > ś in Chuvash (vs Turkmen): 'ś' absent; top='t' P=1.000
+[MISS] *d > j in Uzbek (vs Azerbaijani): 'j' absent; top='t' P=1.000
+[MISS] *d > j in Uzbek (vs Turkmen): 'j' absent; top='t' P=1.000
+[MISS] *d > j in Uzbek (vs Turkish): 'j' absent; top='t' P=1.000
+[MISS] *d > ʒ in Kazakh (vs Azerbaijani): 'ʒ' absent; top='t' P=1.000
+[MISS] *d > ʒ in Kazakh (vs Turkmen): 'ʒ' absent; top='t' P=1.000
+[MISS] *d > ʒ in Kazakh (vs Azerbaijani): 'ʒ' absent; top='-' P=1.000
+[MISS] *d > ʒ in Kazakh (vs Chuvash): 'ʒ' absent; top='-' P=1.000
+[MISS] *d > ʒ in Kazakh (vs Turkish): 'ʒ' absent; top='-' P=1.000
+[MISS] *d > ʒ in Kazakh (vs Turkmen): 'ʒ' absent; top='-' P=1.000
+[MISS] *d > ʒ in Kazakh (vs Uyghur): 'ʒ' absent; top='-' P=1.000
+[MISS] *d > ʒ in Kazakh (vs Yakut): 'ʒ' absent; top='-' P=1.000
+[MISS] *d > ʒ in Kazakh (vs Turkish): 'ʒ' absent; top='t' P=1.000
+[MISS] *ŋ > n in Turkish: no 'ŋ' contexts found for Turkish in data
+[MISS] *ŋ > ŋ in Yakut: no 'ŋ' contexts found for Yakut in data
+[WEAK] *b > p in Chuvash (vs Azerbaijani): rank 2/2, P=0.500; top='b' P=0.500
+[MISS] *b > p in Chuvash (vs Azerbaijani): 'p' absent; top='b' P=1.000
+[MISS] *b > p in Chuvash (vs Kazakh): 'p' absent; top='b' P=1.000
+[WEAK] *b > p in Chuvash (vs Kazakh): rank 2/2, P=0.500; top='b' P=0.500
+[MISS] *b > p in Chuvash (vs Kyrgyz): 'p' absent; top='b' P=1.000
+[WEAK] *b > p in Chuvash (vs Kyrgyz): rank 2/2, P=0.500; top='b' P=0.500
+[MISS] *b > p in Chuvash (vs Turkish): 'p' absent; top='b' P=1.000
+[WEAK] *b > p in Chuvash (vs Turkish): rank 2/2, P=0.500; top='b' P=0.500
+[MISS] *b > p in Chuvash (vs Turkmen): 'p' absent; top='b' P=1.000
+[WEAK] *b > p in Chuvash (vs Turkmen): rank 2/2, P=0.500; top='b' P=0.500
+[PASS] *b > p in Chuvash (vs Uyghur): P=1.000, rank 1/1
+[PASS] *b > p in Chuvash (vs Uzbek): P=1.000, rank 1/1
+[PASS] *b > p in Chuvash (vs Yakut): P=1.000, rank 1/1
+[MISS] *z > r in Chuvash (vs Azerbaijani): 'r' absent; top='s' P=1.000
+[MISS] *z > r in Chuvash (vs Kazakh): 'r' absent; top='z' P=1.000
+[MISS] *z > r in Chuvash (vs Kazakh): 'r' absent; top='z' P=1.000
+[MISS] *z > r in Chuvash (vs Turkish): 'r' absent; top='s' P=1.000
+[MISS] *z > r in Chuvash (vs Turkmen): 'r' absent; top='s' P=1.000
+[MISS] *z > r in Chuvash (vs Uyghur): 'r' absent; top='s' P=1.000
+[MISS] *z > r in Chuvash (vs Yakut): 'r' absent; top='h' P=1.000
+[PASS] *z > r in Chuvash (vs Azerbaijani): P=1.000, rank 1/1
+[PASS] *z > r in Chuvash (vs Turkish): P=1.000, rank 1/1
+[PASS] *z > r in Chuvash (vs Turkmen): P=1.000, rank 1/1
+[PASS] *z > r in Chuvash (vs Uyghur): P=1.000, rank 1/1
+[MISS] *z > r in Chuvash (vs Uzbek): 'r' absent; top='-' P=1.000
+
+----------------------------------------------------------------------
+VOWEL HARMONY
+----------------------------------------------------------------------
+
+Language        Total  Harmonic  Violators   Viol%
+--------------------------------------------------
+Turkish            40        20          0    0.0%
+Uzbek              40        13          8   20.0%
+Kazakh             40        17          0    0.0%
+Kyrgyz             38        22          0    0.0%
+Uyghur             36        17          1    2.8%
+Yakut              40        20          0    0.0%
+Chuvash            40         9          0    0.0%
+Azerbaijani        40        19          0    0.0%
+Turkmen            39        18          1    2.6%
+
+[NOTE] Violation rates within expected ranges.
+       Chuvash/Uzbek elevation is expected (Persian/Arabic loans; harmony erosion in Bulgar).
+
+----------------------------------------------------------------------
+HIGH-ENTROPY FLAGS (Phase 3 substrate candidates)
+----------------------------------------------------------------------
+
+     lang_a  lang_b phoneme_a top_reflex  top_prob  total_count  entropy                      all_reflexes
+Azerbaijani Chuvash         a          u     0.333            3    1.585                     u:1, a:1, y:1
+Azerbaijani Chuvash         s          z     0.333            3    1.585                     z:1, ʃ:1, ɕ:1
+Azerbaijani  Kazakh         -          s     0.250            4    2.000                s:1, ĭ:1, d:1, l:1
+Azerbaijani   Yakut         i          i     0.429            7    1.557                    i:3, ɯ:2, iː:2
+    Chuvash  Kazakh         -          s     0.333            3    1.585                     s:1, d:1, q:1
+    Chuvash  Kyrgyz         -          i     0.400            5    1.922                i:2, q:1, k:1, ʃ:1
+    Chuvash Turkish         a          u     0.333            3    1.585                     u:1, a:1, e:1
+    Chuvash Turkmen         -          q     0.333            3    1.585                     q:1, u:1, n:1
+    Chuvash   Uzbek         -          i     0.300           10    2.646 i:3, ʃ:2, z:1, k:1, q:1, g:1, t:1
+    Chuvash   Uzbek         a          i     0.400            5    1.922                i:2, -:1, e:1, o:1
+     Kazakh  Kyrgyz         -          i     0.400            5    1.922                i:2, l:1, k:1, ʃ:1
+     Kazakh Turkish         ɯ          ɯ     0.400            5    1.522                     ɯ:2, u:2, -:1
+     Kazakh Turkmen         e          i     0.400            5    1.522                     i:2, e:2, æ:1
+     Kazakh  Uyghur         e          i     0.400            5    1.522                     i:2, æ:2, e:1
+     Kazakh   Uzbek         e          e     0.429            7    1.557                     e:3, a:2, i:2
+     Kyrgyz Turkish         ɯ          u     0.333            3    1.585                     u:1, ɯ:1, -:1
+     Kyrgyz  Uyghur         -          ŋ     0.333            3    1.585                     ŋ:1, ɛ:1, n:1
+     Kyrgyz  Uyghur         e          æ     0.375            8    1.906                æ:3, -:2, i:2, e:1
+     Kyrgyz   Yakut         e          i     0.429            7    1.842               i:3, e:2, yː:1, -:1
+     Kyrgyz   Yakut         i          i     0.444            9    1.837               i:4, ɯ:2, iː:2, -:1
+     Kyrgyz   Yakut         k          k     0.333            6    1.918               k:2, -:2, s:1, kː:1
+    Turkish Turkmen         k          q     0.333           12    1.585                     q:4, ɢ:4, k:4
+    Turkish   Yakut         -          i     0.333            6    2.252           i:2, e:1, a:1, h:1, ø:1
+    Turkish   Yakut         a         aː     0.333            3    1.585                    aː:1, ɯ:1, a:1
+    Turkish   Yakut         k          k     0.333            6    2.252          k:2, χ:1, -:1, h:1, kː:1
+    Turkmen   Yakut         i          i     0.429            7    1.557                    i:3, ɯ:2, iː:2
+     Uyghur   Uzbek         æ          e     0.333            3    1.585                     e:1, a:1, i:1
+     Uyghur   Yakut         æ          e     0.333            3    1.585                    e:1, i:1, iː:1
+      Uzbek   Yakut         i          i     0.500           10    1.761               i:5, ɯ:2, iː:2, -:1

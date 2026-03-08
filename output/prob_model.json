@@ -1,0 +1,4578 @@
+{
+  "Azerbaijani|Kazakh|d": {
+    "t": 1.0
+  },
+  "Kazakh|Azerbaijani|t": {
+    "t": 0.6,
+    "d": 0.4
+  },
+  "Azerbaijani|Turkish|d": {
+    "d": 0.6,
+    "t": 0.4
+  },
+  "Turkish|Azerbaijani|t": {
+    "t": 0.6,
+    "d": 0.4
+  },
+  "Azerbaijani|Turkmen|d": {
+    "d": 1.0
+  },
+  "Turkmen|Azerbaijani|d": {
+    "d": 1.0
+  },
+  "Azerbaijani|Uzbek|d": {
+    "t": 1.0
+  },
+  "Uzbek|Azerbaijani|t": {
+    "d": 0.5,
+    "t": 0.5
+  },
+  "Kazakh|Turkish|t": {
+    "t": 0.75,
+    "d": 0.25
+  },
+  "Turkish|Kazakh|t": {
+    "t": 1.0
+  },
+  "Kazakh|Turkmen|t": {
+    "t": 0.6,
+    "d": 0.4
+  },
+  "Turkmen|Kazakh|d": {
+    "t": 1.0
+  },
+  "Kazakh|Uzbek|t": {
+    "t": 1.0
+  },
+  "Uzbek|Kazakh|t": {
+    "t": 1.0
+  },
+  "Turkish|Turkmen|t": {
+    "d": 0.5,
+    "t": 0.5
+  },
+  "Turkmen|Turkish|d": {
+    "t": 0.6667,
+    "d": 0.3333
+  },
+  "Turkish|Uzbek|t": {
+    "t": 1.0
+  },
+  "Uzbek|Turkish|t": {
+    "t": 0.6667,
+    "d": 0.3333
+  },
+  "Turkmen|Uzbek|d": {
+    "t": 1.0
+  },
+  "Uzbek|Turkmen|t": {
+    "d": 0.5,
+    "t": 0.5
+  },
+  "Azerbaijani|Kazakh|ɯ": {
+    "ɯ": 1.0
+  },
+  "Kazakh|Azerbaijani|ɯ": {
+    "ɯ": 0.75,
+    "u": 0.25
+  },
+  "Azerbaijani|Turkish|ɯ": {
+    "ɯ": 0.8,
+    "u": 0.2
+  },
+  "Turkish|Azerbaijani|ɯ": {
+    "ɯ": 1.0
+  },
+  "Azerbaijani|Turkmen|ɯ": {
+    "ɯ": 1.0
+  },
+  "Turkmen|Azerbaijani|ɯ": {
+    "ɯ": 0.8,
+    "u": 0.2
+  },
+  "Azerbaijani|Uzbek|ɯ": {
+    "i": 1.0
+  },
+  "Uzbek|Azerbaijani|i": {
+    "i": 0.7778,
+    "ɯ": 0.2222
+  },
+  "Kazakh|Turkish|ɯ": {
+    "ɯ": 0.4,
+    "u": 0.4,
+    "-": 0.2
+  },
+  "Turkish|Kazakh|ɯ": {
+    "ɯ": 1.0
+  },
+  "Kazakh|Turkmen|ɯ": {
+    "ɯ": 0.8,
+    "-": 0.2
+  },
+  "Turkmen|Kazakh|ɯ": {
+    "ɯ": 1.0
+  },
+  "Kazakh|Uzbek|ɯ": {
+    "i": 0.6667,
+    "u": 0.3333
+  },
+  "Uzbek|Kazakh|i": {
+    "ĭ": 0.4667,
+    "ɯ": 0.1333,
+    "i": 0.1333,
+    "-": 0.1333,
+    "e": 0.1333
+  },
+  "Turkish|Turkmen|ɯ": {
+    "ɯ": 1.0
+  },
+  "Turkmen|Turkish|ɯ": {
+    "ɯ": 0.6,
+    "u": 0.4
+  },
+  "Turkish|Uzbek|ɯ": {
+    "i": 1.0
+  },
+  "Uzbek|Turkish|i": {
+    "i": 0.6667,
+    "ɯ": 0.1667,
+    "-": 0.1667
+  },
+  "Turkmen|Uzbek|ɯ": {
+    "i": 0.6667,
+    "u": 0.3333
+  },
+  "Uzbek|Turkmen|i": {
+    "i": 0.7778,
+    "ɯ": 0.2222
+  },
+  "Azerbaijani|Kazakh|r": {
+    "r": 1.0
+  },
+  "Kazakh|Azerbaijani|r": {
+    "r": 0.8,
+    "z": 0.2
+  },
+  "Azerbaijani|Turkish|r": {
+    "r": 1.0
+  },
+  "Turkish|Azerbaijani|r": {
+    "r": 1.0
+  },
+  "Azerbaijani|Turkmen|r": {
+    "r": 1.0
+  },
+  "Turkmen|Azerbaijani|r": {
+    "r": 1.0
+  },
+  "Azerbaijani|Uzbek|r": {
+    "r": 1.0
+  },
+  "Uzbek|Azerbaijani|r": {
+    "r": 1.0
+  },
+  "Kazakh|Turkish|r": {
+    "r": 0.8571,
+    "z": 0.1429
+  },
+  "Turkish|Kazakh|r": {
+    "r": 1.0
+  },
+  "Kazakh|Turkmen|r": {
+    "r": 0.8333,
+    "z": 0.1667
+  },
+  "Turkmen|Kazakh|r": {
+    "r": 1.0
+  },
+  "Kazakh|Uzbek|r": {
+    "r": 1.0
+  },
+  "Uzbek|Kazakh|r": {
+    "r": 1.0
+  },
+  "Turkish|Turkmen|r": {
+    "r": 1.0
+  },
+  "Turkmen|Turkish|r": {
+    "r": 1.0
+  },
+  "Turkish|Uzbek|r": {
+    "r": 1.0
+  },
+  "Uzbek|Turkish|r": {
+    "r": 1.0
+  },
+  "Turkmen|Uzbek|r": {
+    "r": 1.0
+  },
+  "Uzbek|Turkmen|r": {
+    "r": 1.0
+  },
+  "Azerbaijani|Kazakh|n": {
+    "n": 1.0
+  },
+  "Kazakh|Azerbaijani|n": {
+    "n": 1.0
+  },
+  "Azerbaijani|Turkish|n": {
+    "n": 1.0
+  },
+  "Turkish|Azerbaijani|n": {
+    "n": 1.0
+  },
+  "Azerbaijani|Turkmen|n": {
+    "n": 1.0
+  },
+  "Turkmen|Azerbaijani|n": {
+    "n": 1.0
+  },
+  "Azerbaijani|Uzbek|n": {
+    "n": 1.0
+  },
+  "Uzbek|Azerbaijani|n": {
+    "n": 1.0
+  },
+  "Kazakh|Turkish|n": {
+    "n": 1.0
+  },
+  "Turkish|Kazakh|n": {
+    "n": 1.0
+  },
+  "Kazakh|Turkmen|n": {
+    "n": 1.0
+  },
+  "Turkmen|Kazakh|n": {
+    "n": 1.0
+  },
+  "Kazakh|Uzbek|n": {
+    "n": 1.0
+  },
+  "Uzbek|Kazakh|n": {
+    "n": 1.0
+  },
+  "Turkish|Turkmen|n": {
+    "n": 1.0
+  },
+  "Turkmen|Turkish|n": {
+    "n": 1.0
+  },
+  "Turkish|Uzbek|n": {
+    "n": 1.0
+  },
+  "Uzbek|Turkish|n": {
+    "n": 1.0
+  },
+  "Turkmen|Uzbek|n": {
+    "n": 1.0
+  },
+  "Uzbek|Turkmen|n": {
+    "n": 1.0
+  },
+  "Azerbaijani|Kazakh|a": {
+    "a": 1.0
+  },
+  "Kazakh|Azerbaijani|a": {
+    "a": 1.0
+  },
+  "Azerbaijani|Turkish|a": {
+    "a": 1.0
+  },
+  "Turkish|Azerbaijani|a": {
+    "a": 1.0
+  },
+  "Azerbaijani|Turkmen|a": {
+    "a": 0.875,
+    "aː": 0.125
+  },
+  "Turkmen|Azerbaijani|a": {
+    "a": 1.0
+  },
+  "Azerbaijani|Uzbek|a": {
+    "ɔ": 0.5,
+    "a": 0.3333,
+    "-": 0.1667
+  },
+  "Uzbek|Azerbaijani|ɔ": {
+    "a": 1.0
+  },
+  "Kazakh|Turkish|a": {
+    "a": 1.0
+  },
+  "Turkish|Kazakh|a": {
+    "a": 1.0
+  },
+  "Kazakh|Turkmen|a": {
+    "a": 0.875,
+    "aː": 0.125
+  },
+  "Turkmen|Kazakh|a": {
+    "a": 1.0
+  },
+  "Kazakh|Uzbek|a": {
+    "ɔ": 0.8,
+    "a": 0.2
+  },
+  "Uzbek|Kazakh|ɔ": {
+    "a": 1.0
+  },
+  "Turkish|Turkmen|a": {
+    "a": 0.9,
+    "aː": 0.1
+  },
+  "Turkmen|Turkish|a": {
+    "a": 1.0
+  },
+  "Turkish|Uzbek|a": {
+    "ɔ": 0.75,
+    "a": 0.25
+  },
+  "Uzbek|Turkish|ɔ": {
+    "a": 1.0
+  },
+  "Turkmen|Uzbek|a": {
+    "ɔ": 0.6667,
+    "a": 0.3333
+  },
+  "Uzbek|Turkmen|ɔ": {
+    "a": 0.6667,
+    "aː": 0.3333
+  },
+  "Azerbaijani|Kazakh|ɢ": {
+    "q": 1.0
+  },
+  "Kazakh|Azerbaijani|q": {
+    "ɢ": 1.0
+  },
+  "Azerbaijani|Turkish|ɢ": {
+    "k": 0.9091,
+    "q": 0.0909
+  },
+  "Turkish|Azerbaijani|k": {
+    "ɢ": 0.6667,
+    "k": 0.3333
+  },
+  "Azerbaijani|Turkmen|ɢ": {
+    "q": 0.5,
+    "ɢ": 0.5
+  },
+  "Turkmen|Azerbaijani|q": {
+    "ɢ": 1.0
+  },
+  "Azerbaijani|Uzbek|ɢ": {
+    "q": 0.8571,
+    "g": 0.1429
+  },
+  "Uzbek|Azerbaijani|q": {
+    "ɢ": 1.0
+  },
+  "Kazakh|Turkish|q": {
+    "k": 0.8889,
+    "q": 0.1111
+  },
+  "Turkish|Kazakh|k": {
+    "q": 0.6667,
+    "k": 0.3333
+  },
+  "Kazakh|Turkmen|q": {
+    "q": 0.5556,
+    "ɢ": 0.4444
+  },
+  "Turkmen|Kazakh|q": {
+    "q": 1.0
+  },
+  "Kazakh|Uzbek|q": {
+    "q": 1.0
+  },
+  "Uzbek|Kazakh|q": {
+    "q": 1.0
+  },
+  "Turkish|Turkmen|k": {
+    "q": 0.3333,
+    "ɢ": 0.3333,
+    "k": 0.3333
+  },
+  "Turkmen|Turkish|q": {
+    "k": 0.8,
+    "q": 0.2
+  },
+  "Turkish|Uzbek|k": {
+    "q": 0.5,
+    "k": 0.4,
+    "kː": 0.1
+  },
+  "Uzbek|Turkish|q": {
+    "k": 0.8333,
+    "q": 0.1667
+  },
+  "Turkmen|Uzbek|q": {
+    "q": 1.0
+  },
+  "Uzbek|Turkmen|q": {
+    "q": 0.5,
+    "ɢ": 0.5
+  },
+  "Kyrgyz|Uyghur|t": {
+    "t": 1.0
+  },
+  "Uyghur|Kyrgyz|t": {
+    "t": 1.0
+  },
+  "Kyrgyz|Uyghur|ɯ": {
+    "i": 0.5,
+    "u": 0.5
+  },
+  "Uyghur|Kyrgyz|i": {
+    "i": 0.7273,
+    "e": 0.1818,
+    "ɯ": 0.0909
+  },
+  "Kyrgyz|Uyghur|r": {
+    "r": 1.0
+  },
+  "Uyghur|Kyrgyz|r": {
+    "r": 1.0
+  },
+  "Kyrgyz|Uyghur|m": {
+    "m": 1.0
+  },
+  "Uyghur|Kyrgyz|m": {
+    "m": 1.0
+  },
+  "Kyrgyz|Uyghur|a": {
+    "a": 0.8571,
+    "o": 0.1429
+  },
+  "Uyghur|Kyrgyz|a": {
+    "a": 1.0
+  },
+  "Kyrgyz|Uyghur|q": {
+    "q": 1.0
+  },
+  "Uyghur|Kyrgyz|q": {
+    "q": 1.0
+  },
+  "Azerbaijani|Kazakh|b": {
+    "b": 1.0
+  },
+  "Kazakh|Azerbaijani|b": {
+    "b": 1.0
+  },
+  "Azerbaijani|Kyrgyz|b": {
+    "b": 1.0
+  },
+  "Kyrgyz|Azerbaijani|b": {
+    "b": 1.0
+  },
+  "Azerbaijani|Turkish|b": {
+    "b": 1.0
+  },
+  "Turkish|Azerbaijani|b": {
+    "b": 1.0
+  },
+  "Azerbaijani|Turkmen|b": {
+    "b": 1.0
+  },
+  "Turkmen|Azerbaijani|b": {
+    "b": 1.0
+  },
+  "Azerbaijani|Uyghur|b": {
+    "b": 0.75,
+    "p": 0.25
+  },
+  "Uyghur|Azerbaijani|b": {
+    "b": 1.0
+  },
+  "Azerbaijani|Uzbek|b": {
+    "b": 1.0
+  },
+  "Uzbek|Azerbaijani|b": {
+    "b": 0.8333,
+    "j": 0.1667
+  },
+  "Kazakh|Kyrgyz|b": {
+    "b": 1.0
+  },
+  "Kyrgyz|Kazakh|b": {
+    "b": 0.8571,
+    "p": 0.1429
+  },
+  "Kazakh|Turkish|b": {
+    "b": 1.0
+  },
+  "Turkish|Kazakh|b": {
+    "b": 1.0
+  },
+  "Kazakh|Turkmen|b": {
+    "b": 1.0
+  },
+  "Turkmen|Kazakh|b": {
+    "b": 1.0
+  },
+  "Kazakh|Uyghur|b": {
+    "b": 0.8,
+    "p": 0.2
+  },
+  "Uyghur|Kazakh|b": {
+    "b": 1.0
+  },
+  "Kazakh|Uzbek|b": {
+    "b": 1.0
+  },
+  "Uzbek|Kazakh|b": {
+    "b": 1.0
+  },
+  "Kyrgyz|Turkish|b": {
+    "b": 0.8571,
+    "p": 0.1429
+  },
+  "Turkish|Kyrgyz|b": {
+    "b": 1.0
+  },
+  "Kyrgyz|Turkmen|b": {
+    "b": 0.8571,
+    "p": 0.1429
+  },
+  "Turkmen|Kyrgyz|b": {
+    "b": 1.0
+  },
+  "Kyrgyz|Uyghur|b": {
+    "b": 0.75,
+    "p": 0.25
+  },
+  "Uyghur|Kyrgyz|b": {
+    "b": 1.0
+  },
+  "Kyrgyz|Uzbek|b": {
+    "b": 1.0
+  },
+  "Uzbek|Kyrgyz|b": {
+    "b": 1.0
+  },
+  "Turkish|Turkmen|b": {
+    "b": 1.0
+  },
+  "Turkmen|Turkish|b": {
+    "b": 1.0
+  },
+  "Turkish|Uyghur|b": {
+    "b": 0.75,
+    "p": 0.25
+  },
+  "Uyghur|Turkish|b": {
+    "b": 1.0
+  },
+  "Turkish|Uzbek|b": {
+    "b": 1.0
+  },
+  "Uzbek|Turkish|b": {
+    "b": 1.0
+  },
+  "Turkmen|Uyghur|b": {
+    "b": 0.75,
+    "p": 0.25
+  },
+  "Uyghur|Turkmen|b": {
+    "b": 1.0
+  },
+  "Turkmen|Uzbek|b": {
+    "b": 1.0
+  },
+  "Uzbek|Turkmen|b": {
+    "b": 1.0
+  },
+  "Uyghur|Uzbek|b": {
+    "b": 1.0
+  },
+  "Uzbek|Uyghur|b": {
+    "b": 0.8,
+    "p": 0.2
+  },
+  "Azerbaijani|Kazakh|i": {
+    "ĭ": 0.5,
+    "e": 0.25,
+    "i": 0.25
+  },
+  "Kazakh|Azerbaijani|ĭ": {
+    "i": 0.8,
+    "-": 0.2
+  },
+  "Azerbaijani|Kyrgyz|i": {
+    "i": 0.8571,
+    "e": 0.1429
+  },
+  "Kyrgyz|Azerbaijani|i": {
+    "i": 1.0
+  },
+  "Azerbaijani|Turkish|i": {
+    "i": 0.7778,
+    "y": 0.2222
+  },
+  "Turkish|Azerbaijani|i": {
+    "i": 1.0
+  },
+  "Azerbaijani|Turkmen|i": {
+    "i": 1.0
+  },
+  "Turkmen|Azerbaijani|i": {
+    "i": 1.0
+  },
+  "Azerbaijani|Uyghur|i": {
+    "i": 0.8571,
+    "æ": 0.1429
+  },
+  "Uyghur|Azerbaijani|i": {
+    "i": 1.0
+  },
+  "Azerbaijani|Uzbek|i": {
+    "i": 1.0
+  },
+  "Kazakh|Kyrgyz|ĭ": {
+    "i": 1.0
+  },
+  "Kyrgyz|Kazakh|i": {
+    "ĭ": 0.6,
+    "i": 0.2,
+    "-": 0.2
+  },
+  "Kazakh|Turkish|ĭ": {
+    "i": 0.8571,
+    "-": 0.1429
+  },
+  "Turkish|Kazakh|i": {
+    "ĭ": 0.6667,
+    "e": 0.2222,
+    "i": 0.1111
+  },
+  "Kazakh|Turkmen|ĭ": {
+    "i": 0.8,
+    "-": 0.2
+  },
+  "Turkmen|Kazakh|i": {
+    "ĭ": 0.5,
+    "e": 0.25,
+    "i": 0.25
+  },
+  "Kazakh|Uyghur|ĭ": {
+    "i": 0.7143,
+    "-": 0.1429,
+    "æ": 0.1429
+  },
+  "Uyghur|Kazakh|i": {
+    "ĭ": 0.625,
+    "e": 0.25,
+    "i": 0.125
+  },
+  "Kazakh|Uzbek|ĭ": {
+    "i": 1.0
+  },
+  "Kyrgyz|Turkish|i": {
+    "i": 0.7778,
+    "-": 0.2222
+  },
+  "Turkish|Kyrgyz|i": {
+    "i": 0.875,
+    "e": 0.125
+  },
+  "Kyrgyz|Turkmen|i": {
+    "i": 1.0
+  },
+  "Turkmen|Kyrgyz|i": {
+    "i": 0.8571,
+    "e": 0.1429
+  },
+  "Kyrgyz|Uyghur|i": {
+    "i": 0.7273,
+    "-": 0.1818,
+    "æ": 0.0909
+  },
+  "Kyrgyz|Uzbek|i": {
+    "i": 1.0
+  },
+  "Uzbek|Kyrgyz|i": {
+    "i": 0.8333,
+    "ɯ": 0.0833,
+    "e": 0.0833
+  },
+  "Turkish|Turkmen|i": {
+    "i": 1.0
+  },
+  "Turkmen|Turkish|i": {
+    "i": 1.0
+  },
+  "Turkish|Uyghur|i": {
+    "i": 0.8889,
+    "æ": 0.1111
+  },
+  "Uyghur|Turkish|i": {
+    "i": 1.0
+  },
+  "Turkish|Uzbek|i": {
+    "i": 1.0
+  },
+  "Turkmen|Uyghur|i": {
+    "i": 0.75,
+    "-": 0.125,
+    "æ": 0.125
+  },
+  "Uyghur|Turkmen|i": {
+    "i": 0.8571,
+    "-": 0.1429
+  },
+  "Turkmen|Uzbek|i": {
+    "i": 1.0
+  },
+  "Uyghur|Uzbek|i": {
+    "i": 1.0
+  },
+  "Uzbek|Uyghur|i": {
+    "i": 0.7,
+    "-": 0.2,
+    "æ": 0.1
+  },
+  "Azerbaijani|Kazakh|z": {
+    "z": 0.75,
+    "r": 0.25
+  },
+  "Kazakh|Azerbaijani|z": {
+    "z": 0.75,
+    "s": 0.25
+  },
+  "Azerbaijani|Kyrgyz|z": {
+    "z": 1.0
+  },
+  "Kyrgyz|Azerbaijani|z": {
+    "z": 1.0
+  },
+  "Azerbaijani|Turkish|z": {
+    "z": 1.0
+  },
+  "Turkish|Azerbaijani|z": {
+    "z": 1.0
+  },
+  "Azerbaijani|Turkmen|z": {
+    "z": 1.0
+  },
+  "Turkmen|Azerbaijani|z": {
+    "z": 1.0
+  },
+  "Azerbaijani|Uyghur|z": {
+    "z": 1.0
+  },
+  "Uyghur|Azerbaijani|z": {
+    "z": 1.0
+  },
+  "Azerbaijani|Uzbek|z": {
+    "z": 1.0
+  },
+  "Uzbek|Azerbaijani|z": {
+    "z": 1.0
+  },
+  "Kazakh|Kyrgyz|z": {
+    "z": 1.0
+  },
+  "Kyrgyz|Kazakh|z": {
+    "z": 1.0
+  },
+  "Kazakh|Turkish|z": {
+    "z": 0.75,
+    "s": 0.25
+  },
+  "Turkish|Kazakh|z": {
+    "z": 0.75,
+    "r": 0.25
+  },
+  "Kazakh|Turkmen|z": {
+    "z": 0.75,
+    "s": 0.25
+  },
+  "Turkmen|Kazakh|z": {
+    "z": 0.75,
+    "r": 0.25
+  },
+  "Kazakh|Uyghur|z": {
+    "z": 0.75,
+    "s": 0.25
+  },
+  "Uyghur|Kazakh|z": {
+    "z": 0.75,
+    "r": 0.25
+  },
+  "Kazakh|Uzbek|z": {
+    "z": 1.0
+  },
+  "Uzbek|Kazakh|z": {
+    "z": 1.0
+  },
+  "Kyrgyz|Turkish|z": {
+    "z": 1.0
+  },
+  "Turkish|Kyrgyz|z": {
+    "z": 1.0
+  },
+  "Kyrgyz|Turkmen|z": {
+    "z": 1.0
+  },
+  "Turkmen|Kyrgyz|z": {
+    "z": 1.0
+  },
+  "Kyrgyz|Uyghur|z": {
+    "z": 1.0
+  },
+  "Uyghur|Kyrgyz|z": {
+    "z": 1.0
+  },
+  "Kyrgyz|Uzbek|z": {
+    "z": 1.0
+  },
+  "Uzbek|Kyrgyz|z": {
+    "z": 1.0
+  },
+  "Turkish|Turkmen|z": {
+    "z": 1.0
+  },
+  "Turkmen|Turkish|z": {
+    "z": 1.0
+  },
+  "Turkish|Uyghur|z": {
+    "z": 1.0
+  },
+  "Uyghur|Turkish|z": {
+    "z": 1.0
+  },
+  "Turkish|Uzbek|z": {
+    "z": 1.0
+  },
+  "Uzbek|Turkish|z": {
+    "z": 1.0
+  },
+  "Turkmen|Uyghur|z": {
+    "z": 1.0
+  },
+  "Uyghur|Turkmen|z": {
+    "z": 1.0
+  },
+  "Turkmen|Uzbek|z": {
+    "z": 1.0
+  },
+  "Uzbek|Turkmen|z": {
+    "z": 1.0
+  },
+  "Uyghur|Uzbek|z": {
+    "z": 1.0
+  },
+  "Uzbek|Uyghur|z": {
+    "z": 1.0
+  },
+  "Azerbaijani|Kazakh|-": {
+    "s": 0.25,
+    "ĭ": 0.25,
+    "d": 0.25,
+    "l": 0.25
+  },
+  "Kazakh|Azerbaijani|s": {
+    "-": 0.5,
+    "ʃ": 0.5
+  },
+  "Chuvash|Kazakh|-": {
+    "s": 0.3333,
+    "d": 0.3333,
+    "q": 0.3333
+  },
+  "Kazakh|Chuvash|s": {
+    "-": 1.0
+  },
+  "Kazakh|Turkish|s": {
+    "ʃ": 0.6667,
+    "-": 0.3333
+  },
+  "Turkish|Kazakh|-": {
+    "s": 0.2,
+    "ĭ": 0.2,
+    "d": 0.2,
+    "ɯ": 0.2,
+    "l": 0.2
+  },
+  "Kazakh|Turkmen|s": {
+    "-": 0.5,
+    "ʃ": 0.5
+  },
+  "Turkmen|Kazakh|-": {
+    "s": 0.2,
+    "ĭ": 0.2,
+    "d": 0.2,
+    "ɯ": 0.2,
+    "l": 0.2
+  },
+  "Kazakh|Uyghur|s": {
+    "ʃ": 0.75,
+    "-": 0.25
+  },
+  "Uyghur|Kazakh|-": {
+    "s": 0.25,
+    "ĭ": 0.25,
+    "d": 0.25,
+    "l": 0.25
+  },
+  "Kazakh|Yakut|s": {
+    "-": 0.5,
+    "h": 0.5
+  },
+  "Yakut|Kazakh|-": {
+    "s": 0.2,
+    "d": 0.2,
+    "ʃ": 0.2,
+    "k": 0.2,
+    "l": 0.2
+  },
+  "Azerbaijani|Chuvash|-": {
+    "e": 1.0
+  },
+  "Chuvash|Azerbaijani|e": {
+    "-": 1.0
+  },
+  "Azerbaijani|Yakut|-": {
+    "e": 0.5,
+    "i": 0.5
+  },
+  "Yakut|Azerbaijani|e": {
+    "-": 0.5,
+    "æ": 0.5
+  },
+  "Chuvash|Kazakh|e": {
+    "ĭ": 1.0
+  },
+  "Kazakh|Chuvash|ĭ": {
+    "ĭ": 0.75,
+    "e": 0.25
+  },
+  "Chuvash|Turkish|e": {
+    "-": 1.0
+  },
+  "Turkish|Chuvash|-": {
+    "e": 1.0
+  },
+  "Chuvash|Turkmen|e": {
+    "-": 1.0
+  },
+  "Turkmen|Chuvash|-": {
+    "e": 1.0
+  },
+  "Chuvash|Uyghur|e": {
+    "-": 1.0
+  },
+  "Uyghur|Chuvash|-": {
+    "e": 0.3333,
+    "j": 0.3333,
+    "ə": 0.3333
+  },
+  "Chuvash|Yakut|e": {
+    "e": 1.0
+  },
+  "Yakut|Chuvash|e": {
+    "e": 0.5,
+    "a": 0.5
+  },
+  "Kazakh|Yakut|ĭ": {
+    "i": 0.5,
+    "iː": 0.3333,
+    "e": 0.1667
+  },
+  "Yakut|Kazakh|e": {
+    "e": 0.6667,
+    "ĭ": 0.3333
+  },
+  "Turkish|Yakut|-": {
+    "i": 0.3333,
+    "e": 0.1667,
+    "a": 0.1667,
+    "h": 0.1667,
+    "ø": 0.1667
+  },
+  "Yakut|Turkish|e": {
+    "e": 0.6667,
+    "-": 0.3333
+  },
+  "Turkmen|Yakut|-": {
+    "e": 0.5,
+    "i": 0.5
+  },
+  "Yakut|Turkmen|e": {
+    "-": 0.5,
+    "e": 0.5
+  },
+  "Uyghur|Yakut|-": {
+    "i": 0.5,
+    "e": 0.25,
+    "h": 0.25
+  },
+  "Yakut|Uyghur|e": {
+    "-": 0.5,
+    "æ": 0.5
+  },
+  "Azerbaijani|Chuvash|s": {
+    "z": 0.3333,
+    "ʃ": 0.3333,
+    "ɕ": 0.3333
+  },
+  "Chuvash|Azerbaijani|z": {
+    "s": 1.0
+  },
+  "Azerbaijani|Kazakh|s": {
+    "z": 0.5,
+    "ʃ": 0.5
+  },
+  "Azerbaijani|Turkish|s": {
+    "s": 1.0
+  },
+  "Turkish|Azerbaijani|s": {
+    "s": 1.0
+  },
+  "Azerbaijani|Turkmen|s": {
+    "s": 1.0
+  },
+  "Turkmen|Azerbaijani|s": {
+    "s": 1.0
+  },
+  "Azerbaijani|Uyghur|s": {
+    "s": 1.0
+  },
+  "Uyghur|Azerbaijani|s": {
+    "s": 1.0
+  },
+  "Azerbaijani|Yakut|s": {
+    "h": 0.5,
+    "-": 0.5
+  },
+  "Yakut|Azerbaijani|h": {
+    "s": 0.5,
+    "z": 0.5
+  },
+  "Chuvash|Kazakh|z": {
+    "z": 1.0
+  },
+  "Kazakh|Chuvash|z": {
+    "z": 1.0
+  },
+  "Chuvash|Turkish|z": {
+    "s": 1.0
+  },
+  "Turkish|Chuvash|s": {
+    "z": 0.5,
+    "ɕ": 0.5
+  },
+  "Chuvash|Turkmen|z": {
+    "s": 1.0
+  },
+  "Turkmen|Chuvash|s": {
+    "ɕ": 0.6667,
+    "z": 0.3333
+  },
+  "Chuvash|Uyghur|z": {
+    "s": 1.0
+  },
+  "Uyghur|Chuvash|s": {
+    "z": 1.0
+  },
+  "Chuvash|Yakut|z": {
+    "h": 1.0
+  },
+  "Yakut|Chuvash|h": {
+    "z": 0.5,
+    "-": 0.5
+  },
+  "Turkish|Kazakh|s": {
+    "z": 0.5,
+    "ʃ": 0.5
+  },
+  "Turkmen|Kazakh|s": {
+    "z": 0.5,
+    "ʃ": 0.5
+  },
+  "Uyghur|Kazakh|s": {
+    "z": 1.0
+  },
+  "Kazakh|Yakut|z": {
+    "h": 1.0
+  },
+  "Yakut|Kazakh|h": {
+    "z": 0.5,
+    "-": 0.25,
+    "s": 0.25
+  },
+  "Turkish|Turkmen|s": {
+    "s": 1.0
+  },
+  "Turkmen|Turkish|s": {
+    "s": 1.0
+  },
+  "Turkish|Uyghur|s": {
+    "s": 1.0
+  },
+  "Uyghur|Turkish|s": {
+    "s": 1.0
+  },
+  "Turkish|Yakut|s": {
+    "h": 0.5,
+    "-": 0.5
+  },
+  "Yakut|Turkish|h": {
+    "s": 0.2,
+    "z": 0.2,
+    "-": 0.2,
+    "k": 0.2,
+    "ʃ": 0.2
+  },
+  "Turkmen|Uyghur|s": {
+    "s": 1.0
+  },
+  "Uyghur|Turkmen|s": {
+    "s": 1.0
+  },
+  "Turkmen|Yakut|s": {
+    "h": 0.5,
+    "-": 0.5
+  },
+  "Yakut|Turkmen|h": {
+    "s": 0.5,
+    "z": 0.5
+  },
+  "Uyghur|Yakut|s": {
+    "h": 1.0
+  },
+  "Yakut|Uyghur|h": {
+    "s": 0.25,
+    "z": 0.25,
+    "-": 0.25,
+    "ʃ": 0.25
+  },
+  "Kazakh|Azerbaijani|d": {
+    "-": 1.0
+  },
+  "Kazakh|Chuvash|d": {
+    "-": 1.0
+  },
+  "Kazakh|Turkish|d": {
+    "-": 1.0
+  },
+  "Kazakh|Turkmen|d": {
+    "-": 1.0
+  },
+  "Kazakh|Uyghur|d": {
+    "-": 1.0
+  },
+  "Kazakh|Yakut|d": {
+    "-": 1.0
+  },
+  "Azerbaijani|Chuvash|i": {
+    "ĭ": 0.6,
+    "i": 0.4
+  },
+  "Chuvash|Azerbaijani|i": {
+    "i": 0.5,
+    "e": 0.25,
+    "æ": 0.25
+  },
+  "Kazakh|Azerbaijani|e": {
+    "æ": 0.5,
+    "i": 0.3333,
+    "e": 0.1667
+  },
+  "Azerbaijani|Yakut|i": {
+    "i": 0.4286,
+    "ɯ": 0.2857,
+    "iː": 0.2857
+  },
+  "Yakut|Azerbaijani|i": {
+    "i": 0.6,
+    "-": 0.2,
+    "æ": 0.2
+  },
+  "Chuvash|Kazakh|i": {
+    "e": 1.0
+  },
+  "Kazakh|Chuvash|e": {
+    "i": 0.6667,
+    "a": 0.1667,
+    "ɯ": 0.1667
+  },
+  "Chuvash|Turkish|i": {
+    "i": 0.5,
+    "e": 0.5
+  },
+  "Turkish|Chuvash|i": {
+    "ĭ": 0.6,
+    "i": 0.4
+  },
+  "Chuvash|Turkmen|i": {
+    "i": 0.6667,
+    "e": 0.3333
+  },
+  "Turkmen|Chuvash|i": {
+    "ĭ": 0.6,
+    "i": 0.4
+  },
+  "Chuvash|Uyghur|i": {
+    "i": 0.6667,
+    "e": 0.3333
+  },
+  "Uyghur|Chuvash|i": {
+    "i": 0.4,
+    "ĭ": 0.4,
+    "ɯ": 0.2
+  },
+  "Chuvash|Yakut|i": {
+    "i": 1.0
+  },
+  "Yakut|Chuvash|i": {
+    "i": 0.4286,
+    "-": 0.2857,
+    "ɯ": 0.1429,
+    "ĭ": 0.1429
+  },
+  "Kazakh|Turkish|e": {
+    "e": 0.75,
+    "i": 0.25
+  },
+  "Kazakh|Turkmen|e": {
+    "i": 0.4,
+    "e": 0.4,
+    "æ": 0.2
+  },
+  "Kazakh|Uyghur|e": {
+    "i": 0.4,
+    "æ": 0.4,
+    "e": 0.2
+  },
+  "Kazakh|Yakut|e": {
+    "i": 0.6667,
+    "e": 0.3333
+  },
+  "Yakut|Kazakh|i": {
+    "e": 0.4444,
+    "ĭ": 0.3333,
+    "-": 0.2222
+  },
+  "Turkish|Yakut|i": {
+    "i": 0.625,
+    "iː": 0.25,
+    "ɯ": 0.125
+  },
+  "Yakut|Turkish|i": {
+    "i": 0.5556,
+    "-": 0.2222,
+    "e": 0.2222
+  },
+  "Turkmen|Yakut|i": {
+    "i": 0.4286,
+    "ɯ": 0.2857,
+    "iː": 0.2857
+  },
+  "Yakut|Turkmen|i": {
+    "i": 0.6,
+    "-": 0.2,
+    "e": 0.2
+  },
+  "Uyghur|Yakut|i": {
+    "i": 0.7143,
+    "ɯ": 0.1429,
+    "iː": 0.1429
+  },
+  "Yakut|Uyghur|i": {
+    "i": 0.5556,
+    "-": 0.2222,
+    "æ": 0.1111,
+    "e": 0.1111
+  },
+  "Azerbaijani|Chuvash|z": {
+    "r": 1.0
+  },
+  "Chuvash|Azerbaijani|r": {
+    "r": 0.8,
+    "z": 0.2
+  },
+  "Azerbaijani|Yakut|z": {
+    "g": 0.5,
+    "h": 0.5
+  },
+  "Yakut|Azerbaijani|g": {
+    "z": 1.0
+  },
+  "Chuvash|Kazakh|r": {
+    "r": 1.0
+  },
+  "Kazakh|Chuvash|r": {
+    "r": 1.0
+  },
+  "Chuvash|Turkish|r": {
+    "r": 0.8333,
+    "z": 0.1667
+  },
+  "Turkish|Chuvash|z": {
+    "r": 1.0
+  },
+  "Chuvash|Turkmen|r": {
+    "r": 0.75,
+    "z": 0.25
+  },
+  "Turkmen|Chuvash|z": {
+    "r": 1.0
+  },
+  "Chuvash|Uyghur|r": {
+    "r": 0.8,
+    "z": 0.2
+  },
+  "Uyghur|Chuvash|z": {
+    "r": 1.0
+  },
+  "Chuvash|Yakut|r": {
+    "r": 0.75,
+    "g": 0.25
+  },
+  "Yakut|Chuvash|g": {
+    "r": 1.0
+  },
+  "Kazakh|Uyghur|r": {
+    "r": 0.8571,
+    "z": 0.1429
+  },
+  "Kazakh|Yakut|r": {
+    "r": 0.75,
+    "g": 0.25
+  },
+  "Yakut|Kazakh|g": {
+    "r": 1.0
+  },
+  "Turkish|Yakut|z": {
+    "g": 0.5,
+    "h": 0.5
+  },
+  "Yakut|Turkish|g": {
+    "z": 1.0
+  },
+  "Turkmen|Yakut|z": {
+    "g": 0.5,
+    "h": 0.5
+  },
+  "Yakut|Turkmen|g": {
+    "z": 1.0
+  },
+  "Uyghur|Yakut|z": {
+    "g": 0.5,
+    "h": 0.5
+  },
+  "Yakut|Uyghur|g": {
+    "z": 1.0
+  },
+  "Chuvash|Yakut|-": {
+    "i": 0.5,
+    "a": 0.25,
+    "h": 0.25
+  },
+  "Kazakh|Yakut|-": {
+    "i": 0.6667,
+    "h": 0.3333
+  },
+  "Azerbaijani|Kyrgyz|d": {
+    "d": 0.5,
+    "t": 0.5
+  },
+  "Kyrgyz|Azerbaijani|d": {
+    "d": 1.0
+  },
+  "Azerbaijani|Uyghur|d": {
+    "d": 0.5,
+    "t": 0.5
+  },
+  "Uyghur|Azerbaijani|d": {
+    "d": 1.0
+  },
+  "Kyrgyz|Turkish|d": {
+    "t": 1.0
+  },
+  "Turkish|Kyrgyz|t": {
+    "t": 0.6667,
+    "d": 0.3333
+  },
+  "Kyrgyz|Turkmen|d": {
+    "d": 1.0
+  },
+  "Turkmen|Kyrgyz|d": {
+    "d": 0.5,
+    "t": 0.5
+  },
+  "Kyrgyz|Uyghur|d": {
+    "d": 1.0
+  },
+  "Uyghur|Kyrgyz|d": {
+    "d": 1.0
+  },
+  "Turkish|Uyghur|t": {
+    "d": 0.5,
+    "t": 0.5
+  },
+  "Uyghur|Turkish|d": {
+    "t": 1.0
+  },
+  "Turkmen|Uyghur|d": {
+    "d": 0.5,
+    "t": 0.5
+  },
+  "Uyghur|Turkmen|d": {
+    "d": 1.0
+  },
+  "Azerbaijani|Kyrgyz|a": {
+    "a": 1.0
+  },
+  "Kyrgyz|Azerbaijani|a": {
+    "a": 1.0
+  },
+  "Azerbaijani|Uyghur|a": {
+    "a": 1.0
+  },
+  "Uyghur|Azerbaijani|a": {
+    "a": 1.0
+  },
+  "Kyrgyz|Turkish|a": {
+    "a": 1.0
+  },
+  "Turkish|Kyrgyz|a": {
+    "a": 1.0
+  },
+  "Kyrgyz|Turkmen|a": {
+    "a": 0.8571,
+    "aː": 0.1429
+  },
+  "Turkmen|Kyrgyz|a": {
+    "a": 1.0
+  },
+  "Turkish|Uyghur|a": {
+    "a": 1.0
+  },
+  "Uyghur|Turkish|a": {
+    "a": 1.0
+  },
+  "Turkmen|Uyghur|a": {
+    "a": 1.0
+  },
+  "Uyghur|Turkmen|a": {
+    "a": 0.6667,
+    "aː": 0.3333
+  },
+  "Uzbek|Yakut|-": {
+    "ɣ": 1.0
+  },
+  "Yakut|Uzbek|ɣ": {
+    "-": 1.0
+  },
+  "Uzbek|Yakut|o": {
+    "a": 1.0
+  },
+  "Yakut|Uzbek|a": {
+    "o": 1.0
+  },
+  "Azerbaijani|Chuvash|ɢ": {
+    "χ": 0.5,
+    "-": 0.5
+  },
+  "Chuvash|Azerbaijani|χ": {
+    "ɢ": 1.0
+  },
+  "Azerbaijani|Kyrgyz|ɢ": {
+    "q": 1.0
+  },
+  "Kyrgyz|Azerbaijani|q": {
+    "ɢ": 1.0
+  },
+  "Turkmen|Azerbaijani|ɢ": {
+    "ɢ": 1.0
+  },
+  "Chuvash|Kazakh|χ": {
+    "q": 1.0
+  },
+  "Kazakh|Chuvash|q": {
+    "χ": 0.5,
+    "-": 0.5
+  },
+  "Chuvash|Kyrgyz|χ": {
+    "q": 1.0
+  },
+  "Kyrgyz|Chuvash|q": {
+    "χ": 0.5,
+    "-": 0.5
+  },
+  "Chuvash|Turkish|χ": {
+    "k": 1.0
+  },
+  "Turkish|Chuvash|k": {
+    "χ": 0.2,
+    "-": 0.2,
+    "ʑ": 0.2,
+    "n": 0.2,
+    "k": 0.2
+  },
+  "Chuvash|Turkmen|χ": {
+    "ɢ": 1.0
+  },
+  "Turkmen|Chuvash|ɢ": {
+    "χ": 1.0
+  },
+  "Kazakh|Kyrgyz|q": {
+    "q": 1.0
+  },
+  "Kyrgyz|Kazakh|q": {
+    "q": 1.0
+  },
+  "Turkmen|Kazakh|ɢ": {
+    "q": 1.0
+  },
+  "Kyrgyz|Turkish|q": {
+    "k": 0.8571,
+    "q": 0.1429
+  },
+  "Turkish|Kyrgyz|k": {
+    "q": 0.6,
+    "k": 0.4
+  },
+  "Kyrgyz|Turkmen|q": {
+    "q": 0.5714,
+    "ɢ": 0.4286
+  },
+  "Turkmen|Kyrgyz|ɢ": {
+    "q": 1.0
+  },
+  "Turkmen|Turkish|ɢ": {
+    "k": 1.0
+  },
+  "Azerbaijani|Chuvash|a": {
+    "u": 0.3333,
+    "a": 0.3333,
+    "y": 0.3333
+  },
+  "Chuvash|Azerbaijani|u": {
+    "a": 0.5,
+    "ø": 0.5
+  },
+  "Chuvash|Kazakh|u": {
+    "a": 0.5,
+    "ø": 0.5
+  },
+  "Kazakh|Chuvash|a": {
+    "u": 0.5,
+    "y": 0.5
+  },
+  "Chuvash|Kyrgyz|u": {
+    "a": 0.5,
+    "ø": 0.5
+  },
+  "Kyrgyz|Chuvash|a": {
+    "u": 1.0
+  },
+  "Chuvash|Turkish|u": {
+    "a": 0.6667,
+    "ø": 0.3333
+  },
+  "Turkish|Chuvash|a": {
+    "u": 0.5,
+    "a": 0.25,
+    "y": 0.25
+  },
+  "Chuvash|Turkmen|u": {
+    "a": 0.5,
+    "ø": 0.5
+  },
+  "Turkmen|Chuvash|a": {
+    "u": 0.3333,
+    "y": 0.3333,
+    "ɯ": 0.3333
+  },
+  "Kazakh|Kyrgyz|a": {
+    "a": 1.0
+  },
+  "Kyrgyz|Kazakh|a": {
+    "a": 1.0
+  },
+  "Azerbaijani|Chuvash|b": {
+    "b": 0.5,
+    "p": 0.5
+  },
+  "Chuvash|Azerbaijani|b": {
+    "b": 1.0
+  },
+  "Chuvash|Kazakh|b": {
+    "b": 1.0
+  },
+  "Kazakh|Chuvash|b": {
+    "b": 0.5,
+    "p": 0.5
+  },
+  "Chuvash|Kyrgyz|b": {
+    "b": 1.0
+  },
+  "Kyrgyz|Chuvash|b": {
+    "b": 0.5,
+    "p": 0.5
+  },
+  "Chuvash|Turkish|b": {
+    "b": 1.0
+  },
+  "Turkish|Chuvash|b": {
+    "b": 0.5,
+    "p": 0.5
+  },
+  "Chuvash|Turkmen|b": {
+    "b": 1.0
+  },
+  "Turkmen|Chuvash|b": {
+    "b": 0.5,
+    "p": 0.5
+  },
+  "Azerbaijani|Chuvash|ɯ": {
+    "ə": 1.0
+  },
+  "Chuvash|Azerbaijani|ə": {
+    "ɯ": 1.0
+  },
+  "Azerbaijani|Kyrgyz|ɯ": {
+    "ɯ": 1.0
+  },
+  "Kyrgyz|Azerbaijani|ɯ": {
+    "ɯ": 1.0
+  },
+  "Turkish|Azerbaijani|u": {
+    "u": 0.9,
+    "ɯ": 0.1
+  },
+  "Chuvash|Kazakh|ə": {
+    "ɯ": 1.0
+  },
+  "Kazakh|Chuvash|ɯ": {
+    "ə": 1.0
+  },
+  "Chuvash|Kyrgyz|ə": {
+    "ɯ": 1.0
+  },
+  "Kyrgyz|Chuvash|ɯ": {
+    "ə": 1.0
+  },
+  "Chuvash|Turkish|ə": {
+    "u": 1.0
+  },
+  "Turkish|Chuvash|u": {
+    "ə": 0.3333,
+    "ŏ": 0.3333,
+    "a": 0.3333
+  },
+  "Chuvash|Turkmen|ə": {
+    "ɯ": 1.0
+  },
+  "Turkmen|Chuvash|ɯ": {
+    "ə": 1.0
+  },
+  "Kazakh|Kyrgyz|ɯ": {
+    "ɯ": 0.5714,
+    "u": 0.4286
+  },
+  "Kyrgyz|Kazakh|ɯ": {
+    "ɯ": 1.0
+  },
+  "Turkish|Kazakh|u": {
+    "u": 0.6667,
+    "ɯ": 0.3333
+  },
+  "Kyrgyz|Turkish|ɯ": {
+    "u": 0.3333,
+    "ɯ": 0.3333,
+    "-": 0.3333
+  },
+  "Turkish|Kyrgyz|u": {
+    "u": 0.8,
+    "ɯ": 0.2
+  },
+  "Kyrgyz|Turkmen|ɯ": {
+    "ɯ": 0.6667,
+    "-": 0.3333
+  },
+  "Turkmen|Kyrgyz|ɯ": {
+    "ɯ": 0.6667,
+    "u": 0.3333
+  },
+  "Turkish|Turkmen|u": {
+    "u": 0.6667,
+    "ɯ": 0.3333
+  },
+  "Chuvash|Azerbaijani|-": {
+    "ɢ": 0.5,
+    "k": 0.5
+  },
+  "Chuvash|Kyrgyz|-": {
+    "i": 0.4,
+    "q": 0.2,
+    "k": 0.2,
+    "ʃ": 0.2
+  },
+  "Chuvash|Turkish|-": {
+    "k": 0.5,
+    "ɣ": 0.5
+  },
+  "Chuvash|Turkmen|-": {
+    "q": 0.3333,
+    "u": 0.3333,
+    "n": 0.3333
+  },
+  "Turkmen|Chuvash|q": {
+    "-": 1.0
+  },
+  "Turkmen|Kyrgyz|q": {
+    "q": 1.0
+  },
+  "Turkish|Uzbek|y": {
+    "u": 1.0
+  },
+  "Uzbek|Turkish|u": {
+    "u": 0.7143,
+    "y": 0.2857
+  },
+  "Turkish|Uzbek|j": {
+    "j": 1.0
+  },
+  "Uzbek|Turkish|j": {
+    "j": 1.0
+  },
+  "Uzbek|Turkish|k": {
+    "k": 0.5714,
+    "g": 0.2857,
+    "-": 0.1429
+  },
+  "Azerbaijani|Uyghur|ɢ": {
+    "q": 1.0
+  },
+  "Uyghur|Azerbaijani|q": {
+    "ɢ": 1.0
+  },
+  "Kazakh|Uyghur|q": {
+    "q": 1.0
+  },
+  "Uyghur|Kazakh|q": {
+    "q": 1.0
+  },
+  "Turkish|Uyghur|k": {
+    "q": 0.5,
+    "k": 0.375,
+    "kː": 0.125
+  },
+  "Uyghur|Turkish|q": {
+    "k": 1.0
+  },
+  "Turkmen|Uyghur|ɢ": {
+    "q": 1.0
+  },
+  "Uyghur|Turkmen|q": {
+    "ɢ": 0.75,
+    "q": 0.25
+  },
+  "Turkmen|Uzbek|ɢ": {
+    "q": 1.0
+  },
+  "Uyghur|Uzbek|q": {
+    "q": 1.0
+  },
+  "Uzbek|Uyghur|q": {
+    "q": 1.0
+  },
+  "Azerbaijani|Kazakh|u": {
+    "u": 0.8,
+    "ɯ": 0.2
+  },
+  "Kazakh|Azerbaijani|u": {
+    "u": 1.0
+  },
+  "Azerbaijani|Turkish|u": {
+    "u": 1.0
+  },
+  "Azerbaijani|Turkmen|u": {
+    "u": 0.8,
+    "ɯ": 0.2
+  },
+  "Turkmen|Azerbaijani|u": {
+    "u": 1.0
+  },
+  "Azerbaijani|Uyghur|u": {
+    "u": 1.0
+  },
+  "Uyghur|Azerbaijani|u": {
+    "u": 1.0
+  },
+  "Azerbaijani|Uzbek|u": {
+    "u": 1.0
+  },
+  "Uzbek|Azerbaijani|u": {
+    "u": 1.0
+  },
+  "Kazakh|Turkish|u": {
+    "u": 1.0
+  },
+  "Kazakh|Turkmen|u": {
+    "u": 1.0
+  },
+  "Turkmen|Kazakh|u": {
+    "u": 1.0
+  },
+  "Kazakh|Uyghur|u": {
+    "u": 1.0
+  },
+  "Uyghur|Kazakh|u": {
+    "u": 0.625,
+    "ɯ": 0.375
+  },
+  "Kazakh|Uzbek|u": {
+    "u": 1.0
+  },
+  "Uzbek|Kazakh|u": {
+    "u": 0.8,
+    "ɯ": 0.2
+  },
+  "Turkmen|Turkish|u": {
+    "u": 1.0
+  },
+  "Turkish|Uyghur|u": {
+    "u": 1.0
+  },
+  "Uyghur|Turkish|u": {
+    "u": 1.0
+  },
+  "Turkish|Uzbek|u": {
+    "u": 1.0
+  },
+  "Turkmen|Uyghur|u": {
+    "u": 1.0
+  },
+  "Uyghur|Turkmen|u": {
+    "u": 0.8,
+    "ɯ": 0.2
+  },
+  "Turkmen|Uzbek|u": {
+    "u": 1.0
+  },
+  "Uzbek|Turkmen|u": {
+    "u": 0.8,
+    "ɯ": 0.2
+  },
+  "Uyghur|Uzbek|u": {
+    "u": 1.0
+  },
+  "Uzbek|Uyghur|u": {
+    "u": 1.0
+  },
+  "Azerbaijani|Kazakh|ʃ": {
+    "s": 1.0
+  },
+  "Azerbaijani|Turkish|ʃ": {
+    "ʃ": 1.0
+  },
+  "Turkish|Azerbaijani|ʃ": {
+    "ʃ": 1.0
+  },
+  "Azerbaijani|Turkmen|ʃ": {
+    "ʃ": 1.0
+  },
+  "Turkmen|Azerbaijani|ʃ": {
+    "ʃ": 1.0
+  },
+  "Azerbaijani|Uyghur|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uyghur|Azerbaijani|ʃ": {
+    "ʃ": 1.0
+  },
+  "Azerbaijani|Uzbek|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uzbek|Azerbaijani|ʃ": {
+    "ʃ": 1.0
+  },
+  "Turkish|Kazakh|ʃ": {
+    "s": 1.0
+  },
+  "Turkmen|Kazakh|ʃ": {
+    "s": 1.0
+  },
+  "Uyghur|Kazakh|ʃ": {
+    "s": 1.0
+  },
+  "Kazakh|Uzbek|s": {
+    "ʃ": 1.0
+  },
+  "Uzbek|Kazakh|ʃ": {
+    "s": 0.75,
+    "-": 0.25
+  },
+  "Turkish|Turkmen|ʃ": {
+    "ʃ": 1.0
+  },
+  "Turkmen|Turkish|ʃ": {
+    "ʃ": 1.0
+  },
+  "Turkish|Uyghur|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uyghur|Turkish|ʃ": {
+    "ʃ": 1.0
+  },
+  "Turkish|Uzbek|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uzbek|Turkish|ʃ": {
+    "ʃ": 0.6667,
+    "-": 0.3333
+  },
+  "Turkmen|Uyghur|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uyghur|Turkmen|ʃ": {
+    "ʃ": 1.0
+  },
+  "Turkmen|Uzbek|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uzbek|Turkmen|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uyghur|Uzbek|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uzbek|Uyghur|ʃ": {
+    "ʃ": 0.75,
+    "-": 0.25
+  },
+  "Azerbaijani|Yakut|ɢ": {
+    "χ": 1.0
+  },
+  "Yakut|Azerbaijani|χ": {
+    "ɢ": 1.0
+  },
+  "Kazakh|Yakut|q": {
+    "χ": 1.0
+  },
+  "Yakut|Kazakh|χ": {
+    "q": 1.0
+  },
+  "Kyrgyz|Uzbek|q": {
+    "q": 1.0
+  },
+  "Uzbek|Kyrgyz|q": {
+    "q": 1.0
+  },
+  "Kyrgyz|Yakut|q": {
+    "χ": 1.0
+  },
+  "Yakut|Kyrgyz|χ": {
+    "q": 1.0
+  },
+  "Turkish|Yakut|k": {
+    "k": 0.3333,
+    "χ": 0.1667,
+    "-": 0.1667,
+    "h": 0.1667,
+    "kː": 0.1667
+  },
+  "Yakut|Turkish|χ": {
+    "k": 1.0
+  },
+  "Turkmen|Yakut|ɢ": {
+    "χ": 1.0
+  },
+  "Yakut|Turkmen|χ": {
+    "ɢ": 1.0
+  },
+  "Uyghur|Yakut|q": {
+    "χ": 1.0
+  },
+  "Yakut|Uyghur|χ": {
+    "q": 1.0
+  },
+  "Uzbek|Yakut|q": {
+    "χ": 1.0
+  },
+  "Yakut|Uzbek|χ": {
+    "q": 1.0
+  },
+  "Turkmen|Azerbaijani|aː": {
+    "a": 1.0
+  },
+  "Azerbaijani|Yakut|a": {
+    "aː": 0.5,
+    "a": 0.5
+  },
+  "Yakut|Azerbaijani|aː": {
+    "a": 1.0
+  },
+  "Turkmen|Kazakh|aː": {
+    "a": 1.0
+  },
+  "Kazakh|Uyghur|a": {
+    "a": 0.8,
+    "o": 0.2
+  },
+  "Uyghur|Kazakh|a": {
+    "a": 1.0
+  },
+  "Kazakh|Yakut|a": {
+    "aː": 0.5,
+    "a": 0.5
+  },
+  "Yakut|Kazakh|aː": {
+    "a": 1.0
+  },
+  "Turkmen|Kyrgyz|aː": {
+    "a": 1.0
+  },
+  "Kyrgyz|Uzbek|a": {
+    "ɔ": 0.6667,
+    "a": 0.3333
+  },
+  "Uzbek|Kyrgyz|ɔ": {
+    "a": 1.0
+  },
+  "Kyrgyz|Yakut|a": {
+    "aː": 1.0
+  },
+  "Yakut|Kyrgyz|aː": {
+    "a": 1.0
+  },
+  "Turkmen|Turkish|aː": {
+    "a": 1.0
+  },
+  "Turkish|Yakut|a": {
+    "aː": 0.3333,
+    "ɯ": 0.3333,
+    "a": 0.3333
+  },
+  "Yakut|Turkish|aː": {
+    "a": 1.0
+  },
+  "Turkmen|Uyghur|aː": {
+    "a": 1.0
+  },
+  "Turkmen|Uzbek|aː": {
+    "ɔ": 1.0
+  },
+  "Turkmen|Yakut|aː": {
+    "aː": 1.0
+  },
+  "Yakut|Turkmen|aː": {
+    "aː": 1.0
+  },
+  "Uyghur|Uzbek|a": {
+    "ɔ": 1.0
+  },
+  "Uzbek|Uyghur|ɔ": {
+    "a": 1.0
+  },
+  "Uyghur|Yakut|a": {
+    "aː": 1.0
+  },
+  "Yakut|Uyghur|aː": {
+    "a": 1.0
+  },
+  "Uzbek|Yakut|ɔ": {
+    "aː": 1.0
+  },
+  "Yakut|Uzbek|aː": {
+    "ɔ": 1.0
+  },
+  "Azerbaijani|Kyrgyz|n": {
+    "n": 1.0
+  },
+  "Kyrgyz|Azerbaijani|n": {
+    "n": 1.0
+  },
+  "Azerbaijani|Uyghur|n": {
+    "n": 1.0
+  },
+  "Uyghur|Azerbaijani|n": {
+    "n": 1.0
+  },
+  "Azerbaijani|Yakut|n": {
+    "n": 1.0
+  },
+  "Yakut|Azerbaijani|n": {
+    "n": 1.0
+  },
+  "Kazakh|Kyrgyz|n": {
+    "n": 1.0
+  },
+  "Kyrgyz|Kazakh|n": {
+    "n": 1.0
+  },
+  "Kazakh|Uyghur|n": {
+    "n": 1.0
+  },
+  "Uyghur|Kazakh|n": {
+    "n": 1.0
+  },
+  "Kazakh|Yakut|n": {
+    "n": 1.0
+  },
+  "Yakut|Kazakh|n": {
+    "n": 1.0
+  },
+  "Kyrgyz|Turkish|n": {
+    "n": 1.0
+  },
+  "Turkish|Kyrgyz|n": {
+    "n": 1.0
+  },
+  "Kyrgyz|Turkmen|n": {
+    "n": 1.0
+  },
+  "Turkmen|Kyrgyz|n": {
+    "n": 1.0
+  },
+  "Kyrgyz|Uyghur|n": {
+    "n": 0.5,
+    "-": 0.5
+  },
+  "Uyghur|Kyrgyz|n": {
+    "n": 0.6667,
+    "-": 0.3333
+  },
+  "Kyrgyz|Uzbek|n": {
+    "n": 1.0
+  },
+  "Uzbek|Kyrgyz|n": {
+    "n": 1.0
+  },
+  "Kyrgyz|Yakut|n": {
+    "n": 1.0
+  },
+  "Yakut|Kyrgyz|n": {
+    "n": 1.0
+  },
+  "Turkish|Uyghur|n": {
+    "n": 1.0
+  },
+  "Uyghur|Turkish|n": {
+    "n": 1.0
+  },
+  "Turkish|Yakut|n": {
+    "n": 1.0
+  },
+  "Yakut|Turkish|n": {
+    "n": 1.0
+  },
+  "Turkmen|Uyghur|n": {
+    "n": 1.0
+  },
+  "Uyghur|Turkmen|n": {
+    "n": 1.0
+  },
+  "Turkmen|Yakut|n": {
+    "n": 1.0
+  },
+  "Yakut|Turkmen|n": {
+    "n": 1.0
+  },
+  "Uyghur|Uzbek|n": {
+    "n": 1.0
+  },
+  "Uzbek|Uyghur|n": {
+    "n": 1.0
+  },
+  "Uyghur|Yakut|n": {
+    "n": 1.0
+  },
+  "Yakut|Uyghur|n": {
+    "n": 1.0
+  },
+  "Uzbek|Yakut|n": {
+    "n": 1.0
+  },
+  "Yakut|Uzbek|n": {
+    "n": 1.0
+  },
+  "Chuvash|Azerbaijani|ʃ": {
+    "s": 1.0
+  },
+  "Azerbaijani|Chuvash|y": {
+    "ŏ": 1.0
+  },
+  "Chuvash|Azerbaijani|ŏ": {
+    "y": 0.6667,
+    "u": 0.3333
+  },
+  "Azerbaijani|Chuvash|m": {
+    "m": 1.0
+  },
+  "Chuvash|Azerbaijani|m": {
+    "m": 1.0
+  },
+  "Azerbaijani|Chuvash|k": {
+    "-": 0.5,
+    "k": 0.5
+  },
+  "Kyrgyz|Uyghur|s": {
+    "s": 1.0
+  },
+  "Uyghur|Kyrgyz|s": {
+    "s": 1.0
+  },
+  "Kyrgyz|Uyghur|øː": {
+    "ø": 1.0
+  },
+  "Uyghur|Kyrgyz|ø": {
+    "ø": 0.6667,
+    "øː": 0.3333
+  },
+  "Kyrgyz|Uyghur|-": {
+    "ŋ": 0.3333,
+    "ɛ": 0.3333,
+    "n": 0.3333
+  },
+  "Uyghur|Kyrgyz|ŋ": {
+    "-": 1.0
+  },
+  "Uyghur|Kyrgyz|ɛ": {
+    "-": 1.0
+  },
+  "Kyrgyz|Uyghur|k": {
+    "k": 0.8,
+    "-": 0.1,
+    "kː": 0.1
+  },
+  "Uyghur|Kyrgyz|k": {
+    "k": 1.0
+  },
+  "Kazakh|Azerbaijani|i": {
+    "i": 1.0
+  },
+  "Yakut|Azerbaijani|ɯ": {
+    "i": 1.0
+  },
+  "Kazakh|Kyrgyz|i": {
+    "i": 1.0
+  },
+  "Kazakh|Turkmen|i": {
+    "i": 1.0
+  },
+  "Kazakh|Uzbek|i": {
+    "i": 1.0
+  },
+  "Kazakh|Yakut|i": {
+    "ɯ": 1.0
+  },
+  "Yakut|Kazakh|ɯ": {
+    "i": 1.0
+  },
+  "Kyrgyz|Yakut|i": {
+    "i": 0.4444,
+    "ɯ": 0.2222,
+    "iː": 0.2222,
+    "-": 0.1111
+  },
+  "Yakut|Kyrgyz|ɯ": {
+    "i": 1.0
+  },
+  "Yakut|Turkmen|ɯ": {
+    "i": 1.0
+  },
+  "Uzbek|Yakut|i": {
+    "i": 0.5,
+    "ɯ": 0.2,
+    "iː": 0.2,
+    "-": 0.1
+  },
+  "Yakut|Uzbek|ɯ": {
+    "i": 1.0
+  },
+  "Azerbaijani|Kazakh|t": {
+    "t": 1.0
+  },
+  "Azerbaijani|Kyrgyz|t": {
+    "t": 1.0
+  },
+  "Kyrgyz|Azerbaijani|t": {
+    "t": 0.75,
+    "d": 0.25
+  },
+  "Azerbaijani|Turkmen|t": {
+    "t": 1.0
+  },
+  "Turkmen|Azerbaijani|t": {
+    "t": 1.0
+  },
+  "Azerbaijani|Uzbek|t": {
+    "t": 1.0
+  },
+  "Azerbaijani|Yakut|t": {
+    "t": 1.0
+  },
+  "Yakut|Azerbaijani|t": {
+    "t": 0.6,
+    "d": 0.4
+  },
+  "Kazakh|Kyrgyz|t": {
+    "t": 1.0
+  },
+  "Kyrgyz|Kazakh|t": {
+    "t": 1.0
+  },
+  "Turkmen|Kazakh|t": {
+    "t": 1.0
+  },
+  "Kazakh|Yakut|t": {
+    "t": 1.0
+  },
+  "Yakut|Kazakh|t": {
+    "t": 1.0
+  },
+  "Kyrgyz|Turkmen|t": {
+    "t": 0.75,
+    "d": 0.25
+  },
+  "Turkmen|Kyrgyz|t": {
+    "t": 1.0
+  },
+  "Kyrgyz|Uzbek|t": {
+    "t": 1.0
+  },
+  "Uzbek|Kyrgyz|t": {
+    "t": 1.0
+  },
+  "Kyrgyz|Yakut|t": {
+    "t": 1.0
+  },
+  "Yakut|Kyrgyz|t": {
+    "t": 1.0
+  },
+  "Turkmen|Uzbek|t": {
+    "t": 1.0
+  },
+  "Turkmen|Yakut|t": {
+    "t": 1.0
+  },
+  "Yakut|Turkmen|t": {
+    "t": 0.75,
+    "d": 0.25
+  },
+  "Uzbek|Yakut|t": {
+    "t": 1.0
+  },
+  "Yakut|Uzbek|t": {
+    "t": 1.0
+  },
+  "Chuvash|Uyghur|j": {
+    "-": 1.0
+  },
+  "Chuvash|Uyghur|ɯ": {
+    "i": 0.5,
+    "æ": 0.5
+  },
+  "Chuvash|Uyghur|-": {
+    "ʃ": 1.0
+  },
+  "Uyghur|Chuvash|ʃ": {
+    "-": 1.0
+  },
+  "Chuvash|Uyghur|d": {
+    "t": 1.0
+  },
+  "Uyghur|Chuvash|t": {
+    "d": 0.5,
+    "t": 0.5
+  },
+  "Chuvash|Uyghur|ə": {
+    "-": 1.0
+  },
+  "Azerbaijani|Kyrgyz|u": {
+    "u": 1.0
+  },
+  "Kyrgyz|Azerbaijani|u": {
+    "u": 1.0
+  },
+  "Kazakh|Kyrgyz|u": {
+    "u": 1.0
+  },
+  "Kyrgyz|Kazakh|u": {
+    "u": 0.625,
+    "ɯ": 0.375
+  },
+  "Kyrgyz|Turkish|u": {
+    "u": 1.0
+  },
+  "Kyrgyz|Turkmen|u": {
+    "u": 0.75,
+    "ɯ": 0.25
+  },
+  "Turkmen|Kyrgyz|u": {
+    "u": 1.0
+  },
+  "Kyrgyz|Uyghur|u": {
+    "u": 1.0
+  },
+  "Uyghur|Kyrgyz|u": {
+    "u": 0.8571,
+    "ɯ": 0.1429
+  },
+  "Kyrgyz|Uzbek|u": {
+    "u": 1.0
+  },
+  "Uzbek|Kyrgyz|u": {
+    "u": 1.0
+  },
+  "Azerbaijani|Kazakh|l": {
+    "l": 1.0
+  },
+  "Kazakh|Azerbaijani|l": {
+    "l": 0.6667,
+    "-": 0.3333
+  },
+  "Azerbaijani|Kyrgyz|l": {
+    "l": 1.0
+  },
+  "Kyrgyz|Azerbaijani|l": {
+    "l": 1.0
+  },
+  "Azerbaijani|Turkish|l": {
+    "l": 1.0
+  },
+  "Turkish|Azerbaijani|l": {
+    "l": 1.0
+  },
+  "Azerbaijani|Turkmen|l": {
+    "l": 1.0
+  },
+  "Turkmen|Azerbaijani|l": {
+    "l": 1.0
+  },
+  "Azerbaijani|Uyghur|l": {
+    "l": 1.0
+  },
+  "Uyghur|Azerbaijani|l": {
+    "l": 1.0
+  },
+  "Azerbaijani|Uzbek|l": {
+    "l": 1.0
+  },
+  "Uzbek|Azerbaijani|l": {
+    "l": 1.0
+  },
+  "Kazakh|Kyrgyz|l": {
+    "l": 0.6667,
+    "-": 0.3333
+  },
+  "Kyrgyz|Kazakh|l": {
+    "l": 0.6667,
+    "-": 0.3333
+  },
+  "Kazakh|Turkish|l": {
+    "l": 0.6667,
+    "-": 0.3333
+  },
+  "Turkish|Kazakh|l": {
+    "l": 1.0
+  },
+  "Kazakh|Turkmen|l": {
+    "l": 0.6667,
+    "-": 0.3333
+  },
+  "Turkmen|Kazakh|l": {
+    "l": 1.0
+  },
+  "Kazakh|Uyghur|l": {
+    "l": 0.5,
+    "-": 0.5
+  },
+  "Uyghur|Kazakh|l": {
+    "l": 1.0
+  },
+  "Kazakh|Uzbek|l": {
+    "l": 0.6667,
+    "-": 0.3333
+  },
+  "Uzbek|Kazakh|l": {
+    "l": 1.0
+  },
+  "Kyrgyz|Turkish|l": {
+    "l": 0.6667,
+    "-": 0.3333
+  },
+  "Turkish|Kyrgyz|l": {
+    "l": 1.0
+  },
+  "Kyrgyz|Turkmen|l": {
+    "l": 0.6667,
+    "-": 0.3333
+  },
+  "Turkmen|Kyrgyz|l": {
+    "l": 1.0
+  },
+  "Kyrgyz|Uyghur|l": {
+    "l": 1.0
+  },
+  "Uyghur|Kyrgyz|l": {
+    "l": 1.0
+  },
+  "Kyrgyz|Uzbek|l": {
+    "l": 1.0
+  },
+  "Uzbek|Kyrgyz|l": {
+    "l": 1.0
+  },
+  "Turkish|Turkmen|l": {
+    "l": 1.0
+  },
+  "Turkmen|Turkish|l": {
+    "l": 1.0
+  },
+  "Turkish|Uyghur|l": {
+    "l": 1.0
+  },
+  "Uyghur|Turkish|l": {
+    "l": 1.0
+  },
+  "Turkish|Uzbek|l": {
+    "l": 1.0
+  },
+  "Uzbek|Turkish|l": {
+    "l": 1.0
+  },
+  "Turkmen|Uyghur|l": {
+    "l": 1.0
+  },
+  "Uyghur|Turkmen|l": {
+    "l": 1.0
+  },
+  "Turkmen|Uzbek|l": {
+    "l": 1.0
+  },
+  "Uzbek|Turkmen|l": {
+    "l": 1.0
+  },
+  "Uyghur|Uzbek|l": {
+    "l": 1.0
+  },
+  "Uzbek|Uyghur|l": {
+    "l": 1.0
+  },
+  "Turkmen|Uyghur|q": {
+    "q": 1.0
+  },
+  "Azerbaijani|Chuvash|j": {
+    "ɕ": 1.0
+  },
+  "Chuvash|Azerbaijani|ɕ": {
+    "j": 0.5,
+    "s": 0.25,
+    "tɕ": 0.25
+  },
+  "Azerbaijani|Kazakh|j": {
+    "ʒ": 1.0
+  },
+  "Kazakh|Azerbaijani|ʒ": {
+    "j": 1.0
+  },
+  "Azerbaijani|Kyrgyz|j": {
+    "ʥ": 1.0
+  },
+  "Kyrgyz|Azerbaijani|ʥ": {
+    "j": 1.0
+  },
+  "Azerbaijani|Turkish|j": {
+    "j": 1.0
+  },
+  "Turkish|Azerbaijani|j": {
+    "j": 1.0
+  },
+  "Azerbaijani|Uzbek|j": {
+    "j": 0.5,
+    "b": 0.5
+  },
+  "Uzbek|Azerbaijani|j": {
+    "j": 1.0
+  },
+  "Chuvash|Kazakh|ɕ": {
+    "ʃ": 0.6667,
+    "ʒ": 0.3333
+  },
+  "Kazakh|Chuvash|ʒ": {
+    "ɕ": 1.0
+  },
+  "Chuvash|Kyrgyz|ɕ": {
+    "ʥ": 1.0
+  },
+  "Kyrgyz|Chuvash|ʥ": {
+    "ɕ": 1.0
+  },
+  "Chuvash|Turkish|ɕ": {
+    "j": 0.6,
+    "s": 0.2,
+    "tɕ": 0.2
+  },
+  "Turkish|Chuvash|j": {
+    "ɕ": 1.0
+  },
+  "Chuvash|Uzbek|ɕ": {
+    "j": 1.0
+  },
+  "Uzbek|Chuvash|j": {
+    "ɕ": 1.0
+  },
+  "Kazakh|Kyrgyz|ʒ": {
+    "ʥ": 1.0
+  },
+  "Kyrgyz|Kazakh|ʥ": {
+    "ʒ": 1.0
+  },
+  "Kazakh|Turkish|ʒ": {
+    "j": 1.0
+  },
+  "Turkish|Kazakh|j": {
+    "ʒ": 1.0
+  },
+  "Kazakh|Uzbek|ʒ": {
+    "j": 1.0
+  },
+  "Uzbek|Kazakh|j": {
+    "ʒ": 1.0
+  },
+  "Kyrgyz|Turkish|ʥ": {
+    "j": 1.0
+  },
+  "Turkish|Kyrgyz|j": {
+    "ʥ": 1.0
+  },
+  "Kyrgyz|Uzbek|ʥ": {
+    "j": 1.0
+  },
+  "Uzbek|Kyrgyz|j": {
+    "ʥ": 1.0
+  },
+  "Azerbaijani|Chuvash|e": {
+    "i": 1.0
+  },
+  "Azerbaijani|Kazakh|e": {
+    "e": 1.0
+  },
+  "Azerbaijani|Kyrgyz|e": {
+    "e": 1.0
+  },
+  "Kyrgyz|Azerbaijani|e": {
+    "æ": 0.5,
+    "e": 0.25,
+    "i": 0.25
+  },
+  "Azerbaijani|Turkish|e": {
+    "e": 1.0
+  },
+  "Turkish|Azerbaijani|e": {
+    "æ": 0.75,
+    "e": 0.25
+  },
+  "Azerbaijani|Uzbek|e": {
+    "e": 1.0
+  },
+  "Uzbek|Azerbaijani|e": {
+    "e": 0.5,
+    "æ": 0.5
+  },
+  "Chuvash|Kyrgyz|i": {
+    "e": 1.0
+  },
+  "Kyrgyz|Chuvash|e": {
+    "i": 0.6,
+    "a": 0.2,
+    "ɯ": 0.2
+  },
+  "Turkish|Chuvash|e": {
+    "i": 0.5,
+    "a": 0.25,
+    "ɯ": 0.25
+  },
+  "Chuvash|Uzbek|i": {
+    "e": 0.6667,
+    "i": 0.3333
+  },
+  "Uzbek|Chuvash|e": {
+    "i": 0.6667,
+    "a": 0.3333
+  },
+  "Kazakh|Kyrgyz|e": {
+    "e": 1.0
+  },
+  "Kyrgyz|Kazakh|e": {
+    "e": 1.0
+  },
+  "Turkish|Kazakh|e": {
+    "e": 1.0
+  },
+  "Kazakh|Uzbek|e": {
+    "e": 0.4286,
+    "a": 0.2857,
+    "i": 0.2857
+  },
+  "Uzbek|Kazakh|e": {
+    "e": 1.0
+  },
+  "Kyrgyz|Turkish|e": {
+    "e": 0.8333,
+    "i": 0.1667
+  },
+  "Turkish|Kyrgyz|e": {
+    "e": 1.0
+  },
+  "Kyrgyz|Uzbek|e": {
+    "e": 0.6,
+    "a": 0.2,
+    "i": 0.2
+  },
+  "Uzbek|Kyrgyz|e": {
+    "e": 1.0
+  },
+  "Turkish|Uzbek|e": {
+    "e": 0.75,
+    "a": 0.25
+  },
+  "Uzbek|Turkish|e": {
+    "e": 1.0
+  },
+  "Uyghur|Turkmen|-": {
+    "i": 1.0
+  },
+  "Turkmen|Uyghur|j": {
+    "j": 1.0
+  },
+  "Uyghur|Turkmen|j": {
+    "j": 1.0
+  },
+  "Turkmen|Uyghur|-": {
+    "i": 1.0
+  },
+  "Azerbaijani|Chuvash|u": {
+    "ŏ": 0.5,
+    "a": 0.5
+  },
+  "Chuvash|Turkish|ŏ": {
+    "u": 1.0
+  },
+  "Azerbaijani|Turkish|m": {
+    "m": 1.0
+  },
+  "Turkish|Azerbaijani|m": {
+    "m": 1.0
+  },
+  "Chuvash|Turkish|m": {
+    "m": 1.0
+  },
+  "Turkish|Chuvash|m": {
+    "m": 1.0
+  },
+  "Chuvash|Azerbaijani|a": {
+    "u": 0.5,
+    "a": 0.5
+  },
+  "Chuvash|Turkish|a": {
+    "u": 0.3333,
+    "a": 0.3333,
+    "e": 0.3333
+  },
+  "Azerbaijani|Chuvash|r": {
+    "r": 1.0
+  },
+  "Turkish|Chuvash|r": {
+    "r": 1.0
+  },
+  "Azerbaijani|Chuvash|t": {
+    "d": 1.0
+  },
+  "Chuvash|Azerbaijani|d": {
+    "t": 1.0
+  },
+  "Azerbaijani|Turkish|t": {
+    "t": 1.0
+  },
+  "Chuvash|Turkish|d": {
+    "t": 1.0
+  },
+  "Turkish|Chuvash|t": {
+    "d": 1.0
+  },
+  "Kazakh|Kyrgyz|m": {
+    "m": 1.0
+  },
+  "Kyrgyz|Kazakh|m": {
+    "m": 1.0
+  },
+  "Kazakh|Kyrgyz|r": {
+    "r": 1.0
+  },
+  "Kyrgyz|Kazakh|r": {
+    "r": 1.0
+  },
+  "Azerbaijani|Kazakh|k": {
+    "k": 1.0
+  },
+  "Kazakh|Azerbaijani|k": {
+    "k": 0.6667,
+    "gʲ": 0.3333
+  },
+  "Azerbaijani|Kyrgyz|k": {
+    "k": 1.0
+  },
+  "Kyrgyz|Azerbaijani|k": {
+    "k": 0.6667,
+    "gʲ": 0.3333
+  },
+  "Azerbaijani|Turkish|k": {
+    "k": 0.8333,
+    "g": 0.1667
+  },
+  "Turkish|Azerbaijani|g": {
+    "k": 0.5,
+    "gʲ": 0.5
+  },
+  "Azerbaijani|Turkmen|k": {
+    "k": 0.75,
+    "g": 0.25
+  },
+  "Turkmen|Azerbaijani|g": {
+    "k": 0.5,
+    "gʲ": 0.5
+  },
+  "Azerbaijani|Uyghur|k": {
+    "k": 0.5,
+    "kː": 0.5
+  },
+  "Uyghur|Azerbaijani|k": {
+    "k": 0.5,
+    "gʲ": 0.5
+  },
+  "Azerbaijani|Uzbek|k": {
+    "k": 0.5,
+    "kː": 0.5
+  },
+  "Uzbek|Azerbaijani|k": {
+    "k": 0.5,
+    "gʲ": 0.5
+  },
+  "Kazakh|Kyrgyz|k": {
+    "k": 1.0
+  },
+  "Kyrgyz|Kazakh|k": {
+    "k": 0.8571,
+    "-": 0.1429
+  },
+  "Kazakh|Turkish|k": {
+    "k": 0.6667,
+    "g": 0.3333
+  },
+  "Turkish|Kazakh|g": {
+    "k": 1.0
+  },
+  "Kazakh|Turkmen|k": {
+    "g": 0.6667,
+    "k": 0.3333
+  },
+  "Turkmen|Kazakh|g": {
+    "k": 1.0
+  },
+  "Kazakh|Uyghur|k": {
+    "k": 0.8333,
+    "kː": 0.1667
+  },
+  "Uyghur|Kazakh|k": {
+    "k": 1.0
+  },
+  "Kazakh|Uzbek|k": {
+    "k": 0.875,
+    "kː": 0.125
+  },
+  "Uzbek|Kazakh|k": {
+    "k": 0.875,
+    "-": 0.125
+  },
+  "Kyrgyz|Turkish|k": {
+    "k": 0.5714,
+    "g": 0.2857,
+    "-": 0.1429
+  },
+  "Turkish|Kyrgyz|g": {
+    "k": 1.0
+  },
+  "Kyrgyz|Turkmen|k": {
+    "g": 0.6667,
+    "k": 0.3333
+  },
+  "Turkmen|Kyrgyz|g": {
+    "k": 1.0
+  },
+  "Kyrgyz|Uzbek|k": {
+    "k": 0.8571,
+    "kː": 0.1429
+  },
+  "Uzbek|Kyrgyz|k": {
+    "k": 1.0
+  },
+  "Turkish|Turkmen|g": {
+    "g": 1.0
+  },
+  "Turkmen|Turkish|g": {
+    "g": 1.0
+  },
+  "Turkish|Uyghur|g": {
+    "k": 1.0
+  },
+  "Uyghur|Turkish|k": {
+    "k": 0.6,
+    "g": 0.4
+  },
+  "Turkish|Uzbek|g": {
+    "k": 1.0
+  },
+  "Turkmen|Uyghur|g": {
+    "k": 1.0
+  },
+  "Uyghur|Turkmen|k": {
+    "g": 1.0
+  },
+  "Turkmen|Uzbek|g": {
+    "k": 1.0
+  },
+  "Uzbek|Turkmen|k": {
+    "g": 1.0
+  },
+  "Uyghur|Uzbek|k": {
+    "k": 1.0
+  },
+  "Uzbek|Uyghur|k": {
+    "k": 0.8333,
+    "-": 0.1667
+  },
+  "Azerbaijani|Kazakh|ø": {
+    "ø": 1.0
+  },
+  "Kazakh|Azerbaijani|ø": {
+    "ø": 1.0
+  },
+  "Azerbaijani|Kyrgyz|ø": {
+    "ø": 1.0
+  },
+  "Kyrgyz|Azerbaijani|ø": {
+    "ø": 1.0
+  },
+  "Azerbaijani|Turkish|ø": {
+    "ø": 1.0
+  },
+  "Turkish|Azerbaijani|ø": {
+    "ø": 1.0
+  },
+  "Azerbaijani|Turkmen|ø": {
+    "ø": 1.0
+  },
+  "Turkmen|Azerbaijani|ø": {
+    "ø": 1.0
+  },
+  "Azerbaijani|Uyghur|ø": {
+    "ø": 1.0
+  },
+  "Uyghur|Azerbaijani|ø": {
+    "ø": 1.0
+  },
+  "Azerbaijani|Uzbek|ø": {
+    "o": 1.0
+  },
+  "Uzbek|Azerbaijani|o": {
+    "ø": 1.0
+  },
+  "Kazakh|Kyrgyz|ø": {
+    "ø": 1.0
+  },
+  "Kyrgyz|Kazakh|ø": {
+    "ø": 1.0
+  },
+  "Kazakh|Turkish|ø": {
+    "ø": 1.0
+  },
+  "Turkish|Kazakh|ø": {
+    "ø": 1.0
+  },
+  "Kazakh|Turkmen|ø": {
+    "ø": 1.0
+  },
+  "Turkmen|Kazakh|ø": {
+    "ø": 1.0
+  },
+  "Kazakh|Uyghur|ø": {
+    "ø": 1.0
+  },
+  "Uyghur|Kazakh|ø": {
+    "ø": 1.0
+  },
+  "Kazakh|Uzbek|ø": {
+    "o": 1.0
+  },
+  "Uzbek|Kazakh|o": {
+    "ø": 1.0
+  },
+  "Kyrgyz|Turkish|ø": {
+    "ø": 1.0
+  },
+  "Turkish|Kyrgyz|ø": {
+    "ø": 1.0
+  },
+  "Kyrgyz|Turkmen|ø": {
+    "ø": 1.0
+  },
+  "Turkmen|Kyrgyz|ø": {
+    "ø": 1.0
+  },
+  "Kyrgyz|Uyghur|ø": {
+    "ø": 1.0
+  },
+  "Kyrgyz|Uzbek|ø": {
+    "o": 1.0
+  },
+  "Uzbek|Kyrgyz|o": {
+    "ø": 1.0
+  },
+  "Turkish|Turkmen|ø": {
+    "ø": 1.0
+  },
+  "Turkmen|Turkish|ø": {
+    "ø": 1.0
+  },
+  "Turkish|Uyghur|ø": {
+    "ø": 1.0
+  },
+  "Uyghur|Turkish|ø": {
+    "ø": 1.0
+  },
+  "Turkish|Uzbek|ø": {
+    "o": 1.0
+  },
+  "Uzbek|Turkish|o": {
+    "ø": 1.0
+  },
+  "Turkmen|Uyghur|ø": {
+    "ø": 1.0
+  },
+  "Uyghur|Turkmen|ø": {
+    "ø": 1.0
+  },
+  "Turkmen|Uzbek|ø": {
+    "o": 1.0
+  },
+  "Uzbek|Turkmen|o": {
+    "ø": 1.0
+  },
+  "Uyghur|Uzbek|ø": {
+    "o": 1.0
+  },
+  "Uzbek|Uyghur|o": {
+    "ø": 1.0
+  },
+  "Turkish|Azerbaijani|d": {
+    "d": 1.0
+  },
+  "Azerbaijani|Yakut|d": {
+    "t": 1.0
+  },
+  "Turkish|Yakut|d": {
+    "t": 1.0
+  },
+  "Yakut|Turkish|t": {
+    "d": 0.4,
+    "t": 0.4,
+    "tɕ": 0.2
+  },
+  "Azerbaijani|Turkish|y": {
+    "y": 1.0
+  },
+  "Turkish|Azerbaijani|y": {
+    "i": 0.6667,
+    "y": 0.3333
+  },
+  "Azerbaijani|Yakut|y": {
+    "y": 1.0
+  },
+  "Yakut|Azerbaijani|y": {
+    "y": 1.0
+  },
+  "Turkish|Yakut|y": {
+    "y": 1.0
+  },
+  "Yakut|Turkish|y": {
+    "y": 1.0
+  },
+  "Azerbaijani|Yakut|ʃ": {
+    "s": 1.0
+  },
+  "Yakut|Azerbaijani|s": {
+    "ʃ": 0.5,
+    "tɕ": 0.5
+  },
+  "Turkish|Yakut|ʃ": {
+    "s": 0.5,
+    "h": 0.5
+  },
+  "Yakut|Turkish|s": {
+    "ʃ": 0.3333,
+    "j": 0.3333,
+    "tɕ": 0.3333
+  },
+  "Kazakh|Uyghur|m": {
+    "m": 1.0
+  },
+  "Uyghur|Kazakh|m": {
+    "m": 1.0
+  },
+  "Kazakh|Kyrgyz|j": {
+    "j": 1.0
+  },
+  "Kyrgyz|Kazakh|j": {
+    "j": 1.0
+  },
+  "Kazakh|Uyghur|j": {
+    "j": 1.0
+  },
+  "Uyghur|Kazakh|j": {
+    "j": 1.0
+  },
+  "Kyrgyz|Uyghur|j": {
+    "j": 0.6667,
+    "-": 0.3333
+  },
+  "Uyghur|Kyrgyz|j": {
+    "j": 1.0
+  },
+  "Chuvash|Yakut|ɕ": {
+    "s": 0.6667,
+    "-": 0.3333
+  },
+  "Yakut|Chuvash|s": {
+    "ɕ": 1.0
+  },
+  "Turkish|Yakut|j": {
+    "s": 1.0
+  },
+  "Chuvash|Yakut|u": {
+    "ɯ": 1.0
+  },
+  "Yakut|Chuvash|ɯ": {
+    "u": 1.0
+  },
+  "Yakut|Turkish|ɯ": {
+    "a": 0.5,
+    "i": 0.5
+  },
+  "Turkish|Chuvash|ɣ": {
+    "-": 1.0
+  },
+  "Turkish|Yakut|ɣ": {
+    "-": 1.0
+  },
+  "Yakut|Turkish|-": {
+    "ɣ": 0.3333,
+    "s": 0.3333,
+    "k": 0.3333
+  },
+  "Yakut|Chuvash|a": {
+    "-": 0.5,
+    "y": 0.5
+  },
+  "Yakut|Turkish|a": {
+    "-": 0.5,
+    "a": 0.5
+  },
+  "Uzbek|Azerbaijani|a": {
+    "a": 1.0
+  },
+  "Uzbek|Kazakh|a": {
+    "e": 0.6667,
+    "a": 0.3333
+  },
+  "Uzbek|Kyrgyz|a": {
+    "a": 0.5,
+    "e": 0.5
+  },
+  "Uzbek|Turkish|a": {
+    "a": 0.5,
+    "e": 0.5
+  },
+  "Uzbek|Turkmen|a": {
+    "a": 1.0
+  },
+  "Turkish|Kyrgyz|ɯ": {
+    "ɯ": 1.0
+  },
+  "Kyrgyz|Uzbek|ɯ": {
+    "i": 1.0
+  },
+  "Turkish|Azerbaijani|q": {
+    "ɢ": 1.0
+  },
+  "Turkish|Kazakh|q": {
+    "q": 1.0
+  },
+  "Turkish|Kyrgyz|q": {
+    "q": 1.0
+  },
+  "Turkish|Turkmen|q": {
+    "q": 1.0
+  },
+  "Turkish|Uzbek|q": {
+    "q": 1.0
+  },
+  "Kyrgyz|Yakut|tɕ": {
+    "s": 1.0
+  },
+  "Yakut|Kyrgyz|s": {
+    "tɕ": 0.5,
+    "k": 0.5
+  },
+  "Kyrgyz|Yakut|e": {
+    "i": 0.4286,
+    "e": 0.2857,
+    "yː": 0.1429,
+    "-": 0.1429
+  },
+  "Yakut|Kyrgyz|yː": {
+    "e": 1.0
+  },
+  "Kyrgyz|Yakut|k": {
+    "k": 0.3333,
+    "-": 0.3333,
+    "s": 0.1667,
+    "kː": 0.1667
+  },
+  "Yakut|Kyrgyz|-": {
+    "k": 0.5,
+    "e": 0.25,
+    "i": 0.25
+  },
+  "Kazakh|Azerbaijani|ʃ": {
+    "s": 0.5,
+    "tɕ": 0.5
+  },
+  "Yakut|Azerbaijani|-": {
+    "s": 1.0
+  },
+  "Kazakh|Chuvash|ʃ": {
+    "ɕ": 1.0
+  },
+  "Chuvash|Turkmen|ɕ": {
+    "s": 0.6667,
+    "tɕ": 0.3333
+  },
+  "Yakut|Chuvash|-": {
+    "ɕ": 0.5,
+    "n": 0.5
+  },
+  "Kazakh|Turkish|ʃ": {
+    "s": 0.5,
+    "tɕ": 0.5
+  },
+  "Kazakh|Turkmen|ʃ": {
+    "s": 0.5,
+    "tɕ": 0.5
+  },
+  "Kazakh|Yakut|ʃ": {
+    "-": 0.5,
+    "s": 0.5
+  },
+  "Yakut|Turkmen|-": {
+    "s": 1.0
+  },
+  "Chuvash|Azerbaijani|y": {
+    "a": 1.0
+  },
+  "Yakut|Azerbaijani|a": {
+    "a": 1.0
+  },
+  "Chuvash|Kazakh|y": {
+    "a": 1.0
+  },
+  "Chuvash|Turkish|y": {
+    "a": 1.0
+  },
+  "Chuvash|Turkmen|y": {
+    "a": 1.0
+  },
+  "Chuvash|Yakut|y": {
+    "a": 1.0
+  },
+  "Yakut|Kazakh|a": {
+    "a": 1.0
+  },
+  "Turkmen|Yakut|a": {
+    "a": 1.0
+  },
+  "Yakut|Turkmen|a": {
+    "a": 1.0
+  },
+  "Azerbaijani|Chuvash|tɕ": {
+    "ɕ": 1.0
+  },
+  "Azerbaijani|Kazakh|tɕ": {
+    "ʃ": 1.0
+  },
+  "Azerbaijani|Turkish|tɕ": {
+    "tɕ": 1.0
+  },
+  "Turkish|Azerbaijani|tɕ": {
+    "tɕ": 1.0
+  },
+  "Azerbaijani|Turkmen|tɕ": {
+    "tɕ": 1.0
+  },
+  "Turkmen|Azerbaijani|tɕ": {
+    "tɕ": 1.0
+  },
+  "Azerbaijani|Yakut|tɕ": {
+    "s": 1.0
+  },
+  "Turkish|Chuvash|tɕ": {
+    "ɕ": 1.0
+  },
+  "Turkmen|Chuvash|tɕ": {
+    "ɕ": 1.0
+  },
+  "Turkish|Kazakh|tɕ": {
+    "ʃ": 1.0
+  },
+  "Turkmen|Kazakh|tɕ": {
+    "ʃ": 1.0
+  },
+  "Yakut|Kazakh|s": {
+    "ʃ": 1.0
+  },
+  "Turkish|Turkmen|tɕ": {
+    "tɕ": 1.0
+  },
+  "Turkmen|Turkish|tɕ": {
+    "tɕ": 1.0
+  },
+  "Turkish|Yakut|tɕ": {
+    "s": 0.5,
+    "t": 0.5
+  },
+  "Turkmen|Yakut|tɕ": {
+    "s": 1.0
+  },
+  "Yakut|Turkmen|s": {
+    "tɕ": 1.0
+  },
+  "Kyrgyz|Uyghur|tɕ": {
+    "tɕ": 1.0
+  },
+  "Uyghur|Kyrgyz|tɕ": {
+    "tɕ": 0.6667,
+    "ʨ": 0.3333
+  },
+  "Chuvash|Uzbek|m": {
+    "m": 1.0
+  },
+  "Uzbek|Chuvash|m": {
+    "m": 1.0
+  },
+  "Chuvash|Uzbek|ŏ": {
+    "u": 1.0
+  },
+  "Uzbek|Chuvash|u": {
+    "ŏ": 1.0
+  },
+  "Chuvash|Uzbek|j": {
+    "-": 1.0
+  },
+  "Uzbek|Chuvash|-": {
+    "j": 0.3333,
+    "r": 0.3333,
+    "a": 0.3333
+  },
+  "Chuvash|Uzbek|r": {
+    "r": 0.8,
+    "-": 0.2
+  },
+  "Chuvash|Uzbek|a": {
+    "i": 0.4,
+    "-": 0.2,
+    "e": 0.2,
+    "o": 0.2
+  },
+  "Chuvash|Uzbek|g": {
+    "g": 1.0
+  },
+  "Uzbek|Chuvash|g": {
+    "g": 0.5,
+    "-": 0.5
+  },
+  "Uzbek|Chuvash|i": {
+    "-": 0.3333,
+    "ĭ": 0.3333,
+    "a": 0.2222,
+    "i": 0.1111
+  },
+  "Chuvash|Uzbek|-": {
+    "i": 0.3,
+    "ʃ": 0.2,
+    "z": 0.1,
+    "k": 0.1,
+    "q": 0.1,
+    "g": 0.1,
+    "t": 0.1
+  },
+  "Uzbek|Chuvash|z": {
+    "-": 1.0
+  },
+  "Azerbaijani|Uzbek|p": {
+    "-": 1.0
+  },
+  "Uzbek|Azerbaijani|-": {
+    "p": 0.5,
+    "a": 0.5
+  },
+  "Uzbek|Azerbaijani|g": {
+    "ɢ": 1.0
+  },
+  "Kazakh|Turkmen|ʒ": {
+    "j": 1.0
+  },
+  "Turkmen|Kazakh|j": {
+    "ʒ": 1.0
+  },
+  "Kyrgyz|Turkmen|ʥ": {
+    "j": 1.0
+  },
+  "Turkmen|Kyrgyz|j": {
+    "ʥ": 1.0
+  },
+  "Turkish|Turkmen|j": {
+    "j": 1.0
+  },
+  "Turkmen|Turkish|j": {
+    "j": 1.0
+  },
+  "Kazakh|Kyrgyz|-": {
+    "i": 0.4,
+    "l": 0.2,
+    "k": 0.2,
+    "ʃ": 0.2
+  },
+  "Turkish|Kyrgyz|-": {
+    "i": 0.3333,
+    "l": 0.1667,
+    "ɯ": 0.1667,
+    "k": 0.1667,
+    "ʃ": 0.1667
+  },
+  "Turkmen|Kyrgyz|-": {
+    "l": 0.5,
+    "ɯ": 0.5
+  },
+  "Kazakh|Kyrgyz|p": {
+    "b": 1.0
+  },
+  "Kazakh|Turkish|p": {
+    "p": 1.0
+  },
+  "Turkish|Kazakh|p": {
+    "p": 1.0
+  },
+  "Kazakh|Turkmen|p": {
+    "p": 1.0
+  },
+  "Turkmen|Kazakh|p": {
+    "p": 1.0
+  },
+  "Turkish|Kyrgyz|p": {
+    "b": 1.0
+  },
+  "Turkmen|Kyrgyz|p": {
+    "b": 1.0
+  },
+  "Turkish|Turkmen|p": {
+    "p": 1.0
+  },
+  "Turkmen|Turkish|p": {
+    "p": 1.0
+  },
+  "Kyrgyz|Turkish|r": {
+    "r": 1.0
+  },
+  "Turkish|Kyrgyz|r": {
+    "r": 1.0
+  },
+  "Kyrgyz|Turkmen|r": {
+    "r": 1.0
+  },
+  "Turkmen|Kyrgyz|r": {
+    "r": 1.0
+  },
+  "Azerbaijani|Yakut|u": {
+    "u": 1.0
+  },
+  "Yakut|Azerbaijani|u": {
+    "u": 1.0
+  },
+  "Kazakh|Yakut|u": {
+    "u": 1.0
+  },
+  "Yakut|Kazakh|u": {
+    "u": 0.6667,
+    "ɯ": 0.3333
+  },
+  "Kyrgyz|Yakut|u": {
+    "u": 1.0
+  },
+  "Yakut|Kyrgyz|u": {
+    "u": 1.0
+  },
+  "Turkish|Yakut|u": {
+    "u": 1.0
+  },
+  "Yakut|Turkish|u": {
+    "u": 1.0
+  },
+  "Turkmen|Yakut|u": {
+    "u": 1.0
+  },
+  "Yakut|Turkmen|u": {
+    "u": 0.6667,
+    "ɯ": 0.3333
+  },
+  "Uyghur|Yakut|u": {
+    "u": 1.0
+  },
+  "Yakut|Uyghur|u": {
+    "u": 1.0
+  },
+  "Uzbek|Yakut|u": {
+    "u": 1.0
+  },
+  "Yakut|Uzbek|u": {
+    "u": 1.0
+  },
+  "Kyrgyz|Yakut|z": {
+    "h": 1.0
+  },
+  "Yakut|Kyrgyz|h": {
+    "ʃ": 0.6667,
+    "z": 0.3333
+  },
+  "Uzbek|Yakut|z": {
+    "h": 1.0
+  },
+  "Yakut|Uzbek|h": {
+    "ʃ": 0.6667,
+    "z": 0.3333
+  },
+  "Kazakh|Uyghur|ɯ": {
+    "u": 1.0
+  },
+  "Kazakh|Yakut|ɯ": {
+    "u": 1.0
+  },
+  "Turkmen|Uyghur|ɯ": {
+    "u": 1.0
+  },
+  "Turkmen|Yakut|ɯ": {
+    "u": 1.0
+  },
+  "Uyghur|Azerbaijani|p": {
+    "b": 1.0
+  },
+  "Azerbaijani|Yakut|b": {
+    "b": 1.0
+  },
+  "Yakut|Azerbaijani|b": {
+    "b": 1.0
+  },
+  "Uyghur|Kazakh|p": {
+    "b": 1.0
+  },
+  "Kazakh|Yakut|b": {
+    "b": 1.0
+  },
+  "Yakut|Kazakh|b": {
+    "b": 1.0
+  },
+  "Uyghur|Kyrgyz|p": {
+    "b": 1.0
+  },
+  "Kyrgyz|Yakut|b": {
+    "b": 1.0
+  },
+  "Yakut|Kyrgyz|b": {
+    "b": 1.0
+  },
+  "Uyghur|Turkish|p": {
+    "b": 1.0
+  },
+  "Turkish|Yakut|b": {
+    "b": 1.0
+  },
+  "Yakut|Turkish|b": {
+    "b": 1.0
+  },
+  "Uyghur|Turkmen|p": {
+    "b": 1.0
+  },
+  "Turkmen|Yakut|b": {
+    "b": 1.0
+  },
+  "Yakut|Turkmen|b": {
+    "b": 1.0
+  },
+  "Uyghur|Uzbek|p": {
+    "b": 1.0
+  },
+  "Uyghur|Yakut|p": {
+    "b": 1.0
+  },
+  "Yakut|Uyghur|b": {
+    "b": 0.6667,
+    "p": 0.3333
+  },
+  "Uzbek|Yakut|b": {
+    "b": 1.0
+  },
+  "Yakut|Uzbek|b": {
+    "b": 1.0
+  },
+  "Kazakh|Turkish|i": {
+    "i": 1.0
+  },
+  "Kazakh|Uyghur|i": {
+    "i": 1.0
+  },
+  "Yakut|Uyghur|ɯ": {
+    "i": 1.0
+  },
+  "Azerbaijani|Uyghur|t": {
+    "t": 1.0
+  },
+  "Uyghur|Azerbaijani|t": {
+    "t": 0.5,
+    "d": 0.5
+  },
+  "Kazakh|Uyghur|t": {
+    "t": 1.0
+  },
+  "Uyghur|Kazakh|t": {
+    "t": 1.0
+  },
+  "Kyrgyz|Turkish|t": {
+    "t": 0.6667,
+    "d": 0.3333
+  },
+  "Turkmen|Turkish|t": {
+    "t": 1.0
+  },
+  "Uyghur|Turkish|t": {
+    "t": 0.5,
+    "d": 0.5
+  },
+  "Turkish|Yakut|t": {
+    "t": 1.0
+  },
+  "Turkmen|Uyghur|t": {
+    "t": 1.0
+  },
+  "Uyghur|Turkmen|t": {
+    "t": 0.5,
+    "d": 0.5
+  },
+  "Uyghur|Uzbek|t": {
+    "t": 1.0
+  },
+  "Uzbek|Uyghur|t": {
+    "t": 1.0
+  },
+  "Uyghur|Yakut|t": {
+    "t": 1.0
+  },
+  "Yakut|Uyghur|t": {
+    "t": 1.0
+  },
+  "Chuvash|Kazakh|a": {
+    "e": 1.0
+  },
+  "Chuvash|Kyrgyz|a": {
+    "e": 1.0
+  },
+  "Chuvash|Uyghur|a": {
+    "æ": 1.0
+  },
+  "Uyghur|Chuvash|æ": {
+    "a": 0.3333,
+    "ɯ": 0.3333,
+    "ĭ": 0.3333
+  },
+  "Chuvash|Yakut|a": {
+    "e": 1.0
+  },
+  "Uyghur|Kazakh|æ": {
+    "e": 0.6667,
+    "ĭ": 0.3333
+  },
+  "Kyrgyz|Uyghur|e": {
+    "æ": 0.375,
+    "-": 0.25,
+    "i": 0.25,
+    "e": 0.125
+  },
+  "Uyghur|Kyrgyz|æ": {
+    "e": 0.75,
+    "i": 0.25
+  },
+  "Yakut|Kyrgyz|e": {
+    "e": 1.0
+  },
+  "Turkish|Uyghur|e": {
+    "æ": 0.6667,
+    "e": 0.3333
+  },
+  "Uyghur|Turkish|æ": {
+    "e": 0.6667,
+    "i": 0.3333
+  },
+  "Turkish|Yakut|e": {
+    "e": 0.5,
+    "i": 0.5
+  },
+  "Uyghur|Uzbek|æ": {
+    "e": 0.3333,
+    "a": 0.3333,
+    "i": 0.3333
+  },
+  "Uzbek|Uyghur|e": {
+    "æ": 0.5,
+    "e": 0.5
+  },
+  "Uyghur|Yakut|æ": {
+    "e": 0.3333,
+    "i": 0.3333,
+    "iː": 0.3333
+  },
+  "Uzbek|Yakut|e": {
+    "e": 0.5,
+    "i": 0.5
+  },
+  "Yakut|Uzbek|e": {
+    "e": 1.0
+  },
+  "Chuvash|Kyrgyz|r": {
+    "r": 1.0
+  },
+  "Kyrgyz|Chuvash|r": {
+    "r": 1.0
+  },
+  "Uyghur|Chuvash|r": {
+    "r": 1.0
+  },
+  "Uzbek|Chuvash|r": {
+    "r": 1.0
+  },
+  "Yakut|Chuvash|r": {
+    "r": 1.0
+  },
+  "Uyghur|Kazakh|r": {
+    "r": 1.0
+  },
+  "Yakut|Kazakh|r": {
+    "r": 1.0
+  },
+  "Kyrgyz|Uzbek|r": {
+    "r": 1.0
+  },
+  "Uzbek|Kyrgyz|r": {
+    "r": 1.0
+  },
+  "Kyrgyz|Yakut|r": {
+    "r": 1.0
+  },
+  "Yakut|Kyrgyz|r": {
+    "r": 1.0
+  },
+  "Turkish|Uyghur|r": {
+    "r": 1.0
+  },
+  "Uyghur|Turkish|r": {
+    "r": 1.0
+  },
+  "Turkish|Yakut|r": {
+    "r": 1.0
+  },
+  "Yakut|Turkish|r": {
+    "r": 1.0
+  },
+  "Uyghur|Uzbek|r": {
+    "r": 1.0
+  },
+  "Uzbek|Uyghur|r": {
+    "r": 1.0
+  },
+  "Uyghur|Yakut|r": {
+    "r": 1.0
+  },
+  "Yakut|Uyghur|r": {
+    "r": 1.0
+  },
+  "Uzbek|Yakut|r": {
+    "r": 1.0
+  },
+  "Yakut|Uzbek|r": {
+    "r": 1.0
+  },
+  "Chuvash|Kazakh|ʑ": {
+    "k": 1.0
+  },
+  "Kazakh|Chuvash|k": {
+    "k": 0.5,
+    "ʑ": 0.25,
+    "n": 0.25
+  },
+  "Chuvash|Kyrgyz|ʑ": {
+    "k": 1.0
+  },
+  "Kyrgyz|Chuvash|k": {
+    "k": 0.4,
+    "ʑ": 0.2,
+    "-": 0.2,
+    "n": 0.2
+  },
+  "Chuvash|Turkish|ʑ": {
+    "k": 1.0
+  },
+  "Chuvash|Uyghur|ʑ": {
+    "k": 1.0
+  },
+  "Uyghur|Chuvash|k": {
+    "ʑ": 0.3333,
+    "n": 0.3333,
+    "k": 0.3333
+  },
+  "Chuvash|Uzbek|ʑ": {
+    "k": 1.0
+  },
+  "Uzbek|Chuvash|k": {
+    "ʑ": 0.25,
+    "-": 0.25,
+    "n": 0.25,
+    "k": 0.25
+  },
+  "Chuvash|Yakut|ʑ": {
+    "k": 1.0
+  },
+  "Yakut|Chuvash|k": {
+    "ʑ": 1.0
+  },
+  "Kazakh|Yakut|k": {
+    "k": 0.5,
+    "-": 0.25,
+    "kː": 0.25
+  },
+  "Yakut|Kazakh|k": {
+    "k": 1.0
+  },
+  "Yakut|Kyrgyz|k": {
+    "k": 1.0
+  },
+  "Yakut|Turkish|k": {
+    "k": 1.0
+  },
+  "Uyghur|Yakut|k": {
+    "k": 0.6667,
+    "-": 0.3333
+  },
+  "Yakut|Uyghur|k": {
+    "k": 1.0
+  },
+  "Uzbek|Yakut|k": {
+    "k": 0.5,
+    "-": 0.5
+  },
+  "Yakut|Uzbek|k": {
+    "k": 1.0
+  },
+  "Chuvash|Kazakh|ɯ": {
+    "e": 1.0
+  },
+  "Chuvash|Kyrgyz|ɯ": {
+    "e": 1.0
+  },
+  "Chuvash|Turkish|ɯ": {
+    "e": 1.0
+  },
+  "Chuvash|Uzbek|ɯ": {
+    "a": 1.0
+  },
+  "Uzbek|Chuvash|a": {
+    "ɯ": 1.0
+  },
+  "Chuvash|Yakut|ɯ": {
+    "i": 1.0
+  },
+  "Yakut|Kyrgyz|i": {
+    "i": 0.5714,
+    "e": 0.4286
+  },
+  "Uzbek|Uyghur|a": {
+    "æ": 1.0
+  },
+  "Uzbek|Yakut|a": {
+    "i": 1.0
+  },
+  "Yakut|Uzbek|i": {
+    "i": 0.7143,
+    "a": 0.1429,
+    "e": 0.1429
+  },
+  "Kazakh|Uzbek|-": {
+    "i": 0.5,
+    "k": 0.25,
+    "ʃ": 0.25
+  },
+  "Uyghur|Kyrgyz|-": {
+    "i": 0.2222,
+    "n": 0.2222,
+    "e": 0.2222,
+    "k": 0.1111,
+    "ʃ": 0.1111,
+    "j": 0.1111
+  },
+  "Turkish|Uzbek|-": {
+    "i": 0.5,
+    "k": 0.25,
+    "ʃ": 0.25
+  },
+  "Uyghur|Uzbek|-": {
+    "i": 0.5,
+    "k": 0.25,
+    "ʃ": 0.25
+  },
+  "Yakut|Uzbek|-": {
+    "k": 0.6667,
+    "i": 0.3333
+  },
+  "Chuvash|Kazakh|n": {
+    "k": 1.0
+  },
+  "Chuvash|Kyrgyz|n": {
+    "k": 1.0
+  },
+  "Chuvash|Turkish|n": {
+    "k": 1.0
+  },
+  "Chuvash|Uyghur|n": {
+    "k": 1.0
+  },
+  "Chuvash|Uzbek|n": {
+    "k": 1.0
+  },
+  "Chuvash|Yakut|n": {
+    "-": 1.0
+  },
+  "Yakut|Uyghur|-": {
+    "k": 1.0
+  },
+  "Kyrgyz|Chuvash|i": {
+    "ĭ": 0.6,
+    "-": 0.4
+  },
+  "Kyrgyz|Chuvash|ʃ": {
+    "-": 1.0
+  },
+  "Uzbek|Chuvash|ʃ": {
+    "-": 0.6667,
+    "ʂ": 0.3333
+  },
+  "Kyrgyz|Kazakh|ʃ": {
+    "-": 0.5,
+    "s": 0.5
+  },
+  "Kyrgyz|Turkish|ʃ": {
+    "-": 0.5,
+    "ʃ": 0.5
+  },
+  "Kyrgyz|Uyghur|ʃ": {
+    "-": 0.5,
+    "ʃ": 0.5
+  },
+  "Kyrgyz|Uzbek|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uzbek|Kyrgyz|ʃ": {
+    "ʃ": 1.0
+  },
+  "Kyrgyz|Yakut|ʃ": {
+    "h": 1.0
+  },
+  "Uzbek|Yakut|ʃ": {
+    "h": 1.0
+  },
+  "Turkish|Yakut|o": {
+    "ø": 1.0
+  },
+  "Yakut|Turkish|ø": {
+    "o": 0.5,
+    "-": 0.5
+  },
+  "Azerbaijani|Kazakh|æ": {
+    "e": 1.0
+  },
+  "Azerbaijani|Kyrgyz|æ": {
+    "e": 1.0
+  },
+  "Azerbaijani|Turkish|æ": {
+    "e": 1.0
+  },
+  "Azerbaijani|Turkmen|æ": {
+    "e": 0.6667,
+    "æ": 0.3333
+  },
+  "Turkmen|Azerbaijani|e": {
+    "æ": 0.6667,
+    "-": 0.3333
+  },
+  "Azerbaijani|Yakut|æ": {
+    "e": 0.5,
+    "i": 0.5
+  },
+  "Turkmen|Kazakh|e": {
+    "e": 0.6667,
+    "-": 0.3333
+  },
+  "Kyrgyz|Turkmen|e": {
+    "e": 0.6667,
+    "i": 0.3333
+  },
+  "Turkmen|Kyrgyz|e": {
+    "e": 1.0
+  },
+  "Turkish|Turkmen|e": {
+    "e": 0.6667,
+    "æ": 0.3333
+  },
+  "Turkmen|Turkish|e": {
+    "e": 0.6667,
+    "-": 0.3333
+  },
+  "Turkmen|Yakut|e": {
+    "e": 0.5,
+    "i": 0.5
+  },
+  "Turkish|Turkmen|y": {
+    "y": 1.0
+  },
+  "Turkmen|Turkish|y": {
+    "y": 1.0
+  },
+  "Turkish|Turkmen|m": {
+    "m": 1.0
+  },
+  "Turkmen|Turkish|m": {
+    "m": 0.5,
+    "-": 0.5
+  },
+  "Turkmen|Turkish|k": {
+    "k": 1.0
+  },
+  "Uzbek|Chuvash|q": {
+    "-": 1.0
+  },
+  "Chuvash|Azerbaijani|p": {
+    "b": 1.0
+  },
+  "Chuvash|Kazakh|p": {
+    "b": 1.0
+  },
+  "Chuvash|Kyrgyz|p": {
+    "b": 1.0
+  },
+  "Chuvash|Turkish|p": {
+    "b": 1.0
+  },
+  "Chuvash|Turkmen|p": {
+    "b": 1.0
+  },
+  "Chuvash|Uyghur|p": {
+    "b": 1.0
+  },
+  "Uyghur|Chuvash|b": {
+    "p": 1.0
+  },
+  "Chuvash|Uzbek|p": {
+    "b": 1.0
+  },
+  "Uzbek|Chuvash|b": {
+    "p": 1.0
+  },
+  "Chuvash|Yakut|p": {
+    "b": 1.0
+  },
+  "Yakut|Chuvash|b": {
+    "p": 1.0
+  },
+  "Uyghur|Yakut|b": {
+    "b": 1.0
+  },
+  "Chuvash|Azerbaijani|ĭ": {
+    "i": 1.0
+  },
+  "Yakut|Azerbaijani|iː": {
+    "i": 1.0
+  },
+  "Chuvash|Kazakh|ĭ": {
+    "ĭ": 1.0
+  },
+  "Chuvash|Kyrgyz|ĭ": {
+    "i": 1.0
+  },
+  "Chuvash|Turkish|ĭ": {
+    "i": 1.0
+  },
+  "Chuvash|Turkmen|ĭ": {
+    "i": 1.0
+  },
+  "Chuvash|Uyghur|ĭ": {
+    "i": 0.6667,
+    "æ": 0.3333
+  },
+  "Chuvash|Uzbek|ĭ": {
+    "i": 1.0
+  },
+  "Chuvash|Yakut|ĭ": {
+    "iː": 0.6667,
+    "i": 0.3333
+  },
+  "Yakut|Chuvash|iː": {
+    "ĭ": 1.0
+  },
+  "Yakut|Kazakh|iː": {
+    "ĭ": 1.0
+  },
+  "Yakut|Kyrgyz|iː": {
+    "i": 1.0
+  },
+  "Yakut|Turkish|iː": {
+    "i": 1.0
+  },
+  "Yakut|Turkmen|iː": {
+    "i": 1.0
+  },
+  "Yakut|Uyghur|iː": {
+    "i": 0.5,
+    "æ": 0.5
+  },
+  "Yakut|Uzbek|iː": {
+    "i": 1.0
+  },
+  "Azerbaijani|Kyrgyz|r": {
+    "r": 1.0
+  },
+  "Kyrgyz|Azerbaijani|r": {
+    "r": 1.0
+  },
+  "Azerbaijani|Uyghur|r": {
+    "r": 1.0
+  },
+  "Uyghur|Azerbaijani|r": {
+    "r": 1.0
+  },
+  "Azerbaijani|Yakut|r": {
+    "r": 1.0
+  },
+  "Yakut|Azerbaijani|r": {
+    "r": 1.0
+  },
+  "Turkmen|Chuvash|r": {
+    "r": 1.0
+  },
+  "Turkmen|Uyghur|r": {
+    "r": 1.0
+  },
+  "Uyghur|Turkmen|r": {
+    "r": 1.0
+  },
+  "Turkmen|Yakut|r": {
+    "r": 1.0
+  },
+  "Yakut|Turkmen|r": {
+    "r": 1.0
+  },
+  "Kazakh|Kyrgyz|s": {
+    "ʃ": 1.0
+  },
+  "Turkish|Kyrgyz|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uyghur|Kyrgyz|ʃ": {
+    "ʃ": 1.0
+  },
+  "Uyghur|Yakut|ʃ": {
+    "h": 1.0
+  },
+  "Turkmen|Chuvash|u": {
+    "-": 1.0
+  },
+  "Turkmen|Chuvash|n": {
+    "-": 0.5,
+    "n": 0.5
+  },
+  "Chuvash|Turkmen|ɯ": {
+    "a": 1.0
+  },
+  "Chuvash|Turkmen|n": {
+    "n": 1.0
+  },
+  "Uyghur|Kazakh|o": {
+    "a": 1.0
+  },
+  "Uyghur|Kyrgyz|o": {
+    "a": 1.0
+  },
+  "Turkmen|Azerbaijani|k": {
+    "k": 1.0
+  },
+  "Azerbaijani|Chuvash|gʲ": {
+    "k": 1.0
+  },
+  "Chuvash|Azerbaijani|k": {
+    "gʲ": 0.5,
+    "k": 0.5
+  },
+  "Azerbaijani|Kazakh|gʲ": {
+    "k": 1.0
+  },
+  "Azerbaijani|Kyrgyz|gʲ": {
+    "k": 1.0
+  },
+  "Azerbaijani|Turkish|gʲ": {
+    "g": 1.0
+  },
+  "Azerbaijani|Turkmen|gʲ": {
+    "g": 1.0
+  },
+  "Azerbaijani|Uyghur|gʲ": {
+    "k": 1.0
+  },
+  "Azerbaijani|Uzbek|gʲ": {
+    "k": 1.0
+  },
+  "Chuvash|Kazakh|k": {
+    "k": 1.0
+  },
+  "Chuvash|Kyrgyz|k": {
+    "k": 1.0
+  },
+  "Chuvash|Turkish|k": {
+    "g": 0.5,
+    "k": 0.5
+  },
+  "Turkish|Chuvash|g": {
+    "k": 1.0
+  },
+  "Chuvash|Turkmen|k": {
+    "g": 0.5,
+    "k": 0.5
+  },
+  "Turkmen|Chuvash|g": {
+    "k": 1.0
+  },
+  "Chuvash|Uyghur|k": {
+    "k": 0.5,
+    "kː": 0.5
+  },
+  "Chuvash|Uzbek|k": {
+    "k": 0.5,
+    "kː": 0.5
+  },
+  "Azerbaijani|Chuvash|ø": {
+    "u": 1.0
+  },
+  "Kazakh|Chuvash|ø": {
+    "u": 1.0
+  },
+  "Kyrgyz|Chuvash|ø": {
+    "u": 1.0
+  },
+  "Turkish|Chuvash|ø": {
+    "u": 1.0
+  },
+  "Turkmen|Chuvash|ø": {
+    "u": 1.0
+  },
+  "Chuvash|Uyghur|u": {
+    "ø": 1.0
+  },
+  "Uyghur|Chuvash|ø": {
+    "u": 1.0
+  },
+  "Chuvash|Uzbek|u": {
+    "o": 1.0
+  },
+  "Uzbek|Chuvash|o": {
+    "u": 0.5,
+    "a": 0.5
+  },
+  "Azerbaijani|Chuvash|d": {
+    "t": 1.0
+  },
+  "Chuvash|Azerbaijani|t": {
+    "d": 1.0
+  },
+  "Chuvash|Kazakh|t": {
+    "t": 1.0
+  },
+  "Kazakh|Chuvash|t": {
+    "t": 1.0
+  },
+  "Chuvash|Kyrgyz|t": {
+    "t": 1.0
+  },
+  "Kyrgyz|Chuvash|t": {
+    "t": 1.0
+  },
+  "Chuvash|Turkish|t": {
+    "d": 1.0
+  },
+  "Turkish|Chuvash|d": {
+    "t": 1.0
+  },
+  "Chuvash|Turkmen|t": {
+    "d": 1.0
+  },
+  "Turkmen|Chuvash|d": {
+    "t": 1.0
+  },
+  "Chuvash|Uyghur|t": {
+    "t": 1.0
+  },
+  "Chuvash|Uzbek|t": {
+    "t": 1.0
+  },
+  "Uzbek|Chuvash|t": {
+    "t": 0.5,
+    "-": 0.5
+  },
+  "Chuvash|Yakut|t": {
+    "t": 1.0
+  },
+  "Yakut|Chuvash|t": {
+    "t": 1.0
+  },
+  "Turkish|Kazakh|d": {
+    "t": 1.0
+  },
+  "Turkish|Kyrgyz|d": {
+    "t": 1.0
+  },
+  "Turkish|Turkmen|d": {
+    "d": 1.0
+  },
+  "Turkish|Uyghur|d": {
+    "t": 1.0
+  },
+  "Turkish|Uzbek|d": {
+    "t": 1.0
+  },
+  "Turkmen|Yakut|d": {
+    "t": 1.0
+  },
+  "Azerbaijani|Chuvash|æ": {
+    "i": 1.0
+  },
+  "Azerbaijani|Uyghur|æ": {
+    "e": 1.0
+  },
+  "Uyghur|Azerbaijani|e": {
+    "æ": 1.0
+  },
+  "Azerbaijani|Uzbek|æ": {
+    "e": 1.0
+  },
+  "Turkmen|Chuvash|e": {
+    "i": 1.0
+  },
+  "Uyghur|Chuvash|e": {
+    "i": 1.0
+  },
+  "Uyghur|Kazakh|e": {
+    "e": 1.0
+  },
+  "Uyghur|Kyrgyz|e": {
+    "e": 1.0
+  },
+  "Uyghur|Turkish|e": {
+    "e": 1.0
+  },
+  "Turkmen|Uyghur|e": {
+    "e": 1.0
+  },
+  "Uyghur|Turkmen|e": {
+    "e": 1.0
+  },
+  "Turkmen|Uzbek|e": {
+    "e": 1.0
+  },
+  "Uzbek|Turkmen|e": {
+    "e": 1.0
+  },
+  "Uyghur|Uzbek|e": {
+    "e": 1.0
+  },
+  "Uyghur|Yakut|e": {
+    "i": 1.0
+  },
+  "Uyghur|Azerbaijani|æ": {
+    "i": 1.0
+  },
+  "Uyghur|Turkmen|æ": {
+    "i": 1.0
+  },
+  "Kazakh|Uzbek|ʃ": {
+    "tɕ": 1.0
+  },
+  "Uzbek|Kazakh|tɕ": {
+    "ʃ": 1.0
+  },
+  "Kyrgyz|Uyghur|ʨ": {
+    "tɕ": 1.0
+  },
+  "Kyrgyz|Kazakh|-": {
+    "l": 1.0
+  },
+  "Uzbek|Kazakh|-": {
+    "l": 1.0
+  },
+  "Kazakh|Yakut|l": {
+    "-": 1.0
+  },
+  "Uyghur|Azerbaijani|kː": {
+    "k": 1.0
+  },
+  "Uzbek|Azerbaijani|kː": {
+    "k": 1.0
+  },
+  "Azerbaijani|Yakut|k": {
+    "kː": 1.0
+  },
+  "Yakut|Azerbaijani|kː": {
+    "k": 1.0
+  },
+  "Turkmen|Chuvash|k": {
+    "k": 1.0
+  },
+  "Uyghur|Chuvash|kː": {
+    "k": 1.0
+  },
+  "Uzbek|Chuvash|kː": {
+    "k": 1.0
+  },
+  "Chuvash|Yakut|k": {
+    "kː": 1.0
+  },
+  "Yakut|Chuvash|kː": {
+    "k": 1.0
+  },
+  "Turkmen|Kazakh|k": {
+    "k": 1.0
+  },
+  "Uyghur|Kazakh|kː": {
+    "k": 1.0
+  },
+  "Uzbek|Kazakh|kː": {
+    "k": 1.0
+  },
+  "Yakut|Kazakh|kː": {
+    "k": 1.0
+  },
+  "Turkmen|Kyrgyz|k": {
+    "k": 1.0
+  },
+  "Uyghur|Kyrgyz|kː": {
+    "k": 1.0
+  },
+  "Uzbek|Kyrgyz|kː": {
+    "k": 1.0
+  },
+  "Yakut|Kyrgyz|kː": {
+    "k": 1.0
+  },
+  "Uyghur|Turkish|kː": {
+    "k": 1.0
+  },
+  "Uzbek|Turkish|kː": {
+    "k": 1.0
+  },
+  "Yakut|Turkish|kː": {
+    "k": 1.0
+  },
+  "Turkmen|Uyghur|k": {
+    "kː": 1.0
+  },
+  "Uyghur|Turkmen|kː": {
+    "k": 1.0
+  },
+  "Turkmen|Uzbek|k": {
+    "kː": 1.0
+  },
+  "Uzbek|Turkmen|kː": {
+    "k": 1.0
+  },
+  "Turkmen|Yakut|k": {
+    "kː": 1.0
+  },
+  "Yakut|Turkmen|kː": {
+    "k": 1.0
+  },
+  "Uyghur|Uzbek|kː": {
+    "kː": 1.0
+  },
+  "Uzbek|Uyghur|kː": {
+    "kː": 1.0
+  },
+  "Uyghur|Yakut|kː": {
+    "kː": 1.0
+  },
+  "Yakut|Uyghur|kː": {
+    "kː": 1.0
+  },
+  "Uzbek|Yakut|kː": {
+    "kː": 1.0
+  },
+  "Yakut|Uzbek|kː": {
+    "kː": 1.0
+  },
+  "Turkmen|Azerbaijani|æ": {
+    "æ": 1.0
+  },
+  "Turkmen|Kazakh|æ": {
+    "e": 1.0
+  },
+  "Turkmen|Turkish|æ": {
+    "e": 1.0
+  },
+  "Azerbaijani|Turkmen|-": {
+    "m": 0.5,
+    "e": 0.5
+  },
+  "Turkmen|Azerbaijani|m": {
+    "-": 1.0
+  },
+  "Kazakh|Turkmen|-": {
+    "m": 0.5,
+    "e": 0.5
+  },
+  "Turkmen|Kazakh|m": {
+    "-": 1.0
+  },
+  "Turkish|Turkmen|-": {
+    "m": 0.5,
+    "e": 0.5
+  },
+  "Chuvash|Uzbek|ʂ": {
+    "ʃ": 1.0
+  }
+}

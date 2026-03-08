@@ -1,0 +1,111 @@
+PHASE 5 TASK 3 REPORT
+======================================================================
+Date: 2026-03-04
+Input: output\northeuralex_merged.csv (6966 rows)
+LexStat threshold: 0.55
+Anomaly threshold: mean - 1.5*sigma = -1.1851
+  Calibration mean: -0.8599, std: 0.2168
+  Calibrated on: Azerbaijani, Chuvash, Kazakh, Turkish, Uzbek, Yakut
+  Excluded from calibration: Kyrgyz, Turkmen, Uyghur (thin coverage)
+
+Total anomalies flagged: 337
+Unknown-source anomalies: 274
+
+
+SCORE DISTRIBUTION BY LANGUAGE (full-coverage only):
+Language           N    Mean     Std     Min  Anomalies
+-------------------------------------------------------
+Azerbaijani     1095  -0.645   0.149  -1.241          2
+Chuvash         1167  -1.040   0.102  -1.597         95
+Kazakh          1279  -0.940   0.107  -2.281          8
+Kyrgyz            38  -0.482   0.557  -2.468          4
+Turkish         1216  -0.657   0.146  -1.919          2
+Turkmen           39  -0.461   0.636  -2.386          6
+Uyghur            36  -0.403   0.573  -3.029          3
+Uzbek            998  -0.774   0.117  -1.232          3
+Yakut           1098  -1.097   0.119  -2.150        214
+
+COMPARISON WITH PHASE 3 ANOMALY LIST
+==================================================
+Phase 3 unknown anomalies:        31
+Task 3 total anomalies (unknown): 260
+
+Survived into Task 3:  13
+Dropped (Phase 3 artifact or now regular): 18
+New anomalies (NorthEuraLex expansion): 247
+
+SURVIVED (high confidence — present in both Phase 3 and Task 3):
+  Chuvash: many
+  Chuvash: small
+  Kazakh: woman
+  Kyrgyz: horn
+  Kyrgyz: many
+  Turkmen: small
+  Uyghur: all
+  Uyghur: horn
+  Yakut: egg
+  Yakut: horn
+  Yakut: tree
+  Yakut: who
+  Yakut: woman
+
+DROPPED (were anomalous on 40-item data, now regular):
+  Azerbaijani: grease
+  Azerbaijani: many
+  Azerbaijani: tree
+  Chuvash: ear
+  Kazakh: all
+  Kazakh: that
+  Kazakh: tree
+  Kyrgyz: all
+  Turkmen: grease
+  Turkmen: horn
+  Uzbek: bark
+  Uzbek: grease
+  Uzbek: hair
+  Uzbek: many
+  Uzbek: tree
+  Yakut: bone
+  Yakut: not
+  Yakut: small
+
+NEW ANOMALIES FROM EXPANDED DATASET (first 30):
+  Chuvash: ahead
+  Chuvash: all
+  Chuvash: already
+  Chuvash: angle
+  Chuvash: bitter
+  Chuvash: blunt
+  Chuvash: boat
+  Chuvash: border
+  Chuvash: boy
+  Chuvash: break
+  Chuvash: breast
+  Chuvash: call
+  Chuvash: cap
+  Chuvash: child
+  Chuvash: chill
+  Chuvash: cold
+  Chuvash: corner
+  Chuvash: correct
+  Chuvash: cough
+  Chuvash: cow
+  Chuvash: decay
+  Chuvash: decrease
+  Chuvash: dish
+  Chuvash: drag
+  Chuvash: drink
+  Chuvash: drop, descend
+  Chuvash: earth
+  Chuvash: elbow
+  Chuvash: end
+  Chuvash: feel
+  ... and 217 more (see anomalies_expanded.csv)
+
+OUTPUT FILES:
+  output\lingpy_input_expanded.tsv
+  output\cognate_sets_expanded.tsv
+  output\correspondence_expanded.csv
+  output\prob_model_expanded.json
+  output\regularity_expanded.csv
+  output\anomalies_expanded.csv

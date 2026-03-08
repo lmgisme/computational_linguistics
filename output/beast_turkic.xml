@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    BEAST 2 XML for Turkic Phylolinguistics
+    Phase 4 - Computational Historical Linguistics Project
+    
+    SETUP INSTRUCTIONS:
+    1. Install BEAST 2 (https://www.beast2.org/)
+    2. Install packages: BEAST_CLASSIC (Stochastic Dollo likelihood)
+       via BEAUti > File > Manage Packages
+    3. Load this XML via BEAST 2 GUI or run:
+       beast -threads 4 beast_turkic.xml
+    4. Analyse output with Tracer; ensure ESS > 200 for all parameters.
+    5. Build consensus tree with TreeAnnotator (burnin 25%).
+    
+    Substitution model: Stochastic Dollo (Lewis Mk fallback noted below)
+    Clock model:        Relaxed LogNormal (uncorrelated)
+    Tree prior:         Yule
+    Calibration:        Proto-Turkic root ~ 2100 BP (LogNormal prior)
+    Data:               Binary cognate presence/absence from LexStat
+                        and Savelyev & Robbeets (2020)
+    
+    Characters: See turkic_cognates.nex
+    LexStat-only characters may inflate tree uncertainty; consider
+    a sensitivity run excluding those characters (CHARSET LexStat).
+-->
+<beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+    <!-- ============================================================ -->
+    <!-- DATA                                                          -->
+    <!-- ============================================================ -->
+    <data id="turkic_alignment" dataType="standard" spec="Alignment"
+          name="alignment">
+        <!--
+            Replace value="?" with actual sequences from turkic_cognates.nex
+            before running. BEAUti will parse the NEXUS file directly if
+            loaded via File > Import Alignment.
+        -->
+        <sequence taxon="Azerbaijani" value="?"/>
+        <sequence taxon="Chuvash" value="?"/>
+        <sequence taxon="Kazakh" value="?"/>
+        <sequence taxon="Kyrgyz" value="?"/>
+        <sequence taxon="Turkish" value="?"/>
+        <sequence taxon="Turkmen" value="?"/>
+        <sequence taxon="Uyghur" value="?"/>
+        <sequence taxon="Uzbek" value="?"/>
+        <sequence taxon="Yakut" value="?"/>
+    </data>
+
+    <!-- ============================================================ -->
+    <!-- SITE MODEL: Stochastic Dollo                                  -->
+    <!-- If BEAST_CLASSIC package unavailable, use Lewis Mk (below)   -->
+    <!-- ============================================================ -->
+    <!--
+    OPTION A: Stochastic Dollo (preferred for cognate data)
+    Requires BEAST_CLASSIC package. Uncomment and use in place of
+    the Mk model below.
+
+    <siteModel id="siteModel" spec="beast.evolution.sitemodel.SiteModel">
+        <substModel spec="beast.evolution.substitutionmodel.SDolloLikelihood"
+                    deathRate="@deathRate" mu="@clockRate"/>
+        <parameter id="deathRate" value="0.5" lower="0.0"/>
+    </siteModel>
+    -->
+
+    <!-- OPTION B: Lewis Mk binary model (fallback, widely available) -->
+    <siteModel id="siteModel" spec="beast.evolution.sitemodel.SiteModel">
+        <substModel spec="beast.evolution.substitutionmodel.GeneralSubstitutionModel"
+                    id="mkModel">
+            <frequencies id="freqs" spec="Frequencies">
+                <parameter id="freqParameter" value="0.5 0.5" lower="0.0" upper="1.0"/>
+            </frequencies>
+            <rates id="rates" spec="parameter.RealParameter" value="1.0"
+                   lower="0.0"/>
+        </substModel>
+        <shape spec="parameter.RealParameter" id="gammaShape" value="0.5"
+               lower="0.0"/>
+        <gammaCategoryCount spec="parameter.IntegerParameter" value="4"/>
+    </siteModel>
+
+    <!-- ============================================================ -->
+    <!-- CLOCK MODEL: Uncorrelated Relaxed LogNormal                   -->
+    <!-- ============================================================ -->
+    <branchRateModel id="relaxedClock"
+                     spec="beast.evolution.branchratemodel.UCRelaxedClockModel"
+                     rateCategories="@rateCategories"
+                     tree="@tree"
+                     normalize="true">
+        <LogNormal id="LogNormalDistributionModel" meanInRealSpace="true"
+                   name="distr">
+            <parameter id="ucldMean" spec="parameter.RealParameter"
+                       value="1.0" lower="0.0" upper="100.0" name="M"/>
+            <parameter id="ucldStdev" spec="parameter.RealParameter"
+                       value="0.5" lower="0.0" upper="10.0" name="S"/>
+        </LogNormal>
+    </branchRateModel>
+
+    <parameter id="rateCategories" spec="parameter.IntegerParameter"
+               value="1" dimension="16"/>
+
+    <!-- ============================================================ -->
+    <!-- TREE PRIOR: Yule                                              -->
+    <!-- ============================================================ -->
+    <treeDistribution id="yuleModel" spec="beast.evolution.speciation.YuleModel"
+                      birthDiffRate="@birthRate" tree="@tree">
+        <parameter id="birthRate" spec="parameter.RealParameter"
+                   value="1.0" lower="0.0"/>
+    </treeDistribution>
+
+    <!-- ============================================================ -->
+    <!-- TREE                                                          -->
+    <!-- ============================================================ -->
+    <tree id="tree" spec="beast.util.TreeParser"
+          IsLabelledNewick="true"
+          newick="(Chuvash,(Yakut,(Azerbaijani,(Turkmen,(Turkish,(Uzbek,(Uyghur,(Kazakh,Kyrgyz))))))));">
+        <!-- Starting tree from Savelyev & Robbeets 2020 topology.    -->
+        <!-- BEAST will sample tree topology via operators below.     -->
+        <taxonset id="taxonSet" spec="TaxonSet">
+        <taxon id="Azerbaijani" spec="Taxon"/>
+        <taxon id="Chuvash" spec="Taxon"/>
+        <taxon id="Kazakh" spec="Taxon"/>
+        <taxon id="Kyrgyz" spec="Taxon"/>
+        <taxon id="Turkish" spec="Taxon"/>
+        <taxon id="Turkmen" spec="Taxon"/>
+        <taxon id="Uyghur" spec="Taxon"/>
+        <taxon id="Uzbek" spec="Taxon"/>
+        <taxon id="Yakut" spec="Taxon"/>
+        </taxonset>
+    </tree>
+
+    <!-- ============================================================ -->
+    <!-- CALIBRATION: Proto-Turkic root ~ 2100 BP                     -->
+    <!-- LogNormal(M=7.6497, S=0.12) -> median=2100, 95% CI~1680-2630  -->
+    <!-- ============================================================ -->
+    <distribution id="calibration.root" spec="beast.math.distributions.MRCAPrior"
+                  monophyletic="true" tree="@tree" useOriginate="true">
+        <taxonset idref="taxonSet"/>
+        <LogNormal id="LogNormal.root" name="distr" offset="0.0">
+            <parameter spec="parameter.RealParameter" value="7.6497" name="M"/>
+            <parameter spec="parameter.RealParameter" value="0.12" name="S"/>
+        </LogNormal>
+    </distribution>
+
+    <!-- ============================================================ -->
+    <!-- TREE LIKELIHOOD                                               -->
+    <!-- ============================================================ -->
+    <distribution id="treeLikelihood" spec="TreeLikelihood"
+                  data="@turkic_alignment"
+                  tree="@tree"
+                  siteModel="@siteModel"
+                  branchRateModel="@relaxedClock"
+                  useAmbiguities="true"/>
+
+    <!-- ============================================================ -->
+    <!-- POSTERIOR                                                     -->
+    <!-- ============================================================ -->
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution idref="treeLikelihood"/>
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution idref="yuleModel"/>
+            <distribution idref="calibration.root"/>
+            <!-- Clock priors -->
+            <prior id="ucldMeanPrior" x="@ucldMean" spec="Prior">
+                <LogNormal name="distr" M="0.0" S="1.0"/>
+            </prior>
+            <prior id="ucldStdevPrior" x="@ucldStdev" spec="Prior">
+                <Exponential name="distr" mean="0.3333"/>
+            </prior>
+            <!-- Birth rate prior -->
+            <prior id="birthRatePrior" x="@birthRate" spec="Prior">
+                <Exponential name="distr" mean="1.0"/>
+            </prior>
+            <!-- Gamma shape prior -->
+            <prior id="gammaShapePrior" x="@gammaShape" spec="Prior">
+                <Exponential name="distr" mean="0.5"/>
+            </prior>
+        </distribution>
+    </distribution>
+
+    <!-- ============================================================ -->
+    <!-- OPERATORS                                                     -->
+    <!-- ============================================================ -->
+    <operator id="treeScaler"       spec="ScaleOperator"    scaleFactor="0.5"  weight="3"   tree="@tree"/>
+    <operator id="treeRootScaler"   spec="ScaleOperator"    scaleFactor="0.5"  weight="3"   tree="@tree" rootOnly="true"/>
+    <operator id="uniformTree"      spec="Uniform"          weight="30"        tree="@tree"/>
+    <operator id="subtreeSlide"     spec="SubtreeSlide"     weight="15"        tree="@tree" size="0.1"/>
+    <operator id="narrow"           spec="Exchange"         weight="15"        tree="@tree"/>
+    <operator id="wide"             spec="Exchange"         weight="3"         tree="@tree" isNarrow="false"/>
+    <operator id="wilsonBalding"    spec="WilsonBalding"    weight="3"         tree="@tree"/>
+    <operator id="birthRateScaler"  spec="ScaleOperator"    scaleFactor="0.5"  weight="3"   parameter="@birthRate"/>
+    <operator id="ucldMeanScaler"   spec="ScaleOperator"    scaleFactor="0.5"  weight="3"   parameter="@ucldMean"/>
+    <operator id="ucldStdevScaler"  spec="ScaleOperator"    scaleFactor="0.5"  weight="3"   parameter="@ucldStdev"/>
+    <operator id="rateCategories"   spec="IntRandomWalkOperator" weight="10"   parameter="@rateCategories" windowSize="1"/>
+    <operator id="gammaShapeScaler" spec="ScaleOperator"    scaleFactor="0.5"  weight="1"   parameter="@gammaShape"/>
+
+    <!-- ============================================================ -->
+    <!-- LOGGERS                                                       -->
+    <!-- ============================================================ -->
+    <logger id="tracelog" fileName="beast_turkic.log" logEvery="5000"
+            model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood"/>
+        <log idref="yuleModel"/>
+        <log idref="birthRate"/>
+        <log idref="ucldMean"/>
+        <log idref="ucldStdev"/>
+        <log idref="gammaShape"/>
+        <log spec="beast.evolution.tree.TreeStatLogger" tree="@tree"/>
+    </logger>
+
+    <logger id="treelog" fileName="beast_turkic.trees" logEvery="5000"
+            mode="tree">
+        <log idref="tree"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="100000">
+        <log idref="posterior"/>
+        <log spec="util.ESS" arg="@posterior"/>
+    </logger>
+
+    <!-- ============================================================ -->
+    <!-- MCMC                                                          -->
+    <!-- ============================================================ -->
+    <run id="mcmc" spec="MCMC" chainLength="20000000"
+         numInitializationAttempts="10">
+        <state id="state" storeEvery="5000">
+            <stateNode idref="tree"/>
+            <stateNode idref="birthRate"/>
+            <stateNode idref="ucldMean"/>
+            <stateNode idref="ucldStdev"/>
+            <stateNode idref="rateCategories"/>
+            <stateNode idref="gammaShape"/>
+        </state>
+        <distribution idref="posterior"/>
+        <operator idref="treeScaler"/>
+        <operator idref="treeRootScaler"/>
+        <operator idref="uniformTree"/>
+        <operator idref="subtreeSlide"/>
+        <operator idref="narrow"/>
+        <operator idref="wide"/>
+        <operator idref="wilsonBalding"/>
+        <operator idref="birthRateScaler"/>
+        <operator idref="ucldMeanScaler"/>
+        <operator idref="ucldStdevScaler"/>
+        <operator idref="rateCategories"/>
+        <operator idref="gammaShapeScaler"/>
+        <logger idref="tracelog"/>
+        <logger idref="treelog"/>
+        <logger idref="screenlog"/>
+    </run>
+
+</beast>

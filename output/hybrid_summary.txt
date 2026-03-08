@@ -1,0 +1,65 @@
+======================================================================
+HYBRID COGNATE TABLE — PHASE 2 COMPLETE
+======================================================================
+
+Total entries : 353
+Languages     : 9
+Glosses       : 40
+
+SOURCE BREAKDOWN
+----------------------------------------
+  savelyev    :  318  (90.1%)
+  lexstat     :   35  (9.9%)
+
+GLOSS            SV   LS  CONFLICT   SETS  SOURCE
+-------------------------------------------------------
+  I                 9    9         9      2  savelyev
+  all               0    9         0      7  lexstat
+  bark              8    9         8      3  savelyev
+  big               6    7         6      5  savelyev
+  bird              9    9         0      4  savelyev
+  blood             9    9         9      1  savelyev
+  bone              9    9         9      2  savelyev
+  dog               9    9         9      2  savelyev
+  ear               9    9         9      1  savelyev
+  egg               7    8         7      2  savelyev
+  eye               9    9         9      2  savelyev
+  feather           5    9         5      4  savelyev
+  fish              9    9         9      1  savelyev
+  flesh             6    8         0      2  savelyev
+  grease            9    9         9      2  savelyev
+  hair              9    9         9      1  savelyev
+  head              8    9         8      2  savelyev
+  horn              7    9         7      3  savelyev
+  leaf              8    9         8      3  savelyev
+  long              9    9         9      1  savelyev
+  louse             9    9         9      1  savelyev
+  man               9    9         9      3  savelyev
+  many              7    9         7      4  savelyev
+  not               9    9         9      1  savelyev
+  one               9    9         0      1  savelyev
+  person            7    9         0      4  savelyev
+  root              9    9         9      3  savelyev
+  seed              5    9         0      3  savelyev
+  skin              9    9         0      1  savelyev
+  small             8    9         8      2  savelyev
+  tail              8    9         8      2  savelyev
+  that              9    9         9      3  savelyev
+  this              9    9         0      2  savelyev
+  tree              8    9         8      2  savelyev
+  two               9    9         0      1  savelyev
+  we                9    9         9      1  savelyev
+  what              9    9         9      1  savelyev
+  who               9    9         9      1  savelyev
+  woman             4    6         0      4  savelyev
+  you_2sg           9    9         0      2  savelyev
+
+PHASE 3 NOTES
+----------------------------------------
+  savelyev  -> expert ground truth (Savelyev & Robbeets 2020)
+  lexstat   -> automated SCA clustering, lower confidence
+  none      -> unassigned; automatic anomaly candidate in Phase 3
+  conflict  -> both sources present and disagreed; Savelyev wins
+
+Concepts where LexStat is sole source should be weighted lower
+in Phase 3 regularity scoring.

@@ -1,0 +1,19 @@
+candidate,form,source_family,best_sim,best_ref_form,all_scores
+woman_kazakh,bɪjke,Proto-Turkic,1.0,bɪjke,bɪjke:1.0; bɪj:0.6; qɪz:0.2; qatun:0.0; xatun:0.0; hatun:0.0
+woman_kazakh,bɪjke,Proto-Mongolic,0.2,eme,eme:0.2; emkn:0.2; emehe:0.2; emegen:0.1667; emeɡen:0.1667; büsɡüi:0.1667; emegtei:0.1429
+woman_kazakh,bɪjke,Proto-Tungusic,0.1429,asatkan,asatkan:0.1429; anɪ:0.0; asi:0.0; asɪ:0.0
+woman_kazakh,bɪjke,Iranian,0.2,banu,banu:0.2; zan:0.0; zanɪ:0.0; d͡ʒan:0.0; xatun:0.0; xanim:0.0
+woman_kazakh,bɪjke,Arabic,0.2,nɪsaa,nɪsaa:0.2; mara:0.0; ɪmraa:0.0; ħurma:0.0; xatun:0.0
+woman_yakut,ɟaxtaɾ,Proto-Turkic,0.3333,qatun,qatun:0.3333; xatun:0.3333; hatun:0.3333; qɪz:0.0; bɪj:0.0; bɪjke:0.0
+woman_yakut,ɟaxtaɾ,Proto-Mongolic,0.1429,emegtei,emegtei:0.1429; eme:0.0; emegen:0.0; emeɡen:0.0; emkn:0.0; emehe:0.0; büsɡüi:0.0
+woman_yakut,ɟaxtaɾ,Proto-Tungusic,0.2857,asatkan,asatkan:0.2857; anɪ:0.1667; asi:0.1667; asɪ:0.1667
+woman_yakut,ɟaxtaɾ,Iranian,0.3333,xatun,xatun:0.3333; zan:0.1667; zanɪ:0.1667; d͡ʒan:0.1667; banu:0.1667; xanim:0.1667
+woman_yakut,ɟaxtaɾ,Arabic,0.3333,mara,mara:0.3333; xatun:0.3333; ɪmraa:0.1667; nɪsaa:0.1667; ħurma:0.1667
+wish_kazakh,mʊdːe,Arabic_Persian,0.4,mudːaʕ,mudːaʕ:0.4; mudːaʕaː:0.3333; muraːd:0.2; umnija:0.1667; arzu:0.0; arzuː:0.0; niat:0.0; ɑmɑl:0.0
+wish_kazakh,mʊdːe,Arabic_hope,0.0,amal,amal:0.0; amɑl:0.0; omid:0.0; umet:0.0; ymet:0.0; ymiːt:0.0
+wish_kazakh,mʊdːe,Proto-Turkic,0.25,tile,tile:0.25; tilek:0.2; dilek:0.2; tilɛk:0.0; ɘmɘt:0.0; umet:0.0
+wish_kazakh,mʊdːe,Proto-Mongolic,0.4,ümüge,ümüge:0.4; küse:0.25; üme:0.25; küsel:0.2; khüsel:0.1667; naiduul:0.0
+wish_chuvash,ˈɘmɘt,Arabic_hope,0.5,umet,umet:0.5; ymet:0.5; ymiːt:0.5; amal:0.25; amɑl:0.25; omid:0.25
+wish_chuvash,ˈɘmɘt,Proto-Turkic,1.0,ɘmɘt,ɘmɘt:1.0; umet:0.5; tile:0.0; tilek:0.0; dilek:0.0; tilɛk:0.0
+wish_chuvash,ˈɘmɘt,Proto-Mongolic,0.25,üme,üme:0.25; ümüge:0.2; küse:0.0; küsel:0.0; khüsel:0.0; naiduul:0.0
+wish_chuvash,ˈɘmɘt,Slavic,0.5,umet,umet:0.5; xotet:0.2; nadeʒda:0.0; ʒelanije:0.0; upo:0.0

@@ -1,0 +1,6 @@
+cluster,size,mean_score,languages,top_glosses,sample_forms,loan_sources
+1,9,-2.2143,"{'Uzbek': 3, 'Yakut': 2, 'Kyrgyz': 1, 'Turkmen': 1, 'Kazakh': 1, 'Chuvash': 1}","{'small': 3, 'many': 2, 'who': 1, 'tree': 1, 'bark': 1}","køp, kop, kiʨi(ʥik), ? kutɕ:uguj, kim",{'unknown': 9}
+2,6,-2.8164,"{'Chuvash': 1, 'Kazakh': 1, 'Kyrgyz': 1, 'Uyghur': 1, 'Azerbaijani': 1, 'Yakut': 1}","{'all': 3, 'ear': 1, 'many': 1, 'woman': 1}","χölɣa, ? ʒɯɣɯl, ʥɯɣɯl, ʒiqil, ʨoχ(lu)","{'Mongolic_candidate': 3, 'unknown': 3}"
+3,3,-2.0791,"{'Azerbaijani': 1, 'Turkmen': 1, 'Uzbek': 1}",{'grease': 3},"jaɣ, jɔɣ",{'Mongolic_candidate': 3}
+4,5,-2.5553,"{'Yakut': 2, 'Kyrgyz': 1, 'Uyghur': 1, 'Chuvash': 1}","{'horn': 3, 'tree': 1, 'many': 1}","myjyz, ? myŋgyz, muos, mas, miˈɕ̬ɛ",{'unknown': 5}
+5,8,-2.375,"{'Yakut': 3, 'Kazakh': 2, 'Uzbek': 1, 'Azerbaijani': 1, 'Turkmen': 1}","{'tree': 2, 'bone': 1, 'egg': 1, 'hair': 1, 'not': 1}","uŋuoχ, sɯmɯ:t, sɔʨ, sɯ:ŋk, ana(w)","{'unknown': 6, 'Mongolic_candidate': 2}"

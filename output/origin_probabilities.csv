@@ -1,0 +1,6 @@
+cluster,n_words,glosses,languages,sample_forms,P(Mongolic),P(Tungusic),P(Persian),P(Unknown),mean_sim_Mongolic,mean_sim_Tungusic
+1,9,"bark, many, small, tree, who, woman","Chuvash, Kazakh, Kyrgyz, Turkmen, Uzbek, Yakut",køp; kop; kiʨi(ʥik); ? kutɕ:uguj,0.08,0.04,0.85,0.03,0.0,0.0
+2,6,"all, ear, many, woman","Azerbaijani, Chuvash, Kazakh, Kyrgyz, Uyghur, Yakut",χölɣa; ? ʒɯɣɯl; ʥɯɣɯl; ʒiqil,0.08,0.04,0.85,0.03,0.0,0.0
+3,3,grease,"Azerbaijani, Turkmen, Uzbek",jaɣ; jaɣ; jɔɣ,0.08,0.04,0.85,0.03,0.0,0.0
+4,5,"horn, many, tree","Chuvash, Kyrgyz, Uyghur, Yakut",myjyz; ? myŋgyz; muos; mas,0.08,0.04,0.85,0.03,0.0,0.0
+5,8,"bone, egg, hair, horn, not, that, tree","Azerbaijani, Kazakh, Turkmen, Uzbek, Yakut",uŋuoχ; sɯmɯ:t; sɔʨ; sɯ:ŋk,0.08,0.04,0.85,0.03,0.0,0.0

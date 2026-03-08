@@ -1,0 +1,19 @@
+language,gloss,form,source,evidence,category,score,branch,branch_threshold,flagged_family,flagged_branch,in_6a
+Uzbek,woman,χɔtin (kiʃi),Persian,xatun > xatin; Infra 6B,A,-0.7618,A_kipchak,-1.0751,False,False,False
+Uzbek,tree,daraχt,Persian,daraxt; Infra 6B,A,-1.218,A_kipchak,-1.0751,True,True,True
+Uzbek,egg,tuχum,Persian,toxm > tuxum; Infra 6B,A,-1.1666,A_kipchak,-1.0751,False,True,True
+Uzbek,flesh,ɡoʃt,Persian,gusht > gosht; Infra 6B,A,-1.2322,A_kipchak,-1.0751,True,True,True
+Azerbaijani,and,væ,Arabic/Persian,wa/va; Phase 6 triage,B,-0.8759,A_oghuz,-0.8722,False,True,True
+Turkish,and,vɛ,Arabic/Persian,wa/va; Phase 6 triage,B,-1.047,A_oghuz,-0.8722,False,True,True
+Azerbaijani,at that time,ɔ_vɑχt,Persian,vaqt; Phase 6 triage,B,-0.9364,A_oghuz,-0.8722,False,True,True
+Azerbaijani,border,hydud,Arabic,hudud; Phase 6 triage,B,-0.9368,A_oghuz,-0.8722,False,True,True
+Azerbaijani,boss,ʃɛf,French,chef via Ottoman; Phase 6 triage,B,-0.9605,A_oghuz,-0.8722,False,True,True
+Turkish,boss,ʃɛf,French,chef via Ottoman; Phase 6 triage,B,-0.875,A_oghuz,-0.8722,False,True,True
+Azerbaijani,cross,χɑt͡ʃ,Armenian,xac; Phase 6 triage,B,-1.006,A_oghuz,-0.8722,False,True,True
+Turkish,cross,hat͡ʃ,Armenian,hac; Phase 6 triage,B,-0.8949,A_oghuz,-0.8722,False,True,True
+Azerbaijani,stove,pɛt͡ʃ,Russian,pec; Phase 6 triage,B,-1.1026,A_oghuz,-0.8722,False,True,True
+Uzbek,stove,pɛt͡ʃka,Russian,pecka; Phase 6 triage,B,-1.0788,A_kipchak,-1.0751,False,True,True
+Turkish,still,haːlaː,Arabic,hala; Phase 6 triage,B,-0.8789,A_oghuz,-0.8722,False,True,True
+Kazakh,wish,mʊdːe,Arabic,muddaa; Phase 5/6,B,-2.2809,A_kipchak,-1.0751,True,True,True
+Kazakh,flower,ɡʊl,Persian,gul; Phase 5 Task 3,B,-1.1981,A_kipchak,-1.0751,True,True,True
+Turkish,clever,zɛkiː,Arabic,dhaki > zeki; Phase 5 Task 3,B,-1.9189,A_oghuz,-0.8722,True,True,True

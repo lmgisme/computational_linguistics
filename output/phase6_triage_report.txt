@@ -1,0 +1,98 @@
+PHASE 6 RESOLUTION TRIAGE REPORT
+======================================================================
+
+Input clusters:       57
+Discarded:            55
+Shortlisted:          2
+Borderline notes:     1
+
+TRIAGE FILTERS APPLIED
+--------------------------------------------------
+Manual discards:  etymological verification confirms known PT root or
+                  known loanword source from prior phases.
+F1 Oghuz sister:  Az+Tur only, same cognate — single cognate flagged twice.
+F2 Loan screen:   Phonological signature matches known contact language.
+F3 Sparsity:      All forms contain documented sparsity phonemes AND
+                  forms are likely cognate (avg NLev < 0.55).
+
+SHORTLIST — CANDIDATES FOR PHASE 6 RESOLUTION
+--------------------------------------------------
+  WISH
+    Languages (2): Chuvash; Kazakh
+    Domain:    cognitive_abstract
+    Min score: -2.2809
+    Basis:     Kaz mʊdːe score=-2.28 extreme outlier; geminate dː non-native; Arabic loan candidate vs. substrate; requires etymological verification
+
+  WOMAN
+    Languages (2): Kazakh; Yakut
+    Domain:    kinship
+    Min score: -1.3983
+    Basis:     Kaz bɪjke + Yakut ɟaxtaɾ — unrelated forms, different contact zones; both require OT check
+
+DISCARDS SUMMARY BY FILTER
+--------------------------------------------------
+  F1_OGHUZ_SISTER          : 2
+  F2_LOAN_SCREEN           : 1
+  MANUAL_DISCARD           : 52
+
+BORDERLINE NOTES (not on shortlist but flagged for awareness)
+--------------------------------------------------
+  at that time: Yakut ocːoɣo loan_class=mongolic_candidate, score=-1.53; Az form different; worth Mongolic check on Yakut form alone
+
+DISCARD DETAIL
+--------------------------------------------------
+  ahead                [MANUAL_DISCARD]  Az dyz = PT *yüz 'face/front'; Chuvash ˈtikɘs separate; not cognates
+  all                  [MANUAL_DISCARD]  Kaz ʒɯɣɯl already flagged Phase 3 as false positive cluster; Az/Tur dyʃ 'dream' mismatch
+  and                  [MANUAL_DISCARD]  Az/Tur væ/vɛ = Arabic/Persian و (wa/va); adstrate function word
+  arrow                [MANUAL_DISCARD]  PT *oq, Clauson p.83; χ/x sparsity artifact — same cognate in Az+Yak
+  at that time         [F2_LOAN_SCREEN]  Loan screen hits: ɔ_vɑχt=Persian
+  because of           [MANUAL_DISCARD]  Az yt͡ʃyn / Kaz ʊʃən both derived from PT *üč 'three' (ablative); same root
+  blunt                [MANUAL_DISCARD]  Kaz doʁɑl / Chuvash ˈtɘrɘnt͡ɕɘk — not cognates; ʁ/tʃ sparsity
+  boat                 [MANUAL_DISCARD]  Yakut oŋoco / Chuvash ˈkimɘ — unrelated forms; different sources
+  border               [MANUAL_DISCARD]  Az hydud = Arabic حدود (ħudūd) 'borders'; Chuvash ˈt͡ɕikɘ separate
+  boss                 [MANUAL_DISCARD]  Az/Tur ʃɛf = French chef via Ottoman; European loan
+  broom                [MANUAL_DISCARD]  Az sypyrɟæ = PT *süpür- 'to sweep'; Kaz səpəɾʁəʃ = same root; cognates, ɾ/ʁ sparsity
+  cross                [MANUAL_DISCARD]  Az χɑt͡ʃ / Tur hat͡ʃ = Armenian խաչ; documented Armenian loan
+  delicate, fine       [F1_OGHUZ_SISTER]  Oghuz sister pair only (Az+Tur), same cognate (avg NLev=0.5)
+  dream                [MANUAL_DISCARD]  Kaz tʊs / Tur ɾyja — different roots, both low-coverage phonemes
+  end                  [MANUAL_DISCARD]  Kaz soŋə = PT *soŋ 'end', Tur ut͡ʃ = PT *uč 'tip' — different roots, not cognates
+  face                 [MANUAL_DISCARD]  PT *yüz, Clauson p.982; Az/Tur yz/jyz regular, y sparsity
+  fat                  [MANUAL_DISCARD]  PT *yağ Oghuz (Tur jaː); Yakut sɯa = PT *sïŋar different root — not cognates; separate items
+  first                [MANUAL_DISCARD]  Kaz ɑlʁɑʃqə from PT *al 'front'; Az bɪrɪnd͡ʒɪ from PT *bir 'one' — different roots
+  flesh                [MANUAL_DISCARD]  Uzb goʃt = Persian گوشت (gusht), identified Infra 6B; Chuvash aʂ separate
+  fringe               [MANUAL_DISCARD]  Kaz ʃetə edge/fringe; Chuvash ˈχɘrɘ different root; not cognates
+  green                [MANUAL_DISCARD]  Kaz ʒɑsəl PT *yaşıl, Clauson; Yakut ot_kyøɣe 'grass-colored' compound; not cognates
+  he                   [MANUAL_DISCARD]  PT *ol, pan-Turkic; monosyllabic scoring artifact
+  hill                 [MANUAL_DISCARD]  Tur tɛpɛ = PT *tepe, Clauson; Chuvash tɘmɛsˈkɛ different; not cognates
+  home                 [MANUAL_DISCARD]  PT *eb > *ev, same as 'house'; Az+Tur sister pair, same form
+  house                [MANUAL_DISCARD]  PT *eb > *ev, Oghuz regular; ɛv same form in Az+Tur sister pair
+  hungry               [MANUAL_DISCARD]  Az ɑd͡ʒ = PT *aç 'hungry', Clauson p.19; Kaz ɑʃ = PT *aš 'food/hungry' — different roots
+  milk                 [MANUAL_DISCARD]  PT *süt, Clauson p.797, pan-Turkic; tʃ/y sparsity artifact
+  mirror               [MANUAL_DISCARD]  Az ɟyzɟy = PT *közkü 'mirror' (related to *köz 'eye'); Chuvash ˈtɘkɘr = PT *tägür; not same root
+  nail                 [MANUAL_DISCARD]  Kaz ʃeɡe 'nail (tool)' vs Tur t͡ʃivi — different roots; both ʃ/tʃ sparsity
+  new                  [MANUAL_DISCARD]  PT *yañı, Clauson p.942; Az jɛnɪ, Kaz ʒɑŋɑ, Chuvash ɕɘnɘ all regular
+  odour                [MANUAL_DISCARD]  Kaz ɪjəs / Uzb d͡ʒid — different roots; dʒ sparsity in Uzbek
+  often                [MANUAL_DISCARD]  Az t͡ʃɔχ_vɑχt compound; Kaz əlʁɪj — not cognates, both tʃ/ʁ sparsity
+  palm                 [F1_OGHUZ_SISTER]  Oghuz sister pair only (Az+Tur), same cognate (avg NLev=0.5)
+  pit                  [MANUAL_DISCARD]  Kaz oɾ 'ditch', PT *or; Az t͡ʃuχur different root; not cognates
+  place                [MANUAL_DISCARD]  Tur jɛɾ = PT *yer, Clauson p.957; Uzb d͡ʒɒj separate; ɾ sparsity
+  pointed              [MANUAL_DISCARD]  Kaz ʊʃkəɾ from PT *üč 'tip/point'; Az sɪvrɪ different root; not cognates
+  raw                  [MANUAL_DISCARD]  PT *čiy, Clauson; Az/Tur t͡ʃɪj/t͡ʃij same cognate, tʃ sparsity
+  seven                [MANUAL_DISCARD]  PT *yeti, Clauson p.879; all forms regular, ɕ in Chuvash = regular Bulgar
+  small                [MANUAL_DISCARD]  Turkmen thin-coverage flag (thin_lang_flag=True); Chuvash ˈpɘt͡ɕɘk = PT *küçük regular Bulgar
+  so                   [MANUAL_DISCARD]  Tur œjlɛ / Yakut ocːo — unrelated forms, different sources
+  sort                 [MANUAL_DISCARD]  Az/Tur t͡ʃɛʃid/t͡ʃɛʃit = same Ottoman cognate; dʒ/tʃ sparsity
+  still                [MANUAL_DISCARD]  Tur haːlaː = Arabic حالا (ħāla); Kaz ælə different
+  stove                [MANUAL_DISCARD]  Az/Uzb pɛt͡ʃ/pɛtʃka = Russian печь/печка; Yakut ohox unrelated and separate
+  string               [MANUAL_DISCARD]  Az ɪp = PT *ip 'rope', Clauson p.67; Kaz ʒəp same root with ʒ reflex of PT *y-; sparsity
+  swarm                [MANUAL_DISCARD]  PT *sürü 'herd/flock', Clauson p.844; Kaz ʊjəɾ / Tur syɾy regular ɾ reflexes
+  thin                 [MANUAL_DISCARD]  Kaz ʒəŋəʃke / Tur ind͡ʒɛ — not cognates; both ʒ/dʒ sparsity
+  third                [MANUAL_DISCARD]  derived from PT *üč; same root as 'three', all regular
+  thought              [MANUAL_DISCARD]  duplicate — same Az/Tur cognate pair, dʒ sparsity
+  three                [MANUAL_DISCARD]  PT *üč, Clauson p.17; pan-Turkic cognate, all reflexes regular
+  tip                  [MANUAL_DISCARD]  PT *uč 'point/tip', Clauson p.23; cognate with 'three' root
+  tree                 [MANUAL_DISCARD]  Uzb daraχt = Persian درخت, Infra 6B; Turkmen aɣaʨ separate item
+  walk                 [MANUAL_DISCARD]  PT *yür-, Clauson p.959; Az/Tur jɛrɪʃ/jyɾyjyʃ, Kaz ʒʊɾəs all regular ɾ/ʒ reflexes
+  willow               [MANUAL_DISCARD]  Az/Tur sœjyd/sœjyt = PT *söğüt, Clauson p.812; same cognate pair, œ/y sparsity
+  wood                 [MANUAL_DISCARD]  PT *ığač, Clauson p.78; Kaz ɑʁɑʃ and Tur aːat͡ʃ regular reflexes, ʁ/tʃ sparsity
+  worker               [MANUAL_DISCARD]  Az ɪʃt͡ʃɪ = PT *iş 'work' + agent suffix; Kaz ʒʊməsʃə = PT *yumuš 'work' + suffix; different but both Turkic

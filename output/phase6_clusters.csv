@@ -1,0 +1,137 @@
+gloss,n_languages,all_languages,domain,language,form,ipa_tokens,group,adjusted_score,loan_class,thin_lang_flag
+three,5,Azerbaijani; Chuvash; Kazakh; Turkish; Uzbek,other,Kazakh,ʊʃ,ʊ ʃ,A_kipchak,-1.2697,unknown,False
+three,5,Azerbaijani; Chuvash; Kazakh; Turkish; Uzbek,other,Uzbek,ut͡ʃ,u tʃ,A_kipchak,-1.0962,unknown,False
+three,5,Azerbaijani; Chuvash; Kazakh; Turkish; Uzbek,other,Turkish,yt͡ʃ,y tʃ,A_oghuz,-1.1904,unknown,False
+three,5,Azerbaijani; Chuvash; Kazakh; Turkish; Uzbek,other,Azerbaijani,yt͡ʃ,y tʃ,A_oghuz,-1.1382,unknown,False
+three,5,Azerbaijani; Chuvash; Kazakh; Turkish; Uzbek,other,Chuvash,ʋiɕ̬ɘ,ʋ i ɕ ɘ,C_chuvash,-1.2023,unknown,False
+three,5,Azerbaijani; Chuvash; Kazakh; Turkish; Uzbek,other,Chuvash,ˈʋiɕɘ,ʋ i ɕ ɘ,C_chuvash,-1.2023,unknown,False
+all,4,Azerbaijani; Kazakh; Turkish; Uzbek,cognitive_abstract,Kazakh,? ʒɯɣɯl,ʒ ɯ ɣ ɯ l,A_kipchak,-1.1195,mongolic_candidate,False
+all,4,Azerbaijani; Kazakh; Turkish; Uzbek,cognitive_abstract,Uzbek,jiqil,j i q i l,A_kipchak,-1.1056,unknown,False
+all,4,Azerbaijani; Kazakh; Turkish; Uzbek,cognitive_abstract,Azerbaijani,dyʃ,d y ʃ,A_oghuz,-1.241,unknown,False
+all,4,Azerbaijani; Kazakh; Turkish; Uzbek,cognitive_abstract,Turkish,dyʃ,d y ʃ,A_oghuz,-1.1659,unknown,False
+milk,4,Azerbaijani; Chuvash; Kazakh; Turkish,herding_pastoralism,Kazakh,sʊt,s ʊ t,A_kipchak,-1.076,unknown,False
+milk,4,Azerbaijani; Chuvash; Kazakh; Turkish,herding_pastoralism,Turkish,syt,s y t,A_oghuz,-0.9387,unknown,False
+milk,4,Azerbaijani; Chuvash; Kazakh; Turkish,herding_pastoralism,Azerbaijani,syd,s y d,A_oghuz,-0.9124,unknown,False
+milk,4,Azerbaijani; Chuvash; Kazakh; Turkish,herding_pastoralism,Chuvash,sɘt,s ɘ t,C_chuvash,-1.2481,unknown,False
+seven,4,Azerbaijani; Chuvash; Kazakh; Uzbek,other,Uzbek,ɛtːi,ɛ tː i,A_kipchak,-1.2267,unknown,False
+seven,4,Azerbaijani; Chuvash; Kazakh; Uzbek,other,Kazakh,ʒetə,ʒ e t ə,A_kipchak,-1.0867,unknown,False
+seven,4,Azerbaijani; Chuvash; Kazakh; Uzbek,other,Azerbaijani,jɛdːɪ,j ɛ dː ɪ,A_oghuz,-0.9149,unknown,False
+seven,4,Azerbaijani; Chuvash; Kazakh; Uzbek,other,Chuvash,ˈɕit͡ɕɘ,ɕ i tɕ ɘ,C_chuvash,-1.317,unknown,False
+seven,4,Azerbaijani; Chuvash; Kazakh; Uzbek,other,Chuvash,ˈɕit͡ɕɘ,ɕ i tɕ ɘ,C_chuvash,-1.317,unknown,False
+seven,4,Azerbaijani; Chuvash; Kazakh; Uzbek,other,Chuvash,ɕit͡ɕ,ɕ i tɕ,C_chuvash,-1.241,unknown,False
+third,4,Azerbaijani; Chuvash; Kazakh; Turkish,other,Kazakh,ʊʃənʃə,ʊ ʃ ə n ʃ ə,A_kipchak,-1.1403,unknown,False
+third,4,Azerbaijani; Chuvash; Kazakh; Turkish,other,Turkish,yt͡ʃynd͡ʒy,y tʃ y n dʒ y,A_oghuz,-1.1082,unknown,False
+third,4,Azerbaijani; Chuvash; Kazakh; Turkish,other,Azerbaijani,yt͡ʃynd͡ʒy,y tʃ y n dʒ y,A_oghuz,-1.0656,unknown,False
+third,4,Azerbaijani; Chuvash; Kazakh; Turkish,other,Chuvash,ˈʋiɕɘmɘʂ,ʋ i ɕ ɘ m ɘ ʂ,C_chuvash,-1.2029,unknown,False
+tip,4,Azerbaijani; Kazakh; Turkish; Uzbek,spatial_temporal,Kazakh,ʉʃə,ʉ ʃ ə,A_kipchak,-1.1883,unknown,False
+tip,4,Azerbaijani; Kazakh; Turkish; Uzbek,spatial_temporal,Uzbek,ut͡ʃ,u tʃ,A_kipchak,-1.0962,unknown,False
+tip,4,Azerbaijani; Kazakh; Turkish; Uzbek,spatial_temporal,Azerbaijani,ud͡ʒ,u dʒ,A_oghuz,-1.018,unknown,False
+tip,4,Azerbaijani; Kazakh; Turkish; Uzbek,spatial_temporal,Turkish,ut͡ʃ,u tʃ,A_oghuz,-0.9963,unknown,False
+green,3,Chuvash; Kazakh; Yakut,other,Kazakh,ʒɑsəl,ʒ ɑ s ə l,A_kipchak,-1.0761,unknown,False
+green,3,Chuvash; Kazakh; Yakut,other,Yakut,ot_ky͡øɣe,o t + k yø ɣ e,B_yakut,-1.284,mongolic_candidate,False
+green,3,Chuvash; Kazakh; Yakut,other,Chuvash,ˈsimɘs,s i m ɘ s,C_chuvash,-1.2733,unknown,False
+new,3,Azerbaijani; Chuvash; Kazakh,other,Kazakh,ʒɑŋɑ,ʒ ɑ ŋ ɑ,A_kipchak,-1.0759,unknown,False
+new,3,Azerbaijani; Chuvash; Kazakh,other,Azerbaijani,jɛnɪ,j ɛ n ɪ,A_oghuz,-0.9102,unknown,False
+new,3,Azerbaijani; Chuvash; Kazakh,other,Chuvash,ˈɕɘnɘ,ɕ ɘ n ɘ,C_chuvash,-1.2654,unknown,False
+sort,3,Azerbaijani; Chuvash; Turkish,cognitive_abstract,Azerbaijani,t͡ʃɛʃɪd,tʃ ɛ ʃ ɪ d,A_oghuz,-1.0002,unknown,False
+sort,3,Azerbaijani; Chuvash; Turkish,cognitive_abstract,Turkish,t͡ʃɛʃit,tʃ ɛ ʃ i t,A_oghuz,-0.8812,unknown,False
+sort,3,Azerbaijani; Chuvash; Turkish,cognitive_abstract,Chuvash,tɘs,t ɘ s,C_chuvash,-1.2481,unknown,False
+stove,3,Azerbaijani; Uzbek; Yakut,material_culture,Uzbek,pɛt͡ʃka,p ɛ tʃ k a,A_kipchak,-1.0788,unknown,False
+stove,3,Azerbaijani; Uzbek; Yakut,material_culture,Azerbaijani,pɛt͡ʃ,p ɛ tʃ,A_oghuz,-1.1026,unknown,False
+stove,3,Azerbaijani; Uzbek; Yakut,material_culture,Yakut,ohox,o h o x,B_yakut,-1.2778,unknown,False
+walk,3,Azerbaijani; Kazakh; Turkish,verbs_actions,Kazakh,ʒʊɾəs,ʒ ʊ ɾ ə s,A_kipchak,-1.1526,unknown,False
+walk,3,Azerbaijani; Kazakh; Turkish,verbs_actions,Turkish,jyɾyjyʃ,j y ɾ y j y ʃ,A_oghuz,-0.9998,unknown,False
+walk,3,Azerbaijani; Kazakh; Turkish,verbs_actions,Azerbaijani,jɛrɪʃ,j ɛ r ɪ ʃ,A_oghuz,-0.8735,unknown,False
+ahead,2,Azerbaijani; Chuvash,body_parts,Azerbaijani,dyz,d y z,A_oghuz,-0.8902,unknown,False
+ahead,2,Azerbaijani; Chuvash,body_parts,Chuvash,ˈtikɘs,t i k ɘ s,C_chuvash,-1.1934,unknown,False
+and,2,Azerbaijani; Turkish,other,Turkish,vɛ,v ɛ,A_oghuz,-1.047,unknown,False
+and,2,Azerbaijani; Turkish,other,Azerbaijani,væ,v æ,A_oghuz,-0.8759,unknown,False
+arrow,2,Azerbaijani; Yakut,social_political,Azerbaijani,ɔχ,ɔ χ,A_oghuz,-1.1968,unknown,False
+arrow,2,Azerbaijani; Yakut,social_political,Yakut,ox,o x,B_yakut,-1.3053,unknown,False
+at that time,2,Azerbaijani; Yakut,spatial_temporal,Azerbaijani,ɔ_vɑχt,ɔ + v ɑ χ t,A_oghuz,-0.9364,unknown,False
+at that time,2,Azerbaijani; Yakut,spatial_temporal,Yakut,ocːoɣo,o cː o ɣ o,B_yakut,-1.5291,mongolic_candidate,False
+because of,2,Azerbaijani; Kazakh,other,Kazakh,ʊʃən,ʊ ʃ ə n,A_kipchak,-1.1033,unknown,False
+because of,2,Azerbaijani; Kazakh,other,Azerbaijani,yt͡ʃyn,y tʃ y n,A_oghuz,-0.9896,unknown,False
+blunt,2,Chuvash; Kazakh,other,Kazakh,doʁɑl,d o ʁ ɑ l,A_kipchak,-1.1005,unknown,False
+blunt,2,Chuvash; Kazakh,other,Chuvash,ˈtɘrɘnt̬͡ɕɘk,t ɘ r ɘ n tɕ ɘ k,C_chuvash,-1.2088,unknown,False
+boat,2,Chuvash; Yakut,material_culture,Yakut,oŋoco,o ŋ o c o,B_yakut,-1.295,unknown,False
+boat,2,Chuvash; Yakut,material_culture,Chuvash,ˈkimɘ,k i m ɘ,C_chuvash,-1.2032,unknown,False
+border,2,Azerbaijani; Chuvash,social_political,Azerbaijani,hydud,h y d u d,A_oghuz,-0.9368,unknown,False
+border,2,Azerbaijani; Chuvash,social_political,Chuvash,ˈt͡ɕikɘ,tɕ i k ɘ,C_chuvash,-1.2859,unknown,False
+boss,2,Azerbaijani; Turkish,social_political,Azerbaijani,ʃɛf,ʃ ɛ f,A_oghuz,-0.9605,unknown,False
+boss,2,Azerbaijani; Turkish,social_political,Turkish,ʃɛf,ʃ ɛ f,A_oghuz,-0.875,unknown,False
+broom,2,Azerbaijani; Kazakh,material_culture,Kazakh,səpəɾʁəʃ,s ə p ə ɾ ʁ ə ʃ,A_kipchak,-1.1579,unknown,False
+broom,2,Azerbaijani; Kazakh,material_culture,Azerbaijani,sypyrɟæ,s y p y r ɟ æ,A_oghuz,-0.8771,unknown,False
+cross,2,Azerbaijani; Turkish,other,Azerbaijani,χɑt͡ʃ,χ ɑ tʃ,A_oghuz,-1.006,unknown,False
+cross,2,Azerbaijani; Turkish,other,Turkish,hat͡ʃ,h a tʃ,A_oghuz,-0.8949,unknown,False
+"delicate, fine",2,Azerbaijani; Turkish,fauna,Azerbaijani,ɪnd͡ʒæ,ɪ n dʒ æ,A_oghuz,-0.8862,unknown,False
+"delicate, fine",2,Azerbaijani; Turkish,fauna,Turkish,ind͡ʒɛ,i n dʒ ɛ,A_oghuz,-0.8754,unknown,False
+dream,2,Kazakh; Turkish,body_parts,Kazakh,tʊs,t ʊ s,A_kipchak,-1.076,unknown,False
+dream,2,Kazakh; Turkish,body_parts,Turkish,ɾyja,ɾ y j a,A_oghuz,-0.8723,unknown,False
+end,2,Kazakh; Turkish,spatial_temporal,Kazakh,soŋə,s o ŋ ə,A_kipchak,-1.0961,unknown,False
+end,2,Kazakh; Turkish,spatial_temporal,Turkish,ut͡ʃ,u tʃ,A_oghuz,-0.9963,unknown,False
+face,2,Azerbaijani; Turkish,body_parts,Turkish,jyz,j y z,A_oghuz,-0.9326,unknown,False
+face,2,Azerbaijani; Turkish,body_parts,Azerbaijani,yz,y z,A_oghuz,-0.8865,unknown,False
+fat,2,Turkish; Yakut,food_drink,Turkish,jaː,j aː,A_oghuz,-0.9539,unknown,False
+fat,2,Turkish; Yakut,food_drink,Yakut,sɯ͡a,s ɯa,B_yakut,-1.2829,unknown,False
+first,2,Azerbaijani; Kazakh,flora,Kazakh,ɑlʁɑʃqə,ɑ l ʁ ɑ ʃ q ə,A_kipchak,-1.0893,unknown,False
+first,2,Azerbaijani; Kazakh,flora,Azerbaijani,bɪrɪnd͡ʒɪ,b ɪ r ɪ n dʒ ɪ,A_oghuz,-0.8765,unknown,False
+flesh,2,Chuvash; Uzbek,other,Uzbek,ɡoʃt,g o ʃ t,A_kipchak,-1.2322,unknown,False
+flesh,2,Chuvash; Uzbek,other,Chuvash,aʂ,a ʂ,C_chuvash,-1.3926,unknown,False
+fringe,2,Chuvash; Kazakh,material_culture,Kazakh,ʃetə,ʃ e t ə,A_kipchak,-1.0755,unknown,False
+fringe,2,Chuvash; Kazakh,material_culture,Chuvash,ˈχɘrɘ,χ ɘ r ɘ,C_chuvash,-1.2137,unknown,False
+he,2,Azerbaijani; Turkish,other,Turkish,o,o,A_oghuz,-1.1765,unknown,False
+he,2,Azerbaijani; Turkish,other,Azerbaijani,ɔ,ɔ,A_oghuz,-1.1189,unknown,False
+hill,2,Chuvash; Turkish,natural_world,Turkish,tɛpɛ,t ɛ p ɛ,A_oghuz,-0.9295,unknown,False
+hill,2,Chuvash; Turkish,natural_world,Chuvash,tɘmɛsˈkɛ,t ɘ m ɛ s k ɛ,C_chuvash,-1.1938,unknown,False
+home,2,Azerbaijani; Turkish,material_culture,Azerbaijani,ɛv,ɛ v,A_oghuz,-1.1129,unknown,False
+home,2,Azerbaijani; Turkish,material_culture,Turkish,ɛv,ɛ v,A_oghuz,-1.047,unknown,False
+house,2,Azerbaijani; Turkish,material_culture,Azerbaijani,ɛv,ɛ v,A_oghuz,-1.1129,unknown,False
+house,2,Azerbaijani; Turkish,material_culture,Turkish,ɛv,ɛ v,A_oghuz,-1.047,unknown,False
+hungry,2,Azerbaijani; Kazakh,other,Kazakh,ɑʃ,ɑ ʃ,A_kipchak,-1.1336,unknown,False
+hungry,2,Azerbaijani; Kazakh,other,Azerbaijani,ɑd͡ʒ,ɑ dʒ,A_oghuz,-0.9511,unknown,False
+mirror,2,Azerbaijani; Chuvash,material_culture,Azerbaijani,ɟyzɟy,ɟ y z ɟ y,A_oghuz,-0.9704,unknown,False
+mirror,2,Azerbaijani; Chuvash,material_culture,Chuvash,ˈtɘkɘr,t ɘ k ɘ r,C_chuvash,-1.1952,unknown,False
+nail,2,Kazakh; Turkish,body_parts,Kazakh,ʃeɡe,ʃ e g e,A_kipchak,-1.1389,unknown,False
+nail,2,Kazakh; Turkish,body_parts,Turkish,t͡ʃivi,tʃ i v i,A_oghuz,-0.9117,unknown,False
+odour,2,Kazakh; Uzbek,body_parts,Uzbek,d͡ʒid,dʒ i d,A_kipchak,-1.1274,unknown,False
+odour,2,Kazakh; Uzbek,body_parts,Kazakh,ɪjəs,ɪ j ə s,A_kipchak,-1.0751,unknown,False
+often,2,Azerbaijani; Kazakh,other,Kazakh,əlʁɪj,ə l ʁ ɪ j,A_kipchak,-1.1098,unknown,False
+often,2,Azerbaijani; Kazakh,other,Azerbaijani,t͡ʃɔχ_vɑχt,tʃ ɔ χ + v ɑ χ t,A_oghuz,-1.0124,unknown,False
+palm,2,Azerbaijani; Turkish,body_parts,Azerbaijani,ɔvud͡ʒ,ɔ v u dʒ,A_oghuz,-1.0644,unknown,False
+palm,2,Azerbaijani; Turkish,body_parts,Turkish,avut͡ʃ,a v u tʃ,A_oghuz,-0.9156,unknown,False
+pit,2,Azerbaijani; Kazakh,other,Kazakh,oɾ,o ɾ,A_kipchak,-1.0935,unknown,False
+pit,2,Azerbaijani; Kazakh,other,Azerbaijani,t͡ʃuχur,tʃ u χ u r,A_oghuz,-0.8764,unknown,False
+place,2,Turkish; Uzbek,spatial_temporal,Uzbek,d͡ʒɒj,dʒ ɒ j,A_kipchak,-1.0835,unknown,False
+place,2,Turkish; Uzbek,spatial_temporal,Turkish,jɛɾ,j ɛ ɾ,A_oghuz,-0.8929,unknown,False
+pointed,2,Azerbaijani; Kazakh,other,Kazakh,ʊʃkəɾ,ʊ ʃ k ə ɾ,A_kipchak,-1.1184,unknown,False
+pointed,2,Azerbaijani; Kazakh,other,Azerbaijani,sɪvrɪ,s ɪ v r ɪ,A_oghuz,-0.8845,unknown,False
+raw,2,Azerbaijani; Turkish,other,Azerbaijani,t͡ʃɪj,tʃ ɪ j,A_oghuz,-1.0373,unknown,False
+raw,2,Azerbaijani; Turkish,other,Turkish,t͡ʃij,tʃ i j,A_oghuz,-0.9122,unknown,False
+small,2,Chuvash; Turkmen,other,Turkmen,kiʨi(ʥik),k i ʨ i ʥ i k,A_oghuz,-1.8743,unknown,True
+small,2,Chuvash; Turkmen,other,Chuvash,ˈpɘt͡ɕɘk,p ɘ tɕ ɘ k,C_chuvash,-1.5966,unknown,False
+so,2,Turkish; Yakut,other,Turkish,œjlɛ,œ j l ɛ,A_oghuz,-0.9158,unknown,False
+so,2,Turkish; Yakut,other,Yakut,ocːo,o cː o,B_yakut,-1.484,unknown,False
+still,2,Kazakh; Turkish,other,Kazakh,ælə,æ l ə,A_kipchak,-1.0881,unknown,False
+still,2,Kazakh; Turkish,other,Turkish,haːlaː,h aː l aː,A_oghuz,-0.8789,unknown,False
+still,2,Kazakh; Turkish,other,Turkish,hɛnyz,h ɛ n y z,A_oghuz,-0.8789,unknown,False
+string,2,Azerbaijani; Kazakh,material_culture,Kazakh,ʒəp,ʒ ə p,A_kipchak,-1.1509,unknown,False
+string,2,Azerbaijani; Kazakh,material_culture,Azerbaijani,ɪp,ɪ p,A_oghuz,-1.0632,unknown,False
+swarm,2,Kazakh; Turkish,body_parts,Kazakh,ʊjəɾ,ʊ j ə ɾ,A_kipchak,-1.0835,unknown,False
+swarm,2,Kazakh; Turkish,body_parts,Turkish,syɾy,s y ɾ y,A_oghuz,-1.0035,unknown,False
+thin,2,Kazakh; Turkish,other,Kazakh,ʒəŋəʃke,ʒ ə ŋ ə ʃ k e,A_kipchak,-1.0908,unknown,False
+thin,2,Kazakh; Turkish,other,Turkish,ind͡ʒɛ,i n dʒ ɛ,A_oghuz,-0.8754,unknown,False
+thought,2,Azerbaijani; Turkish,cognitive_abstract,Turkish,dyʃynd͡ʒɛ,d y ʃ y n dʒ ɛ,A_oghuz,-0.9473,unknown,False
+thought,2,Azerbaijani; Turkish,cognitive_abstract,Azerbaijani,dyʃynd͡ʒæ,d y ʃ y n dʒ æ,A_oghuz,-0.9204,unknown,False
+tree,2,Turkmen; Uzbek,flora,Uzbek,daraχt,d a r a χ t,A_kipchak,-1.218,unknown,False
+tree,2,Turkmen; Uzbek,flora,Turkmen,aɣaʨ,a ɣ a tɕ,A_oghuz,-1.629,mongolic_candidate,True
+willow,2,Azerbaijani; Turkish,flora,Turkish,sœjyt,s œ j y t,A_oghuz,-0.9936,unknown,False
+willow,2,Azerbaijani; Turkish,flora,Azerbaijani,sœjyd,s œ j y d,A_oghuz,-0.9539,unknown,False
+wish,2,Chuvash; Kazakh,cognitive_abstract,Kazakh,mʊdːe,m ʊ dː e,A_kipchak,-2.2809,unknown,False
+wish,2,Chuvash; Kazakh,cognitive_abstract,Chuvash,ˈɘmɘt,ɘ m ɘ t,C_chuvash,-1.2553,unknown,False
+woman,2,Kazakh; Yakut,kinship,Kazakh,bɪjke,b ɪ j k e,A_kipchak,-1.2314,unknown,False
+woman,2,Kazakh; Yakut,kinship,Yakut,ɟaxtaɾ,ɟ a x t a ɾ,B_yakut,-1.3983,unknown,False
+wood,2,Kazakh; Turkish,other,Kazakh,ɑʁɑʃ,ɑ ʁ ɑ ʃ,A_kipchak,-1.1957,unknown,False
+wood,2,Kazakh; Turkish,other,Turkish,aːat͡ʃ,aː a tʃ,A_oghuz,-0.9141,unknown,False
+worker,2,Azerbaijani; Kazakh,social_political,Kazakh,ʒʊməsʃə,ʒ ʊ m ə s ʃ ə,A_kipchak,-1.1423,unknown,False
+worker,2,Azerbaijani; Kazakh,social_political,Azerbaijani,ɪʃt͡ʃɪ,ɪ ʃ tʃ ɪ,A_oghuz,-1.0129,unknown,False

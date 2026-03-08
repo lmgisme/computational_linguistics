@@ -1,0 +1,148 @@
+========================================================================
+PHASE 3 REPORT: SUBSTRATE ANOMALY DETECTION
+Turkic Computational Historical Linguistics Project
+========================================================================
+
+1. REGULARITY SCORE DISTRIBUTION
+------------------------------------------------------------------------
+  Total words scored:          353
+  Mean adjusted score:         -0.4797
+  Median adjusted score:       -0.1809
+  Std dev:                     0.7494
+  Min score:                   -6.0000
+  Max score:                   0.0000
+  LexStat-penalized words:     35
+  Yakut artifact flags:        1
+
+  Anomaly threshold (mean - 1.5σ): -1.6058
+  [Yakut artifact rows excluded from threshold calibration]
+
+2. ANOMALY COUNTS BY LANGUAGE
+------------------------------------------------------------------------
+  Language          Anomalies    Total     Rate
+  ---------------- ---------- -------- --------
+  Azerbaijani               4       40   10.0%
+  Chuvash                   3       40    7.5%
+  Kazakh                    4       40   10.0%
+  Kyrgyz                    3       38    7.9%
+  Turkish                   0       40    0.0%
+  Turkmen                   3       39    7.7%
+  Uyghur                    2       36    5.6%
+  Uzbek                     5       40   12.5%
+  Yakut                     8       40   20.0%
+
+3. LOAN SOURCE CLASSIFICATION OF ANOMALIES
+------------------------------------------------------------------------
+  unknown                      23  (71.9%)
+  Mongolic_candidate            8  (25.0%)
+  Persian                       1  (3.1%)
+
+  [Note: Arabic/Persian/Russian flags are heuristic phonological screens.
+   Manual verification against Starostin et al. (2003) required for
+   final substrate determination. Mongolic_candidate flagging is based
+   on uvular fricative presence and requires cross-check with Mongolic
+   Swadesh lists in Phase 4.]
+
+4. UNKNOWN-SOURCE ANOMALY CLUSTERS
+------------------------------------------------------------------------
+  Cluster 1  (n=9, mean score=-2.2143)
+    Languages:    {'Uzbek': 3, 'Yakut': 2, 'Kyrgyz': 1, 'Turkmen': 1, 'Kazakh': 1, 'Chuvash': 1}
+    Top glosses:  {'small': 3, 'many': 2, 'who': 1, 'tree': 1, 'bark': 1}
+    Sample forms: køp, kop, kiʨi(ʥik), ? kutɕ:uguj, kim
+    Loan flags:   {'unknown': 9}
+
+  Cluster 2  (n=6, mean score=-2.8164)
+    Languages:    {'Chuvash': 1, 'Kazakh': 1, 'Kyrgyz': 1, 'Uyghur': 1, 'Azerbaijani': 1, 'Yakut': 1}
+    Top glosses:  {'all': 3, 'ear': 1, 'many': 1, 'woman': 1}
+    Sample forms: χölɣa, ? ʒɯɣɯl, ʥɯɣɯl, ʒiqil, ʨoχ(lu)
+    Loan flags:   {'Mongolic_candidate': 3, 'unknown': 3}
+
+  Cluster 3  (n=3, mean score=-2.0791)
+    Languages:    {'Azerbaijani': 1, 'Turkmen': 1, 'Uzbek': 1}
+    Top glosses:  {'grease': 3}
+    Sample forms: jaɣ, jɔɣ
+    Loan flags:   {'Mongolic_candidate': 3}
+
+  Cluster 4  (n=5, mean score=-2.5553)
+    Languages:    {'Yakut': 2, 'Kyrgyz': 1, 'Uyghur': 1, 'Chuvash': 1}
+    Top glosses:  {'horn': 3, 'tree': 1, 'many': 1}
+    Sample forms: myjyz, ? myŋgyz, muos, mas, miˈɕ̬ɛ
+    Loan flags:   {'unknown': 5}
+
+  Cluster 5  (n=8, mean score=-2.375)
+    Languages:    {'Yakut': 3, 'Kazakh': 2, 'Uzbek': 1, 'Azerbaijani': 1, 'Turkmen': 1}
+    Top glosses:  {'tree': 2, 'bone': 1, 'egg': 1, 'hair': 1, 'not': 1}
+    Sample forms: uŋuoχ, sɯmɯ:t, sɔʨ, sɯ:ŋk, ana(w)
+    Loan flags:   {'unknown': 6, 'Mongolic_candidate': 2}
+
+5. TOP 30 MOST STATISTICALLY IRREGULAR WORDS
+------------------------------------------------------------------------
+  (unknown-source anomalies, sorted by adjusted_score ascending)
+
+  #   Lang           Gloss          Score  Form                  Cross-linguistic forms
+  --- -------------- ------------ -------  --------------------  ----------------------------------------
+  1   Azerbaijani    many          -6.000  ʨoχ(lu)               Chuvash: miˈɕ̬ɛ  |  Kazakh: køp  |  Kyrgyz: køp  |  Turkish: ʨok  |  Turkmen: køp  |  Uyghur: køp  |  Uzbek: kop  |  Yakut: tøhø
+  2   Chuvash        small         -3.987  ˈpɘt͡ɕɘk              Azerbaijani: kiʨik  |  Kazakh: kɘʃkene, kɘʃkentaj  |  Kyrgyz: kiʨine(kej)  |  Turkish: kyʨyk  |  Turkmen: kiʨi(ʥik)  |  Uyghur: kiʨik  |  Uzbek: kiʨkina  |  Yakut: ? kutɕ:uguj
+  3   Yakut          woman         -3.413  ɟaxtaɾ                Azerbaijani: ɢadɯn  |  Chuvash: χɘrarə̈m  |  Kazakh: bɪjke  |  Turkish: kadɯn  |  Uzbek: χɔtin (kiʃi)
+  4   Azerbaijani    tree          -3.164  aɣaǰ                  Chuvash: jɯvə̈ɕ  |  Kazakh: aɣaʃ  |  Kyrgyz: ʥɯɣaʨ  |  Turkish: aɣaʨ  |  Turkmen: aɣaʨ  |  Uyghur: jaɣaʨ  |  Uzbek: daraχt  |  Yakut: mas
+  5   Yakut          horn          -3.132  muos                  Azerbaijani: bujnuz  |  Chuvash: möjraga  |  Kazakh: myjɘz  |  Kyrgyz: myjyz  |  Turkish: bojnuz  |  Turkmen: Sah  |  Uyghur: ? myŋgyz  |  Uzbek: muɡiz
+  6   Yakut          not           -3.103  sɯ:ŋk                 Azerbaijani: fɯrtdɯɢ  |  Chuvash: mA  |  Kazakh: sɘŋbɘrɘk  |  Kyrgyz: ʨimkirik  |  Turkish: symyk  |  Turkmen: symyk  |  Uyghur: maŋqa  |  Uzbek: miʃi(ri)q
+  7   Uyghur         horn          -3.020  ? myŋgyz              Azerbaijani: bujnuz  |  Chuvash: möjraga  |  Kazakh: myjɘz  |  Kyrgyz: myjyz  |  Turkish: bojnuz  |  Turkmen: Sah  |  Uzbek: muɡiz  |  Yakut: muos
+  8   Yakut          egg           -2.543  sɯmɯ:t                Azerbaijani: jumurta  |  Chuvash: ɕömarda  |  Kazakh: ʒŭmɯrtqa  |  Kyrgyz: ʥumurtqa  |  Turkish: jumurta  |  Turkmen: jumurtɢa  |  Uzbek: tuχum
+  9   Chuvash        ear           -2.504  χölɣa                 Azerbaijani: ɢulaɢ  |  Kazakh: qulaq  |  Kyrgyz: qulaq  |  Turkish: kulak  |  Turkmen: ɢulaq  |  Uyghur: qulaq  |  Uzbek: qulɔq  |  Yakut: kulga:χ
+  10  Yakut          bone          -2.446  uŋuoχ                 Azerbaijani: symyk  |  Chuvash: ʃömö  |  Kazakh: syjek  |  Kyrgyz: søøk  |  Turkish: kemik  |  Turkmen: syŋk  |  Uyghur: søŋɛk, syŋɛk, syjɛk  |  Uzbek: sujak
+  11  Kyrgyz         horn          -2.441  myjyz                 Azerbaijani: bujnuz  |  Chuvash: möjraga  |  Kazakh: myjɘz  |  Turkish: bojnuz  |  Turkmen: Sah  |  Uyghur: ? myŋgyz  |  Uzbek: muɡiz  |  Yakut: muos
+  12  Uzbek          tree          -2.426  daraχt                Azerbaijani: aɣaǰ  |  Chuvash: jɯvə̈ɕ  |  Kazakh: aɣaʃ  |  Kyrgyz: ʥɯɣaʨ  |  Turkish: aɣaʨ  |  Turkmen: aɣaʨ  |  Uyghur: jaɣaʨ  |  Yakut: mas
+  13  Turkmen        horn          -2.363  Sah                   Azerbaijani: bujnuz  |  Chuvash: möjraga  |  Kazakh: myjɘz  |  Kyrgyz: myjyz  |  Turkish: bojnuz  |  Uyghur: ? myŋgyz  |  Uzbek: muɡiz  |  Yakut: muos
+  14  Yakut          tree          -2.215  mas                   Azerbaijani: aɣaǰ  |  Chuvash: jɯvə̈ɕ  |  Kazakh: aɣaʃ  |  Kyrgyz: ʥɯɣaʨ  |  Turkish: aɣaʨ  |  Turkmen: aɣaʨ  |  Uyghur: jaɣaʨ  |  Uzbek: daraχt
+  15  Yakut          who           -2.198  kim                   Azerbaijani: kim  |  Chuvash: kam  |  Kazakh: kɘm  |  Kyrgyz: kim  |  Turkish: kim  |  Turkmen: kim  |  Uyghur: kim  |  Uzbek: kim
+  16  Uzbek          many          -2.181  kop                   Azerbaijani: ʨoχ(lu)  |  Chuvash: miˈɕ̬ɛ  |  Kazakh: køp  |  Kyrgyz: køp  |  Turkish: ʨok  |  Turkmen: køp  |  Uyghur: køp  |  Yakut: tøhø
+  17  Kyrgyz         many          -2.163  køp                   Azerbaijani: ʨoχ(lu)  |  Chuvash: miˈɕ̬ɛ  |  Kazakh: køp  |  Turkish: ʨok  |  Turkmen: køp  |  Uyghur: køp  |  Uzbek: kop  |  Yakut: tøhø
+  18  Azerbaijani    grease        -2.155  jaɣ                   Chuvash: ɕu  |  Kazakh: maj  |  Kyrgyz: maj  |  Turkish: jaɣ  |  Turkmen: jaɣ  |  Uyghur: maj  |  Uzbek: jɔɣ  |  Yakut: sɯa
+  19  Turkmen        grease        -2.063  jaɣ                   Azerbaijani: jaɣ  |  Chuvash: ɕu  |  Kazakh: maj  |  Kyrgyz: maj  |  Turkish: jaɣ  |  Uyghur: maj  |  Uzbek: jɔɣ  |  Yakut: sɯa
+  20  Uzbek          grease        -2.019  jɔɣ                   Azerbaijani: jaɣ  |  Chuvash: ɕu  |  Kazakh: maj  |  Kyrgyz: maj  |  Turkish: jaɣ  |  Turkmen: jaɣ  |  Uyghur: maj  |  Yakut: sɯa
+  21  Uzbek          hair          -2.019  sɔʨ                   Azerbaijani: saʨ  |  Chuvash: ɕyɕ  |  Kazakh: ʃaʃ  |  Kyrgyz: ʨaʨ  |  Turkish: saʨ  |  Turkmen: saʨ  |  Uyghur: ʨaʨ  |  Yakut: as
+  22  Chuvash        many          -1.968  miˈɕ̬ɛ                Azerbaijani: ʨoχ(lu)  |  Kazakh: køp  |  Kyrgyz: køp  |  Turkish: ʨok  |  Turkmen: køp  |  Uyghur: køp  |  Uzbek: kop  |  Yakut: tøhø
+  23  Turkmen        small         -1.848  kiʨi(ʥik)             Azerbaijani: kiʨik  |  Chuvash: ˈpɘt͡ɕɘk  |  Kazakh: kɘʃkene, kɘʃkentaj  |  Kyrgyz: kiʨine(kej)  |  Turkish: kyʨyk  |  Uyghur: kiʨik  |  Uzbek: kiʨkina  |  Yakut: ? kutɕ:uguj
+  24  Yakut          small         -1.764  ? kutɕ:uguj           Azerbaijani: kiʨik  |  Chuvash: ˈpɘt͡ɕɘk  |  Kazakh: kɘʃkene, kɘʃkentaj  |  Kyrgyz: kiʨine(kej)  |  Turkish: kyʨyk  |  Turkmen: kiʨi(ʥik)  |  Uyghur: kiʨik  |  Uzbek: kiʨkina
+  25  Kazakh         tree          -1.738  aɣaʃ                  Azerbaijani: aɣaǰ  |  Chuvash: jɯvə̈ɕ  |  Kyrgyz: ʥɯɣaʨ  |  Turkish: aɣaʨ  |  Turkmen: aɣaʨ  |  Uyghur: jaɣaʨ  |  Uzbek: daraχt  |  Yakut: mas
+  26  Kazakh         woman         -1.708  bɪjke                 Azerbaijani: ɢadɯn  |  Chuvash: χɘrarə̈m  |  Turkish: kadɯn  |  Uzbek: χɔtin (kiʃi)  |  Yakut: ɟaxtaɾ
+  27  Kazakh         all           -1.697  ? ʒɯɣɯl               Azerbaijani: dyʃ  |  Chuvash: yk  |  Kyrgyz: ʥɯɣɯl  |  Turkish: dyʃ  |  Turkmen: jɯqɯl  |  Uyghur: ʒiqil  |  Uzbek: jiqil  |  Yakut: tys
+  28  Kyrgyz         all           -1.666  ʥɯɣɯl                 Azerbaijani: dyʃ  |  Chuvash: yk  |  Kazakh: ? ʒɯɣɯl  |  Turkish: dyʃ  |  Turkmen: jɯqɯl  |  Uyghur: ʒiqil  |  Uzbek: jiqil  |  Yakut: tys
+  29  Uzbek          bark          -1.654  qɒbiq                 Azerbaijani: ɢabɯɢ  |  Chuvash: χubə̈  |  Kazakh: qabɯq  |  Kyrgyz: qabɯq  |  Turkish: kabuk, (aɣaʨ) kabuɣu  |  Turkmen: ɢabɯq  |  Uyghur: qovzaq  |  Yakut: χatɯrɯk
+  30  Kazakh         that          -1.623  ana(w)                Azerbaijani: dA  |  Chuvash: rA, dA, tA  |  Kyrgyz: dA, tA  |  Turkish: tA, dA  |  Turkmen: dA  |  Uyghur: dA, tA  |  Uzbek: o(ʃa)  |  Yakut: ɣa
+
+6. INTERPRETATION NOTES
+------------------------------------------------------------------------
+
+  Threshold and model limitations:
+  - The regularity scorer uses a token-level lookup against the Phase 2
+    correspondence model. Because Phase 2 used a 40-item Swadesh list,
+    coverage is limited: phonemes that appear rarely in the list will
+    score at the LOG_PROB_FLOOR regardless of their true regularity.
+    This biases anomaly detection toward rare phonemes and short words.
+
+  - Words in small cognate groups (n=2 pairs) have noisier correspondence
+    probabilities and may be over-flagged. Treat clusters with mean cogid
+    size < 3 with caution.
+
+  - LexStat-sourced cognate IDs received a 0.30 penalty. These entries
+    have less Savelyev grounding and may include false cognates that
+    inflate anomaly rates.
+
+  Filters applied:
+  - Yakut s->e artifact (Phase 2 confirmed alignment artifact): flagged
+    but NOT included in anomaly threshold calibration or clustering.
+  - Oghuz k->q/ɢ alternation: scored as regular (log P = 0) since this
+    is the regular Oghuz uvular shift, not substrate.
+
+  Substrate candidates (Phase 4 targets):
+  - Words in the "unknown" loan_source category with adjusted_score
+    below threshold and NOT in core Swadesh glosses are primary Phase 4
+    candidates for Mongolic/Tungusic comparison.
+  - Cluster phonological profiles should be compared against Mongolic
+    and Tungusic Swadesh lists (via Lexibank) in Phase 4.
+  - The Turkmen horn=sah (Phase 2 flag) is a Persian loan and should
+    be excluded from substrate analysis.
+  - Uyghur bark=qovzaq (Phase 2 flag, missing Savelyev coverage) remains
+    a primary substrate candidate pending Mongolic comparison.

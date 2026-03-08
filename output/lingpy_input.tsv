@@ -1,0 +1,354 @@
+ID	DOCULECT	CONCEPT	TOKENS	IPA
+1	Azerbaijani	I	d ɯ r n a ɢ	dɯrnaɢ
+2	Chuvash	I	tɕ ĭ r n e	ʨɘrne
+3	Kazakh	I	t ɯ r n a q	tɯrnaq
+4	Turkish	I	t ɯ r n a k	tɯrnak
+5	Turkmen	I	d ɯ r n a q	dɯrnaq
+6	Uzbek	I	t i r n ɔ q	tirnɔq
+7	Yakut	I	t ɯ ŋ ɯ r a χ	tɯŋɯraχ
+8	Kyrgyz	I	t ɯ r m a q	tɯrmaq
+9	Uyghur	I	t i r m a q	tirmaq
+10	Azerbaijani	we	b i z	biz
+11	Chuvash	we	e b i r	ebir
+12	Kazakh	we	b ĭ z	bɘz
+13	Kyrgyz	we	b i z	biz
+14	Turkish	we	b i z	biz
+15	Turkmen	we	b i z	biz
+16	Uyghur	we	b i z	biz
+17	Uzbek	we	b i z	biz
+18	Yakut	we	b i h i g i	bihigi
+19	Azerbaijani	you_2sg	s i z	siz
+20	Chuvash	you_2sg	e z i r	ezir
+21	Kazakh	you_2sg	s ĭ z d e r	sɘzder
+22	Kyrgyz	you_2sg	s i l e r	siler
+23	Turkish	you_2sg	s i z	siz
+24	Turkmen	you_2sg	s i z	siz
+25	Uyghur	you_2sg	s i z	siz
+26	Uzbek	you_2sg	s i z l a r	sizlar
+27	Yakut	you_2sg	e h i g i	ehigi
+28	Azerbaijani	that	d a	dA
+29	Chuvash	that	r a	rA, dA, tA
+30	Kyrgyz	that	d a	dA, tA
+31	Turkish	that	t a	tA, dA
+32	Turkmen	that	d a	dA
+33	Uyghur	that	d a	dA, tA
+34	Yakut	that	ɣ a	ɣa
+35	Azerbaijani	bark	ɢ a b ɯ ɢ	ɢabɯɢ
+36	Chuvash	bark	χ u b ə	χubə̈
+37	Kazakh	bark	q a b ɯ q	qabɯq
+38	Kyrgyz	bark	q a b ɯ q	qabɯq
+39	Turkish	bark	k a b u k	kabuk, (aɣaʨ) kabuɣu
+40	Turkmen	bark	ɢ a b ɯ q	ɢabɯq
+41	Uyghur	bark	q o v z a q	qovzaq
+42	Yakut	bark	χ a t ɯ r ɯ k	χatɯrɯk
+43	Kazakh	big	y l k e n	ylken
+44	Turkmen	big	u l ɯ	ulɯ
+45	Yakut	big	u l a χ a n	ulaχan
+46	Azerbaijani	big	b ø j y k	bøjyk
+47	Turkish	big	b y j y k	byjyk
+48	Chuvash	big	p ɯ z ə k	pɯzə̈k
+49	Azerbaijani	bird	ɢ u ʃ	ɢuʃ
+50	Kazakh	bird	q u s	qŭs
+51	Turkish	bird	k u ʃ	kuʃ
+52	Turkmen	bird	ɢ u ʃ	ɢuʃ
+53	Uyghur	bird	q u ʃ	quʃ
+54	Uzbek	bird	q u ʃ	quʃ
+55	Yakut	bird	k ø t ø r	køtør
+56	Kyrgyz	bird	q a n a t t uː	qanattu:
+57	Chuvash	bird	k a j ə k	kajə̈k
+58	Azerbaijani	blood	ɢ a n	ɢan
+59	Chuvash	blood	j u n	jun
+60	Kazakh	blood	q a n	qan
+61	Kyrgyz	blood	q a n	qan
+62	Turkish	blood	k a n	kan
+63	Turkmen	blood	ɢ aː n	ɢa:n
+64	Uyghur	blood	q a n	qan
+65	Uzbek	blood	q ɔ n	qɔn
+66	Yakut	blood	χ aː n	χa:n
+67	Azerbaijani	bone	s y m y k	symyk
+68	Chuvash	bone	ʃ ŏ m ŏ	ʃömö
+69	Kazakh	bone	s y j e k	syjek
+70	Kyrgyz	bone	s øː k	søøk
+71	Turkmen	bone	s y ŋ k	syŋk
+72	Uyghur	bone	s ø ŋ ɛ k	søŋɛk, syŋɛk, syjɛk
+73	Uzbek	bone	s u j a k	sujak
+74	Yakut	bone	u ŋ u o χ	uŋuoχ
+75	Turkish	bone	k e m i k	kemik
+76	Azerbaijani	dog	i t	it
+77	Chuvash	dog	j ɯ d ə	jɯdə̈
+78	Kazakh	dog	i t	it
+79	Kyrgyz	dog	i t	it
+80	Turkmen	dog	i t	it
+81	Uyghur	dog	i ʃ t	iʃt
+82	Uzbek	dog	i t	it
+83	Yakut	dog	ɯ t	ɯt
+84	Turkish	dog	k ø p e k	køpek
+85	Azerbaijani	ear	ɢ u l a ɢ	ɢulaɢ
+86	Chuvash	ear	χ ŏ l ɣ a	χölɣa
+87	Kazakh	ear	q u l a q	qulaq
+88	Kyrgyz	ear	q u l a q	qulaq
+89	Turkish	ear	k u l a k	kulak
+90	Turkmen	ear	ɢ u l a q	ɢulaq
+91	Uyghur	ear	q u l a q	qulaq
+92	Uzbek	ear	q u l ɔ q	qulɔq
+93	Yakut	ear	k u l g aː χ	kulga:χ
+94	Yakut	feather	a h aː	aha:
+95	Azerbaijani	feather	j e	je
+96	Chuvash	feather	ɕ i	ɕi
+97	Kazakh	feather	ʒ e	ʒe
+98	Kyrgyz	feather	ʥ e	ʥe
+99	Turkish	feather	j e	je
+100	Turkmen	feather	i j	ij
+101	Uyghur	feather	j i	ji
+102	Uzbek	feather	j e	je
+103	Azerbaijani	egg	j u m u r t a	jumurta
+104	Chuvash	egg	ɕ ŏ m a r d a	ɕömarda
+105	Kazakh	egg	ʒ u m ɯ r t q a	ʒŭmɯrtqa
+106	Kyrgyz	egg	ʥ u m u r t q a	ʥumurtqa
+107	Turkish	egg	j u m u r t a	jumurta
+108	Turkmen	egg	j u m u r t ɢ a	jumurtɢa
+109	Yakut	egg	s ɯ m ɯː t	sɯmɯ:t
+110	Azerbaijani	eye	k ø z	køz
+111	Chuvash	eye	k u ɕ	kuɕ
+112	Kazakh	eye	k ø z	køz
+113	Kyrgyz	eye	k ø z	køz
+114	Turkish	eye	g ø z	gøz
+115	Turkmen	eye	g ø z	gøz
+116	Uyghur	eye	k ø z	køz
+117	Uzbek	eye	k o z	koz
+118	Yakut	eye	χ a r a χ	χaraχ
+119	Kazakh	all	ʒ ɯ ɣ ɯ l	? ʒɯɣɯl
+120	Kyrgyz	all	ʥ ɯ ɣ ɯ l	ʥɯɣɯl
+121	Turkmen	all	j ɯ q ɯ l	jɯqɯl
+122	Uyghur	all	ʒ i q i l	ʒiqil
+123	Uzbek	all	j i q i l	jiqil
+124	Azerbaijani	all	d y ʃ	dyʃ
+125	Turkish	all	d y ʃ	dyʃ
+126	Yakut	all	t y s	tys
+127	Chuvash	all	y k	yk
+128	Kazakh	grease	m a j	maj
+129	Kyrgyz	grease	m a j	maj
+130	Uyghur	grease	m a j	maj
+131	Azerbaijani	grease	j a ɣ	jaɣ
+132	Chuvash	grease	ɕ u	ɕu
+133	Turkish	grease	j a ɣ	jaɣ
+134	Turkmen	grease	j a ɣ	jaɣ
+135	Uzbek	grease	j ɔ ɣ	jɔɣ
+136	Yakut	grease	s ɯ a	sɯa
+137	Azerbaijani	fish	b a l ɯ ɢ	balɯɢ
+138	Chuvash	fish	p u l ə	pulə̈
+139	Kazakh	fish	b a l ɯ q	balɯq
+140	Kyrgyz	fish	b a l ɯ q	balɯq
+141	Turkish	fish	b a l ɯ q	balɯq
+142	Turkmen	fish	b a l ɯ q	balɯq
+143	Uyghur	fish	b e l i q	beliq
+144	Uzbek	fish	b a l i q	baliq
+145	Yakut	fish	b a l ɯ k	balɯk
+146	Azerbaijani	head	a l ɯ n	alɯn
+147	Turkish	head	a l ɯ n	alɯn
+148	Turkmen	head	a l ɯ n	? alɯn
+149	Yakut	head	s yː s	sy:s
+150	Chuvash	head	ɕ a m g a	ɕamga
+151	Kyrgyz	head	tɕ e k e	ʨeke
+152	Azerbaijani	hair	s a tɕ	saʨ
+153	Chuvash	hair	ɕ y ɕ	ɕyɕ
+154	Kazakh	hair	ʃ a ʃ	ʃaʃ
+155	Kyrgyz	hair	tɕ a tɕ	ʨaʨ
+156	Turkish	hair	s a tɕ	saʨ
+157	Turkmen	hair	s a tɕ	saʨ
+158	Uyghur	hair	tɕ a tɕ	ʨaʨ
+159	Uzbek	hair	s ɔ tɕ	sɔʨ
+160	Yakut	hair	a s	as
+161	Kazakh	head	b a s	bas
+162	Uyghur	head	b a ʃ	baʃ
+163	Uzbek	head	b ɔ ʃ	bɔʃ
+164	Azerbaijani	horn	b u j n u z	bujnuz
+165	Chuvash	horn	m ŏ j r a g a	möjraga
+166	Kazakh	horn	m y j ĭ z	myjɘz
+167	Kyrgyz	horn	m y j y z	myjyz
+168	Turkish	horn	b o j n u z	bojnuz
+169	Uyghur	horn	m y ŋ g y z	? myŋgyz
+170	Yakut	horn	m u o s	muos
+171	Azerbaijani	leaf	j a r p a ɢ	jarpaɢ
+172	Kazakh	leaf	ʒ a p ɯ r a q	ʒapɯraq
+173	Kyrgyz	leaf	ʥ a l b ɯ r a q	ʥalbɯraq
+174	Turkish	leaf	j a p r a k	japrak
+175	Turkmen	leaf	j a p r a q	japraq
+176	Uyghur	leaf	j o p u r m a q	jopurmaq
+177	Yakut	leaf	s e b i r d e χ	sebirdeχ
+178	Chuvash	leaf	ɕ u l ʑ ə	ɕulʑə̈
+179	Azerbaijani	long	u z u n	uzun
+180	Chuvash	long	v ŏ r ŏ m	vöröm
+181	Kazakh	long	u z ɯ n	ŭzɯn
+182	Kyrgyz	long	u z u n	uzun
+183	Turkish	long	u z u n	uzun
+184	Turkmen	long	u z ɯ n	uzɯn
+185	Uyghur	long	u z u n	uzun
+186	Uzbek	long	u z u n	uzun
+187	Yakut	long	u h u n	uhun
+188	Azerbaijani	louse	b i t	bit
+189	Chuvash	louse	p ɯ j d ə	pɯjdə̈
+190	Kazakh	louse	b i t	bit
+191	Kyrgyz	louse	b i t	bit
+192	Turkish	louse	b i t	bit
+193	Turkmen	louse	b i t	bit
+194	Uyghur	louse	p i t	pit, (piʃt)
+195	Uzbek	louse	b i t	bit
+196	Yakut	louse	b ɯ t	bɯt
+197	Kazakh	man	e r k e k	erkek
+198	Kyrgyz	man	e r k e k k i ʃ i	erkek (kiʃi)
+199	Turkish	man	e r k e k	erkek
+200	Turkmen	man	e r k e k a d a m	erkek (adam)
+201	Uyghur	man	æ r k æ k	ɛrkɛk
+202	Uzbek	man	e r k a k k i ʃ i	erkak (kiʃi)
+203	Chuvash	man	a r ʑ ɯ n	arʑɯn
+204	Yakut	man	e r k i h i	er kihi
+205	Azerbaijani	man	k i ʃ i	kiʃi
+206	Kazakh	many	k ø p	køp
+207	Kyrgyz	many	k ø p	køp
+208	Turkmen	many	k ø p	køp
+209	Uyghur	many	k ø p	køp
+210	Uzbek	many	k o p	kop
+211	Azerbaijani	many	ʨ o χ	ʨoχ(lu)
+212	Turkish	many	tɕ o k	ʨok
+213	Azerbaijani	flesh	æ t	ɛt
+214	Kazakh	flesh	e t	et
+215	Kyrgyz	flesh	e t	et
+216	Turkish	flesh	e t	et
+217	Turkmen	flesh	e t	et
+218	Yakut	flesh	e t	et
+219	Kazakh	not	s ĭ ŋ b ĭ r ĭ k	sɘŋbɘrɘk
+220	Kyrgyz	not	tɕ i m k i r i k	ʨimkirik
+221	Turkish	not	s y m y k	symyk
+222	Turkmen	not	s y m y k	symyk
+223	Yakut	not	s ɯː ŋ k	sɯ:ŋk
+224	Uyghur	not	m a ŋ q a	maŋqa
+225	Azerbaijani	not	f ɯ r t d ɯ ɢ	fɯrtdɯɢ
+226	Uzbek	not	m i ʃ i q	miʃi(ri)q
+227	Chuvash	not	m a	mA
+228	Azerbaijani	one	b i r	bir
+229	Chuvash	one	p ĭ r	pɘrre, pɘr
+230	Kazakh	one	b ĭ r	bɘr
+231	Kyrgyz	one	b i r	bir
+232	Turkish	one	b i r	bir
+233	Turkmen	one	b i r	bir
+234	Uyghur	one	b i r	bir
+235	Uzbek	one	b i r	bir
+236	Yakut	one	b iː r	bi:r
+237	Kazakh	person	k ĭ s ĭ	kɘsɘ
+238	Kyrgyz	person	k i ʃ i	kiʃi
+239	Turkish	person	k i ʃ i	kiʃi
+240	Uyghur	person	k i ʃ i	kiʃi
+241	Uzbek	person	k i ʃ i	kiʃi
+242	Yakut	person	k i h i	kihi
+243	Chuvash	person	ɕ ɯ n	ɕɯn
+244	Chuvash	root	t ɯ m a r	tɯmar
+245	Kazakh	root	t a m ɯ r	tamɯr
+246	Kyrgyz	root	t a m ɯ r	tamɯr
+247	Uyghur	root	t o m u r	tomur
+248	Uzbek	root	i l d i z	ildiz
+249	Yakut	root	s i l i s	silis
+250	Azerbaijani	root	k ø k	køk
+251	Turkish	root	k ø k	køk
+252	Turkmen	root	k ø k	køk
+253	Azerbaijani	seed	gʲ ø r	gjør
+254	Chuvash	seed	k u r	kur
+255	Kazakh	seed	k ø r	kør
+256	Kyrgyz	seed	k ø r	kør
+257	Turkish	seed	g ø r	gør
+258	Turkmen	seed	g ø r	gør
+259	Uyghur	seed	k ø r	kør
+260	Uzbek	seed	k o r	kor
+261	Yakut	seed	k ø r	kør
+262	Azerbaijani	skin	d æ r i	dɛri
+263	Chuvash	skin	t i r ĭ	tirɘ
+264	Kazakh	skin	t e r ĭ	terɘ
+265	Kyrgyz	skin	t e r i	teri
+266	Turkish	skin	d e r i	deri
+267	Turkmen	skin	d e r i	deri
+268	Uyghur	skin	t e r æ	terɛ
+269	Uzbek	skin	t e r i	teri
+270	Yakut	skin	t i r iː	tiri:
+271	Azerbaijani	small	k i tɕ i k	kiʨik
+272	Kazakh	small	k ĭ ʃ k e n e	kɘʃkene, kɘʃkentaj
+273	Kyrgyz	small	k i ʨ i n e k e j	kiʨine(kej)
+274	Turkish	small	k y tɕ y k	kyʨyk
+275	Turkmen	small	k i ʨ i ʥ i k	kiʨi(ʥik)
+276	Uyghur	small	k i tɕ i k	kiʨik
+277	Uzbek	small	k i tɕ k i n a	kiʨkina
+278	Yakut	small	k u tʃː u g u j	? kutɕ:uguj
+279	Azerbaijani	tail	ɢ u j r u ɢ	ɢujruɢ
+280	Chuvash	tail	χ y r e	χyre
+281	Kazakh	tail	q u j r ɯ q	qŭjrɯq
+282	Kyrgyz	tail	q u j r u q	qujruq
+283	Turkish	tail	k u j r u k	kujruk
+284	Turkmen	tail	ɢ u j r u q	ɢujruq
+285	Uyghur	tail	q u j r u q	qujruq
+286	Yakut	tail	k u t u r u k	kuturuk
+287	Uzbek	that	o	o(ʃa)
+288	Kazakh	that	a n a w	ana(w)
+289	Azerbaijani	this	b u	bu
+290	Kazakh	this	b u l	bŭl
+291	Kyrgyz	this	b u	bu
+292	Turkish	this	b u	bu
+293	Turkmen	this	b u	bu
+294	Uyghur	this	b u	bu
+295	Uzbek	this	b u	bu
+296	Yakut	this	b u	bu
+297	Chuvash	this	k u	ku
+298	Azerbaijani	tree	a ɣ a ʥ	aɣaǰ
+299	Chuvash	tree	j ɯ v ə ɕ	jɯvə̈ɕ
+300	Kazakh	tree	a ɣ a ʃ	aɣaʃ
+301	Kyrgyz	tree	ʥ ɯ ɣ a ʨ	ʥɯɣaʨ
+302	Turkish	tree	a ɣ a tɕ	aɣaʨ
+303	Turkmen	tree	a ɣ a tɕ	aɣaʨ
+304	Uyghur	tree	j a ɣ a tɕ	jaɣaʨ
+305	Yakut	tree	m a s	mas
+306	Azerbaijani	two	i k i	iki
+307	Chuvash	two	i k ĭ	ikkɘ, igɘ, ik
+308	Kazakh	two	e k ĭ	ekɘ
+309	Kyrgyz	two	e k i	eki
+310	Turkish	two	i k i	iki
+311	Turkmen	two	i k i	iki
+312	Uyghur	two	i kː i	ikki
+313	Uzbek	two	i kː i	ikki
+314	Yakut	two	i kː i	ikki
+315	Azerbaijani	what	n æ	nɛ
+316	Chuvash	what	m ĭ n	mɘn
+317	Kazakh	what	n e	ne
+318	Kyrgyz	what	e m n e	emne
+319	Turkish	what	n e	ne
+320	Turkmen	what	n æ m e	nɛme
+321	Uyghur	what	n i m æ	nimɛ
+322	Uzbek	what	n i m a	nima
+323	Yakut	what	t u o χ	tuoχ
+324	Azerbaijani	who	k i m	kim
+325	Chuvash	who	k a m	kam
+326	Kazakh	who	k ĭ m	kɘm
+327	Kyrgyz	who	k i m	kim
+328	Turkish	who	k i m	kim
+329	Turkmen	who	k i m	kim
+330	Uyghur	who	k i m	kim
+331	Uzbek	who	k i m	kim
+332	Yakut	who	k i m	kim
+333	Chuvash	woman	χ ĭ r a r ə m	χɘrarə̈m
+334	Azerbaijani	woman	ɢ a d ɯ n	ɢadɯn
+335	Turkish	woman	k a d ɯ n	kadɯn
+336	Uzbek	woman	χ ɔ t i n	χɔtin (kiʃi)
+337	Azerbaijani	person	ɑ d ɑ m	ɑdɑm
+338	Uzbek	tree	d a r a χ t	daraχt
+339	Uzbek	bark	q ɒ b i q	qɒbiq
+340	Uzbek	leaf	b a r g	barɡ
+341	Uzbek	horn	m u g i z	muɡiz
+342	Uzbek	tail	q u j r u q	qujruq
+343	Uzbek	egg	t u χ u m	tuχum
+344	Uzbek	flesh	g o ʃ t	ɡoʃt
+345	Uzbek	big	b u j u k	bujuk
+346	Kazakh	woman	b ɪ j k e	bɪjke
+347	Chuvash	flesh	a ʂ	aʂ
+348	Chuvash	small	p ɘ tɕ ɘ k	ˈpɘt͡ɕɘk
+349	Chuvash	many	m i ɕ ɛ	miˈɕ̬ɛ
+350	Yakut	woman	ɟ a x t a ɾ	ɟaxtaɾ
+351	Yakut	many	t ø h ø	tøhø
+352	Turkmen	person	u n s a n	unsan
+353	Turkmen	horn	ʃ a h	Sah

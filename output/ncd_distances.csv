@@ -1,0 +1,16 @@
+cluster,n_words,ref_family,ncd
+1,9,Mongolic,0.8627
+1,9,Tungusic,0.8556
+1,9,Persian,0.6667
+2,6,Mongolic,0.9167
+2,6,Tungusic,0.9037
+2,6,Persian,0.8
+3,3,Mongolic,0.9265
+3,3,Tungusic,0.9251
+3,3,Persian,0.8235
+4,5,Mongolic,0.8971
+4,5,Tungusic,0.893
+4,5,Persian,0.8118
+5,8,Mongolic,0.8873
+5,8,Tungusic,0.877
+5,8,Persian,0.7882

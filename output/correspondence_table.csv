@@ -1,0 +1,675 @@
+lang_a,lang_b,phoneme_a,top_reflex,top_prob,total_count,entropy,all_reflexes
+Azerbaijani,Chuvash,-,e,1.0,1,-0.0,e:1
+Azerbaijani,Chuvash,a,u,0.333,3,1.585,"u:1, a:1, y:1"
+Azerbaijani,Chuvash,b,b,0.5,2,1.0,"b:1, p:1"
+Azerbaijani,Chuvash,d,t,1.0,1,-0.0,t:1
+Azerbaijani,Chuvash,e,i,1.0,1,-0.0,i:1
+Azerbaijani,Chuvash,gʲ,k,1.0,1,-0.0,k:1
+Azerbaijani,Chuvash,i,ĭ,0.6,5,0.971,"ĭ:3, i:2"
+Azerbaijani,Chuvash,j,ɕ,1.0,2,-0.0,ɕ:2
+Azerbaijani,Chuvash,k,-,0.5,2,1.0,"-:1, k:1"
+Azerbaijani,Chuvash,m,m,1.0,2,-0.0,m:2
+Azerbaijani,Chuvash,r,r,1.0,4,-0.0,r:4
+Azerbaijani,Chuvash,s,z,0.333,3,1.585,"z:1, ʃ:1, ɕ:1"
+Azerbaijani,Chuvash,t,d,1.0,1,-0.0,d:1
+Azerbaijani,Chuvash,tɕ,ɕ,1.0,1,-0.0,ɕ:1
+Azerbaijani,Chuvash,u,ŏ,0.5,2,1.0,"ŏ:1, a:1"
+Azerbaijani,Chuvash,y,ŏ,1.0,2,-0.0,ŏ:2
+Azerbaijani,Chuvash,z,r,1.0,1,-0.0,r:1
+Azerbaijani,Chuvash,æ,i,1.0,1,-0.0,i:1
+Azerbaijani,Chuvash,ø,u,1.0,1,-0.0,u:1
+Azerbaijani,Chuvash,ɢ,χ,0.5,2,1.0,"χ:1, -:1"
+Azerbaijani,Chuvash,ɯ,ə,1.0,1,-0.0,ə:1
+Azerbaijani,Kazakh,-,s,0.25,4,2.0,"s:1, ĭ:1, d:1, l:1"
+Azerbaijani,Kazakh,a,a,1.0,6,-0.0,a:6
+Azerbaijani,Kazakh,b,b,1.0,6,-0.0,b:6
+Azerbaijani,Kazakh,d,t,1.0,2,-0.0,t:2
+Azerbaijani,Kazakh,e,e,1.0,1,-0.0,e:1
+Azerbaijani,Kazakh,gʲ,k,1.0,1,-0.0,k:1
+Azerbaijani,Kazakh,i,ĭ,0.5,8,1.5,"ĭ:4, e:2, i:2"
+Azerbaijani,Kazakh,j,ʒ,1.0,1,-0.0,ʒ:1
+Azerbaijani,Kazakh,k,k,1.0,2,-0.0,k:2
+Azerbaijani,Kazakh,l,l,1.0,2,-0.0,l:2
+Azerbaijani,Kazakh,n,n,1.0,4,-0.0,n:4
+Azerbaijani,Kazakh,r,r,1.0,4,-0.0,r:4
+Azerbaijani,Kazakh,s,z,0.5,2,1.0,"z:1, ʃ:1"
+Azerbaijani,Kazakh,t,t,1.0,3,-0.0,t:3
+Azerbaijani,Kazakh,tɕ,ʃ,1.0,1,-0.0,ʃ:1
+Azerbaijani,Kazakh,u,u,0.8,5,0.722,"u:4, ɯ:1"
+Azerbaijani,Kazakh,z,z,0.75,4,0.811,"z:3, r:1"
+Azerbaijani,Kazakh,æ,e,1.0,3,-0.0,e:3
+Azerbaijani,Kazakh,ø,ø,1.0,2,-0.0,ø:2
+Azerbaijani,Kazakh,ɢ,q,1.0,8,-0.0,q:8
+Azerbaijani,Kazakh,ɯ,ɯ,1.0,3,-0.0,ɯ:3
+Azerbaijani,Kazakh,ʃ,s,1.0,1,-0.0,s:1
+Azerbaijani,Kyrgyz,a,a,1.0,5,-0.0,a:5
+Azerbaijani,Kyrgyz,b,b,1.0,6,-0.0,b:6
+Azerbaijani,Kyrgyz,d,d,0.5,2,1.0,"d:1, t:1"
+Azerbaijani,Kyrgyz,e,e,1.0,1,-0.0,e:1
+Azerbaijani,Kyrgyz,gʲ,k,1.0,1,-0.0,k:1
+Azerbaijani,Kyrgyz,i,i,0.857,7,0.592,"i:6, e:1"
+Azerbaijani,Kyrgyz,j,ʥ,1.0,1,-0.0,ʥ:1
+Azerbaijani,Kyrgyz,k,k,1.0,2,-0.0,k:2
+Azerbaijani,Kyrgyz,l,l,1.0,2,-0.0,l:2
+Azerbaijani,Kyrgyz,n,n,1.0,2,-0.0,n:2
+Azerbaijani,Kyrgyz,r,r,1.0,3,-0.0,r:3
+Azerbaijani,Kyrgyz,t,t,1.0,3,-0.0,t:3
+Azerbaijani,Kyrgyz,u,u,1.0,4,-0.0,u:4
+Azerbaijani,Kyrgyz,z,z,1.0,3,-0.0,z:3
+Azerbaijani,Kyrgyz,æ,e,1.0,2,-0.0,e:2
+Azerbaijani,Kyrgyz,ø,ø,1.0,2,-0.0,ø:2
+Azerbaijani,Kyrgyz,ɢ,q,1.0,6,-0.0,q:6
+Azerbaijani,Kyrgyz,ɯ,ɯ,1.0,2,-0.0,ɯ:2
+Azerbaijani,Turkish,a,a,1.0,10,-0.0,a:10
+Azerbaijani,Turkish,b,b,1.0,6,-0.0,b:6
+Azerbaijani,Turkish,d,d,0.6,5,0.971,"d:3, t:2"
+Azerbaijani,Turkish,e,e,1.0,1,-0.0,e:1
+Azerbaijani,Turkish,gʲ,g,1.0,1,-0.0,g:1
+Azerbaijani,Turkish,i,i,0.778,9,0.764,"i:7, y:2"
+Azerbaijani,Turkish,j,j,1.0,3,-0.0,j:3
+Azerbaijani,Turkish,k,k,0.833,6,0.65,"k:5, g:1"
+Azerbaijani,Turkish,l,l,1.0,3,-0.0,l:3
+Azerbaijani,Turkish,m,m,1.0,1,-0.0,m:1
+Azerbaijani,Turkish,n,n,1.0,6,-0.0,n:6
+Azerbaijani,Turkish,r,r,1.0,6,-0.0,r:6
+Azerbaijani,Turkish,s,s,1.0,2,-0.0,s:2
+Azerbaijani,Turkish,t,t,1.0,3,-0.0,t:3
+Azerbaijani,Turkish,tɕ,tɕ,1.0,2,-0.0,tɕ:2
+Azerbaijani,Turkish,u,u,1.0,9,-0.0,u:9
+Azerbaijani,Turkish,y,y,1.0,1,-0.0,y:1
+Azerbaijani,Turkish,z,z,1.0,4,-0.0,z:4
+Azerbaijani,Turkish,æ,e,1.0,3,-0.0,e:3
+Azerbaijani,Turkish,ø,ø,1.0,3,-0.0,ø:3
+Azerbaijani,Turkish,ɢ,k,0.909,11,0.439,"k:10, q:1"
+Azerbaijani,Turkish,ɯ,ɯ,0.8,5,0.722,"ɯ:4, u:1"
+Azerbaijani,Turkish,ʃ,ʃ,1.0,2,-0.0,ʃ:2
+Azerbaijani,Turkmen,-,m,0.5,2,1.0,"m:1, e:1"
+Azerbaijani,Turkmen,a,a,0.875,8,0.544,"a:7, aː:1"
+Azerbaijani,Turkmen,b,b,1.0,6,-0.0,b:6
+Azerbaijani,Turkmen,d,d,1.0,3,-0.0,d:3
+Azerbaijani,Turkmen,gʲ,g,1.0,1,-0.0,g:1
+Azerbaijani,Turkmen,i,i,1.0,8,-0.0,i:8
+Azerbaijani,Turkmen,k,k,0.75,4,0.811,"k:3, g:1"
+Azerbaijani,Turkmen,l,l,1.0,3,-0.0,l:3
+Azerbaijani,Turkmen,n,n,1.0,5,-0.0,n:5
+Azerbaijani,Turkmen,r,r,1.0,4,-0.0,r:4
+Azerbaijani,Turkmen,s,s,1.0,2,-0.0,s:2
+Azerbaijani,Turkmen,t,t,1.0,3,-0.0,t:3
+Azerbaijani,Turkmen,tɕ,tɕ,1.0,1,-0.0,tɕ:1
+Azerbaijani,Turkmen,u,u,0.8,5,0.722,"u:4, ɯ:1"
+Azerbaijani,Turkmen,z,z,1.0,4,-0.0,z:4
+Azerbaijani,Turkmen,æ,e,0.667,3,0.918,"e:2, æ:1"
+Azerbaijani,Turkmen,ø,ø,1.0,3,-0.0,ø:3
+Azerbaijani,Turkmen,ɢ,q,0.5,8,1.0,"q:4, ɢ:4"
+Azerbaijani,Turkmen,ɯ,ɯ,1.0,4,-0.0,ɯ:4
+Azerbaijani,Turkmen,ʃ,ʃ,1.0,1,-0.0,ʃ:1
+Azerbaijani,Uyghur,a,a,1.0,3,-0.0,a:3
+Azerbaijani,Uyghur,b,b,0.75,4,0.811,"b:3, p:1"
+Azerbaijani,Uyghur,d,d,0.5,2,1.0,"d:1, t:1"
+Azerbaijani,Uyghur,gʲ,k,1.0,1,-0.0,k:1
+Azerbaijani,Uyghur,i,i,0.857,7,0.592,"i:6, æ:1"
+Azerbaijani,Uyghur,k,k,0.5,2,1.0,"k:1, kː:1"
+Azerbaijani,Uyghur,l,l,1.0,1,-0.0,l:1
+Azerbaijani,Uyghur,n,n,1.0,2,-0.0,n:2
+Azerbaijani,Uyghur,r,r,1.0,3,-0.0,r:3
+Azerbaijani,Uyghur,s,s,1.0,1,-0.0,s:1
+Azerbaijani,Uyghur,t,t,1.0,1,-0.0,t:1
+Azerbaijani,Uyghur,u,u,1.0,5,-0.0,u:5
+Azerbaijani,Uyghur,z,z,1.0,4,-0.0,z:4
+Azerbaijani,Uyghur,æ,e,1.0,1,-0.0,e:1
+Azerbaijani,Uyghur,ø,ø,1.0,2,-0.0,ø:2
+Azerbaijani,Uyghur,ɢ,q,1.0,4,-0.0,q:4
+Azerbaijani,Uyghur,ʃ,ʃ,1.0,1,-0.0,ʃ:1
+Azerbaijani,Uzbek,a,ɔ,0.5,6,1.459,"ɔ:3, a:2, -:1"
+Azerbaijani,Uzbek,b,b,1.0,5,-0.0,b:5
+Azerbaijani,Uzbek,d,t,1.0,2,-0.0,t:2
+Azerbaijani,Uzbek,e,e,1.0,1,-0.0,e:1
+Azerbaijani,Uzbek,gʲ,k,1.0,1,-0.0,k:1
+Azerbaijani,Uzbek,i,i,1.0,7,-0.0,i:7
+Azerbaijani,Uzbek,j,j,0.5,2,1.0,"j:1, b:1"
+Azerbaijani,Uzbek,k,k,0.5,2,1.0,"k:1, kː:1"
+Azerbaijani,Uzbek,l,l,1.0,2,-0.0,l:2
+Azerbaijani,Uzbek,n,n,1.0,3,-0.0,n:3
+Azerbaijani,Uzbek,p,-,1.0,1,-0.0,-:1
+Azerbaijani,Uzbek,r,r,1.0,5,-0.0,r:5
+Azerbaijani,Uzbek,t,t,1.0,2,-0.0,t:2
+Azerbaijani,Uzbek,u,u,1.0,5,-0.0,u:5
+Azerbaijani,Uzbek,z,z,1.0,3,-0.0,z:3
+Azerbaijani,Uzbek,æ,e,1.0,1,-0.0,e:1
+Azerbaijani,Uzbek,ø,o,1.0,2,-0.0,o:2
+Azerbaijani,Uzbek,ɢ,q,0.857,7,0.592,"q:6, g:1"
+Azerbaijani,Uzbek,ɯ,i,1.0,2,-0.0,i:2
+Azerbaijani,Uzbek,ʃ,ʃ,1.0,1,-0.0,ʃ:1
+Azerbaijani,Yakut,-,e,0.5,2,1.0,"e:1, i:1"
+Azerbaijani,Yakut,a,aː,0.5,2,1.0,"aː:1, a:1"
+Azerbaijani,Yakut,b,b,1.0,3,-0.0,b:3
+Azerbaijani,Yakut,d,t,1.0,2,-0.0,t:2
+Azerbaijani,Yakut,i,i,0.429,7,1.557,"i:3, ɯ:2, iː:2"
+Azerbaijani,Yakut,k,kː,1.0,1,-0.0,kː:1
+Azerbaijani,Yakut,n,n,1.0,2,-0.0,n:2
+Azerbaijani,Yakut,r,r,1.0,2,-0.0,r:2
+Azerbaijani,Yakut,s,h,0.5,2,1.0,"h:1, -:1"
+Azerbaijani,Yakut,t,t,1.0,3,-0.0,t:3
+Azerbaijani,Yakut,tɕ,s,1.0,1,-0.0,s:1
+Azerbaijani,Yakut,u,u,1.0,3,-0.0,u:3
+Azerbaijani,Yakut,y,y,1.0,1,-0.0,y:1
+Azerbaijani,Yakut,z,g,0.5,2,1.0,"g:1, h:1"
+Azerbaijani,Yakut,æ,e,0.5,2,1.0,"e:1, i:1"
+Azerbaijani,Yakut,ɢ,χ,1.0,1,-0.0,χ:1
+Azerbaijani,Yakut,ʃ,s,1.0,1,-0.0,s:1
+Chuvash,Kazakh,-,s,0.333,3,1.585,"s:1, d:1, q:1"
+Chuvash,Kazakh,a,e,1.0,1,-0.0,e:1
+Chuvash,Kazakh,b,b,1.0,1,-0.0,b:1
+Chuvash,Kazakh,e,ĭ,1.0,1,-0.0,ĭ:1
+Chuvash,Kazakh,i,e,1.0,4,-0.0,e:4
+Chuvash,Kazakh,k,k,1.0,2,-0.0,k:2
+Chuvash,Kazakh,n,k,1.0,1,-0.0,k:1
+Chuvash,Kazakh,p,b,1.0,1,-0.0,b:1
+Chuvash,Kazakh,r,r,1.0,5,-0.0,r:5
+Chuvash,Kazakh,t,t,1.0,1,-0.0,t:1
+Chuvash,Kazakh,u,a,0.5,2,1.0,"a:1, ø:1"
+Chuvash,Kazakh,y,a,1.0,1,-0.0,a:1
+Chuvash,Kazakh,z,z,1.0,1,-0.0,z:1
+Chuvash,Kazakh,ĭ,ĭ,1.0,3,-0.0,ĭ:3
+Chuvash,Kazakh,ɕ,ʃ,0.667,3,0.918,"ʃ:2, ʒ:1"
+Chuvash,Kazakh,ə,ɯ,1.0,1,-0.0,ɯ:1
+Chuvash,Kazakh,ɯ,e,1.0,1,-0.0,e:1
+Chuvash,Kazakh,ʑ,k,1.0,1,-0.0,k:1
+Chuvash,Kazakh,χ,q,1.0,1,-0.0,q:1
+Chuvash,Kyrgyz,-,i,0.4,5,1.922,"i:2, q:1, k:1, ʃ:1"
+Chuvash,Kyrgyz,a,e,1.0,1,-0.0,e:1
+Chuvash,Kyrgyz,b,b,1.0,1,-0.0,b:1
+Chuvash,Kyrgyz,i,e,1.0,3,-0.0,e:3
+Chuvash,Kyrgyz,k,k,1.0,2,-0.0,k:2
+Chuvash,Kyrgyz,n,k,1.0,1,-0.0,k:1
+Chuvash,Kyrgyz,p,b,1.0,1,-0.0,b:1
+Chuvash,Kyrgyz,r,r,1.0,4,-0.0,r:4
+Chuvash,Kyrgyz,t,t,1.0,1,-0.0,t:1
+Chuvash,Kyrgyz,u,a,0.5,2,1.0,"a:1, ø:1"
+Chuvash,Kyrgyz,ĭ,i,1.0,3,-0.0,i:3
+Chuvash,Kyrgyz,ɕ,ʥ,1.0,1,-0.0,ʥ:1
+Chuvash,Kyrgyz,ə,ɯ,1.0,1,-0.0,ɯ:1
+Chuvash,Kyrgyz,ɯ,e,1.0,1,-0.0,e:1
+Chuvash,Kyrgyz,ʑ,k,1.0,1,-0.0,k:1
+Chuvash,Kyrgyz,χ,q,1.0,1,-0.0,q:1
+Chuvash,Turkish,-,k,0.5,2,1.0,"k:1, ɣ:1"
+Chuvash,Turkish,a,u,0.333,3,1.585,"u:1, a:1, e:1"
+Chuvash,Turkish,b,b,1.0,1,-0.0,b:1
+Chuvash,Turkish,d,t,1.0,1,-0.0,t:1
+Chuvash,Turkish,e,-,1.0,1,-0.0,-:1
+Chuvash,Turkish,i,i,0.5,4,1.0,"i:2, e:2"
+Chuvash,Turkish,k,g,0.5,2,1.0,"g:1, k:1"
+Chuvash,Turkish,m,m,1.0,1,-0.0,m:1
+Chuvash,Turkish,n,k,1.0,1,-0.0,k:1
+Chuvash,Turkish,p,b,1.0,1,-0.0,b:1
+Chuvash,Turkish,r,r,0.833,6,0.65,"r:5, z:1"
+Chuvash,Turkish,t,d,1.0,1,-0.0,d:1
+Chuvash,Turkish,u,a,0.667,3,0.918,"a:2, ø:1"
+Chuvash,Turkish,y,a,1.0,1,-0.0,a:1
+Chuvash,Turkish,z,s,1.0,1,-0.0,s:1
+Chuvash,Turkish,ĭ,i,1.0,3,-0.0,i:3
+Chuvash,Turkish,ŏ,u,1.0,1,-0.0,u:1
+Chuvash,Turkish,ɕ,j,0.6,5,1.371,"j:3, s:1, tɕ:1"
+Chuvash,Turkish,ə,u,1.0,1,-0.0,u:1
+Chuvash,Turkish,ɯ,e,1.0,1,-0.0,e:1
+Chuvash,Turkish,ʑ,k,1.0,1,-0.0,k:1
+Chuvash,Turkish,χ,k,1.0,1,-0.0,k:1
+Chuvash,Turkmen,-,q,0.333,3,1.585,"q:1, u:1, n:1"
+Chuvash,Turkmen,b,b,1.0,1,-0.0,b:1
+Chuvash,Turkmen,e,-,1.0,1,-0.0,-:1
+Chuvash,Turkmen,i,i,0.667,3,0.918,"i:2, e:1"
+Chuvash,Turkmen,k,g,0.5,2,1.0,"g:1, k:1"
+Chuvash,Turkmen,n,n,1.0,1,-0.0,n:1
+Chuvash,Turkmen,p,b,1.0,1,-0.0,b:1
+Chuvash,Turkmen,r,r,0.75,4,0.811,"r:3, z:1"
+Chuvash,Turkmen,t,d,1.0,1,-0.0,d:1
+Chuvash,Turkmen,u,a,0.5,2,1.0,"a:1, ø:1"
+Chuvash,Turkmen,y,a,1.0,1,-0.0,a:1
+Chuvash,Turkmen,z,s,1.0,1,-0.0,s:1
+Chuvash,Turkmen,ĭ,i,1.0,3,-0.0,i:3
+Chuvash,Turkmen,ɕ,s,0.667,3,0.918,"s:2, tɕ:1"
+Chuvash,Turkmen,ə,ɯ,1.0,1,-0.0,ɯ:1
+Chuvash,Turkmen,ɯ,a,1.0,1,-0.0,a:1
+Chuvash,Turkmen,χ,ɢ,1.0,1,-0.0,ɢ:1
+Chuvash,Uyghur,-,ʃ,1.0,1,-0.0,ʃ:1
+Chuvash,Uyghur,a,æ,1.0,1,-0.0,æ:1
+Chuvash,Uyghur,d,t,1.0,1,-0.0,t:1
+Chuvash,Uyghur,e,-,1.0,1,-0.0,-:1
+Chuvash,Uyghur,i,i,0.667,3,0.918,"i:2, e:1"
+Chuvash,Uyghur,j,-,1.0,1,-0.0,-:1
+Chuvash,Uyghur,k,k,0.5,2,1.0,"k:1, kː:1"
+Chuvash,Uyghur,n,k,1.0,1,-0.0,k:1
+Chuvash,Uyghur,p,b,1.0,1,-0.0,b:1
+Chuvash,Uyghur,r,r,0.8,5,0.722,"r:4, z:1"
+Chuvash,Uyghur,t,t,1.0,1,-0.0,t:1
+Chuvash,Uyghur,u,ø,1.0,1,-0.0,ø:1
+Chuvash,Uyghur,z,s,1.0,1,-0.0,s:1
+Chuvash,Uyghur,ĭ,i,0.667,3,0.918,"i:2, æ:1"
+Chuvash,Uyghur,ə,-,1.0,1,-0.0,-:1
+Chuvash,Uyghur,ɯ,i,0.5,2,1.0,"i:1, æ:1"
+Chuvash,Uyghur,ʑ,k,1.0,1,-0.0,k:1
+Chuvash,Uzbek,-,i,0.3,10,2.646,"i:3, ʃ:2, z:1, k:1, q:1, g:1, t:1"
+Chuvash,Uzbek,a,i,0.4,5,1.922,"i:2, -:1, e:1, o:1"
+Chuvash,Uzbek,g,g,1.0,1,-0.0,g:1
+Chuvash,Uzbek,i,e,0.667,3,0.918,"e:2, i:1"
+Chuvash,Uzbek,j,-,1.0,1,-0.0,-:1
+Chuvash,Uzbek,k,k,0.5,2,1.0,"k:1, kː:1"
+Chuvash,Uzbek,m,m,1.0,2,-0.0,m:2
+Chuvash,Uzbek,n,k,1.0,1,-0.0,k:1
+Chuvash,Uzbek,p,b,1.0,1,-0.0,b:1
+Chuvash,Uzbek,r,r,0.8,5,0.722,"r:4, -:1"
+Chuvash,Uzbek,t,t,1.0,1,-0.0,t:1
+Chuvash,Uzbek,u,o,1.0,1,-0.0,o:1
+Chuvash,Uzbek,ĭ,i,1.0,3,-0.0,i:3
+Chuvash,Uzbek,ŏ,u,1.0,1,-0.0,u:1
+Chuvash,Uzbek,ɕ,j,1.0,1,-0.0,j:1
+Chuvash,Uzbek,ɯ,a,1.0,1,-0.0,a:1
+Chuvash,Uzbek,ʂ,ʃ,1.0,1,-0.0,ʃ:1
+Chuvash,Uzbek,ʑ,k,1.0,1,-0.0,k:1
+Chuvash,Yakut,-,i,0.5,4,1.5,"i:2, a:1, h:1"
+Chuvash,Yakut,a,e,1.0,1,-0.0,e:1
+Chuvash,Yakut,e,e,1.0,1,-0.0,e:1
+Chuvash,Yakut,i,i,1.0,3,-0.0,i:3
+Chuvash,Yakut,k,kː,1.0,1,-0.0,kː:1
+Chuvash,Yakut,n,-,1.0,1,-0.0,-:1
+Chuvash,Yakut,p,b,1.0,1,-0.0,b:1
+Chuvash,Yakut,r,r,0.75,4,0.811,"r:3, g:1"
+Chuvash,Yakut,t,t,1.0,1,-0.0,t:1
+Chuvash,Yakut,u,ɯ,1.0,1,-0.0,ɯ:1
+Chuvash,Yakut,y,a,1.0,1,-0.0,a:1
+Chuvash,Yakut,z,h,1.0,1,-0.0,h:1
+Chuvash,Yakut,ĭ,iː,0.667,3,0.918,"iː:2, i:1"
+Chuvash,Yakut,ɕ,s,0.667,3,0.918,"s:2, -:1"
+Chuvash,Yakut,ɯ,i,1.0,1,-0.0,i:1
+Chuvash,Yakut,ʑ,k,1.0,1,-0.0,k:1
+Kazakh,Kyrgyz,-,i,0.4,5,1.922,"i:2, l:1, k:1, ʃ:1"
+Kazakh,Kyrgyz,a,a,1.0,9,-0.0,a:9
+Kazakh,Kyrgyz,b,b,1.0,6,-0.0,b:6
+Kazakh,Kyrgyz,e,e,1.0,6,-0.0,e:6
+Kazakh,Kyrgyz,i,i,1.0,2,-0.0,i:2
+Kazakh,Kyrgyz,j,j,1.0,2,-0.0,j:2
+Kazakh,Kyrgyz,k,k,1.0,6,-0.0,k:6
+Kazakh,Kyrgyz,l,l,0.667,3,0.918,"l:2, -:1"
+Kazakh,Kyrgyz,m,m,1.0,3,-0.0,m:3
+Kazakh,Kyrgyz,n,n,1.0,2,-0.0,n:2
+Kazakh,Kyrgyz,p,b,1.0,1,-0.0,b:1
+Kazakh,Kyrgyz,q,q,1.0,10,-0.0,q:10
+Kazakh,Kyrgyz,r,r,1.0,8,-0.0,r:8
+Kazakh,Kyrgyz,s,ʃ,1.0,1,-0.0,ʃ:1
+Kazakh,Kyrgyz,t,t,1.0,6,-0.0,t:6
+Kazakh,Kyrgyz,u,u,1.0,5,-0.0,u:5
+Kazakh,Kyrgyz,z,z,1.0,3,-0.0,z:3
+Kazakh,Kyrgyz,ø,ø,1.0,2,-0.0,ø:2
+Kazakh,Kyrgyz,ĭ,i,1.0,6,-0.0,i:6
+Kazakh,Kyrgyz,ɯ,ɯ,0.571,7,0.985,"ɯ:4, u:3"
+Kazakh,Kyrgyz,ʒ,ʥ,1.0,3,-0.0,ʥ:3
+Kazakh,Turkish,a,a,1.0,8,-0.0,a:8
+Kazakh,Turkish,b,b,1.0,6,-0.0,b:6
+Kazakh,Turkish,d,-,1.0,1,-0.0,-:1
+Kazakh,Turkish,e,e,0.75,8,0.811,"e:6, i:2"
+Kazakh,Turkish,i,i,1.0,1,-0.0,i:1
+Kazakh,Turkish,k,k,0.667,6,0.918,"k:4, g:2"
+Kazakh,Turkish,l,l,0.667,3,0.918,"l:2, -:1"
+Kazakh,Turkish,n,n,1.0,4,-0.0,n:4
+Kazakh,Turkish,p,p,1.0,1,-0.0,p:1
+Kazakh,Turkish,q,k,0.889,9,0.503,"k:8, q:1"
+Kazakh,Turkish,r,r,0.857,7,0.592,"r:6, z:1"
+Kazakh,Turkish,s,ʃ,0.667,3,0.918,"ʃ:2, -:1"
+Kazakh,Turkish,t,t,0.75,4,0.811,"t:3, d:1"
+Kazakh,Turkish,u,u,1.0,4,-0.0,u:4
+Kazakh,Turkish,z,z,0.75,4,0.811,"z:3, s:1"
+Kazakh,Turkish,ø,ø,1.0,2,-0.0,ø:2
+Kazakh,Turkish,ĭ,i,0.857,7,0.592,"i:6, -:1"
+Kazakh,Turkish,ɯ,ɯ,0.4,5,1.522,"ɯ:2, u:2, -:1"
+Kazakh,Turkish,ʃ,s,0.5,2,1.0,"s:1, tɕ:1"
+Kazakh,Turkish,ʒ,j,1.0,2,-0.0,j:2
+Kazakh,Turkmen,-,m,0.5,2,1.0,"m:1, e:1"
+Kazakh,Turkmen,a,a,0.875,8,0.544,"a:7, aː:1"
+Kazakh,Turkmen,b,b,1.0,6,-0.0,b:6
+Kazakh,Turkmen,d,-,1.0,1,-0.0,-:1
+Kazakh,Turkmen,e,i,0.4,5,1.522,"i:2, e:2, æ:1"
+Kazakh,Turkmen,i,i,1.0,2,-0.0,i:2
+Kazakh,Turkmen,k,g,0.667,3,0.918,"g:2, k:1"
+Kazakh,Turkmen,l,l,0.667,3,0.918,"l:2, -:1"
+Kazakh,Turkmen,n,n,1.0,4,-0.0,n:4
+Kazakh,Turkmen,p,p,1.0,1,-0.0,p:1
+Kazakh,Turkmen,q,q,0.556,9,0.991,"q:5, ɢ:4"
+Kazakh,Turkmen,r,r,0.833,6,0.65,"r:5, z:1"
+Kazakh,Turkmen,s,-,0.5,2,1.0,"-:1, ʃ:1"
+Kazakh,Turkmen,t,t,0.6,5,0.971,"t:3, d:2"
+Kazakh,Turkmen,u,u,1.0,4,-0.0,u:4
+Kazakh,Turkmen,z,z,0.75,4,0.811,"z:3, s:1"
+Kazakh,Turkmen,ø,ø,1.0,2,-0.0,ø:2
+Kazakh,Turkmen,ĭ,i,0.8,5,0.722,"i:4, -:1"
+Kazakh,Turkmen,ɯ,ɯ,0.8,5,0.722,"ɯ:4, -:1"
+Kazakh,Turkmen,ʃ,s,0.5,2,1.0,"s:1, tɕ:1"
+Kazakh,Turkmen,ʒ,j,1.0,1,-0.0,j:1
+Kazakh,Uyghur,a,a,0.8,5,0.722,"a:4, o:1"
+Kazakh,Uyghur,b,b,0.8,5,0.722,"b:4, p:1"
+Kazakh,Uyghur,d,-,1.0,1,-0.0,-:1
+Kazakh,Uyghur,e,i,0.4,5,1.522,"i:2, æ:2, e:1"
+Kazakh,Uyghur,i,i,1.0,1,-0.0,i:1
+Kazakh,Uyghur,j,j,1.0,2,-0.0,j:2
+Kazakh,Uyghur,k,k,0.833,6,0.65,"k:5, kː:1"
+Kazakh,Uyghur,l,l,0.5,2,1.0,"l:1, -:1"
+Kazakh,Uyghur,m,m,1.0,2,-0.0,m:2
+Kazakh,Uyghur,n,n,1.0,2,-0.0,n:2
+Kazakh,Uyghur,q,q,1.0,6,-0.0,q:6
+Kazakh,Uyghur,r,r,0.857,7,0.592,"r:6, z:1"
+Kazakh,Uyghur,s,ʃ,0.75,4,0.811,"ʃ:3, -:1"
+Kazakh,Uyghur,t,t,1.0,3,-0.0,t:3
+Kazakh,Uyghur,u,u,1.0,5,-0.0,u:5
+Kazakh,Uyghur,z,z,0.75,4,0.811,"z:3, s:1"
+Kazakh,Uyghur,ø,ø,1.0,2,-0.0,ø:2
+Kazakh,Uyghur,ĭ,i,0.714,7,1.149,"i:5, -:1, æ:1"
+Kazakh,Uyghur,ɯ,u,1.0,3,-0.0,u:3
+Kazakh,Uzbek,-,i,0.5,4,1.5,"i:2, k:1, ʃ:1"
+Kazakh,Uzbek,a,ɔ,0.8,5,0.722,"ɔ:4, a:1"
+Kazakh,Uzbek,b,b,1.0,6,-0.0,b:6
+Kazakh,Uzbek,e,e,0.429,7,1.557,"e:3, a:2, i:2"
+Kazakh,Uzbek,i,i,1.0,2,-0.0,i:2
+Kazakh,Uzbek,k,k,0.875,8,0.544,"k:7, kː:1"
+Kazakh,Uzbek,l,l,0.667,3,0.918,"l:2, -:1"
+Kazakh,Uzbek,n,n,1.0,4,-0.0,n:4
+Kazakh,Uzbek,q,q,1.0,6,-0.0,q:6
+Kazakh,Uzbek,r,r,1.0,5,-0.0,r:5
+Kazakh,Uzbek,s,ʃ,1.0,3,-0.0,ʃ:3
+Kazakh,Uzbek,t,t,1.0,4,-0.0,t:4
+Kazakh,Uzbek,u,u,1.0,4,-0.0,u:4
+Kazakh,Uzbek,z,z,1.0,3,-0.0,z:3
+Kazakh,Uzbek,ø,o,1.0,2,-0.0,o:2
+Kazakh,Uzbek,ĭ,i,1.0,7,-0.0,i:7
+Kazakh,Uzbek,ɯ,i,0.667,3,0.918,"i:2, u:1"
+Kazakh,Uzbek,ʃ,tɕ,1.0,1,-0.0,tɕ:1
+Kazakh,Uzbek,ʒ,j,1.0,1,-0.0,j:1
+Kazakh,Yakut,-,i,0.667,3,0.918,"i:2, h:1"
+Kazakh,Yakut,a,aː,0.5,2,1.0,"aː:1, a:1"
+Kazakh,Yakut,b,b,1.0,3,-0.0,b:3
+Kazakh,Yakut,d,-,1.0,1,-0.0,-:1
+Kazakh,Yakut,e,i,0.667,6,0.918,"i:4, e:2"
+Kazakh,Yakut,i,ɯ,1.0,2,-0.0,ɯ:2
+Kazakh,Yakut,k,k,0.5,4,1.5,"k:2, -:1, kː:1"
+Kazakh,Yakut,l,-,1.0,1,-0.0,-:1
+Kazakh,Yakut,n,n,1.0,2,-0.0,n:2
+Kazakh,Yakut,q,χ,1.0,1,-0.0,χ:1
+Kazakh,Yakut,r,r,0.75,4,0.811,"r:3, g:1"
+Kazakh,Yakut,s,-,0.5,2,1.0,"-:1, h:1"
+Kazakh,Yakut,t,t,1.0,4,-0.0,t:4
+Kazakh,Yakut,u,u,1.0,2,-0.0,u:2
+Kazakh,Yakut,z,h,1.0,2,-0.0,h:2
+Kazakh,Yakut,ĭ,i,0.5,6,1.459,"i:3, iː:2, e:1"
+Kazakh,Yakut,ɯ,u,1.0,1,-0.0,u:1
+Kazakh,Yakut,ʃ,-,0.5,2,1.0,"-:1, s:1"
+Kyrgyz,Turkish,a,a,1.0,7,-0.0,a:7
+Kyrgyz,Turkish,b,b,0.857,7,0.592,"b:6, p:1"
+Kyrgyz,Turkish,d,t,1.0,1,-0.0,t:1
+Kyrgyz,Turkish,e,e,0.833,6,0.65,"e:5, i:1"
+Kyrgyz,Turkish,i,i,0.778,9,0.764,"i:7, -:2"
+Kyrgyz,Turkish,k,k,0.571,7,1.379,"k:4, g:2, -:1"
+Kyrgyz,Turkish,l,l,0.667,3,0.918,"l:2, -:1"
+Kyrgyz,Turkish,n,n,1.0,2,-0.0,n:2
+Kyrgyz,Turkish,q,k,0.857,7,0.592,"k:6, q:1"
+Kyrgyz,Turkish,r,r,1.0,5,-0.0,r:5
+Kyrgyz,Turkish,t,t,0.667,3,0.918,"t:2, d:1"
+Kyrgyz,Turkish,u,u,1.0,4,-0.0,u:4
+Kyrgyz,Turkish,z,z,1.0,3,-0.0,z:3
+Kyrgyz,Turkish,ø,ø,1.0,2,-0.0,ø:2
+Kyrgyz,Turkish,ɯ,u,0.333,3,1.585,"u:1, ɯ:1, -:1"
+Kyrgyz,Turkish,ʃ,-,0.5,2,1.0,"-:1, ʃ:1"
+Kyrgyz,Turkish,ʥ,j,1.0,2,-0.0,j:2
+Kyrgyz,Turkmen,a,a,0.857,7,0.592,"a:6, aː:1"
+Kyrgyz,Turkmen,b,b,0.857,7,0.592,"b:6, p:1"
+Kyrgyz,Turkmen,d,d,1.0,1,-0.0,d:1
+Kyrgyz,Turkmen,e,e,0.667,3,0.918,"e:2, i:1"
+Kyrgyz,Turkmen,i,i,1.0,6,-0.0,i:6
+Kyrgyz,Turkmen,k,g,0.667,3,0.918,"g:2, k:1"
+Kyrgyz,Turkmen,l,l,0.667,3,0.918,"l:2, -:1"
+Kyrgyz,Turkmen,n,n,1.0,2,-0.0,n:2
+Kyrgyz,Turkmen,q,q,0.571,7,0.985,"q:4, ɢ:3"
+Kyrgyz,Turkmen,r,r,1.0,4,-0.0,r:4
+Kyrgyz,Turkmen,t,t,0.75,4,0.811,"t:3, d:1"
+Kyrgyz,Turkmen,u,u,0.75,4,0.811,"u:3, ɯ:1"
+Kyrgyz,Turkmen,z,z,1.0,3,-0.0,z:3
+Kyrgyz,Turkmen,ø,ø,1.0,2,-0.0,ø:2
+Kyrgyz,Turkmen,ɯ,ɯ,0.667,3,0.918,"ɯ:2, -:1"
+Kyrgyz,Turkmen,ʥ,j,1.0,1,-0.0,j:1
+Kyrgyz,Uyghur,-,ŋ,0.333,3,1.585,"ŋ:1, ɛ:1, n:1"
+Kyrgyz,Uyghur,a,a,0.857,7,0.592,"a:6, o:1"
+Kyrgyz,Uyghur,b,b,0.75,4,0.811,"b:3, p:1"
+Kyrgyz,Uyghur,d,d,1.0,1,-0.0,d:1
+Kyrgyz,Uyghur,e,æ,0.375,8,1.906,"æ:3, -:2, i:2, e:1"
+Kyrgyz,Uyghur,i,i,0.727,11,1.096,"i:8, -:2, æ:1"
+Kyrgyz,Uyghur,j,j,0.667,3,0.918,"j:2, -:1"
+Kyrgyz,Uyghur,k,k,0.8,10,0.922,"k:8, -:1, kː:1"
+Kyrgyz,Uyghur,l,l,1.0,1,-0.0,l:1
+Kyrgyz,Uyghur,m,m,1.0,4,-0.0,m:4
+Kyrgyz,Uyghur,n,n,0.5,4,1.0,"n:2, -:2"
+Kyrgyz,Uyghur,q,q,1.0,6,-0.0,q:6
+Kyrgyz,Uyghur,r,r,1.0,7,-0.0,r:7
+Kyrgyz,Uyghur,s,s,1.0,1,-0.0,s:1
+Kyrgyz,Uyghur,t,t,1.0,4,-0.0,t:4
+Kyrgyz,Uyghur,tɕ,tɕ,1.0,2,-0.0,tɕ:2
+Kyrgyz,Uyghur,u,u,1.0,6,-0.0,u:6
+Kyrgyz,Uyghur,z,z,1.0,3,-0.0,z:3
+Kyrgyz,Uyghur,ø,ø,1.0,2,-0.0,ø:2
+Kyrgyz,Uyghur,øː,ø,1.0,1,-0.0,ø:1
+Kyrgyz,Uyghur,ɯ,i,0.5,2,1.0,"i:1, u:1"
+Kyrgyz,Uyghur,ʃ,-,0.5,2,1.0,"-:1, ʃ:1"
+Kyrgyz,Uyghur,ʨ,tɕ,1.0,1,-0.0,tɕ:1
+Kyrgyz,Uzbek,a,ɔ,0.667,3,0.918,"ɔ:2, a:1"
+Kyrgyz,Uzbek,b,b,1.0,5,-0.0,b:5
+Kyrgyz,Uzbek,e,e,0.6,5,1.371,"e:3, a:1, i:1"
+Kyrgyz,Uzbek,i,i,1.0,10,-0.0,i:10
+Kyrgyz,Uzbek,k,k,0.857,7,0.592,"k:6, kː:1"
+Kyrgyz,Uzbek,l,l,1.0,2,-0.0,l:2
+Kyrgyz,Uzbek,n,n,1.0,2,-0.0,n:2
+Kyrgyz,Uzbek,q,q,1.0,4,-0.0,q:4
+Kyrgyz,Uzbek,r,r,1.0,4,-0.0,r:4
+Kyrgyz,Uzbek,t,t,1.0,3,-0.0,t:3
+Kyrgyz,Uzbek,u,u,1.0,4,-0.0,u:4
+Kyrgyz,Uzbek,z,z,1.0,3,-0.0,z:3
+Kyrgyz,Uzbek,ø,o,1.0,2,-0.0,o:2
+Kyrgyz,Uzbek,ɯ,i,1.0,1,-0.0,i:1
+Kyrgyz,Uzbek,ʃ,ʃ,1.0,2,-0.0,ʃ:2
+Kyrgyz,Uzbek,ʥ,j,1.0,1,-0.0,j:1
+Kyrgyz,Yakut,a,aː,1.0,1,-0.0,aː:1
+Kyrgyz,Yakut,b,b,1.0,3,-0.0,b:3
+Kyrgyz,Yakut,e,i,0.429,7,1.842,"i:3, e:2, yː:1, -:1"
+Kyrgyz,Yakut,i,i,0.444,9,1.837,"i:4, ɯ:2, iː:2, -:1"
+Kyrgyz,Yakut,k,k,0.333,6,1.918,"k:2, -:2, s:1, kː:1"
+Kyrgyz,Yakut,n,n,1.0,2,-0.0,n:2
+Kyrgyz,Yakut,q,χ,1.0,1,-0.0,χ:1
+Kyrgyz,Yakut,r,r,1.0,3,-0.0,r:3
+Kyrgyz,Yakut,t,t,1.0,4,-0.0,t:4
+Kyrgyz,Yakut,tɕ,s,1.0,1,-0.0,s:1
+Kyrgyz,Yakut,u,u,1.0,3,-0.0,u:3
+Kyrgyz,Yakut,z,h,1.0,1,-0.0,h:1
+Kyrgyz,Yakut,ʃ,h,1.0,2,-0.0,h:2
+Turkish,Turkmen,-,m,0.5,2,1.0,"m:1, e:1"
+Turkish,Turkmen,a,a,0.9,10,0.469,"a:9, aː:1"
+Turkish,Turkmen,b,b,1.0,6,-0.0,b:6
+Turkish,Turkmen,d,d,1.0,1,-0.0,d:1
+Turkish,Turkmen,e,e,0.667,3,0.918,"e:2, æ:1"
+Turkish,Turkmen,g,g,1.0,2,-0.0,g:2
+Turkish,Turkmen,i,i,1.0,7,-0.0,i:7
+Turkish,Turkmen,j,j,1.0,1,-0.0,j:1
+Turkish,Turkmen,k,q,0.333,12,1.585,"q:4, ɢ:4, k:4"
+Turkish,Turkmen,l,l,1.0,3,-0.0,l:3
+Turkish,Turkmen,m,m,1.0,1,-0.0,m:1
+Turkish,Turkmen,n,n,1.0,5,-0.0,n:5
+Turkish,Turkmen,p,p,1.0,1,-0.0,p:1
+Turkish,Turkmen,q,q,1.0,1,-0.0,q:1
+Turkish,Turkmen,r,r,1.0,5,-0.0,r:5
+Turkish,Turkmen,s,s,1.0,3,-0.0,s:3
+Turkish,Turkmen,t,d,0.5,4,1.0,"d:2, t:2"
+Turkish,Turkmen,tɕ,tɕ,1.0,1,-0.0,tɕ:1
+Turkish,Turkmen,u,u,0.667,6,0.918,"u:4, ɯ:2"
+Turkish,Turkmen,y,y,1.0,2,-0.0,y:2
+Turkish,Turkmen,z,z,1.0,4,-0.0,z:4
+Turkish,Turkmen,ø,ø,1.0,3,-0.0,ø:3
+Turkish,Turkmen,ɯ,ɯ,1.0,3,-0.0,ɯ:3
+Turkish,Turkmen,ʃ,ʃ,1.0,1,-0.0,ʃ:1
+Turkish,Uyghur,a,a,1.0,3,-0.0,a:3
+Turkish,Uyghur,b,b,0.75,4,0.811,"b:3, p:1"
+Turkish,Uyghur,d,t,1.0,1,-0.0,t:1
+Turkish,Uyghur,e,æ,0.667,3,0.918,"æ:2, e:1"
+Turkish,Uyghur,g,k,1.0,2,-0.0,k:2
+Turkish,Uyghur,i,i,0.889,9,0.503,"i:8, æ:1"
+Turkish,Uyghur,k,q,0.5,8,1.406,"q:4, k:3, kː:1"
+Turkish,Uyghur,l,l,1.0,1,-0.0,l:1
+Turkish,Uyghur,n,n,1.0,2,-0.0,n:2
+Turkish,Uyghur,r,r,1.0,4,-0.0,r:4
+Turkish,Uyghur,s,s,1.0,1,-0.0,s:1
+Turkish,Uyghur,t,d,0.5,2,1.0,"d:1, t:1"
+Turkish,Uyghur,u,u,1.0,5,-0.0,u:5
+Turkish,Uyghur,z,z,1.0,4,-0.0,z:4
+Turkish,Uyghur,ø,ø,1.0,2,-0.0,ø:2
+Turkish,Uyghur,ʃ,ʃ,1.0,2,-0.0,ʃ:2
+Turkish,Uzbek,-,i,0.5,4,1.5,"i:2, k:1, ʃ:1"
+Turkish,Uzbek,a,ɔ,0.75,4,0.811,"ɔ:3, a:1"
+Turkish,Uzbek,b,b,1.0,6,-0.0,b:6
+Turkish,Uzbek,d,t,1.0,1,-0.0,t:1
+Turkish,Uzbek,e,e,0.75,4,0.811,"e:3, a:1"
+Turkish,Uzbek,g,k,1.0,2,-0.0,k:2
+Turkish,Uzbek,i,i,1.0,8,-0.0,i:8
+Turkish,Uzbek,j,j,1.0,2,-0.0,j:2
+Turkish,Uzbek,k,q,0.5,10,1.361,"q:5, k:4, kː:1"
+Turkish,Uzbek,l,l,1.0,2,-0.0,l:2
+Turkish,Uzbek,n,n,1.0,3,-0.0,n:3
+Turkish,Uzbek,q,q,1.0,1,-0.0,q:1
+Turkish,Uzbek,r,r,1.0,5,-0.0,r:5
+Turkish,Uzbek,t,t,1.0,2,-0.0,t:2
+Turkish,Uzbek,u,u,1.0,5,-0.0,u:5
+Turkish,Uzbek,y,u,1.0,2,-0.0,u:2
+Turkish,Uzbek,z,z,1.0,3,-0.0,z:3
+Turkish,Uzbek,ø,o,1.0,2,-0.0,o:2
+Turkish,Uzbek,ɯ,i,1.0,2,-0.0,i:2
+Turkish,Uzbek,ʃ,ʃ,1.0,2,-0.0,ʃ:2
+Turkish,Yakut,-,i,0.333,6,2.252,"i:2, e:1, a:1, h:1, ø:1"
+Turkish,Yakut,a,aː,0.333,3,1.585,"aː:1, ɯ:1, a:1"
+Turkish,Yakut,b,b,1.0,3,-0.0,b:3
+Turkish,Yakut,d,t,1.0,2,-0.0,t:2
+Turkish,Yakut,e,e,0.5,4,1.0,"e:2, i:2"
+Turkish,Yakut,i,i,0.625,8,1.299,"i:5, iː:2, ɯ:1"
+Turkish,Yakut,j,s,1.0,1,-0.0,s:1
+Turkish,Yakut,k,k,0.333,6,2.252,"k:2, χ:1, -:1, h:1, kː:1"
+Turkish,Yakut,n,n,1.0,2,-0.0,n:2
+Turkish,Yakut,o,ø,1.0,1,-0.0,ø:1
+Turkish,Yakut,r,r,1.0,3,-0.0,r:3
+Turkish,Yakut,s,h,0.5,2,1.0,"h:1, -:1"
+Turkish,Yakut,t,t,1.0,2,-0.0,t:2
+Turkish,Yakut,tɕ,s,0.5,2,1.0,"s:1, t:1"
+Turkish,Yakut,u,u,1.0,3,-0.0,u:3
+Turkish,Yakut,y,y,1.0,1,-0.0,y:1
+Turkish,Yakut,z,g,0.5,2,1.0,"g:1, h:1"
+Turkish,Yakut,ɣ,-,1.0,1,-0.0,-:1
+Turkish,Yakut,ʃ,s,0.5,2,1.0,"s:1, h:1"
+Turkmen,Uyghur,-,i,1.0,1,-0.0,i:1
+Turkmen,Uyghur,a,a,1.0,2,-0.0,a:2
+Turkmen,Uyghur,aː,a,1.0,1,-0.0,a:1
+Turkmen,Uyghur,b,b,0.75,4,0.811,"b:3, p:1"
+Turkmen,Uyghur,d,d,0.5,2,1.0,"d:1, t:1"
+Turkmen,Uyghur,e,e,1.0,1,-0.0,e:1
+Turkmen,Uyghur,g,k,1.0,2,-0.0,k:2
+Turkmen,Uyghur,i,i,0.75,8,1.061,"i:6, -:1, æ:1"
+Turkmen,Uyghur,j,j,1.0,1,-0.0,j:1
+Turkmen,Uyghur,k,kː,1.0,1,-0.0,kː:1
+Turkmen,Uyghur,l,l,1.0,1,-0.0,l:1
+Turkmen,Uyghur,n,n,1.0,2,-0.0,n:2
+Turkmen,Uyghur,q,q,1.0,1,-0.0,q:1
+Turkmen,Uyghur,r,r,1.0,3,-0.0,r:3
+Turkmen,Uyghur,s,s,1.0,1,-0.0,s:1
+Turkmen,Uyghur,t,t,1.0,1,-0.0,t:1
+Turkmen,Uyghur,u,u,1.0,4,-0.0,u:4
+Turkmen,Uyghur,z,z,1.0,4,-0.0,z:4
+Turkmen,Uyghur,ø,ø,1.0,2,-0.0,ø:2
+Turkmen,Uyghur,ɢ,q,1.0,3,-0.0,q:3
+Turkmen,Uyghur,ɯ,u,1.0,1,-0.0,u:1
+Turkmen,Uyghur,ʃ,ʃ,1.0,1,-0.0,ʃ:1
+Turkmen,Uzbek,a,ɔ,0.667,3,0.918,"ɔ:2, a:1"
+Turkmen,Uzbek,aː,ɔ,1.0,1,-0.0,ɔ:1
+Turkmen,Uzbek,b,b,1.0,5,-0.0,b:5
+Turkmen,Uzbek,d,t,1.0,2,-0.0,t:2
+Turkmen,Uzbek,e,e,1.0,1,-0.0,e:1
+Turkmen,Uzbek,g,k,1.0,2,-0.0,k:2
+Turkmen,Uzbek,i,i,1.0,7,-0.0,i:7
+Turkmen,Uzbek,k,kː,1.0,1,-0.0,kː:1
+Turkmen,Uzbek,l,l,1.0,2,-0.0,l:2
+Turkmen,Uzbek,n,n,1.0,3,-0.0,n:3
+Turkmen,Uzbek,q,q,1.0,3,-0.0,q:3
+Turkmen,Uzbek,r,r,1.0,4,-0.0,r:4
+Turkmen,Uzbek,t,t,1.0,2,-0.0,t:2
+Turkmen,Uzbek,u,u,1.0,4,-0.0,u:4
+Turkmen,Uzbek,z,z,1.0,3,-0.0,z:3
+Turkmen,Uzbek,ø,o,1.0,2,-0.0,o:2
+Turkmen,Uzbek,ɢ,q,1.0,3,-0.0,q:3
+Turkmen,Uzbek,ɯ,i,0.667,3,0.918,"i:2, u:1"
+Turkmen,Uzbek,ʃ,ʃ,1.0,1,-0.0,ʃ:1
+Turkmen,Yakut,-,e,0.5,2,1.0,"e:1, i:1"
+Turkmen,Yakut,a,a,1.0,1,-0.0,a:1
+Turkmen,Yakut,aː,aː,1.0,1,-0.0,aː:1
+Turkmen,Yakut,b,b,1.0,3,-0.0,b:3
+Turkmen,Yakut,d,t,1.0,1,-0.0,t:1
+Turkmen,Yakut,e,e,0.5,2,1.0,"e:1, i:1"
+Turkmen,Yakut,i,i,0.429,7,1.557,"i:3, ɯ:2, iː:2"
+Turkmen,Yakut,k,kː,1.0,1,-0.0,kː:1
+Turkmen,Yakut,n,n,1.0,2,-0.0,n:2
+Turkmen,Yakut,r,r,1.0,2,-0.0,r:2
+Turkmen,Yakut,s,h,0.5,2,1.0,"h:1, -:1"
+Turkmen,Yakut,t,t,1.0,3,-0.0,t:3
+Turkmen,Yakut,tɕ,s,1.0,1,-0.0,s:1
+Turkmen,Yakut,u,u,1.0,2,-0.0,u:2
+Turkmen,Yakut,z,g,0.5,2,1.0,"g:1, h:1"
+Turkmen,Yakut,ɢ,χ,1.0,1,-0.0,χ:1
+Turkmen,Yakut,ɯ,u,1.0,1,-0.0,u:1
+Uyghur,Uzbek,-,i,0.5,4,1.5,"i:2, k:1, ʃ:1"
+Uyghur,Uzbek,a,ɔ,1.0,3,-0.0,ɔ:3
+Uyghur,Uzbek,b,b,1.0,4,-0.0,b:4
+Uyghur,Uzbek,e,e,1.0,1,-0.0,e:1
+Uyghur,Uzbek,i,i,1.0,7,-0.0,i:7
+Uyghur,Uzbek,k,k,1.0,5,-0.0,k:5
+Uyghur,Uzbek,kː,kː,1.0,1,-0.0,kː:1
+Uyghur,Uzbek,l,l,1.0,1,-0.0,l:1
+Uyghur,Uzbek,n,n,1.0,2,-0.0,n:2
+Uyghur,Uzbek,p,b,1.0,1,-0.0,b:1
+Uyghur,Uzbek,q,q,1.0,4,-0.0,q:4
+Uyghur,Uzbek,r,r,1.0,4,-0.0,r:4
+Uyghur,Uzbek,t,t,1.0,2,-0.0,t:2
+Uyghur,Uzbek,u,u,1.0,5,-0.0,u:5
+Uyghur,Uzbek,z,z,1.0,3,-0.0,z:3
+Uyghur,Uzbek,æ,e,0.333,3,1.585,"e:1, a:1, i:1"
+Uyghur,Uzbek,ø,o,1.0,2,-0.0,o:2
+Uyghur,Uzbek,ʃ,ʃ,1.0,3,-0.0,ʃ:3
+Uyghur,Yakut,-,i,0.5,4,1.5,"i:2, e:1, h:1"
+Uyghur,Yakut,a,aː,1.0,1,-0.0,aː:1
+Uyghur,Yakut,b,b,1.0,2,-0.0,b:2
+Uyghur,Yakut,e,i,1.0,1,-0.0,i:1
+Uyghur,Yakut,i,i,0.714,7,1.149,"i:5, ɯ:1, iː:1"
+Uyghur,Yakut,k,k,0.667,3,0.918,"k:2, -:1"
+Uyghur,Yakut,kː,kː,1.0,1,-0.0,kː:1
+Uyghur,Yakut,n,n,1.0,2,-0.0,n:2
+Uyghur,Yakut,p,b,1.0,1,-0.0,b:1
+Uyghur,Yakut,q,χ,1.0,1,-0.0,χ:1
+Uyghur,Yakut,r,r,1.0,3,-0.0,r:3
+Uyghur,Yakut,s,h,1.0,1,-0.0,h:1
+Uyghur,Yakut,t,t,1.0,2,-0.0,t:2
+Uyghur,Yakut,u,u,1.0,3,-0.0,u:3
+Uyghur,Yakut,z,g,0.5,2,1.0,"g:1, h:1"
+Uyghur,Yakut,æ,e,0.333,3,1.585,"e:1, i:1, iː:1"
+Uyghur,Yakut,ʃ,h,1.0,1,-0.0,h:1
+Uzbek,Yakut,-,ɣ,1.0,1,-0.0,ɣ:1
+Uzbek,Yakut,a,i,1.0,1,-0.0,i:1
+Uzbek,Yakut,b,b,1.0,3,-0.0,b:3
+Uzbek,Yakut,e,e,0.5,2,1.0,"e:1, i:1"
+Uzbek,Yakut,i,i,0.5,10,1.761,"i:5, ɯ:2, iː:2, -:1"
+Uzbek,Yakut,k,k,0.5,4,1.0,"k:2, -:2"
+Uzbek,Yakut,kː,kː,1.0,1,-0.0,kː:1
+Uzbek,Yakut,n,n,1.0,2,-0.0,n:2
+Uzbek,Yakut,o,a,1.0,1,-0.0,a:1
+Uzbek,Yakut,q,χ,1.0,1,-0.0,χ:1
+Uzbek,Yakut,r,r,1.0,3,-0.0,r:3
+Uzbek,Yakut,t,t,1.0,3,-0.0,t:3
+Uzbek,Yakut,u,u,1.0,3,-0.0,u:3
+Uzbek,Yakut,z,h,1.0,1,-0.0,h:1
+Uzbek,Yakut,ɔ,aː,1.0,1,-0.0,aː:1
+Uzbek,Yakut,ʃ,h,1.0,2,-0.0,h:2

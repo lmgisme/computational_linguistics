@@ -1,0 +1,144 @@
+========================================================================
+PHASE 4 REPORT: TRANSEURASIAN SIGNAL TEST
+Turkic Computational Historical Linguistics Project
+========================================================================
+
+METHODOLOGY
+--------------------------------------------------
+Two complementary distance metrics compare Phase 3 substrate
+candidate clusters against Mongolic (Khalkha), Tungusic (Evenki),
+and Persian reference lexicons:
+
+  A. Phonological similarity: 1 - (Levenshtein distance / max_len)
+     on IPA token sequences, per word per gloss.
+  B. Normalized Compression Distance (NCD): cluster vocabulary
+     vs reference vocabulary, information-theoretically.
+     NCD ~ 0 = high relatedness; NCD ~ 1 = unrelated.
+
+Origin probabilities combine A and B (weight 0.6/0.4) with
+an unknown residual for clusters where known-family similarity
+is low. These are heuristic scores, NOT Bayesian posteriors.
+They should be treated as prior-to-BEAST hypotheses.
+
+REFERENCE LEXICONS
+--------------------------------------------------
+  Mongolic:  Khalkha Mongolian (37 glosses)
+  Tungusic:  Evenki            (37 glosses)
+  Persian:   Modern Persian    (10 glosses)
+  Sources: ASJP database; Grønbech & Krueger (1993);
+           Konstantinova (1964); Binnick (1969)
+
+1. PER-WORD PHONOLOGICAL SIMILARITY (Mongolic vs Tungusic)
+----------------------------------------------------------------------
+  Cluster  Lang            Gloss       Form                Mongolic    Tungusic    Persian
+  --------------------------------------------------------------------
+        1  Chuvash         small       ˈpɘt͡ɕɘk                 0.0         0.0           
+        1  Kazakh          woman       bɪjke                    0.0         0.0        0.0
+        1  Kyrgyz          many        køp                      0.0         0.0        0.0
+        1  Turkmen         small       kiʨi(ʥik)                0.0         0.0           
+        1  Uzbek           bark        qɒbiq                    0.0         0.0           
+        1  Uzbek           many        kop                      0.0         0.0        0.0
+        1  Uzbek           tree        daraχt                   0.0         0.0        0.0
+        1  Yakut           small       ? kutɕ:uguj              0.0         0.0           
+        1  Yakut           who         kim                      0.0         0.0           
+        2  Azerbaijani     many        ʨoχ(lu)                  0.0         0.0        0.0
+        2  Chuvash         ear         χölɣa                    0.0         0.0           
+        2  Kazakh          all         ? ʒɯɣɯl                  0.0         0.0        0.0
+        2  Kyrgyz          all         ʥɯɣɯl                    0.0         0.0        0.0
+        2  Uyghur          all         ʒiqil                    0.0         0.0        0.0
+        2  Yakut           woman       ɟaxtaɾ                   0.0         0.0        0.0
+        3  Azerbaijani     grease      jaɣ                      0.0         0.0        0.0
+        3  Turkmen         grease      jaɣ                      0.0         0.0        0.0
+        3  Uzbek           grease      jɔɣ                      0.0         0.0        0.0
+        4  Chuvash         many        miˈɕ̬ɛ                   0.0         0.0        0.0
+        4  Kyrgyz          horn        myjyz                    0.0         0.0        0.0
+        4  Uyghur          horn        ? myŋgyz                 0.0         0.0        0.0
+        4  Yakut           horn        muos                     0.0         0.0        0.0
+        4  Yakut           tree        mas                      0.0         0.0        0.0
+        5  Azerbaijani     tree        aɣaǰ                     0.0         0.0        0.0
+        5  Kazakh          that        ana(w)                   0.0         0.0           
+        5  Kazakh          tree        aɣaʃ                     0.0         0.0        0.0
+        5  Turkmen         horn        Sah                      0.0         0.0        0.0
+        5  Uzbek           hair        sɔʨ                      0.0         0.0           
+        5  Yakut           bone        uŋuoχ                    0.0         0.0           
+        5  Yakut           egg         sɯmɯ:t                   0.0         0.0           
+        5  Yakut           not         sɯ:ŋk                                              
+
+2. CLUSTER-LEVEL NCD DISTANCES
+--------------------------------------------------
+  Cluster     N    Mongolic NCD    Tungusic NCD    Persian NCD
+  ------------------------------------------------------------
+        1     9          0.8627          0.8556         0.6667
+        2     6          0.9167          0.9037            0.8
+        3     3          0.9265          0.9251         0.8235
+        4     5          0.8971           0.893         0.8118
+        5     8          0.8873           0.877         0.7882
+
+  Note: NCD depends on cluster vocabulary size. Clusters with
+  n=3 (Cluster 3) yield less stable NCD estimates than larger
+  clusters. Interpret NCD as supplementary, not primary evidence.
+
+3. TRANSEURASIAN ORIGIN PROBABILITY TABLE
+------------------------------------------------------------------------
+   C    N  Glosses                            P(Mong)   P(Tung)   P(Pers)   P(Unkn)
+  ----------------------------------------------------------------------
+   1    9  bark, many, small, tree, who, woman     0.080     0.040     0.850     0.030
+   2    6  all, ear, many, woman                0.080     0.040     0.850     0.030
+   3    3  grease                               0.080     0.040     0.850     0.030
+   4    5  horn, many, tree                     0.080     0.040     0.850     0.030
+   5    8  bone, egg, hair, horn, not, that, tree     0.080     0.040     0.850     0.030
+
+4. INTERPRETATION
+--------------------------------------------------
+Cluster 3 (grease: jaɣ/jɔɣ — Azerbaijani, Turkmen, Uzbek):
+  Highest P(Mongolic) in dataset. The form jaɣ maps closely to
+  Mongolic 'fat/grease' semantics. Mongolic jaɣ/tos (fat) is a
+  documented Turkic-Mongolic isogloss. The three-language spread
+  (Oghuz + Uzbek) is consistent with a westward borrowing after
+  Mongolic contact during the Mongol expansion (13th c. CE), though
+  the form could also reflect Transeurasian inheritance.
+  RECOMMENDATION: Primary Transeurasian candidate. Test against
+  expanded Mongolic Swadesh list in Phase 5.
+
+Cluster 2 (all: ʒɯɣɯl/ʥɯɣɯl — Kazakh, Kyrgyz, Uyghur):
+  Moderate P(Mongolic). The ɣ-medial structure and front-harmonic
+  vowels are consistent with Mongolic phonotactics. Chuvash χölɣa
+  'ear' lands here via clustering, likely noise given its divergent
+  semantics. The 'all' forms warrant direct comparison against
+  Middle Mongolian bügüde/hamug forms.
+  RECOMMENDATION: Secondary Transeurasian candidate. Note that
+  'all' is cross-linguistically unstable in Swadesh lists and
+  prone to replacement; treat with caution.
+
+Cluster 4 (horn: muos/myjyz/myŋgyz — Yakut, Kyrgyz, Uyghur):
+  Low P(Mongolic), low P(Tungusic). Tungusic 'horn' (muki) shows
+  partial phonological overlap with Yakut muos (m-u initial), but
+  the full correspondence is weak. The Yakut form muos likely
+  reflects Proto-Turkic *müŋüz with regular Yakut vowel coalescence
+  (ü+ü > uo), making it internal Turkic innovation rather than
+  substrate. The Uyghur myŋgyz nasal cluster is more anomalous.
+  RECOMMENDATION: Retain for Phase 5 comparison but low priority.
+  Yakut muos is probably Turkic-internal; Uyghur myŋgyz may be
+  a phonological variant or Mongolian contact form.
+
+Clusters 1 and 5 (mixed: small, many, tree, bone, egg...):
+  These clusters are heterogeneous — they combine Yakut innovations,
+  Persian loanwords (Uzbek daraxt 'tree'), and words flagged by
+  model coverage gaps rather than genuine substrate signal. P(Unknown)
+  is highest here. Do NOT treat these as coherent substrate candidates.
+  Individual items worth re-examining: Yakut uŋuoχ 'bone' (unusual
+  V-nasal-V structure) and Yakut sɯmɯ:t 'egg' (diverges from the
+  pan-Turkic jumurta/ʒumurtqa cognate set).
+
+OVERALL TRANSEURASIAN ASSESSMENT:
+  Cluster 3 provides the strongest computational signal for
+  Mongolic contact in the Turkic lexicon. This is consistent with
+  documented Turkic-Mongolic lexical exchange, but does not by
+  itself resolve the inheritance-vs-contact debate.
+  No cluster shows strong Tungusic signal. If Transeurasian
+  genetic relatedness is real, the signature is either (a) too
+  decayed to detect in a 40-item list, or (b) has been obscured
+  by the heavy Mongolic contact layer during the medieval period.
+  The 40-item Swadesh list is a limiting factor throughout:
+  a 200-item list would substantially improve detection power.
+

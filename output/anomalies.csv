@@ -1,0 +1,33 @@
+language,gloss,form,ipa_tokens,cogid,cogid_source,raw_score,adjusted_score,lexstat_penalized,yakut_artifact_flag,n_tokens,n_lookups,is_anomalous,loan_source
+Yakut,bone,uŋuoχ,u ŋ u o χ,14,savelyev,-2.4463,-2.4463,False,False,5,5,True,unknown
+Chuvash,ear,χölɣa,χ ŏ l ɣ a,50,savelyev,-2.5044,-2.5044,False,False,5,5,True,Mongolic_candidate
+Yakut,egg,sɯmɯ:t,s ɯ m ɯː t,139,savelyev,-2.543,-2.543,False,False,5,5,True,unknown
+Kazakh,all,? ʒɯɣɯl,ʒ ɯ ɣ ɯ l,100012,lexstat,-1.3973,-1.6973,True,False,5,5,True,Mongolic_candidate
+Kyrgyz,all,ʥɯɣɯl,ʥ ɯ ɣ ɯ l,100013,lexstat,-1.3661,-1.6661,True,False,5,5,True,Mongolic_candidate
+Uyghur,all,ʒiqil,ʒ i q i l,100016,lexstat,-1.318,-1.618,True,False,5,5,True,unknown
+Azerbaijani,grease,jaɣ,j a ɣ,694,savelyev,-2.1553,-2.1553,False,False,3,3,True,Mongolic_candidate
+Turkmen,grease,jaɣ,j a ɣ,694,savelyev,-2.0627,-2.0627,False,False,3,3,True,Mongolic_candidate
+Uzbek,grease,jɔɣ,j ɔ ɣ,694,savelyev,-2.0193,-2.0193,False,False,3,3,True,Mongolic_candidate
+Uzbek,hair,sɔʨ,s ɔ tɕ,74,savelyev,-2.0193,-2.0193,False,False,3,3,True,unknown
+Kyrgyz,horn,myjyz,m y j y z,95,savelyev,-2.4405,-2.4405,False,False,5,5,True,unknown
+Uyghur,horn,? myŋgyz,m y ŋ g y z,95,savelyev,-3.0204,-3.0204,False,False,6,6,True,unknown
+Yakut,horn,muos,m u o s,95,savelyev,-3.1325,-3.1325,False,False,4,4,True,unknown
+Kyrgyz,many,køp,k ø p,521,savelyev,-2.1632,-2.1632,False,False,3,3,True,unknown
+Uzbek,many,kop,k o p,521,savelyev,-2.1809,-2.1809,False,False,3,3,True,unknown
+Azerbaijani,many,ʨoχ(lu),ʨ o χ,522,savelyev,-6.0,-6.0,False,False,3,3,True,unknown
+Yakut,not,sɯ:ŋk,s ɯː ŋ k,148,savelyev,-3.1035,-3.1035,False,False,4,4,True,unknown
+Turkmen,small,kiʨi(ʥik),k i ʨ i ʥ i k,280,savelyev,-1.8478,-1.8478,False,False,7,7,True,unknown
+Yakut,small,? kutɕ:uguj,k u tʃː u g u j,280,savelyev,-1.7639,-1.7639,False,False,7,7,True,unknown
+Kazakh,that,ana(w),a n a w,559,savelyev,-1.6229,-1.6229,False,False,4,4,True,unknown
+Azerbaijani,tree,aɣaǰ,a ɣ a ʥ,872,savelyev,-3.1637,-3.1637,False,False,4,4,True,Mongolic_candidate
+Kazakh,tree,aɣaʃ,a ɣ a ʃ,872,savelyev,-1.7384,-1.7384,False,False,4,4,True,Mongolic_candidate
+Yakut,tree,mas,m a s,872,savelyev,-2.2151,-2.2151,False,False,3,3,True,unknown
+Yakut,who,kim,k i m,81,savelyev,-2.198,-2.198,False,False,3,3,True,unknown
+Azerbaijani,person,ɑdɑm,ɑ d ɑ m,100171,lexstat,-3.0593,-3.3593,True,False,4,4,True,Persian
+Uzbek,tree,daraχt,d a r a χ t,100228,lexstat,-2.1264,-2.4264,True,False,6,6,True,unknown
+Uzbek,bark,qɒbiq,q ɒ b i q,100025,lexstat,-1.3539,-1.6539,True,False,5,5,True,unknown
+Kazakh,woman,bɪjke,b ɪ j k e,100260,lexstat,-1.4077,-1.7077,True,False,5,5,True,unknown
+Chuvash,small,ˈpɘt͡ɕɘk,p ɘ tɕ ɘ k,100194,lexstat,-3.6866,-3.9866,True,False,5,5,True,unknown
+Chuvash,many,miˈɕ̬ɛ,m i ɕ ɛ,100154,lexstat,-1.6678,-1.9678,True,False,4,4,True,unknown
+Yakut,woman,ɟaxtaɾ,ɟ a x t a ɾ,100263,lexstat,-3.1127,-3.4127,True,False,6,6,True,unknown
+Turkmen,horn,Sah,ʃ a h,100130,lexstat,-2.0627,-2.3627,True,False,3,3,True,unknown

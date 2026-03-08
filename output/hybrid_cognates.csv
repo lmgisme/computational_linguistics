@@ -1,0 +1,354 @@
+language,gloss,form,ipa_tokens,cogid,cogid_source,savelyev_cogid,lexstat_cogid,conflict
+Azerbaijani,I,dɯrnaɢ,d ɯ r n a ɢ,31,savelyev,31.0,1.0,True
+Chuvash,I,ʨɘrne,tɕ ĭ r n e,32,savelyev,32.0,2.0,True
+Kazakh,I,tɯrnaq,t ɯ r n a q,31,savelyev,31.0,1.0,True
+Turkish,I,tɯrnak,t ɯ r n a k,31,savelyev,31.0,1.0,True
+Turkmen,I,dɯrnaq,d ɯ r n a q,31,savelyev,31.0,1.0,True
+Uzbek,I,tirnɔq,t i r n ɔ q,31,savelyev,31.0,1.0,True
+Yakut,I,tɯŋɯraχ,t ɯ ŋ ɯ r a χ,31,savelyev,31.0,9.0,True
+Kyrgyz,I,tɯrmaq,t ɯ r m a q,31,savelyev,31.0,4.0,True
+Uyghur,I,tirmaq,t i r m a q,31,savelyev,31.0,4.0,True
+Azerbaijani,we,biz,b i z,891,savelyev,891.0,231.0,True
+Chuvash,we,ebir,e b i r,891,savelyev,891.0,232.0,True
+Kazakh,we,bɘz,b ĭ z,891,savelyev,891.0,231.0,True
+Kyrgyz,we,biz,b i z,891,savelyev,891.0,231.0,True
+Turkish,we,biz,b i z,891,savelyev,891.0,231.0,True
+Turkmen,we,biz,b i z,891,savelyev,891.0,231.0,True
+Uyghur,we,biz,b i z,891,savelyev,891.0,231.0,True
+Uzbek,we,biz,b i z,891,savelyev,891.0,231.0,True
+Yakut,we,bihigi,b i h i g i,891,savelyev,891.0,239.0,True
+Azerbaijani,you_2sg,siz,s i z,17,savelyev,17.0,265.0,False
+Chuvash,you_2sg,ezir,e z i r,16,savelyev,16.0,265.0,False
+Kazakh,you_2sg,sɘzder,s ĭ z d e r,17,savelyev,17.0,265.0,False
+Kyrgyz,you_2sg,siler,s i l e r,17,savelyev,17.0,267.0,False
+Turkish,you_2sg,siz,s i z,17,savelyev,17.0,265.0,False
+Turkmen,you_2sg,siz,s i z,17,savelyev,17.0,265.0,False
+Uyghur,you_2sg,siz,s i z,17,savelyev,17.0,265.0,False
+Uzbek,you_2sg,sizlar,s i z l a r,16,savelyev,16.0,271.0,False
+Yakut,you_2sg,ehigi,e h i g i,17,savelyev,17.0,265.0,False
+Azerbaijani,that,dA,d a,557,savelyev,557.0,211.0,True
+Chuvash,that,"rA, dA, tA",r a,557,savelyev,557.0,212.0,True
+Kyrgyz,that,"dA, tA",d a,558,savelyev,558.0,211.0,True
+Turkish,that,"tA, dA",t a,557,savelyev,557.0,211.0,True
+Turkmen,that,dA,d a,557,savelyev,557.0,211.0,True
+Uyghur,that,"dA, tA",d a,557,savelyev,557.0,211.0,True
+Yakut,that,ɣa,ɣ a,557,savelyev,557.0,218.0,True
+Azerbaijani,bark,ɢabɯɢ,ɢ a b ɯ ɢ,675,savelyev,675.0,18.0,True
+Chuvash,bark,χubə̈,χ u b ə,675,savelyev,675.0,18.0,True
+Kazakh,bark,qabɯq,q a b ɯ q,675,savelyev,675.0,18.0,True
+Kyrgyz,bark,qabɯq,q a b ɯ q,675,savelyev,675.0,18.0,True
+Turkish,bark,"kabuk, (aɣaʨ) kabuɣu",k a b u k,675,savelyev,675.0,18.0,True
+Turkmen,bark,ɢabɯq,ɢ a b ɯ q,675,savelyev,675.0,18.0,True
+Uyghur,bark,qovzaq,q o v z a q,675,savelyev,675.0,24.0,True
+Yakut,bark,χatɯrɯk,χ a t ɯ r ɯ k,677,savelyev,677.0,26.0,True
+Kazakh,big,ylken,y l k e n,76,savelyev,76.0,29.0,True
+Turkmen,big,ulɯ,u l ɯ,77,savelyev,77.0,31.0,True
+Yakut,big,ulaχan,u l a χ a n,77,savelyev,77.0,33.0,True
+Azerbaijani,big,bøjyk,b ø j y k,78,savelyev,78.0,27.0,True
+Turkish,big,byjyk,b y j y k,78,savelyev,78.0,30.0,True
+Chuvash,big,pɯzə̈k,p ɯ z ə k,79,savelyev,79.0,28.0,True
+Azerbaijani,bird,ɢuʃ,ɢ u ʃ,275,savelyev,275.0,34.0,False
+Kazakh,bird,qŭs,q u s,275,savelyev,275.0,34.0,False
+Turkish,bird,kuʃ,k u ʃ,275,savelyev,275.0,34.0,False
+Turkmen,bird,ɢuʃ,ɢ u ʃ,275,savelyev,275.0,34.0,False
+Uyghur,bird,quʃ,q u ʃ,275,savelyev,275.0,34.0,False
+Uzbek,bird,quʃ,q u ʃ,275,savelyev,275.0,34.0,False
+Yakut,bird,køtør,k ø t ø r,276,savelyev,276.0,42.0,False
+Kyrgyz,bird,qanattu:,q a n a t t uː,277,savelyev,277.0,37.0,False
+Chuvash,bird,kajə̈k,k a j ə k,278,savelyev,278.0,35.0,False
+Azerbaijani,blood,ɢan,ɢ a n,13,savelyev,13.0,43.0,True
+Chuvash,blood,jun,j u n,13,savelyev,13.0,44.0,True
+Kazakh,blood,qan,q a n,13,savelyev,13.0,43.0,True
+Kyrgyz,blood,qan,q a n,13,savelyev,13.0,43.0,True
+Turkish,blood,kan,k a n,13,savelyev,13.0,43.0,True
+Turkmen,blood,ɢa:n,ɢ aː n,13,savelyev,13.0,43.0,True
+Uyghur,blood,qan,q a n,13,savelyev,13.0,43.0,True
+Uzbek,blood,qɔn,q ɔ n,13,savelyev,13.0,43.0,True
+Yakut,blood,χa:n,χ aː n,13,savelyev,13.0,43.0,True
+Azerbaijani,bone,symyk,s y m y k,14,savelyev,14.0,45.0,True
+Chuvash,bone,ʃömö,ʃ ŏ m ŏ,14,savelyev,14.0,45.0,True
+Kazakh,bone,syjek,s y j e k,14,savelyev,14.0,47.0,True
+Kyrgyz,bone,søøk,s øː k,14,savelyev,14.0,48.0,True
+Turkmen,bone,syŋk,s y ŋ k,14,savelyev,14.0,50.0,True
+Uyghur,bone,"søŋɛk, syŋɛk, syjɛk",s ø ŋ ɛ k,14,savelyev,14.0,48.0,True
+Uzbek,bone,sujak,s u j a k,14,savelyev,14.0,52.0,True
+Yakut,bone,uŋuoχ,u ŋ u o χ,14,savelyev,14.0,53.0,True
+Turkish,bone,kemik,k e m i k,15,savelyev,15.0,49.0,True
+Azerbaijani,dog,it,i t,249,savelyev,249.0,54.0,True
+Chuvash,dog,jɯdə̈,j ɯ d ə,249,savelyev,249.0,55.0,True
+Kazakh,dog,it,i t,249,savelyev,249.0,54.0,True
+Kyrgyz,dog,it,i t,249,savelyev,249.0,54.0,True
+Turkmen,dog,it,i t,249,savelyev,249.0,54.0,True
+Uyghur,dog,iʃt,i ʃ t,249,savelyev,249.0,55.0,True
+Uzbek,dog,it,i t,249,savelyev,249.0,54.0,True
+Yakut,dog,ɯt,ɯ t,249,savelyev,249.0,54.0,True
+Turkish,dog,køpek,k ø p e k,251,savelyev,251.0,58.0,True
+Azerbaijani,ear,ɢulaɢ,ɢ u l a ɢ,50,savelyev,50.0,59.0,True
+Chuvash,ear,χölɣa,χ ŏ l ɣ a,50,savelyev,50.0,60.0,True
+Kazakh,ear,qulaq,q u l a q,50,savelyev,50.0,59.0,True
+Kyrgyz,ear,qulaq,q u l a q,50,savelyev,50.0,59.0,True
+Turkish,ear,kulak,k u l a k,50,savelyev,50.0,59.0,True
+Turkmen,ear,ɢulaq,ɢ u l a q,50,savelyev,50.0,59.0,True
+Uyghur,ear,qulaq,q u l a q,50,savelyev,50.0,59.0,True
+Uzbek,ear,qulɔq,q u l ɔ q,50,savelyev,50.0,59.0,True
+Yakut,ear,kulga:χ,k u l g aː χ,50,savelyev,50.0,67.0,True
+Yakut,feather,aha:,a h aː,453,savelyev,453.0,93.0,True
+Azerbaijani,feather,je,j e,453,savelyev,453.0,85.0,True
+Chuvash,feather,ɕi,ɕ i,453,savelyev,453.0,85.0,True
+Kazakh,feather,ʒe,ʒ e,100085,lexstat,,85.0,False
+Kyrgyz,feather,ʥe,ʥ e,100085,lexstat,,85.0,False
+Turkish,feather,je,j e,453,savelyev,453.0,85.0,True
+Turkmen,feather,ij,i j,456,savelyev,456.0,90.0,True
+Uyghur,feather,ji,j i,100090,lexstat,,90.0,False
+Uzbek,feather,je,j e,100085,lexstat,,85.0,False
+Azerbaijani,egg,jumurta,j u m u r t a,139,savelyev,139.0,68.0,True
+Chuvash,egg,ɕömarda,ɕ ŏ m a r d a,139,savelyev,139.0,68.0,True
+Kazakh,egg,ʒŭmɯrtqa,ʒ u m ɯ r t q a,139,savelyev,139.0,70.0,True
+Kyrgyz,egg,ʥumurtqa,ʥ u m u r t q a,139,savelyev,139.0,70.0,True
+Turkish,egg,jumurta,j u m u r t a,139,savelyev,139.0,68.0,True
+Turkmen,egg,jumurtɢa,j u m u r t ɢ a,139,savelyev,139.0,73.0,True
+Yakut,egg,sɯmɯ:t,s ɯ m ɯː t,139,savelyev,139.0,75.0,True
+Azerbaijani,eye,køz,k ø z,245,savelyev,245.0,76.0,True
+Chuvash,eye,kuɕ,k u ɕ,245,savelyev,245.0,77.0,True
+Kazakh,eye,køz,k ø z,245,savelyev,245.0,76.0,True
+Kyrgyz,eye,køz,k ø z,245,savelyev,245.0,76.0,True
+Turkish,eye,gøz,g ø z,245,savelyev,245.0,76.0,True
+Turkmen,eye,gøz,g ø z,245,savelyev,245.0,76.0,True
+Uyghur,eye,køz,k ø z,245,savelyev,245.0,76.0,True
+Uzbek,eye,koz,k o z,245,savelyev,245.0,76.0,True
+Yakut,eye,χaraχ,χ a r a χ,246,savelyev,246.0,84.0,True
+Kazakh,all,? ʒɯɣɯl,ʒ ɯ ɣ ɯ l,100012,lexstat,,12.0,False
+Kyrgyz,all,ʥɯɣɯl,ʥ ɯ ɣ ɯ l,100013,lexstat,,13.0,False
+Turkmen,all,jɯqɯl,j ɯ q ɯ l,100015,lexstat,,15.0,False
+Uyghur,all,ʒiqil,ʒ i q i l,100016,lexstat,,16.0,False
+Uzbek,all,jiqil,j i q i l,100017,lexstat,,17.0,False
+Azerbaijani,all,dyʃ,d y ʃ,100010,lexstat,,10.0,False
+Turkish,all,dyʃ,d y ʃ,100010,lexstat,,10.0,False
+Yakut,all,tys,t y s,100010,lexstat,,10.0,False
+Chuvash,all,yk,y k,100011,lexstat,,11.0,False
+Kazakh,grease,maj,m a j,693,savelyev,693.0,107.0,True
+Kyrgyz,grease,maj,m a j,693,savelyev,693.0,107.0,True
+Uyghur,grease,maj,m a j,693,savelyev,693.0,107.0,True
+Azerbaijani,grease,jaɣ,j a ɣ,694,savelyev,694.0,105.0,True
+Chuvash,grease,ɕu,ɕ u,694,savelyev,694.0,106.0,True
+Turkish,grease,jaɣ,j a ɣ,694,savelyev,694.0,106.0,True
+Turkmen,grease,jaɣ,j a ɣ,694,savelyev,694.0,110.0,True
+Uzbek,grease,jɔɣ,j ɔ ɣ,694,savelyev,694.0,112.0,True
+Yakut,grease,sɯa,s ɯ a,694,savelyev,694.0,106.0,True
+Azerbaijani,fish,balɯɢ,b a l ɯ ɢ,98,savelyev,98.0,94.0,True
+Chuvash,fish,pulə̈,p u l ə,98,savelyev,98.0,95.0,True
+Kazakh,fish,balɯq,b a l ɯ q,98,savelyev,98.0,94.0,True
+Kyrgyz,fish,balɯq,b a l ɯ q,98,savelyev,98.0,94.0,True
+Turkish,fish,balɯq,b a l ɯ q,98,savelyev,98.0,94.0,True
+Turkmen,fish,balɯq,b a l ɯ q,98,savelyev,98.0,94.0,True
+Uyghur,fish,beliq,b e l i q,98,savelyev,98.0,100.0,True
+Uzbek,fish,baliq,b a l i q,98,savelyev,98.0,94.0,True
+Yakut,fish,balɯk,b a l ɯ k,98,savelyev,98.0,102.0,True
+Azerbaijani,head,alɯn,a l ɯ n,421,savelyev,421.0,121.0,True
+Turkish,head,alɯn,a l ɯ n,421,savelyev,421.0,121.0,True
+Turkmen,head,? alɯn,a l ɯ n,100121,lexstat,,121.0,False
+Yakut,head,sy:s,s yː s,421,savelyev,421.0,124.0,True
+Chuvash,head,ɕamga,ɕ a m g a,421,savelyev,421.0,122.0,True
+Kyrgyz,head,ʨeke,tɕ e k e,421,savelyev,421.0,124.0,True
+Azerbaijani,hair,saʨ,s a tɕ,74,savelyev,74.0,113.0,True
+Chuvash,hair,ɕyɕ,ɕ y ɕ,74,savelyev,74.0,113.0,True
+Kazakh,hair,ʃaʃ,ʃ a ʃ,74,savelyev,74.0,113.0,True
+Kyrgyz,hair,ʨaʨ,tɕ a tɕ,74,savelyev,74.0,116.0,True
+Turkish,hair,saʨ,s a tɕ,74,savelyev,74.0,113.0,True
+Turkmen,hair,saʨ,s a tɕ,74,savelyev,74.0,113.0,True
+Uyghur,hair,ʨaʨ,tɕ a tɕ,74,savelyev,74.0,116.0,True
+Uzbek,hair,sɔʨ,s ɔ tɕ,74,savelyev,74.0,120.0,True
+Yakut,hair,as,a s,74,savelyev,74.0,113.0,True
+Kazakh,head,bas,b a s,421,savelyev,421.0,123.0,True
+Uyghur,head,baʃ,b a ʃ,421,savelyev,421.0,123.0,True
+Uzbek,head,bɔʃ,b ɔ ʃ,421,savelyev,421.0,123.0,True
+Azerbaijani,horn,bujnuz,b u j n u z,95,savelyev,95.0,125.0,True
+Chuvash,horn,möjraga,m ŏ j r a g a,95,savelyev,95.0,126.0,True
+Kazakh,horn,myjɘz,m y j ĭ z,95,savelyev,95.0,127.0,True
+Kyrgyz,horn,myjyz,m y j y z,95,savelyev,95.0,128.0,True
+Turkish,horn,bojnuz,b o j n u z,95,savelyev,95.0,129.0,True
+Uyghur,horn,? myŋgyz,m y ŋ g y z,95,savelyev,95.0,131.0,True
+Yakut,horn,muos,m u o s,95,savelyev,95.0,133.0,True
+Azerbaijani,leaf,jarpaɢ,j a r p a ɢ,169,savelyev,169.0,134.0,True
+Kazakh,leaf,ʒapɯraq,ʒ a p ɯ r a q,169,savelyev,169.0,136.0,True
+Kyrgyz,leaf,ʥalbɯraq,ʥ a l b ɯ r a q,169,savelyev,169.0,136.0,True
+Turkish,leaf,japrak,j a p r a k,169,savelyev,169.0,136.0,True
+Turkmen,leaf,japraq,j a p r a q,169,savelyev,169.0,136.0,True
+Uyghur,leaf,jopurmaq,j o p u r m a q,169,savelyev,169.0,140.0,True
+Yakut,leaf,sebirdeχ,s e b i r d e χ,169,savelyev,169.0,142.0,True
+Chuvash,leaf,ɕulʑə̈,ɕ u l ʑ ə,171,savelyev,171.0,135.0,True
+Azerbaijani,long,uzun,u z u n,217,savelyev,217.0,143.0,True
+Chuvash,long,vöröm,v ŏ r ŏ m,217,savelyev,217.0,144.0,True
+Kazakh,long,ŭzɯn,u z ɯ n,217,savelyev,217.0,143.0,True
+Kyrgyz,long,uzun,u z u n,217,savelyev,217.0,143.0,True
+Turkish,long,uzun,u z u n,217,savelyev,217.0,143.0,True
+Turkmen,long,uzɯn,u z ɯ n,217,savelyev,217.0,143.0,True
+Uyghur,long,uzun,u z u n,217,savelyev,217.0,143.0,True
+Uzbek,long,uzun,u z u n,217,savelyev,217.0,143.0,True
+Yakut,long,uhun,u h u n,217,savelyev,217.0,143.0,True
+Azerbaijani,louse,bit,b i t,34,savelyev,34.0,145.0,True
+Chuvash,louse,pɯjdə̈,p ɯ j d ə,34,savelyev,34.0,146.0,True
+Kazakh,louse,bit,b i t,34,savelyev,34.0,145.0,True
+Kyrgyz,louse,bit,b i t,34,savelyev,34.0,145.0,True
+Turkish,louse,bit,b i t,34,savelyev,34.0,145.0,True
+Turkmen,louse,bit,b i t,34,savelyev,34.0,145.0,True
+Uyghur,louse,"pit, (piʃt)",p i t,34,savelyev,34.0,145.0,True
+Uzbek,louse,bit,b i t,34,savelyev,34.0,145.0,True
+Yakut,louse,bɯt,b ɯ t,34,savelyev,34.0,145.0,True
+Kazakh,man,erkek,e r k e k,335,savelyev,335.0,148.0,True
+Kyrgyz,man,erkek (kiʃi),e r k e k k i ʃ i,335,savelyev,335.0,148.0,True
+Turkish,man,erkek,e r k e k,335,savelyev,335.0,148.0,True
+Turkmen,man,erkek (adam),e r k e k a d a m,335,savelyev,335.0,152.0,True
+Uyghur,man,ɛrkɛk,æ r k æ k,335,savelyev,335.0,148.0,True
+Uzbek,man,erkak (kiʃi),e r k a k k i ʃ i,335,savelyev,335.0,148.0,True
+Chuvash,man,arʑɯn,a r ʑ ɯ n,336,savelyev,336.0,148.0,True
+Yakut,man,er kihi,e r k i h i,336,savelyev,336.0,148.0,True
+Azerbaijani,man,kiʃi,k i ʃ i,337,savelyev,337.0,147.0,True
+Kazakh,many,køp,k ø p,521,savelyev,521.0,155.0,True
+Kyrgyz,many,køp,k ø p,521,savelyev,521.0,156.0,True
+Turkmen,many,køp,k ø p,521,savelyev,521.0,158.0,True
+Uyghur,many,køp,k ø p,521,savelyev,521.0,159.0,True
+Uzbek,many,kop,k o p,521,savelyev,521.0,160.0,True
+Azerbaijani,many,ʨoχ(lu),ʨ o χ,522,savelyev,522.0,153.0,True
+Turkish,many,ʨok,tɕ o k,522,savelyev,522.0,157.0,True
+Azerbaijani,flesh,ɛt,æ t,37,savelyev,37.0,103.0,False
+Kazakh,flesh,et,e t,37,savelyev,37.0,103.0,False
+Kyrgyz,flesh,et,e t,37,savelyev,37.0,103.0,False
+Turkish,flesh,et,e t,37,savelyev,37.0,103.0,False
+Turkmen,flesh,et,e t,37,savelyev,37.0,103.0,False
+Yakut,flesh,et,e t,37,savelyev,37.0,103.0,False
+Kazakh,not,sɘŋbɘrɘk,s ĭ ŋ b ĭ r ĭ k,148,savelyev,148.0,163.0,True
+Kyrgyz,not,ʨimkirik,tɕ i m k i r i k,148,savelyev,148.0,164.0,True
+Turkish,not,symyk,s y m y k,148,savelyev,148.0,165.0,True
+Turkmen,not,symyk,s y m y k,148,savelyev,148.0,165.0,True
+Yakut,not,sɯ:ŋk,s ɯː ŋ k,148,savelyev,148.0,169.0,True
+Uyghur,not,maŋqa,m a ŋ q a,148,savelyev,148.0,167.0,True
+Azerbaijani,not,fɯrtdɯɢ,f ɯ r t d ɯ ɢ,148,savelyev,148.0,161.0,True
+Uzbek,not,miʃi(ri)q,m i ʃ i q,148,savelyev,148.0,162.0,True
+Chuvash,not,mA,m a,148,savelyev,148.0,162.0,True
+Azerbaijani,one,bir,b i r,80,savelyev,80.0,170.0,False
+Chuvash,one,"pɘrre, pɘr",p ĭ r,80,savelyev,80.0,170.0,False
+Kazakh,one,bɘr,b ĭ r,80,savelyev,80.0,170.0,False
+Kyrgyz,one,bir,b i r,80,savelyev,80.0,170.0,False
+Turkish,one,bir,b i r,80,savelyev,80.0,170.0,False
+Turkmen,one,bir,b i r,80,savelyev,80.0,170.0,False
+Uyghur,one,bir,b i r,80,savelyev,80.0,170.0,False
+Uzbek,one,bir,b i r,80,savelyev,80.0,170.0,False
+Yakut,one,bi:r,b iː r,80,savelyev,80.0,170.0,False
+Kazakh,person,kɘsɘ,k ĭ s ĭ,770,savelyev,770.0,173.0,False
+Kyrgyz,person,kiʃi,k i ʃ i,770,savelyev,770.0,173.0,False
+Turkish,person,kiʃi,k i ʃ i,770,savelyev,770.0,173.0,False
+Uyghur,person,kiʃi,k i ʃ i,770,savelyev,770.0,173.0,False
+Uzbek,person,kiʃi,k i ʃ i,770,savelyev,770.0,173.0,False
+Yakut,person,kihi,k i h i,770,savelyev,770.0,173.0,False
+Chuvash,person,ɕɯn,ɕ ɯ n,771,savelyev,771.0,172.0,False
+Chuvash,root,tɯmar,t ɯ m a r,18,savelyev,18.0,175.0,True
+Kazakh,root,tamɯr,t a m ɯ r,18,savelyev,18.0,176.0,True
+Kyrgyz,root,tamɯr,t a m ɯ r,18,savelyev,18.0,176.0,True
+Uyghur,root,tomur,t o m u r,18,savelyev,18.0,176.0,True
+Uzbek,root,ildiz,i l d i z,19,savelyev,19.0,181.0,True
+Yakut,root,silis,s i l i s,19,savelyev,19.0,182.0,True
+Azerbaijani,root,køk,k ø k,21,savelyev,21.0,174.0,True
+Turkish,root,køk,k ø k,21,savelyev,21.0,174.0,True
+Turkmen,root,køk,k ø k,21,savelyev,21.0,174.0,True
+Azerbaijani,seed,gjør,gʲ ø r,100183,lexstat,,183.0,False
+Chuvash,seed,kur,k u r,799,savelyev,799.0,183.0,False
+Kazakh,seed,kør,k ø r,799,savelyev,799.0,183.0,False
+Kyrgyz,seed,kør,k ø r,799,savelyev,799.0,183.0,False
+Turkish,seed,gør,g ø r,100183,lexstat,,183.0,False
+Turkmen,seed,gør,g ø r,100183,lexstat,,183.0,False
+Uyghur,seed,kør,k ø r,799,savelyev,799.0,183.0,False
+Uzbek,seed,kor,k o r,799,savelyev,799.0,183.0,False
+Yakut,seed,kør,k ø r,100191,lexstat,,191.0,False
+Azerbaijani,skin,dɛri,d æ r i,182,savelyev,182.0,192.0,False
+Chuvash,skin,tirɘ,t i r ĭ,182,savelyev,182.0,192.0,False
+Kazakh,skin,terɘ,t e r ĭ,182,savelyev,182.0,192.0,False
+Kyrgyz,skin,teri,t e r i,182,savelyev,182.0,192.0,False
+Turkish,skin,deri,d e r i,182,savelyev,182.0,192.0,False
+Turkmen,skin,deri,d e r i,182,savelyev,182.0,192.0,False
+Uyghur,skin,terɛ,t e r æ,182,savelyev,182.0,192.0,False
+Uzbek,skin,teri,t e r i,182,savelyev,182.0,192.0,False
+Yakut,skin,tiri:,t i r iː,182,savelyev,182.0,192.0,False
+Azerbaijani,small,kiʨik,k i tɕ i k,280,savelyev,280.0,193.0,True
+Kazakh,small,"kɘʃkene, kɘʃkentaj",k ĭ ʃ k e n e,280,savelyev,280.0,195.0,True
+Kyrgyz,small,kiʨine(kej),k i ʨ i n e k e j,280,savelyev,280.0,196.0,True
+Turkish,small,kyʨyk,k y tɕ y k,280,savelyev,280.0,193.0,True
+Turkmen,small,kiʨi(ʥik),k i ʨ i ʥ i k,280,savelyev,280.0,198.0,True
+Uyghur,small,kiʨik,k i tɕ i k,280,savelyev,280.0,196.0,True
+Uzbek,small,kiʨkina,k i tɕ k i n a,280,savelyev,280.0,195.0,True
+Yakut,small,? kutɕ:uguj,k u tʃː u g u j,280,savelyev,280.0,201.0,True
+Azerbaijani,tail,ɢujruɢ,ɢ u j r u ɢ,248,savelyev,248.0,202.0,True
+Chuvash,tail,χyre,χ y r e,248,savelyev,248.0,203.0,True
+Kazakh,tail,qŭjrɯq,q u j r ɯ q,248,savelyev,248.0,204.0,True
+Kyrgyz,tail,qujruq,q u j r u q,248,savelyev,248.0,204.0,True
+Turkish,tail,kujruk,k u j r u k,248,savelyev,248.0,202.0,True
+Turkmen,tail,ɢujruq,ɢ u j r u q,248,savelyev,248.0,207.0,True
+Uyghur,tail,qujruq,q u j r u q,248,savelyev,248.0,204.0,True
+Yakut,tail,kuturuk,k u t u r u k,248,savelyev,248.0,210.0,True
+Uzbek,that,o(ʃa),o,557,savelyev,557.0,218.0,True
+Kazakh,that,ana(w),a n a w,559,savelyev,559.0,213.0,True
+Azerbaijani,this,bu,b u,96,savelyev,96.0,219.0,False
+Kazakh,this,bŭl,b u l,96,savelyev,96.0,219.0,False
+Kyrgyz,this,bu,b u,96,savelyev,96.0,219.0,False
+Turkish,this,bu,b u,96,savelyev,96.0,219.0,False
+Turkmen,this,bu,b u,96,savelyev,96.0,219.0,False
+Uyghur,this,bu,b u,96,savelyev,96.0,219.0,False
+Uzbek,this,bu,b u,96,savelyev,96.0,219.0,False
+Yakut,this,bu,b u,96,savelyev,96.0,219.0,False
+Chuvash,this,ku,k u,97,savelyev,97.0,220.0,False
+Azerbaijani,tree,aɣaǰ,a ɣ a ʥ,872,savelyev,872.0,221.0,True
+Chuvash,tree,jɯvə̈ɕ,j ɯ v ə ɕ,872,savelyev,872.0,222.0,True
+Kazakh,tree,aɣaʃ,a ɣ a ʃ,872,savelyev,872.0,223.0,True
+Kyrgyz,tree,ʥɯɣaʨ,ʥ ɯ ɣ a ʨ,872,savelyev,872.0,224.0,True
+Turkish,tree,aɣaʨ,a ɣ a tɕ,872,savelyev,872.0,225.0,True
+Turkmen,tree,aɣaʨ,a ɣ a tɕ,872,savelyev,872.0,226.0,True
+Uyghur,tree,jaɣaʨ,j a ɣ a tɕ,872,savelyev,872.0,227.0,True
+Yakut,tree,mas,m a s,872,savelyev,872.0,229.0,True
+Azerbaijani,two,iki,i k i,348,savelyev,348.0,230.0,False
+Chuvash,two,"ikkɘ, igɘ, ik",i k ĭ,348,savelyev,348.0,230.0,False
+Kazakh,two,ekɘ,e k ĭ,348,savelyev,348.0,230.0,False
+Kyrgyz,two,eki,e k i,348,savelyev,348.0,230.0,False
+Turkish,two,iki,i k i,348,savelyev,348.0,230.0,False
+Turkmen,two,iki,i k i,348,savelyev,348.0,230.0,False
+Uyghur,two,ikki,i kː i,348,savelyev,348.0,230.0,False
+Uzbek,two,ikki,i kː i,348,savelyev,348.0,230.0,False
+Yakut,two,ikki,i kː i,348,savelyev,348.0,230.0,False
+Azerbaijani,what,nɛ,n æ,129,savelyev,129.0,240.0,True
+Chuvash,what,mɘn,m ĭ n,129,savelyev,129.0,241.0,True
+Kazakh,what,ne,n e,129,savelyev,129.0,240.0,True
+Kyrgyz,what,emne,e m n e,129,savelyev,129.0,243.0,True
+Turkish,what,ne,n e,129,savelyev,129.0,240.0,True
+Turkmen,what,nɛme,n æ m e,129,savelyev,129.0,240.0,True
+Uyghur,what,nimɛ,n i m æ,129,savelyev,129.0,243.0,True
+Uzbek,what,nima,n i m a,129,savelyev,129.0,247.0,True
+Yakut,what,tuoχ,t u o χ,129,savelyev,129.0,248.0,True
+Azerbaijani,who,kim,k i m,81,savelyev,81.0,249.0,True
+Chuvash,who,kam,k a m,81,savelyev,81.0,250.0,True
+Kazakh,who,kɘm,k ĭ m,81,savelyev,81.0,251.0,True
+Kyrgyz,who,kim,k i m,81,savelyev,81.0,252.0,True
+Turkish,who,kim,k i m,81,savelyev,81.0,253.0,True
+Turkmen,who,kim,k i m,81,savelyev,81.0,254.0,True
+Uyghur,who,kim,k i m,81,savelyev,81.0,255.0,True
+Uzbek,who,kim,k i m,81,savelyev,81.0,256.0,True
+Yakut,who,kim,k i m,81,savelyev,81.0,257.0,True
+Chuvash,woman,χɘrarə̈m,χ ĭ r a r ə m,588,savelyev,588.0,259.0,False
+Azerbaijani,woman,ɢadɯn,ɢ a d ɯ n,589,savelyev,589.0,258.0,False
+Turkish,woman,kadɯn,k a d ɯ n,589,savelyev,589.0,258.0,False
+Uzbek,woman,χɔtin (kiʃi),χ ɔ t i n,589,savelyev,589.0,262.0,False
+Azerbaijani,person,ɑdɑm,ɑ d ɑ m,100171,lexstat,,171.0,False
+Uzbek,tree,daraχt,d a r a χ t,100228,lexstat,,228.0,False
+Uzbek,bark,qɒbiq,q ɒ b i q,100025,lexstat,,25.0,False
+Uzbek,leaf,barɡ,b a r g,100134,lexstat,,134.0,False
+Uzbek,horn,muɡiz,m u g i z,100126,lexstat,,126.0,False
+Uzbek,tail,qujruq,q u j r u q,100209,lexstat,,209.0,False
+Uzbek,egg,tuχum,t u χ u m,100074,lexstat,,74.0,False
+Uzbek,flesh,ɡoʃt,g o ʃ t,100104,lexstat,,104.0,False
+Uzbek,big,bujuk,b u j u k,100030,lexstat,,30.0,False
+Kazakh,woman,bɪjke,b ɪ j k e,100260,lexstat,,260.0,False
+Chuvash,flesh,aʂ,a ʂ,100104,lexstat,,104.0,False
+Chuvash,small,ˈpɘt͡ɕɘk,p ɘ tɕ ɘ k,100194,lexstat,,194.0,False
+Chuvash,many,miˈɕ̬ɛ,m i ɕ ɛ,100154,lexstat,,154.0,False
+Yakut,woman,ɟaxtaɾ,ɟ a x t a ɾ,100263,lexstat,,263.0,False
+Yakut,many,tøhø,t ø h ø,100157,lexstat,,157.0,False
+Turkmen,person,unsan,u n s a n,100172,lexstat,,172.0,False
+Turkmen,horn,Sah,ʃ a h,100130,lexstat,,130.0,False

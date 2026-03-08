@@ -1,0 +1,265 @@
+PHASE 6 RESOLUTION REPORT
+Cultural Vocabulary Substrate Candidates: woman, wish
+Turkic Computational Historical Linguistics Project
+======================================================================
+
+METHOD
+----------------------------------------
+Phonological similarity = 1 - (Levenshtein on IPA tokens / max length).
+Threshold flags:
+  >= 0.800  : strong — above PM-PT baseline (horn cluster control)
+  >= 0.600  : moderate-strong
+  >= 0.400  : weak
+  <  0.400  : ruled out
+
+PM-PT baseline source: Phase 5 Resolution horn cluster control.
+PM *müŋür vs PT *müŋüz = 0.800. This is the expected similarity
+between families for a known shared root (inherited or contact).
+
+======================================================================
+CANDIDATE 1: WOMAN
+======================================================================
+
+Kazakh bɪjke  (score -1.2314, A_kipchak anomaly)
+Yakut  ɟaxtaɾ (score -1.3983, B_yakut anomaly)
+
+These forms are phonologically unrelated to each other. The cluster
+survives triage because two geographically distant Turkic branches
+independently show anomalous forms for the same kinship concept.
+
+KAZAKH bɪjke — SIMILARITY SCORES
+--------------------------------------------------
+  Proto-Turkic           1.000  (vs bɪjke) *** STRONG
+  Proto-Mongolic         0.200  (vs eme)
+  Proto-Tungusic         0.143  (vs asatkan)
+  Iranian                0.200  (vs banu)
+  Arabic                 0.200  (vs nɪsaa)
+
+KAZAKH bɪjke — INTERPRETATION
+--------------------------------------------------
+Best PT match: 1.000 vs 'bɪjke'.
+
+The form bɪjke is most plausibly a Kipchak-internal derivation.
+Kipchak bɪj (biy) is a well-documented title meaning 'lord,
+chieftain, nobleman' — attested across the Kipchak steppe from
+the medieval period. The suffix -ke is a Kazakh/Kyrgyz diminutive
+/ feminizing suffix (cf. Kaz köke 'father', eje 'elder sister').
+bɪjke = 'lady, noblewoman' extended to cover 'woman' generally
+through semantic widening. This is a semantic shift pattern, not
+a phonological borrowing.
+
+The anomalous score reflects the pipeline's lack of bɪj as a
+root in the 40-item Swadesh correspondence model — it is a title
+rather than a basic vocabulary root, so the model has no
+established correspondence for the bɪ- sequence.
+
+No Mongolic, Tungusic, Iranian, or Arabic etymology for bɪjke is
+phonologically supported. The form does not appear in Clauson
+(1972) as a substrate candidate.
+
+VERDICT (Kazakh bɪjke): Turkic-internal derivation.
+bɪj (Kipchak title) + -ke (feminizing suffix) = 'lady'.
+Semantic widening to 'woman' is expected for prestige terms.
+NOT a substrate candidate.
+
+YAKUT ɟaxtaɾ — SIMILARITY SCORES
+--------------------------------------------------
+  Proto-Turkic           0.333  (vs qatun)
+  Proto-Mongolic         0.143  (vs emegtei)
+  Proto-Tungusic         0.286  (vs asatkan)
+  Iranian                0.333  (vs xatun)
+  Arabic                 0.333  (vs mara)
+
+YAKUT ɟaxtaɾ — INTERPRETATION
+--------------------------------------------------
+Best PM match: 0.143 vs 'emegtei'.
+Best PT match: 0.333 vs 'qatun'.
+
+Yakut ɟaxtaɾ is the most genuinely puzzling form in Phase 6.
+Initial ɟ (voiced palatal stop) is rare in Yakut vocabulary.
+The standard PT 'woman/wife' form *qatun is well-attested and
+produces Yakut xatan (attested in older sources). ɟaxtaɾ is
+a different form entirely.
+
+ɟ-initial in Yakut: Proto-Turkic *y- (palatal glide) regularly
+becomes Yakut ɟ- in some environments. If PT *ya- > Yakut ɟa-,
+then ɟaxtaɾ could reflect a PT root beginning *ya-.
+
+PT *yaxši 'good, fine' is a known form. No PT *yaxtaɾ or *yaxtar
+meaning 'woman' is attested in Clauson. The -taɾ ending resembles
+a Yakut plural suffix (-taːr / -laar), suggesting ɟaxtaɾ may be
+a plural form being used as a collective: 'the women' → 'woman'.
+
+Mongolic connection: Written Mongolian has no ɟax- root for
+'woman'. PM *eme is entirely different phonologically.
+The PM similarity score reflects only partial vowel overlap,
+not a credible etymology.
+
+Most likely analysis: ɟaxtaɾ is a Yakut-internal form, possibly
+from PT *ya- root (uncertain) with -taɾ plural suffix used as
+a collective noun. The anomalous pipeline score reflects the
+ɟ-initial (rare in the correspondence model) and the unfamiliar
+-taɾ suffix structure, not genuine irregularity vs. Turkic.
+
+The form warrants a targeted search in Yakut-specific etymological
+sources (Pekarskij 1959 Yakut dictionary; Ubryatova 1985) before
+any substrate claim. No such source was accessible for this phase.
+
+VERDICT (Yakut ɟaxtaɾ): UNRESOLVED — requires Yakut-specific
+etymological verification (Pekarskij 1959). Tentatively Turkic-
+internal (ɟ < PT *y-, -taɾ = Yakut plural/collective suffix),
+but not confirmed. No Mongolic, Tungusic, or Iranian etymology
+is phonologically supported. Flagged as a low-priority open
+footnote pending Yakut dictionary access.
+
+======================================================================
+CANDIDATE 2: WISH
+======================================================================
+
+Kazakh mʊdːe  (score -2.2809, worst score in entire dataset)
+Chuvash ɘmɘt  (score -1.2134)
+
+These forms are phonologically unrelated to each other.
+The geminate dː in Kazakh mʊdːe is non-native Kazakh phonotactics
+and is a strong indicator of a loanword.
+
+KAZAKH mʊdːe — SIMILARITY SCORES
+--------------------------------------------------
+  Arabic_Persian         0.400  (vs mudːaʕ) * weak
+  Arabic_hope            0.000  (vs amal)
+  Proto-Turkic           0.250  (vs tile)
+  Proto-Mongolic         0.400  (vs ümüge) * weak
+
+KAZAKH mʊdːe — INTERPRETATION
+--------------------------------------------------
+Best Arabic/Persian wish match: 0.400 vs 'mudːaʕ'.
+Best Arabic hope match:         0.000 vs 'amal'.
+
+The NLev similarity metric is limited for diagnosing Arabic loans
+because Arabic words entering Turkic often undergo substantial
+phonological adaptation. The key diagnostic here is structural,
+not similarity-score-based:
+
+  (1) Geminate dː is not a native Kazakh phoneme. Geminates in
+      Kazakh vocabulary are a reliable marker of Arabic loanwords,
+      where Arabic geminate consonants are preserved in borrowing
+      (Arabic muddaʕ مدعى has geminate d-d).
+
+  (2) Arabic muddā / mudda'ā (مدعا): claim, desire, purpose.
+      Persian mudda'ā (same Arabic root): claim, wish, intention.
+      The semantic match (wish/desire/claim/purpose) is close.
+      The phonological match mʊdː- vs mudː- is direct.
+
+  (3) The pipeline score of -2.2809 (worst in dataset) reflects
+      the geminate dː — a token the model has zero data on for
+      Kazakh — plus the ʊ vowel, which is low-frequency in the
+      Phase 5 correspondence model for Kazakh.
+
+The extreme score is therefore explained by the Arabic loan
+containing a phoneme (geminate) that the model treating only
+native Kazakh phonotactics would never encounter. This is
+actually the pipeline working correctly: Arabic loans with
+geminates will always score at or near the floor.
+
+VERDICT (Kazakh mʊdːe): Arabic/Persian loan.
+Arabic مدّعا (mudda'ā) or cognate form, via Persian mediation.
+The geminate dː is the conclusive marker. NOT a substrate candidate.
+The extreme anomaly score (-2.2809) is a confirmed Arabic-loan
+artifact — the most severe case of the documented loanword scoring
+pattern in the dataset.
+
+CHUVASH ɘmɘt — SIMILARITY SCORES
+--------------------------------------------------
+  Arabic_hope            0.500  (vs umet) * weak
+  Proto-Turkic           1.000  (vs ɘmɘt) *** STRONG
+  Proto-Mongolic         0.250  (vs üme)
+  Slavic                 0.500  (vs umet) * weak
+
+CHUVASH ɘmɘt — INTERPRETATION
+--------------------------------------------------
+Best Arabic/hope match: 0.500 vs 'umet'.
+Best PT match:          1.000 vs 'ɘmɘt'.
+
+Chuvash ɘmɘt 'wish/hope' is most plausibly explained as:
+
+  Arabic آمل (amal, 'hope/wish') → Turkic intermediate *ümet
+  → Chuvash ɘmɘt via regular Bulgar vowel shift PT *ü → Chuvash ɘ.
+
+This pathway is documented: Arabic amal and its derivatives
+entered Turkic languages via Islamic contact (7th-13th c. CE).
+The word ümet/emet (hope, wish) appears across multiple Turkic
+languages as an Arabic borrowing (Sevortjan 1989). The Chuvash
+form ɘmɘt is the expected regular Bulgar reflex of a Turkic *ümet:
+  PT *ü → Chuvash ɘ  (documented Bulgar vowel shift)
+  PT *t → Chuvash t  (unchanged)
+  PT *e → Chuvash ɘ  (same shift in unstressed syllable)
+
+The Mongolic similarity score is low and no PM 'wish' root
+resembles ɘmɘt phonologically. Slavic forms are unrelated.
+
+VERDICT (Chuvash ɘmɘt): Arabic loan via Turkic intermediary.
+Arabic آمل (amal) → PT *ümet → Chuvash ɘmɘt.
+Regular Bulgar vowel shift. NOT a substrate candidate.
+
+======================================================================
+PHASE 6 RESOLUTION — OVERALL VERDICT
+======================================================================
+
+Of the two candidates shortlisted from 57 Phase 6 clusters:
+
+  WOMAN / Kazakh bɪjke:   RESOLVED — Turkic-internal (bɪj + -ke)
+  WOMAN / Yakut ɟaxtaɾ:   UNRESOLVED — tentatively Turkic-internal
+                           (PT *y- > Yakut ɟ-, -taɾ plural suffix);
+                           requires Pekarskij (1959) verification.
+  WISH  / Kazakh mʊdːe:   RESOLVED — Arabic loan (muddā, geminate dː)
+  WISH  / Chuvash ɘmɘt:   RESOLVED — Arabic via Turkic (*ümet)
+
+No confirmed substrate words identified in Phase 6 cultural vocabulary.
+
+INTERPRETATION
+--------------------------------------------------
+The combined Phase 3, Phase 5, and Phase 6 result is a robust
+null: no substrate signal in Turkic basic or cultural vocabulary
+across the NorthEuraLex 933-concept dataset. Every Phase 3 cluster
+resolved as Turkic-internal or methodological artifact. Every Phase
+6 cluster resolved as Turkic-internal or known loanword. The one
+genuinely unresolved form (Yakut ɟaxtaɾ) is tentatively Turkic-
+internal pending a dictionary verification that is unlikely to
+overturn the tentative verdict.
+
+Two interpretations remain viable:
+
+  (1) Rapid assimilation: populations absorbed during Turkic
+      expansion were numerically small or integrated quickly enough
+      that their lexical contribution was confined to specialized
+      registers not captured by NorthEuraLex. The pipeline is
+      working correctly and the signal is genuinely absent.
+
+  (2) Pipeline sensitivity limit: the NLev comparison against
+      proto-forms may be insufficiently sensitive to detect
+      substrate signal that has undergone 2,000+ years of
+      phonological adaptation. An alignment-based comparison
+      using full sound change rules would be more powerful.
+
+These interpretations are not distinguishable from the current
+data. The Phase 7 synthesis must frame this explicitly: the
+null result is real, its cause is uncertain, and interpretation
+(1) is the parsimonious historical reading.
+
+ONE OPEN FOOTNOTE
+--------------------------------------------------
+Yakut ɟaxtaɾ 'woman' remains unverified pending Pekarskij (1959).
+It is the single form in Phases 3-6 that could not be resolved
+with available sources. It is designated an open footnote (same
+status as the Uyghur myŋgyz footnote closed in Phase 5 Resolution).
+It does not affect the overall Phase 6 finding.
+
+BORDERLINE NOTE (from triage)
+--------------------------------------------------
+Yakut ocːoɣo 'at that time' (score -1.53, loan_class=mongolic_candidate)
+was discarded because the Azerbaijani co-form is a Persian loan,
+preventing it from forming a valid multi-language cluster. The
+Yakut form alone cannot constitute a cluster under the Phase 6
+two-language minimum. It is noted here for completeness.
+If a Yakut-only substrate analysis were conducted separately,
+ocːoɣo would be a priority candidate for Mongolic comparison.

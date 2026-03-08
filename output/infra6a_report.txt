@@ -1,0 +1,61 @@
+INFRA 6A v2-FINAL: PER-BRANCH THRESHOLD CALIBRATION
+======================================================================
+
+ARCHITECTURE
+------------
+Branch groups:
+  A_oghuz   -- Turkish, Azerbaijani (calibration); Turkmen: thin NLex
+  A_kipchak -- Kazakh, Uzbek
+  B_yakut   -- Yakut
+  C_chuvash -- Chuvash
+
+Two-condition gate:
+  (1) Score < group_mean - 1.5*sigma
+  (2) Score < A_oghuz threshold on Oghuz phoneme index
+      For Chuvash: also requires >= 1 non-Bulgar token.
+
+Known noise: A_kipchak and A_oghuz candidates include some words
+where anomalous scores reflect model sparsity for native phonemes
+(ʒ/ʁ/ɾ in Kazakh; tʃ/dʒ/ɾ in Turkish/Azerbaijani) rather than
+genuine irregularity. These are filtered downstream by:
+  (a) cross-language clustering requirement in Phase 6
+  (b) proto-form comparison in Phase 6 Resolution
+Known false positive on record: Turkmen jaɣ 'grease' (PT *yāg,
+debunked Phase 5). Retained in candidates.csv; exclude from Phase 6.
+
+THRESHOLD PARAMETERS
+--------------------
+  A_oghuz: mean=-0.6511, std=0.1474, threshold=-0.8722  (N=2311, calib=Azerbaijani, Turkish)
+  A_kipchak: mean=-0.8673, std=0.1385, threshold=-1.0751  (N=2277, calib=Kazakh, Uzbek)
+  B_yakut: mean=-1.0982, std=0.1197, threshold=-1.2778  (N=1072, calib=Yakut)
+  C_chuvash: mean=-1.0399, std=0.1020, threshold=-1.1929  (N=1167, calib=Chuvash)
+
+RESULTS
+-------
+Task 3 anomaly count:          260
+Infra 6A candidate count:      333
+  Cleared as artifacts:        179
+    Yakut cleared:             139
+    Chuvash cleared:           36
+    Central cleared:           4
+  Survived from Task 3:        81
+  New in Infra 6A only:        252
+
+
+SCORE DISTRIBUTION BY BRANCH GROUP:
+Group               N     Mean      Std  Threshold    Cond1   Final
+-----------------------------------------------------------------
+A_oghuz          2350  -0.6511   0.1474    -0.8722      159     159
+A_kipchak        2277  -0.8673   0.1385    -1.0751      100     100
+B_yakut          1098  -1.0982   0.1197    -1.2778       69      24
+C_chuvash        1167  -1.0399   0.1020    -1.1929       85      57
+
+STATUS: Infra 6A complete. Candidates ready for Phase 6.
+Phase 6 cross-language clustering will reduce the candidate list
+substantially before proto-form comparison is applied.
+
+OUTPUT FILES:
+  output\infra6a_thresholds.csv
+  output\infra6a_candidates.csv
+  output\infra6a_artifacts_cleared.csv
+  output\infra6a_report.txt

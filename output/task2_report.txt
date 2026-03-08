@@ -1,0 +1,84 @@
+PHASE 5 TASK 2: NORTHEURALEX EXPANSION
+======================================
+Date: 2026-03-04
+Script: phase5_substrate/task2_northeuralex_expand.py
+Input:  output/hybrid_cognates.csv (353 rows, 40-item Swadesh base)
+        phase1_ingestion/output/lexibank_cache/northeuralex/ (cached, no re-download)
+Output: output/northeuralex_merged.csv (6,966 rows)
+
+
+1. NORTHEURALEX COVERAGE FOR TARGET LANGUAGES
+---------------------------------------------
+NorthEuraLex (Dellert et al. 2020) contains 1,016 concepts across ~107 languages.
+Of our 9 target Turkic languages, 6 are present in NorthEuraLex:
+
+  Language      NEL ID    New concepts added    Total entries
+  --------------------------------------------------------
+  Turkish       tur       1,176                 1,216
+  Azerbaijani   azj       1,055                 1,095
+  Uzbek         uzn         958                   998
+  Kazakh        kaz       1,239                 1,279
+  Yakut/Sakha   sah       1,058                 1,098
+  Chuvash       chv       1,127                 1,167
+
+  ABSENT from NorthEuraLex (Swadesh-only, ~38-40 items):
+  Kyrgyz, Turkmen, Uyghur
+
+Total dataset: 6,966 rows across 9 languages.
+New NorthEuraLex-only rows: 6,613.
+Swadesh overlap correctly identified and skipped: 240 entries.
+
+
+2. CONCEPT FILTERING
+--------------------
+The following concept categories were excluded from the NorthEuraLex expansion
+as they carry no substrate detection value and would inflate the dataset with
+predictable borrowing noise (Islamic/Christian calendar, Western numerals):
+
+  - Month names (January-December): 12 concepts
+  - Weekday names (Monday-Sunday): 7 concepts
+  - Cardinal numbers above ten (11-1000): 14 concepts
+
+All remaining NorthEuraLex concepts were retained, including body parts, nature
+terms, animals, basic verbs, adjectives, kinship terms, and basic nouns.
+The retained concepts total approximately 983 per language (coverage varies
+by language due to missing forms in the source data).
+
+
+3. DATASET ASYMMETRY — KNOWN LIMITATION
+----------------------------------------
+Kyrgyz (38 items), Turkmen (39 items), and Uyghur (36 items) remain at
+near-Swadesh coverage while the six NorthEuraLex languages are at 998-1,279
+items. This ~25:1 coverage ratio will cause LexStat to treat the three thin
+languages as artificially divergent in Task 3, analogous to the Uzbek
+phylogenetic misplacement in Phase 4 (caused by a different mechanism but
+the same structural problem: thin or contaminated coverage distorts distance
+estimates).
+
+Mitigation strategy for Task 3:
+  - Run LexStat on the full 6,966-row dataset (more data improves cognate
+    detection for all languages, including the thin three)
+  - Restrict anomaly detection threshold calibration to the six well-covered
+    languages only (Kyrgyz/Turkmen/Uyghur anomaly rates will be unreliable)
+  - Flag all Kyrgyz/Turkmen/Uyghur anomaly candidates as low-confidence
+    in the output
+
+
+4. SCHEMA
+---------
+Output columns (inherited from hybrid_cognates.csv schema):
+  language, gloss, form, ipa_tokens, cogid, cogid_source,
+  savelyev_cogid, lexstat_cogid, conflict
+
+New NorthEuraLex rows have:
+  cogid_source = "northeuralex"
+  cogid        = "" (to be assigned by LexStat in Task 3)
+  savelyev_cogid, lexstat_cogid, conflict = "" (not applicable)
+
+Existing hybrid rows are unchanged. Savelyev-grounded rows retain their
+original cogid_source = "savelyev" designation.
+
+
+5. OUTPUT FILE
+--------------
+  output/northeuralex_merged.csv   — 6,966 rows, primary Task 3 input

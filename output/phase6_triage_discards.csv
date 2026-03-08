@@ -1,0 +1,56 @@
+gloss,n_languages,languages,domain,min_score,discard_reason,filter_hit
+ahead,2,Azerbaijani; Chuvash,body_parts,-1.1934,Az dyz = PT *yüz 'face/front'; Chuvash ˈtikɘs separate; not cognates,MANUAL_DISCARD
+all,4,Azerbaijani; Kazakh; Turkish; Uzbek,cognitive_abstract,-1.241,Kaz ʒɯɣɯl already flagged Phase 3 as false positive cluster; Az/Tur dyʃ 'dream' mismatch,MANUAL_DISCARD
+and,2,Azerbaijani; Turkish,other,-1.047,Az/Tur væ/vɛ = Arabic/Persian و (wa/va); adstrate function word,MANUAL_DISCARD
+arrow,2,Azerbaijani; Yakut,social_political,-1.3053,"PT *oq, Clauson p.83; χ/x sparsity artifact — same cognate in Az+Yak",MANUAL_DISCARD
+at that time,2,Azerbaijani; Yakut,spatial_temporal,-1.5291,Loan screen hits: ɔ_vɑχt=Persian,F2_LOAN_SCREEN
+because of,2,Azerbaijani; Kazakh,other,-1.1033,Az yt͡ʃyn / Kaz ʊʃən both derived from PT *üč 'three' (ablative); same root,MANUAL_DISCARD
+blunt,2,Chuvash; Kazakh,other,-1.2088,Kaz doʁɑl / Chuvash ˈtɘrɘnt͡ɕɘk — not cognates; ʁ/tʃ sparsity,MANUAL_DISCARD
+boat,2,Chuvash; Yakut,material_culture,-1.295,Yakut oŋoco / Chuvash ˈkimɘ — unrelated forms; different sources,MANUAL_DISCARD
+border,2,Azerbaijani; Chuvash,social_political,-1.2859,Az hydud = Arabic حدود (ħudūd) 'borders'; Chuvash ˈt͡ɕikɘ separate,MANUAL_DISCARD
+boss,2,Azerbaijani; Turkish,social_political,-0.9605,Az/Tur ʃɛf = French chef via Ottoman; European loan,MANUAL_DISCARD
+broom,2,Azerbaijani; Kazakh,material_culture,-1.1579,"Az sypyrɟæ = PT *süpür- 'to sweep'; Kaz səpəɾʁəʃ = same root; cognates, ɾ/ʁ sparsity",MANUAL_DISCARD
+cross,2,Azerbaijani; Turkish,other,-1.006,Az χɑt͡ʃ / Tur hat͡ʃ = Armenian խաչ; documented Armenian loan,MANUAL_DISCARD
+"delicate, fine",2,Azerbaijani; Turkish,fauna,-0.8862,"Oghuz sister pair only (Az+Tur), same cognate (avg NLev=0.5)",F1_OGHUZ_SISTER
+dream,2,Kazakh; Turkish,body_parts,-1.076,"Kaz tʊs / Tur ɾyja — different roots, both low-coverage phonemes",MANUAL_DISCARD
+end,2,Kazakh; Turkish,spatial_temporal,-1.0961,"Kaz soŋə = PT *soŋ 'end', Tur ut͡ʃ = PT *uč 'tip' — different roots, not cognates",MANUAL_DISCARD
+face,2,Azerbaijani; Turkish,body_parts,-0.9326,"PT *yüz, Clauson p.982; Az/Tur yz/jyz regular, y sparsity",MANUAL_DISCARD
+fat,2,Turkish; Yakut,food_drink,-1.2829,PT *yağ Oghuz (Tur jaː); Yakut sɯa = PT *sïŋar different root — not cognates; separate items,MANUAL_DISCARD
+first,2,Azerbaijani; Kazakh,flora,-1.0893,Kaz ɑlʁɑʃqə from PT *al 'front'; Az bɪrɪnd͡ʒɪ from PT *bir 'one' — different roots,MANUAL_DISCARD
+flesh,2,Chuvash; Uzbek,other,-1.3926,"Uzb goʃt = Persian گوشت (gusht), identified Infra 6B; Chuvash aʂ separate",MANUAL_DISCARD
+fringe,2,Chuvash; Kazakh,material_culture,-1.2137,Kaz ʃetə edge/fringe; Chuvash ˈχɘrɘ different root; not cognates,MANUAL_DISCARD
+green,3,Chuvash; Kazakh; Yakut,other,-1.284,"Kaz ʒɑsəl PT *yaşıl, Clauson; Yakut ot_kyøɣe 'grass-colored' compound; not cognates",MANUAL_DISCARD
+he,2,Azerbaijani; Turkish,other,-1.1765,"PT *ol, pan-Turkic; monosyllabic scoring artifact",MANUAL_DISCARD
+hill,2,Chuvash; Turkish,natural_world,-1.1938,"Tur tɛpɛ = PT *tepe, Clauson; Chuvash tɘmɛsˈkɛ different; not cognates",MANUAL_DISCARD
+home,2,Azerbaijani; Turkish,material_culture,-1.1129,"PT *eb > *ev, same as 'house'; Az+Tur sister pair, same form",MANUAL_DISCARD
+house,2,Azerbaijani; Turkish,material_culture,-1.1129,"PT *eb > *ev, Oghuz regular; ɛv same form in Az+Tur sister pair",MANUAL_DISCARD
+hungry,2,Azerbaijani; Kazakh,other,-1.1336,"Az ɑd͡ʒ = PT *aç 'hungry', Clauson p.19; Kaz ɑʃ = PT *aš 'food/hungry' — different roots",MANUAL_DISCARD
+milk,4,Azerbaijani; Chuvash; Kazakh; Turkish,herding_pastoralism,-1.2481,"PT *süt, Clauson p.797, pan-Turkic; tʃ/y sparsity artifact",MANUAL_DISCARD
+mirror,2,Azerbaijani; Chuvash,material_culture,-1.1952,Az ɟyzɟy = PT *közkü 'mirror' (related to *köz 'eye'); Chuvash ˈtɘkɘr = PT *tägür; not same root,MANUAL_DISCARD
+nail,2,Kazakh; Turkish,body_parts,-1.1389,Kaz ʃeɡe 'nail (tool)' vs Tur t͡ʃivi — different roots; both ʃ/tʃ sparsity,MANUAL_DISCARD
+new,3,Azerbaijani; Chuvash; Kazakh,other,-1.2654,"PT *yañı, Clauson p.942; Az jɛnɪ, Kaz ʒɑŋɑ, Chuvash ɕɘnɘ all regular",MANUAL_DISCARD
+odour,2,Kazakh; Uzbek,body_parts,-1.1274,Kaz ɪjəs / Uzb d͡ʒid — different roots; dʒ sparsity in Uzbek,MANUAL_DISCARD
+often,2,Azerbaijani; Kazakh,other,-1.1098,"Az t͡ʃɔχ_vɑχt compound; Kaz əlʁɪj — not cognates, both tʃ/ʁ sparsity",MANUAL_DISCARD
+palm,2,Azerbaijani; Turkish,body_parts,-1.0644,"Oghuz sister pair only (Az+Tur), same cognate (avg NLev=0.5)",F1_OGHUZ_SISTER
+pit,2,Azerbaijani; Kazakh,other,-1.0935,"Kaz oɾ 'ditch', PT *or; Az t͡ʃuχur different root; not cognates",MANUAL_DISCARD
+place,2,Turkish; Uzbek,spatial_temporal,-1.0835,"Tur jɛɾ = PT *yer, Clauson p.957; Uzb d͡ʒɒj separate; ɾ sparsity",MANUAL_DISCARD
+pointed,2,Azerbaijani; Kazakh,other,-1.1184,Kaz ʊʃkəɾ from PT *üč 'tip/point'; Az sɪvrɪ different root; not cognates,MANUAL_DISCARD
+raw,2,Azerbaijani; Turkish,other,-1.0373,"PT *čiy, Clauson; Az/Tur t͡ʃɪj/t͡ʃij same cognate, tʃ sparsity",MANUAL_DISCARD
+seven,4,Azerbaijani; Chuvash; Kazakh; Uzbek,other,-1.317,"PT *yeti, Clauson p.879; all forms regular, ɕ in Chuvash = regular Bulgar",MANUAL_DISCARD
+small,2,Chuvash; Turkmen,other,-1.8743,Turkmen thin-coverage flag (thin_lang_flag=True); Chuvash ˈpɘt͡ɕɘk = PT *küçük regular Bulgar,MANUAL_DISCARD
+so,2,Turkish; Yakut,other,-1.484,"Tur œjlɛ / Yakut ocːo — unrelated forms, different sources",MANUAL_DISCARD
+sort,3,Azerbaijani; Chuvash; Turkish,cognitive_abstract,-1.2481,Az/Tur t͡ʃɛʃid/t͡ʃɛʃit = same Ottoman cognate; dʒ/tʃ sparsity,MANUAL_DISCARD
+still,2,Kazakh; Turkish,other,-1.0881,Tur haːlaː = Arabic حالا (ħāla); Kaz ælə different,MANUAL_DISCARD
+stove,3,Azerbaijani; Uzbek; Yakut,material_culture,-1.2778,Az/Uzb pɛt͡ʃ/pɛtʃka = Russian печь/печка; Yakut ohox unrelated and separate,MANUAL_DISCARD
+string,2,Azerbaijani; Kazakh,material_culture,-1.1509,"Az ɪp = PT *ip 'rope', Clauson p.67; Kaz ʒəp same root with ʒ reflex of PT *y-; sparsity",MANUAL_DISCARD
+swarm,2,Kazakh; Turkish,body_parts,-1.0835,"PT *sürü 'herd/flock', Clauson p.844; Kaz ʊjəɾ / Tur syɾy regular ɾ reflexes",MANUAL_DISCARD
+thin,2,Kazakh; Turkish,other,-1.0908,Kaz ʒəŋəʃke / Tur ind͡ʒɛ — not cognates; both ʒ/dʒ sparsity,MANUAL_DISCARD
+third,4,Azerbaijani; Chuvash; Kazakh; Turkish,other,-1.2029,"derived from PT *üč; same root as 'three', all regular",MANUAL_DISCARD
+thought,2,Azerbaijani; Turkish,cognitive_abstract,-0.9473,"duplicate — same Az/Tur cognate pair, dʒ sparsity",MANUAL_DISCARD
+three,5,Azerbaijani; Chuvash; Kazakh; Turkish; Uzbek,other,-1.2697,"PT *üč, Clauson p.17; pan-Turkic cognate, all reflexes regular",MANUAL_DISCARD
+tip,4,Azerbaijani; Kazakh; Turkish; Uzbek,spatial_temporal,-1.1883,"PT *uč 'point/tip', Clauson p.23; cognate with 'three' root",MANUAL_DISCARD
+tree,2,Turkmen; Uzbek,flora,-1.629,"Uzb daraχt = Persian درخت, Infra 6B; Turkmen aɣaʨ separate item",MANUAL_DISCARD
+walk,3,Azerbaijani; Kazakh; Turkish,verbs_actions,-1.1526,"PT *yür-, Clauson p.959; Az/Tur jɛrɪʃ/jyɾyjyʃ, Kaz ʒʊɾəs all regular ɾ/ʒ reflexes",MANUAL_DISCARD
+willow,2,Azerbaijani; Turkish,flora,-0.9936,"Az/Tur sœjyd/sœjyt = PT *söğüt, Clauson p.812; same cognate pair, œ/y sparsity",MANUAL_DISCARD
+wood,2,Kazakh; Turkish,other,-1.1957,"PT *ığač, Clauson p.78; Kaz ɑʁɑʃ and Tur aːat͡ʃ regular reflexes, ʁ/tʃ sparsity",MANUAL_DISCARD
+worker,2,Azerbaijani; Kazakh,social_political,-1.1423,Az ɪʃt͡ʃɪ = PT *iş 'work' + agent suffix; Kaz ʒʊməsʃə = PT *yumuš 'work' + suffix; different but both Turkic,MANUAL_DISCARD

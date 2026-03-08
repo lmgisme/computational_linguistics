@@ -1,0 +1,13 @@
+task,lang,gloss,form,ref_family,best_ref_form,best_sim,all_scores
+T4,Yakut,horn,muos,Proto-Mongolic,mügür,0.2,mügür:0.200; müŋgür:0.200; mügur:0.200; muŋgur:0.200; müŋür:0.200; mükür:0.200; mükher:0.167
+T4,Kyrgyz,horn,myjyz,Proto-Mongolic,mügür,0.2,mügür:0.200; müŋgür:0.200; mügur:0.200; muŋgur:0.200; müŋür:0.200; mükür:0.200; mükher:0.167
+T4,Uyghur,horn,myŋgyz,Proto-Mongolic,müŋgür,0.4,müŋgür:0.400; muŋgur:0.400; mügür:0.200; mügur:0.200; müŋür:0.200; mükür:0.200; mükher:0.167
+T4,Yakut,horn,muos,Proto-Tungusic,muku,0.25,muku:0.250; mukī:0.250; muxu:0.250; mukī:0.250; muki:0.250; mukit:0.200
+T4,Kyrgyz,horn,myjyz,Proto-Tungusic,muku,0.2,muku:0.200; mukit:0.200; mukī:0.200; muxu:0.200; mukī:0.200; muki:0.200
+T4,Uyghur,horn,myŋgyz,Proto-Tungusic,muku,0.2,muku:0.200; mukit:0.200; mukī:0.200; muxu:0.200; mukī:0.200; muki:0.200
+T5,Kazakh,fat/grease,maj,Proto-Mongolic,mast,0.5,mast:0.500; tariun:0.167; tos:0.000; tosun:0.000; tosi:0.000; öDün:0.000
+T5,Kyrgyz,fat/grease,maj,Proto-Mongolic,mast,0.5,mast:0.500; tariun:0.167; tos:0.000; tosun:0.000; tosi:0.000; öDün:0.000
+T5,Kazakh,fat/grease,maj,Proto-Tungusic,sokto,0.0,sokto:0.000; soto:0.000; soktо:0.000
+T5,Kyrgyz,fat/grease,maj,Proto-Tungusic,sokto,0.0,sokto:0.000; soto:0.000; soktо:0.000
+T5,Kazakh,fat/grease,maj,Proto-Turkic_internal,maj,1.0,maj:1.000; may:0.667; jaɣ:0.333; jāg:0.000; yāg:0.000
+T5,Kyrgyz,fat/grease,maj,Proto-Turkic_internal,maj,1.0,maj:1.000; may:0.667; jaɣ:0.333; jāg:0.000; yāg:0.000

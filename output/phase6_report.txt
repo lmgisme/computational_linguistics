@@ -1,0 +1,455 @@
+PHASE 6: CULTURAL VOCABULARY SUBSTRATE DETECTION
+Report generated from infra6a_candidates.csv + northeuralex_merged.csv
+======================================================================
+
+Total infra6a candidates entering Phase 6: 340
+After known false positive removal:        339
+Multi-language clusters (>=2 langs):       57
+
+MULTI-LANGUAGE CLUSTERS
+--------------------------------------------------
+Cross-language clustering filter: a gloss must appear anomalous in
+>=2 distinct languages (at least 1 calibration language) to survive.
+
+  GLOSS: three
+    Languages (5): Azerbaijani; Chuvash; Kazakh; Turkish; Uzbek
+    Domain: other  [Priority: LOW]
+      Kazakh           ʊʃ                    score= -1.2697  source=northeuralex  loan=unknown
+      Uzbek            ut͡ʃ                  score= -1.0962  source=northeuralex  loan=unknown
+      Turkish          yt͡ʃ                  score= -1.1904  source=northeuralex  loan=unknown
+      Azerbaijani      yt͡ʃ                  score= -1.1382  source=northeuralex  loan=unknown
+      Chuvash          ʋiɕ̬ɘ                 score= -1.2023  source=northeuralex  loan=unknown
+      Chuvash          ˈʋiɕɘ                 score= -1.2023  source=northeuralex  loan=unknown
+
+  GLOSS: all
+    Languages (4): Azerbaijani; Kazakh; Turkish; Uzbek
+    Domain: cognitive_abstract  [Priority: LOW]
+      Kazakh           ? ʒɯɣɯl               score= -1.1195  source=lexstat       loan=mongolic_candidate
+      Uzbek            jiqil                 score= -1.1056  source=lexstat       loan=unknown
+      Azerbaijani      dyʃ                   score=  -1.241  source=lexstat       loan=unknown
+      Turkish          dyʃ                   score= -1.1659  source=lexstat       loan=unknown
+
+  GLOSS: milk
+    Languages (4): Azerbaijani; Chuvash; Kazakh; Turkish
+    Domain: herding_pastoralism  [Priority: HIGH]
+      Kazakh           sʊt                   score=  -1.076  source=northeuralex  loan=unknown
+      Turkish          syt                   score= -0.9387  source=northeuralex  loan=unknown
+      Azerbaijani      syd                   score= -0.9124  source=northeuralex  loan=unknown
+      Chuvash          sɘt                   score= -1.2481  source=northeuralex  loan=unknown
+
+  GLOSS: seven
+    Languages (4): Azerbaijani; Chuvash; Kazakh; Uzbek
+    Domain: other  [Priority: LOW]
+      Uzbek            ɛtːi                  score= -1.2267  source=northeuralex  loan=unknown
+      Kazakh           ʒetə                  score= -1.0867  source=northeuralex  loan=unknown
+      Azerbaijani      jɛdːɪ                 score= -0.9149  source=northeuralex  loan=unknown
+      Chuvash          ˈɕit͡ɕɘ               score=  -1.317  source=northeuralex  loan=unknown
+      Chuvash          ˈɕit͡ɕɘ               score=  -1.317  source=northeuralex  loan=unknown
+      Chuvash          ɕit͡ɕ                 score=  -1.241  source=northeuralex  loan=unknown
+
+  GLOSS: third
+    Languages (4): Azerbaijani; Chuvash; Kazakh; Turkish
+    Domain: other  [Priority: LOW]
+      Kazakh           ʊʃənʃə                score= -1.1403  source=northeuralex  loan=unknown
+      Turkish          yt͡ʃynd͡ʒy            score= -1.1082  source=northeuralex  loan=unknown
+      Azerbaijani      yt͡ʃynd͡ʒy            score= -1.0656  source=northeuralex  loan=unknown
+      Chuvash          ˈʋiɕɘmɘʂ              score= -1.2029  source=northeuralex  loan=unknown
+
+  GLOSS: tip
+    Languages (4): Azerbaijani; Kazakh; Turkish; Uzbek
+    Domain: spatial_temporal  [Priority: LOW]
+      Kazakh           ʉʃə                   score= -1.1883  source=northeuralex  loan=unknown
+      Uzbek            ut͡ʃ                  score= -1.0962  source=northeuralex  loan=unknown
+      Azerbaijani      ud͡ʒ                  score=  -1.018  source=northeuralex  loan=unknown
+      Turkish          ut͡ʃ                  score= -0.9963  source=northeuralex  loan=unknown
+
+  GLOSS: green
+    Languages (3): Chuvash; Kazakh; Yakut
+    Domain: other  [Priority: LOW]
+      Kazakh           ʒɑsəl                 score= -1.0761  source=northeuralex  loan=unknown
+      Yakut            ot_ky͡øɣe             score=  -1.284  source=northeuralex  loan=mongolic_candidate
+      Chuvash          ˈsimɘs                score= -1.2733  source=northeuralex  loan=unknown
+
+  GLOSS: new
+    Languages (3): Azerbaijani; Chuvash; Kazakh
+    Domain: other  [Priority: LOW]
+      Kazakh           ʒɑŋɑ                  score= -1.0759  source=northeuralex  loan=unknown
+      Azerbaijani      jɛnɪ                  score= -0.9102  source=northeuralex  loan=unknown
+      Chuvash          ˈɕɘnɘ                 score= -1.2654  source=northeuralex  loan=unknown
+
+  GLOSS: sort
+    Languages (3): Azerbaijani; Chuvash; Turkish
+    Domain: cognitive_abstract  [Priority: LOW]
+      Azerbaijani      t͡ʃɛʃɪd               score= -1.0002  source=northeuralex  loan=unknown
+      Turkish          t͡ʃɛʃit               score= -0.8812  source=northeuralex  loan=unknown
+      Chuvash          tɘs                   score= -1.2481  source=northeuralex  loan=unknown
+
+  GLOSS: stove
+    Languages (3): Azerbaijani; Uzbek; Yakut
+    Domain: material_culture  [Priority: MEDIUM]
+      Uzbek            pɛt͡ʃka               score= -1.0788  source=northeuralex  loan=unknown
+      Azerbaijani      pɛt͡ʃ                 score= -1.1026  source=northeuralex  loan=unknown
+      Yakut            ohox                  score= -1.2778  source=northeuralex  loan=unknown
+
+  GLOSS: walk
+    Languages (3): Azerbaijani; Kazakh; Turkish
+    Domain: verbs_actions  [Priority: LOW]
+      Kazakh           ʒʊɾəs                 score= -1.1526  source=northeuralex  loan=unknown
+      Turkish          jyɾyjyʃ               score= -0.9998  source=northeuralex  loan=unknown
+      Azerbaijani      jɛrɪʃ                 score= -0.8735  source=northeuralex  loan=unknown
+
+  GLOSS: ahead
+    Languages (2): Azerbaijani; Chuvash
+    Domain: body_parts  [Priority: LOW]
+      Azerbaijani      dyz                   score= -0.8902  source=northeuralex  loan=unknown
+      Chuvash          ˈtikɘs                score= -1.1934  source=northeuralex  loan=unknown
+
+  GLOSS: and
+    Languages (2): Azerbaijani; Turkish
+    Domain: other  [Priority: LOW]
+      Turkish          vɛ                    score=  -1.047  source=northeuralex  loan=unknown
+      Azerbaijani      væ                    score= -0.8759  source=northeuralex  loan=unknown
+
+  GLOSS: arrow
+    Languages (2): Azerbaijani; Yakut
+    Domain: social_political  [Priority: MEDIUM]
+      Azerbaijani      ɔχ                    score= -1.1968  source=northeuralex  loan=unknown
+      Yakut            ox                    score= -1.3053  source=northeuralex  loan=unknown
+
+  GLOSS: at that time
+    Languages (2): Azerbaijani; Yakut
+    Domain: spatial_temporal  [Priority: LOW]
+      Azerbaijani      ɔ_vɑχt                score= -0.9364  source=northeuralex  loan=unknown
+      Yakut            ocːoɣo                score= -1.5291  source=northeuralex  loan=mongolic_candidate
+
+  GLOSS: because of
+    Languages (2): Azerbaijani; Kazakh
+    Domain: other  [Priority: LOW]
+      Kazakh           ʊʃən                  score= -1.1033  source=northeuralex  loan=unknown
+      Azerbaijani      yt͡ʃyn                score= -0.9896  source=northeuralex  loan=unknown
+
+  GLOSS: blunt
+    Languages (2): Chuvash; Kazakh
+    Domain: other  [Priority: LOW]
+      Kazakh           doʁɑl                 score= -1.1005  source=northeuralex  loan=unknown
+      Chuvash          ˈtɘrɘnt̬͡ɕɘk          score= -1.2088  source=northeuralex  loan=unknown
+
+  GLOSS: boat
+    Languages (2): Chuvash; Yakut
+    Domain: material_culture  [Priority: MEDIUM]
+      Yakut            oŋoco                 score=  -1.295  source=northeuralex  loan=unknown
+      Chuvash          ˈkimɘ                 score= -1.2032  source=northeuralex  loan=unknown
+
+  GLOSS: border
+    Languages (2): Azerbaijani; Chuvash
+    Domain: social_political  [Priority: MEDIUM]
+      Azerbaijani      hydud                 score= -0.9368  source=northeuralex  loan=unknown
+      Chuvash          ˈt͡ɕikɘ               score= -1.2859  source=northeuralex  loan=unknown
+
+  GLOSS: boss
+    Languages (2): Azerbaijani; Turkish
+    Domain: social_political  [Priority: MEDIUM]
+      Azerbaijani      ʃɛf                   score= -0.9605  source=northeuralex  loan=unknown
+      Turkish          ʃɛf                   score=  -0.875  source=northeuralex  loan=unknown
+
+  GLOSS: broom
+    Languages (2): Azerbaijani; Kazakh
+    Domain: material_culture  [Priority: MEDIUM]
+      Kazakh           səpəɾʁəʃ              score= -1.1579  source=northeuralex  loan=unknown
+      Azerbaijani      sypyrɟæ               score= -0.8771  source=northeuralex  loan=unknown
+
+  GLOSS: cross
+    Languages (2): Azerbaijani; Turkish
+    Domain: other  [Priority: LOW]
+      Azerbaijani      χɑt͡ʃ                 score=  -1.006  source=northeuralex  loan=unknown
+      Turkish          hat͡ʃ                 score= -0.8949  source=northeuralex  loan=unknown
+
+  GLOSS: delicate, fine
+    Languages (2): Azerbaijani; Turkish
+    Domain: fauna  [Priority: HIGH]
+      Azerbaijani      ɪnd͡ʒæ                score= -0.8862  source=northeuralex  loan=unknown
+      Turkish          ind͡ʒɛ                score= -0.8754  source=northeuralex  loan=unknown
+
+  GLOSS: dream
+    Languages (2): Kazakh; Turkish
+    Domain: body_parts  [Priority: LOW]
+      Kazakh           tʊs                   score=  -1.076  source=northeuralex  loan=unknown
+      Turkish          ɾyja                  score= -0.8723  source=northeuralex  loan=unknown
+
+  GLOSS: end
+    Languages (2): Kazakh; Turkish
+    Domain: spatial_temporal  [Priority: LOW]
+      Kazakh           soŋə                  score= -1.0961  source=northeuralex  loan=unknown
+      Turkish          ut͡ʃ                  score= -0.9963  source=northeuralex  loan=unknown
+
+  GLOSS: face
+    Languages (2): Azerbaijani; Turkish
+    Domain: body_parts  [Priority: LOW]
+      Turkish          jyz                   score= -0.9326  source=northeuralex  loan=unknown
+      Azerbaijani      yz                    score= -0.8865  source=northeuralex  loan=unknown
+
+  GLOSS: fat
+    Languages (2): Turkish; Yakut
+    Domain: food_drink  [Priority: MEDIUM]
+      Turkish          jaː                   score= -0.9539  source=northeuralex  loan=unknown
+      Yakut            sɯ͡a                  score= -1.2829  source=northeuralex  loan=unknown
+
+  GLOSS: first
+    Languages (2): Azerbaijani; Kazakh
+    Domain: flora  [Priority: MEDIUM]
+      Kazakh           ɑlʁɑʃqə               score= -1.0893  source=northeuralex  loan=unknown
+      Azerbaijani      bɪrɪnd͡ʒɪ             score= -0.8765  source=northeuralex  loan=unknown
+
+  GLOSS: flesh
+    Languages (2): Chuvash; Uzbek
+    Domain: other  [Priority: LOW]
+      Uzbek            ɡoʃt                  score= -1.2322  source=lexstat       loan=unknown
+      Chuvash          aʂ                    score= -1.3926  source=lexstat       loan=unknown
+
+  GLOSS: fringe
+    Languages (2): Chuvash; Kazakh
+    Domain: material_culture  [Priority: MEDIUM]
+      Kazakh           ʃetə                  score= -1.0755  source=northeuralex  loan=unknown
+      Chuvash          ˈχɘrɘ                 score= -1.2137  source=northeuralex  loan=unknown
+
+  GLOSS: he
+    Languages (2): Azerbaijani; Turkish
+    Domain: other  [Priority: LOW]
+      Turkish          o                     score= -1.1765  source=northeuralex  loan=unknown
+      Azerbaijani      ɔ                     score= -1.1189  source=northeuralex  loan=unknown
+
+  GLOSS: hill
+    Languages (2): Chuvash; Turkish
+    Domain: natural_world  [Priority: LOW]
+      Turkish          tɛpɛ                  score= -0.9295  source=northeuralex  loan=unknown
+      Chuvash          tɘmɛsˈkɛ              score= -1.1938  source=northeuralex  loan=unknown
+
+  GLOSS: home
+    Languages (2): Azerbaijani; Turkish
+    Domain: material_culture  [Priority: MEDIUM]
+      Azerbaijani      ɛv                    score= -1.1129  source=northeuralex  loan=unknown
+      Turkish          ɛv                    score=  -1.047  source=northeuralex  loan=unknown
+
+  GLOSS: house
+    Languages (2): Azerbaijani; Turkish
+    Domain: material_culture  [Priority: MEDIUM]
+      Azerbaijani      ɛv                    score= -1.1129  source=northeuralex  loan=unknown
+      Turkish          ɛv                    score=  -1.047  source=northeuralex  loan=unknown
+
+  GLOSS: hungry
+    Languages (2): Azerbaijani; Kazakh
+    Domain: other  [Priority: LOW]
+      Kazakh           ɑʃ                    score= -1.1336  source=northeuralex  loan=unknown
+      Azerbaijani      ɑd͡ʒ                  score= -0.9511  source=northeuralex  loan=unknown
+
+  GLOSS: mirror
+    Languages (2): Azerbaijani; Chuvash
+    Domain: material_culture  [Priority: MEDIUM]
+      Azerbaijani      ɟyzɟy                 score= -0.9704  source=northeuralex  loan=unknown
+      Chuvash          ˈtɘkɘr                score= -1.1952  source=northeuralex  loan=unknown
+
+  GLOSS: nail
+    Languages (2): Kazakh; Turkish
+    Domain: body_parts  [Priority: LOW]
+      Kazakh           ʃeɡe                  score= -1.1389  source=northeuralex  loan=unknown
+      Turkish          t͡ʃivi                score= -0.9117  source=northeuralex  loan=unknown
+
+  GLOSS: odour
+    Languages (2): Kazakh; Uzbek
+    Domain: body_parts  [Priority: LOW]
+      Uzbek            d͡ʒid                 score= -1.1274  source=northeuralex  loan=unknown
+      Kazakh           ɪjəs                  score= -1.0751  source=northeuralex  loan=unknown
+
+  GLOSS: often
+    Languages (2): Azerbaijani; Kazakh
+    Domain: other  [Priority: LOW]
+      Kazakh           əlʁɪj                 score= -1.1098  source=northeuralex  loan=unknown
+      Azerbaijani      t͡ʃɔχ_vɑχt            score= -1.0124  source=northeuralex  loan=unknown
+
+  GLOSS: palm
+    Languages (2): Azerbaijani; Turkish
+    Domain: body_parts  [Priority: LOW]
+      Azerbaijani      ɔvud͡ʒ                score= -1.0644  source=northeuralex  loan=unknown
+      Turkish          avut͡ʃ                score= -0.9156  source=northeuralex  loan=unknown
+
+  GLOSS: pit
+    Languages (2): Azerbaijani; Kazakh
+    Domain: other  [Priority: LOW]
+      Kazakh           oɾ                    score= -1.0935  source=northeuralex  loan=unknown
+      Azerbaijani      t͡ʃuχur               score= -0.8764  source=northeuralex  loan=unknown
+
+  GLOSS: place
+    Languages (2): Turkish; Uzbek
+    Domain: spatial_temporal  [Priority: LOW]
+      Uzbek            d͡ʒɒj                 score= -1.0835  source=northeuralex  loan=unknown
+      Turkish          jɛɾ                   score= -0.8929  source=northeuralex  loan=unknown
+
+  GLOSS: pointed
+    Languages (2): Azerbaijani; Kazakh
+    Domain: other  [Priority: LOW]
+      Kazakh           ʊʃkəɾ                 score= -1.1184  source=northeuralex  loan=unknown
+      Azerbaijani      sɪvrɪ                 score= -0.8845  source=northeuralex  loan=unknown
+
+  GLOSS: raw
+    Languages (2): Azerbaijani; Turkish
+    Domain: other  [Priority: LOW]
+      Azerbaijani      t͡ʃɪj                 score= -1.0373  source=northeuralex  loan=unknown
+      Turkish          t͡ʃij                 score= -0.9122  source=northeuralex  loan=unknown
+
+  GLOSS: small
+    Languages (2): Chuvash; Turkmen
+    Domain: other  [Priority: LOW]
+      Turkmen          kiʨi(ʥik)             score= -1.8743  source=savelyev      loan=unknown
+      Chuvash          ˈpɘt͡ɕɘk              score= -1.5966  source=lexstat       loan=unknown
+
+  GLOSS: so
+    Languages (2): Turkish; Yakut
+    Domain: other  [Priority: LOW]
+      Turkish          œjlɛ                  score= -0.9158  source=northeuralex  loan=unknown
+      Yakut            ocːo                  score=  -1.484  source=northeuralex  loan=unknown
+
+  GLOSS: still
+    Languages (2): Kazakh; Turkish
+    Domain: other  [Priority: LOW]
+      Kazakh           ælə                   score= -1.0881  source=northeuralex  loan=unknown
+      Turkish          haːlaː                score= -0.8789  source=northeuralex  loan=unknown
+      Turkish          hɛnyz                 score= -0.8789  source=northeuralex  loan=unknown
+
+  GLOSS: string
+    Languages (2): Azerbaijani; Kazakh
+    Domain: material_culture  [Priority: MEDIUM]
+      Kazakh           ʒəp                   score= -1.1509  source=northeuralex  loan=unknown
+      Azerbaijani      ɪp                    score= -1.0632  source=northeuralex  loan=unknown
+
+  GLOSS: swarm
+    Languages (2): Kazakh; Turkish
+    Domain: body_parts  [Priority: LOW]
+      Kazakh           ʊjəɾ                  score= -1.0835  source=northeuralex  loan=unknown
+      Turkish          syɾy                  score= -1.0035  source=northeuralex  loan=unknown
+
+  GLOSS: thin
+    Languages (2): Kazakh; Turkish
+    Domain: other  [Priority: LOW]
+      Kazakh           ʒəŋəʃke               score= -1.0908  source=northeuralex  loan=unknown
+      Turkish          ind͡ʒɛ                score= -0.8754  source=northeuralex  loan=unknown
+
+  GLOSS: thought
+    Languages (2): Azerbaijani; Turkish
+    Domain: cognitive_abstract  [Priority: LOW]
+      Turkish          dyʃynd͡ʒɛ             score= -0.9473  source=northeuralex  loan=unknown
+      Azerbaijani      dyʃynd͡ʒæ             score= -0.9204  source=northeuralex  loan=unknown
+
+  GLOSS: tree
+    Languages (2): Turkmen; Uzbek
+    Domain: flora  [Priority: MEDIUM]
+      Uzbek            daraχt                score=  -1.218  source=lexstat       loan=unknown
+      Turkmen          aɣaʨ                  score=  -1.629  source=savelyev      loan=mongolic_candidate
+
+  GLOSS: willow
+    Languages (2): Azerbaijani; Turkish
+    Domain: flora  [Priority: MEDIUM]
+      Turkish          sœjyt                 score= -0.9936  source=northeuralex  loan=unknown
+      Azerbaijani      sœjyd                 score= -0.9539  source=northeuralex  loan=unknown
+
+  GLOSS: wish
+    Languages (2): Chuvash; Kazakh
+    Domain: cognitive_abstract  [Priority: LOW]
+      Kazakh           mʊdːe                 score= -2.2809  source=northeuralex  loan=unknown
+      Chuvash          ˈɘmɘt                 score= -1.2553  source=northeuralex  loan=unknown
+
+  GLOSS: woman
+    Languages (2): Kazakh; Yakut
+    Domain: kinship  [Priority: HIGH]
+      Kazakh           bɪjke                 score= -1.2314  source=lexstat       loan=unknown
+      Yakut            ɟaxtaɾ                score= -1.3983  source=lexstat       loan=unknown
+
+  GLOSS: wood
+    Languages (2): Kazakh; Turkish
+    Domain: other  [Priority: LOW]
+      Kazakh           ɑʁɑʃ                  score= -1.1957  source=northeuralex  loan=unknown
+      Turkish          aːat͡ʃ                score= -0.9141  source=northeuralex  loan=unknown
+
+  GLOSS: worker
+    Languages (2): Azerbaijani; Kazakh
+    Domain: social_political  [Priority: MEDIUM]
+      Kazakh           ʒʊməsʃə               score= -1.1423  source=northeuralex  loan=unknown
+      Azerbaijani      ɪʃt͡ʃɪ                score= -1.0129  source=northeuralex  loan=unknown
+
+
+DOMAIN ANOMALY RATES — FULL TABLE
+--------------------------------------------------
+Domain                    Group            Anomalous  Total     Rate
+----------------------------------------------------------------------
+metallurgy_materials      B_yakut                  2     14   0.1429 ***
+agriculture               C_chuvash                1      8   0.1250 ***
+herding_pastoralism       C_chuvash                2     16   0.1250 ***
+cognitive_abstract        C_chuvash                7     62   0.1129
+spatial_temporal          A_oghuz                 16    146   0.1096
+other                     A_oghuz                 51    470   0.1085
+flora                     A_kipchak                6     56   0.1071
+flora                     A_oghuz                  6     57   0.1053
+cognitive_abstract        A_oghuz                 13    125   0.1040
+food_drink                A_oghuz                  7     69   0.1014
+herding_pastoralism       A_oghuz                  3     32   0.0938 ***
+body_parts                A_oghuz                 16    175   0.0914
+social_political          A_oghuz                  8     94   0.0851
+social_political          A_kipchak                7     83   0.0843
+material_culture          C_chuvash                7     85   0.0824
+material_culture          A_oghuz                 13    163   0.0798
+other                     C_chuvash               19    242   0.0785
+other                     A_kipchak               34    450   0.0756
+material_culture          A_kipchak               11    152   0.0724
+kinship                   A_oghuz                  4     56   0.0714 ***
+herding_pastoralism       B_yakut                  1     15   0.0667 ***
+natural_world             C_chuvash                6     91   0.0659
+cognitive_abstract        A_kipchak                7    116   0.0603
+fauna                     A_oghuz                  7    121   0.0579 ***
+spatial_temporal          A_kipchak                8    140   0.0571
+body_parts                B_yakut                  5     90   0.0556
+kinship                   A_kipchak                3     56   0.0536 ***
+social_political          B_yakut                  2     42   0.0476
+body_parts                C_chuvash                4     86   0.0465
+body_parts                A_kipchak                8    175   0.0457
+metallurgy_materials      A_kipchak                1     24   0.0417
+material_culture          B_yakut                  3     74   0.0405
+natural_world             A_kipchak                7    175   0.0400
+natural_world             A_oghuz                  7    175   0.0400
+kinship                   B_yakut                  1     26   0.0385
+kinship                   C_chuvash                1     28   0.0357
+fauna                     A_kipchak                4    116   0.0345
+food_drink                B_yakut                  1     32   0.0312
+food_drink                C_chuvash                1     34   0.0294
+herding_pastoralism       A_kipchak                1     35   0.0286
+natural_world             B_yakut                  2     84   0.0238
+verbs_actions             C_chuvash                7    297   0.0236
+social_political          C_chuvash                1     44   0.0227
+other                     B_yakut                  4    217   0.0184
+fauna                     B_yakut                  1     59   0.0169
+food_drink                A_kipchak                1     65   0.0154
+spatial_temporal          B_yakut                  1     66   0.0152
+spatial_temporal          C_chuvash                1     75   0.0133
+verbs_actions             A_oghuz                  2    584   0.0034
+verbs_actions             B_yakut                  1    294   0.0034
+verbs_actions             A_kipchak                2    617   0.0032
+agriculture               A_kipchak                0     17   0.0000
+agriculture               A_oghuz                  0     19   0.0000
+agriculture               B_yakut                  0      9   0.0000
+cognitive_abstract        B_yakut                  0     48   0.0000
+fauna                     C_chuvash                0     58   0.0000
+flora                     B_yakut                  0     28   0.0000
+flora                     C_chuvash                0     27   0.0000
+metallurgy_materials      A_oghuz                  0     25   0.0000
+metallurgy_materials      C_chuvash                0     14   0.0000
+
+NOTE ON A_KIPCHAK NOISE
+--------------------------------------------------
+A_kipchak and A_oghuz candidates include words where anomalous scores
+reflect model sparsity for native phonemes (ʒ/ʁ/ɾ in Kazakh;
+tʃ/dʒ/ɾ in Turkish/Azerbaijani) rather than genuine irregularity.
+These are substantially filtered by the cross-language clustering
+requirement. Single-language A_kipchak flags are treated as noise
+unless corroborated by a second language in the same gloss.
+
+STATUS: Phase 6 complete.
+Next step: Phase 6 Resolution — proto-form comparison for any
+multi-language clusters surviving this filter.

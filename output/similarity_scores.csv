@@ -1,0 +1,94 @@
+cluster,language,gloss,turkic_form,ref_language,ref_form,phon_similarity
+5,Yakut,bone,uŋuoχ,Mongolic,j a s,0.0
+5,Yakut,bone,uŋuoχ,Tungusic,j ɛ k t ə,0.0
+5,Yakut,bone,uŋuoχ,Persian,N/A,
+2,Chuvash,ear,χölɣa,Mongolic,ʧ i x,0.0
+2,Chuvash,ear,χölɣa,Tungusic,t ɔ k s o,0.0
+2,Chuvash,ear,χölɣa,Persian,N/A,
+5,Yakut,egg,sɯmɯ:t,Mongolic,ø n d e g,0.0
+5,Yakut,egg,sɯmɯ:t,Tungusic,a n n a n,0.0
+5,Yakut,egg,sɯmɯ:t,Persian,N/A,
+2,Kazakh,all,? ʒɯɣɯl,Mongolic,b ü g d,0.0
+2,Kazakh,all,? ʒɯɣɯl,Tungusic,b ɨ r,0.0
+2,Kazakh,all,? ʒɯɣɯl,Persian,h æ m e,0.0
+2,Kyrgyz,all,ʥɯɣɯl,Mongolic,b ü g d,0.0
+2,Kyrgyz,all,ʥɯɣɯl,Tungusic,b ɨ r,0.0
+2,Kyrgyz,all,ʥɯɣɯl,Persian,h æ m e,0.0
+2,Uyghur,all,ʒiqil,Mongolic,b ü g d,0.0
+2,Uyghur,all,ʒiqil,Tungusic,b ɨ r,0.0
+2,Uyghur,all,ʒiqil,Persian,h æ m e,0.0
+3,Azerbaijani,grease,jaɣ,Mongolic,ʧ ʰ i x,0.0
+3,Azerbaijani,grease,jaɣ,Tungusic,t u k s a,0.0
+3,Azerbaijani,grease,jaɣ,Persian,r o ɣ æ n,0.0
+3,Turkmen,grease,jaɣ,Mongolic,ʧ ʰ i x,0.0
+3,Turkmen,grease,jaɣ,Tungusic,t u k s a,0.0
+3,Turkmen,grease,jaɣ,Persian,r o ɣ æ n,0.0
+3,Uzbek,grease,jɔɣ,Mongolic,ʧ ʰ i x,0.0
+3,Uzbek,grease,jɔɣ,Tungusic,t u k s a,0.0
+3,Uzbek,grease,jɔɣ,Persian,r o ɣ æ n,0.0
+5,Uzbek,hair,sɔʨ,Mongolic,ʧ ʰ a s n i,0.0
+5,Uzbek,hair,sɔʨ,Tungusic,d e l,0.0
+5,Uzbek,hair,sɔʨ,Persian,N/A,
+4,Kyrgyz,horn,myjyz,Mongolic,e b e r,0.0
+4,Kyrgyz,horn,myjyz,Tungusic,m u k ɨ,0.0
+4,Kyrgyz,horn,myjyz,Persian,ʃ a χ,0.0
+4,Uyghur,horn,? myŋgyz,Mongolic,e b e r,0.0
+4,Uyghur,horn,? myŋgyz,Tungusic,m u k ɨ,0.0
+4,Uyghur,horn,? myŋgyz,Persian,ʃ a χ,0.0
+4,Yakut,horn,muos,Mongolic,e b e r,0.0
+4,Yakut,horn,muos,Tungusic,m u k ɨ,0.0
+4,Yakut,horn,muos,Persian,ʃ a χ,0.0
+1,Kyrgyz,many,køp,Mongolic,o l n,0.0
+1,Kyrgyz,many,køp,Tungusic,i l a n,0.0
+1,Kyrgyz,many,køp,Persian,b e s j a r,0.0
+1,Uzbek,many,kop,Mongolic,o l n,0.0
+1,Uzbek,many,kop,Tungusic,i l a n,0.0
+1,Uzbek,many,kop,Persian,b e s j a r,0.0
+2,Azerbaijani,many,ʨoχ(lu),Mongolic,o l n,0.0
+2,Azerbaijani,many,ʨoχ(lu),Tungusic,i l a n,0.0
+2,Azerbaijani,many,ʨoχ(lu),Persian,b e s j a r,0.0
+5,Yakut,not,sɯ:ŋk,Mongolic,N/A,
+5,Yakut,not,sɯ:ŋk,Tungusic,N/A,
+5,Yakut,not,sɯ:ŋk,Persian,N/A,
+1,Turkmen,small,kiʨi(ʥik),Mongolic,ʤ i ʤ i g,0.0
+1,Turkmen,small,kiʨi(ʥik),Tungusic,n i k a n,0.0
+1,Turkmen,small,kiʨi(ʥik),Persian,N/A,
+1,Yakut,small,? kutɕ:uguj,Mongolic,ʤ i ʤ i g,0.0
+1,Yakut,small,? kutɕ:uguj,Tungusic,n i k a n,0.0
+1,Yakut,small,? kutɕ:uguj,Persian,N/A,
+5,Kazakh,that,ana(w),Mongolic,t e r,0.0
+5,Kazakh,that,ana(w),Tungusic,t a r,0.0
+5,Kazakh,that,ana(w),Persian,N/A,
+5,Azerbaijani,tree,aɣaǰ,Mongolic,m o d,0.0
+5,Azerbaijani,tree,aɣaǰ,Tungusic,m o,0.0
+5,Azerbaijani,tree,aɣaǰ,Persian,d a r a χ t,0.0
+5,Kazakh,tree,aɣaʃ,Mongolic,m o d,0.0
+5,Kazakh,tree,aɣaʃ,Tungusic,m o,0.0
+5,Kazakh,tree,aɣaʃ,Persian,d a r a χ t,0.0
+4,Yakut,tree,mas,Mongolic,m o d,0.0
+4,Yakut,tree,mas,Tungusic,m o,0.0
+4,Yakut,tree,mas,Persian,d a r a χ t,0.0
+1,Yakut,who,kim,Mongolic,x e n,0.0
+1,Yakut,who,kim,Tungusic,n j a n,0.0
+1,Yakut,who,kim,Persian,N/A,
+1,Uzbek,tree,daraχt,Mongolic,m o d,0.0
+1,Uzbek,tree,daraχt,Tungusic,m o,0.0
+1,Uzbek,tree,daraχt,Persian,d a r a χ t,0.0
+1,Uzbek,bark,qɒbiq,Mongolic,x a l j s,0.0
+1,Uzbek,bark,qɒbiq,Tungusic,d e g i l,0.0
+1,Uzbek,bark,qɒbiq,Persian,N/A,
+1,Kazakh,woman,bɪjke,Mongolic,e m e g t e j,0.0
+1,Kazakh,woman,bɪjke,Tungusic,a s i k t a,0.0
+1,Kazakh,woman,bɪjke,Persian,z æ n,0.0
+1,Chuvash,small,ˈpɘt͡ɕɘk,Mongolic,ʤ i ʤ i g,0.0
+1,Chuvash,small,ˈpɘt͡ɕɘk,Tungusic,n i k a n,0.0
+1,Chuvash,small,ˈpɘt͡ɕɘk,Persian,N/A,
+4,Chuvash,many,miˈɕ̬ɛ,Mongolic,o l n,0.0
+4,Chuvash,many,miˈɕ̬ɛ,Tungusic,i l a n,0.0
+4,Chuvash,many,miˈɕ̬ɛ,Persian,b e s j a r,0.0
+2,Yakut,woman,ɟaxtaɾ,Mongolic,e m e g t e j,0.0
+2,Yakut,woman,ɟaxtaɾ,Tungusic,a s i k t a,0.0
+2,Yakut,woman,ɟaxtaɾ,Persian,z æ n,0.0
+5,Turkmen,horn,Sah,Mongolic,e b e r,0.0
+5,Turkmen,horn,Sah,Tungusic,m u k ɨ,0.0
+5,Turkmen,horn,Sah,Persian,ʃ a χ,0.0

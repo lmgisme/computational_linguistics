@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    BEAST 2.7.8 XML - Turkic Phylolinguistics Phase 4
+    Model:       Lewis Mk + Gamma(4), Strict clock, Yule tree prior
+    Calibration: Proto-Turkic root ~2100 BP, LogNormal(M=7.6497, S=0.12)
+                 Savelyev & Robbeets (2020)
+    Data:        9 taxa x 92 binary cognate characters
+-->
+<beast version="2.7"
+       namespace="beast.base.core:beast.base.inference:beast.base.inference.util:beast.base.inference.operator:beast.base.inference.parameter:beast.base.evolution.alignment:beast.base.evolution.tree:beast.base.evolution.tree.coalescent:beast.base.evolution.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood:beast.base.evolution.speciation:beast.base.evolution.branchratemodel:beast.base.math.distributions:beast.math.distributions:beast.base.util">
+
+    <!-- ==================== DATA ==================== -->
+    <data id="turkic" dataType="binary"
+          spec="beast.base.evolution.alignment.Alignment">
+        <sequence taxon="Azerbaijani" value="11001001101111001011110111110111011010001001111001100011001000111000000000000000000101000000"/>
+        <sequence taxon="Chuvash"     value="11010100011011000111101111101111011000010010111000100101001011110100000000001000010000010000"/>
+        <sequence taxon="Kazakh"      value="11001100101111100011110111110111011010001100110010001001010101110010000000100000000000000010"/>
+        <sequence taxon="Kyrgyz"      value="11001100101111????11110111110111011000101100110010010??10101011100010000?01000000000000000??"/>
+        <sequence taxon="Turkish"     value="10101001101111001011110111110111010110001100111001100011001100111000000000000000000001000000"/>
+        <sequence taxon="Turkmen"     value="11001001101111010011010111110111011010001100100110100??10010001100001000000001010000110000??"/>
+        <sequence taxon="Uyghur"      value="11001100101?11????1111011?110111011010001100110010100??10101011100000100??01?0000000000000??"/>
+        <sequence taxon="Uzbek"       value="11010010101011000011010110100111001010001100110010100010001101010000001111101010100000001100"/>
+        <sequence taxon="Yakut"       value="11001010101111010011110111110110111001001010111000100000101100111000000000000000001000100001"/>
+    </data>
+
+    <!-- ==================== SITE MODEL ==================== -->
+    <siteModel id="SiteModel.s:turkic"
+               spec="beast.base.evolution.sitemodel.SiteModel"
+               gammaCategoryCount="4"
+               shape="@shape.s:turkic">
+        <substModel id="MkModel.s:turkic"
+                    spec="beast.base.evolution.substitutionmodel.GeneralSubstitutionModel">
+            <frequencies id="freqs.s:turkic"
+                         spec="beast.base.evolution.substitutionmodel.Frequencies">
+                <parameter id="freqParameter.s:turkic"
+                           spec="beast.base.inference.parameter.RealParameter"
+                           name="frequencies"
+                           value="0.5 0.5" lower="0.0" upper="1.0" dimension="2"/>
+            </frequencies>
+            <rates id="rates.s:turkic"
+                   spec="beast.base.inference.parameter.RealParameter"
+                   value="1.0 1.0" lower="0.0" dimension="2"/>
+        </substModel>
+    </siteModel>
+
+    <parameter id="shape.s:turkic"
+               spec="beast.base.inference.parameter.RealParameter"
+               value="0.5" lower="0.0" upper="100.0"/>
+
+    <!-- ==================== CLOCK MODEL ==================== -->
+    <branchRateModel id="StrictClock.c:turkic"
+                     spec="beast.base.evolution.branchratemodel.StrictClockModel"
+                     clock.rate="@clockRate.c:turkic"/>
+
+    <parameter id="clockRate.c:turkic"
+               spec="beast.base.inference.parameter.RealParameter"
+               value="1.0" lower="0.0"/>
+
+    <!-- ==================== TREE ==================== -->
+    <tree id="Tree.t:turkic"
+          spec="beast.base.evolution.tree.TreeParser"
+          IsLabelledNewick="true"
+          newick="(Chuvash:1800,(Yakut:1500,(Azerbaijani:800,(Turkmen:600,(Turkish:500,(Uzbek:400,(Uyghur:350,(Kazakh:300,Kyrgyz:300):50):50):50):100):200):700):300):300;">
+        <taxonset id="TaxonSet.turkic"
+                  spec="beast.base.evolution.alignment.TaxonSet">
+            <taxon id="Azerbaijani" spec="beast.base.evolution.alignment.Taxon"/>
+            <taxon id="Chuvash"     spec="beast.base.evolution.alignment.Taxon"/>
+            <taxon id="Kazakh"      spec="beast.base.evolution.alignment.Taxon"/>
+            <taxon id="Kyrgyz"      spec="beast.base.evolution.alignment.Taxon"/>
+            <taxon id="Turkish"     spec="beast.base.evolution.alignment.Taxon"/>
+            <taxon id="Turkmen"     spec="beast.base.evolution.alignment.Taxon"/>
+            <taxon id="Uyghur"      spec="beast.base.evolution.alignment.Taxon"/>
+            <taxon id="Uzbek"       spec="beast.base.evolution.alignment.Taxon"/>
+            <taxon id="Yakut"       spec="beast.base.evolution.alignment.Taxon"/>
+        </taxonset>
+    </tree>
+
+    <!-- ==================== TREE PRIOR: Yule ==================== -->
+    <distribution id="YuleModel.t:turkic"
+                  spec="beast.base.evolution.speciation.YuleModel"
+                  birthDiffRate="@birthRate.t:turkic"
+                  tree="@Tree.t:turkic"/>
+
+    <parameter id="birthRate.t:turkic"
+               spec="beast.base.inference.parameter.RealParameter"
+               value="1.0" lower="0.0"/>
+
+    <!-- ==================== CALIBRATION ==================== -->
+    <!-- MRCAPrior lives in beast.math.distributions in 2.7   -->
+    <distribution id="ProtoTurkicRoot.prior"
+                  spec="beast.base.evolution.tree.MRCAPrior"
+                  monophyletic="true"
+                  tree="@Tree.t:turkic"
+                  useOriginate="false">
+        <taxonset idref="TaxonSet.turkic"/>
+        <distr spec="beast.base.inference.distribution.LogNormalDistributionModel"
+               meanInRealSpace="true" M="2100.0" S="0.12"/>
+    </distribution>
+
+    <!-- ==================== LIKELIHOOD ==================== -->
+    <distribution id="treeLikelihood.turkic"
+                  spec="beast.base.evolution.likelihood.TreeLikelihood"
+                  data="@turkic"
+                  tree="@Tree.t:turkic"
+                  siteModel="@SiteModel.s:turkic"
+                  branchRateModel="@StrictClock.c:turkic"
+                  useAmbiguities="true"/>
+
+    <!-- ==================== POSTERIOR ==================== -->
+    <distribution id="posterior"
+                  spec="beast.base.inference.CompoundDistribution">
+        <distribution idref="treeLikelihood.turkic"/>
+        <distribution id="prior"
+                      spec="beast.base.inference.CompoundDistribution">
+            <distribution idref="YuleModel.t:turkic"/>
+            <distribution idref="ProtoTurkicRoot.prior"/>
+            <distribution id="prior.clockRate"
+                          spec="beast.base.inference.distribution.Prior"
+                          x="@clockRate.c:turkic">
+                <distr spec="beast.base.inference.distribution.Exponential" mean="1.0"/>
+            </distribution>
+            <distribution id="prior.birthRate"
+                          spec="beast.base.inference.distribution.Prior"
+                          x="@birthRate.t:turkic">
+                <distr spec="beast.base.inference.distribution.Exponential" mean="1.0"/>
+            </distribution>
+            <distribution id="prior.shape"
+                          spec="beast.base.inference.distribution.Prior"
+                          x="@shape.s:turkic">
+                <distr spec="beast.base.inference.distribution.Exponential" mean="0.5"/>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <!-- ==================== OPERATORS ==================== -->
+    <operator id="treeScaler"
+              spec="beast.base.evolution.operator.ScaleOperator"
+              scaleFactor="0.5" weight="3" tree="@Tree.t:turkic"/>
+    <operator id="treeRootScaler"
+              spec="beast.base.evolution.operator.ScaleOperator"
+              scaleFactor="0.5" weight="3" tree="@Tree.t:turkic" rootOnly="true"/>
+    <operator id="uniformOp"
+              spec="beast.base.evolution.operator.Uniform"
+              weight="30" tree="@Tree.t:turkic"/>
+    <operator id="subtreeSlide"
+              spec="beast.base.evolution.operator.SubtreeSlide"
+              weight="15" size="100.0" tree="@Tree.t:turkic"/>
+    <operator id="narrow"
+              spec="beast.base.evolution.operator.Exchange"
+              weight="15" tree="@Tree.t:turkic"/>
+    <operator id="wide"
+              spec="beast.base.evolution.operator.Exchange"
+              weight="3" isNarrow="false" tree="@Tree.t:turkic"/>
+    <operator id="wilsonBalding"
+              spec="beast.base.evolution.operator.WilsonBalding"
+              weight="3" tree="@Tree.t:turkic"/>
+    <operator id="clockRateScaler"
+              spec="beast.base.evolution.operator.ScaleOperator"
+              scaleFactor="0.5" weight="3" parameter="@clockRate.c:turkic"/>
+    <operator id="birthRateScaler"
+              spec="beast.base.evolution.operator.ScaleOperator"
+              scaleFactor="0.5" weight="3" parameter="@birthRate.t:turkic"/>
+    <operator id="shapeScaler"
+              spec="beast.base.evolution.operator.ScaleOperator"
+              scaleFactor="0.5" weight="1" parameter="@shape.s:turkic"/>
+
+    <!-- ==================== LOGGERS ==================== -->
+    <logger id="tracelog" fileName="beast_turkic.log" logEvery="5000"
+            model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.turkic"/>
+        <log idref="YuleModel.t:turkic"/>
+        <log idref="birthRate.t:turkic"/>
+        <log idref="clockRate.c:turkic"/>
+        <log idref="shape.s:turkic"/>
+        <log spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:turkic"/>
+    </logger>
+
+    <logger id="treelog" fileName="beast_turkic.trees" logEvery="5000" mode="tree">
+        <log idref="Tree.t:turkic"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="100000">
+        <log idref="posterior"/>
+        <log spec="beast.base.inference.util.ESS" arg="@posterior"/>
+        <log idref="prior"/>
+    </logger>
+
+    <!-- ==================== MCMC ==================== -->
+    <run id="mcmc"
+         spec="beast.base.inference.MCMC"
+         chainLength="20000000"
+         numInitializationAttempts="10">
+        <state id="state" storeEvery="5000">
+            <stateNode idref="Tree.t:turkic"/>
+            <stateNode idref="birthRate.t:turkic"/>
+            <stateNode idref="clockRate.c:turkic"/>
+            <stateNode idref="shape.s:turkic"/>
+        </state>
+        <distribution idref="posterior"/>
+        <operator idref="treeScaler"/>
+        <operator idref="treeRootScaler"/>
+        <operator idref="uniformOp"/>
+        <operator idref="subtreeSlide"/>
+        <operator idref="narrow"/>
+        <operator idref="wide"/>
+        <operator idref="wilsonBalding"/>
+        <operator idref="clockRateScaler"/>
+        <operator idref="birthRateScaler"/>
+        <operator idref="shapeScaler"/>
+        <logger idref="tracelog"/>
+        <logger idref="treelog"/>
+        <logger idref="screenlog"/>
+    </run>
+
+</beast>

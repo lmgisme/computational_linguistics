@@ -1,0 +1,102 @@
+PHASE 6 DOMAIN ANOMALY RATE SUMMARY
+============================================================
+
+Anomaly rates: n_anomalous / n_total per branch group.
+Only calibration languages used for rate computation.
+Thin-coverage languages (Kyrgyz, Turkmen, Uyghur) excluded.
+
+── HIGH INTEREST DOMAINS (primary substrate candidates) ──
+
+  Domain: fauna
+    A_oghuz            7/ 121  (0.0579)
+    A_kipchak          4/ 116  (0.0345)
+    B_yakut            1/  59  (0.0169)
+    C_chuvash          0/  58  (0.0000)
+
+  Domain: herding_pastoralism
+    C_chuvash          2/  16  (0.1250)
+    A_oghuz            3/  32  (0.0938)
+    B_yakut            1/  15  (0.0667)
+    A_kipchak          1/  35  (0.0286)
+
+  Domain: metallurgy_materials
+    B_yakut            2/  14  (0.1429)
+    A_kipchak          1/  24  (0.0417)
+    A_oghuz            0/  25  (0.0000)
+    C_chuvash          0/  14  (0.0000)
+
+  Domain: agriculture
+    C_chuvash          1/   8  (0.1250)
+    A_kipchak          0/  17  (0.0000)
+    A_oghuz            0/  19  (0.0000)
+    B_yakut            0/   9  (0.0000)
+
+  Domain: kinship
+    A_oghuz            4/  56  (0.0714)
+    A_kipchak          3/  56  (0.0536)
+    B_yakut            1/  26  (0.0385)
+    C_chuvash          1/  28  (0.0357)
+
+── MEDIUM INTEREST DOMAINS ──
+
+  Domain: flora
+    A_kipchak          6/  56  (0.1071)
+    A_oghuz            6/  57  (0.1053)
+    B_yakut            0/  28  (0.0000)
+    C_chuvash          0/  27  (0.0000)
+
+  Domain: food_drink
+    A_oghuz            7/  69  (0.1014)
+    B_yakut            1/  32  (0.0312)
+    C_chuvash          1/  34  (0.0294)
+    A_kipchak          1/  65  (0.0154)
+
+  Domain: social_political
+    A_oghuz            8/  94  (0.0851)
+    A_kipchak          7/  83  (0.0843)
+    B_yakut            2/  42  (0.0476)
+    C_chuvash          1/  44  (0.0227)
+
+  Domain: material_culture
+    C_chuvash          7/  85  (0.0824)
+    A_oghuz           13/ 163  (0.0798)
+    A_kipchak         11/ 152  (0.0724)
+    B_yakut            3/  74  (0.0405)
+
+── LOW INTEREST DOMAINS (reference baseline) ──
+
+  Domain: body_parts
+    A_oghuz           16/ 175  (0.0914)
+    B_yakut            5/  90  (0.0556)
+    C_chuvash          4/  86  (0.0465)
+    A_kipchak          8/ 175  (0.0457)
+
+  Domain: natural_world
+    C_chuvash          6/  91  (0.0659)
+    A_kipchak          7/ 175  (0.0400)
+    A_oghuz            7/ 175  (0.0400)
+    B_yakut            2/  84  (0.0238)
+
+  Domain: cognitive_abstract
+    C_chuvash          7/  62  (0.1129)
+    A_oghuz           13/ 125  (0.1040)
+    A_kipchak          7/ 116  (0.0603)
+    B_yakut            0/  48  (0.0000)
+
+  Domain: spatial_temporal
+    A_oghuz           16/ 146  (0.1096)
+    A_kipchak          8/ 140  (0.0571)
+    B_yakut            1/  66  (0.0152)
+    C_chuvash          1/  75  (0.0133)
+
+  Domain: verbs_actions
+    C_chuvash          7/ 297  (0.0236)
+    A_oghuz            2/ 584  (0.0034)
+    B_yakut            1/ 294  (0.0034)
+    A_kipchak          2/ 617  (0.0032)
+
+  Domain: other
+    A_oghuz           51/ 470  (0.1085)
+    C_chuvash         19/ 242  (0.0785)
+    A_kipchak         34/ 450  (0.0756)
+    B_yakut            4/ 217  (0.0184)

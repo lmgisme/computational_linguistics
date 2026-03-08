@@ -1,0 +1,567 @@
+======================================================================
+COGNATE SET COMPARISON: LexStat vs Savelyev & Robbeets (2020)
+======================================================================
+
+Total language-pair-concept comparisons: 1180
+Agreement:    690 (58.5%)
+  Agree cognate:     446
+  Agree non-cognate: 244
+Disagreement: 490 (41.5%)
+  LexStat lumps / Savelyev splits: 51
+  Savelyev lumps / LexStat splits: 439
+
+----------------------------------------------------------------------
+INTERPRETATION
+----------------------------------------------------------------------
+
+DISAGREE_LS_ONLY (LexStat too permissive): LexStat groups forms that
+Savelyev expert judgment treats as non-cognate. Threshold may be too
+high, or these are genuine distant cognates the paper conservatively
+excluded. These are Phase 3 false-negative risks.
+
+DISAGREE_SV_ONLY (LexStat too conservative): Savelyev groups forms
+that LexStat splits. Threshold may be too low for highly divergent
+members (Chuvash, Yakut). Consider raising threshold to 0.55 for
+a second run and comparing. These are Phase 3 false-positive risks.
+
+----------------------------------------------------------------------
+PER-CONCEPT AGREEMENT
+----------------------------------------------------------------------
+
+concept         agree%  agr_cog  agr_non  ls_only  sv_only
+--------------------------------------------------------
+horn                0%      0.0      0.0      0.0     21.0
+tree                0%      0.0      0.0      0.0     28.0
+who                 0%      0.0      0.0      0.0     36.0
+not                 6%      2.0      0.0      0.0     34.0
+tail               14%      4.0      0.0      0.0     24.0
+what               19%      7.0      0.0      0.0     29.0
+egg                19%      4.0      0.0      0.0     17.0
+bone               28%      2.0      8.0      0.0     26.0
+small              29%      2.0      6.0      1.0     19.0
+head               31%      5.0      6.0      2.0     23.0
+man                39%      3.0     11.0     18.0      4.0
+fish               42%     15.0      0.0      0.0     21.0
+hair               44%     16.0      0.0      0.0     20.0
+grease             44%      1.0     15.0      5.0     15.0
+leaf               46%      6.0      7.0      0.0     15.0
+many               48%      0.0     10.0      0.0     11.0
+that               50%      7.0     11.0      4.0     14.0
+feather            50%      1.0      4.0      2.0      3.0
+we                 58%      6.0     15.0     15.0      0.0
+dog                67%     16.0      8.0      0.0     12.0
+I                  69%     11.0     14.0      0.0     11.0
+long               78%     28.0      0.0      0.0      8.0
+louse              78%     28.0      0.0      0.0      8.0
+blood              78%     28.0      0.0      0.0      8.0
+bark               79%     15.0      7.0      0.0      6.0
+all                81%      1.0     28.0      2.0      5.0
+ear                81%     21.0      8.0      0.0      7.0
+eye                81%     21.0      8.0      0.0      7.0
+root               81%      4.0     25.0      2.0      5.0
+big                87%      0.0     13.0      0.0      2.0
+flesh             100%     15.0      0.0      0.0      0.0
+bird              100%     15.0     21.0      0.0      0.0
+skin              100%     36.0      0.0      0.0      0.0
+one               100%     36.0      0.0      0.0      0.0
+person            100%     15.0      6.0      0.0      0.0
+seed              100%     10.0      0.0      0.0      0.0
+two               100%     36.0      0.0      0.0      0.0
+this              100%     28.0      8.0      0.0      0.0
+woman             100%      1.0      5.0      0.0      0.0
+
+----------------------------------------------------------------------
+HIGH-PRIORITY DISAGREEMENTS (Phase 3 attention list)
+----------------------------------------------------------------------
+
+concept      lang_a  lang_b          verdict
+    all Azerbaijani   Yakut DISAGREE_LS_ONLY
+    all     Turkish   Yakut DISAGREE_LS_ONLY
+feather Azerbaijani Chuvash DISAGREE_LS_ONLY
+feather Azerbaijani Turkish DISAGREE_LS_ONLY
+ grease     Chuvash Turkish DISAGREE_LS_ONLY
+ grease     Chuvash   Yakut DISAGREE_LS_ONLY
+ grease      Kazakh  Kyrgyz DISAGREE_LS_ONLY
+ grease      Kazakh  Uyghur DISAGREE_LS_ONLY
+ grease     Turkish   Yakut DISAGREE_LS_ONLY
+   head Azerbaijani Turkmen DISAGREE_LS_ONLY
+   head     Turkish Turkmen DISAGREE_LS_ONLY
+    man     Chuvash  Kazakh DISAGREE_LS_ONLY
+    man     Chuvash  Kyrgyz DISAGREE_LS_ONLY
+    man     Chuvash Turkish DISAGREE_LS_ONLY
+    man     Chuvash  Uyghur DISAGREE_LS_ONLY
+    man     Chuvash   Uzbek DISAGREE_LS_ONLY
+    man     Chuvash   Yakut DISAGREE_LS_ONLY
+    man      Kazakh Turkish DISAGREE_LS_ONLY
+    man      Kazakh   Uzbek DISAGREE_LS_ONLY
+    man      Kazakh   Yakut DISAGREE_LS_ONLY
+    man      Kyrgyz Turkish DISAGREE_LS_ONLY
+    man      Kyrgyz   Uzbek DISAGREE_LS_ONLY
+    man      Kyrgyz   Yakut DISAGREE_LS_ONLY
+    man     Turkish  Uyghur DISAGREE_LS_ONLY
+    man     Turkish   Uzbek DISAGREE_LS_ONLY
+    man     Turkish   Yakut DISAGREE_LS_ONLY
+    man      Uyghur   Uzbek DISAGREE_LS_ONLY
+    man      Uyghur   Yakut DISAGREE_LS_ONLY
+    man       Uzbek   Yakut DISAGREE_LS_ONLY
+   root      Kazakh  Uyghur DISAGREE_LS_ONLY
+   root      Kyrgyz  Uyghur DISAGREE_LS_ONLY
+  small Azerbaijani Turkish DISAGREE_LS_ONLY
+   that Azerbaijani  Kyrgyz DISAGREE_LS_ONLY
+   that      Kyrgyz Turkish DISAGREE_LS_ONLY
+   that      Kyrgyz Turkmen DISAGREE_LS_ONLY
+   that      Kyrgyz  Uyghur DISAGREE_LS_ONLY
+     we Azerbaijani  Kazakh DISAGREE_LS_ONLY
+     we Azerbaijani  Kyrgyz DISAGREE_LS_ONLY
+     we Azerbaijani Turkish DISAGREE_LS_ONLY
+     we Azerbaijani Turkmen DISAGREE_LS_ONLY
+     we Azerbaijani  Uyghur DISAGREE_LS_ONLY
+     we Azerbaijani   Uzbek DISAGREE_LS_ONLY
+     we      Kazakh Turkmen DISAGREE_LS_ONLY
+     we      Kazakh  Uyghur DISAGREE_LS_ONLY
+     we      Kazakh   Uzbek DISAGREE_LS_ONLY
+     we      Kyrgyz Turkmen DISAGREE_LS_ONLY
+     we      Kyrgyz  Uyghur DISAGREE_LS_ONLY
+     we      Kyrgyz   Uzbek DISAGREE_LS_ONLY
+     we     Turkish Turkmen DISAGREE_LS_ONLY
+     we     Turkish  Uyghur DISAGREE_LS_ONLY
+     we     Turkish   Uzbek DISAGREE_LS_ONLY
+      I Azerbaijani Chuvash DISAGREE_SV_ONLY
+      I Azerbaijani   Yakut DISAGREE_SV_ONLY
+      I     Chuvash  Kazakh DISAGREE_SV_ONLY
+      I     Chuvash Turkish DISAGREE_SV_ONLY
+      I     Chuvash Turkmen DISAGREE_SV_ONLY
+      I     Chuvash   Uzbek DISAGREE_SV_ONLY
+      I     Chuvash   Yakut DISAGREE_SV_ONLY
+      I      Kazakh   Yakut DISAGREE_SV_ONLY
+      I     Turkish   Yakut DISAGREE_SV_ONLY
+      I     Turkmen   Yakut DISAGREE_SV_ONLY
+      I       Uzbek   Yakut DISAGREE_SV_ONLY
+    all Azerbaijani Chuvash DISAGREE_SV_ONLY
+    all     Chuvash Turkish DISAGREE_SV_ONLY
+    all      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+    all      Kazakh Turkmen DISAGREE_SV_ONLY
+    all      Kyrgyz Turkmen DISAGREE_SV_ONLY
+   bark Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   bark     Chuvash  Uyghur DISAGREE_SV_ONLY
+   bark      Kazakh  Uyghur DISAGREE_SV_ONLY
+   bark      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+   bark     Turkish  Uyghur DISAGREE_SV_ONLY
+   bark     Turkmen  Uyghur DISAGREE_SV_ONLY
+    big Azerbaijani Turkish DISAGREE_SV_ONLY
+    big     Turkmen   Yakut DISAGREE_SV_ONLY
+  blood Azerbaijani Chuvash DISAGREE_SV_ONLY
+  blood     Chuvash  Kazakh DISAGREE_SV_ONLY
+  blood     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+  blood     Chuvash Turkish DISAGREE_SV_ONLY
+  blood     Chuvash Turkmen DISAGREE_SV_ONLY
+  blood     Chuvash  Uyghur DISAGREE_SV_ONLY
+  blood     Chuvash   Uzbek DISAGREE_SV_ONLY
+  blood     Chuvash   Yakut DISAGREE_SV_ONLY
+   bone Azerbaijani  Kazakh DISAGREE_SV_ONLY
+   bone Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+   bone Azerbaijani Turkmen DISAGREE_SV_ONLY
+   bone Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   bone Azerbaijani   Uzbek DISAGREE_SV_ONLY
+   bone Azerbaijani   Yakut DISAGREE_SV_ONLY
+   bone     Chuvash  Kazakh DISAGREE_SV_ONLY
+   bone     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   bone     Chuvash Turkmen DISAGREE_SV_ONLY
+   bone     Chuvash  Uyghur DISAGREE_SV_ONLY
+   bone     Chuvash   Uzbek DISAGREE_SV_ONLY
+   bone     Chuvash   Yakut DISAGREE_SV_ONLY
+   bone      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+   bone      Kazakh Turkmen DISAGREE_SV_ONLY
+   bone      Kazakh  Uyghur DISAGREE_SV_ONLY
+   bone      Kazakh   Uzbek DISAGREE_SV_ONLY
+   bone      Kazakh   Yakut DISAGREE_SV_ONLY
+   bone      Kyrgyz Turkmen DISAGREE_SV_ONLY
+   bone      Kyrgyz   Uzbek DISAGREE_SV_ONLY
+   bone      Kyrgyz   Yakut DISAGREE_SV_ONLY
+   bone     Turkmen  Uyghur DISAGREE_SV_ONLY
+   bone     Turkmen   Uzbek DISAGREE_SV_ONLY
+   bone     Turkmen   Yakut DISAGREE_SV_ONLY
+   bone      Uyghur   Uzbek DISAGREE_SV_ONLY
+   bone      Uyghur   Yakut DISAGREE_SV_ONLY
+   bone       Uzbek   Yakut DISAGREE_SV_ONLY
+    dog Azerbaijani Chuvash DISAGREE_SV_ONLY
+    dog Azerbaijani  Uyghur DISAGREE_SV_ONLY
+    dog     Chuvash  Kazakh DISAGREE_SV_ONLY
+    dog     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+    dog     Chuvash Turkmen DISAGREE_SV_ONLY
+    dog     Chuvash   Uzbek DISAGREE_SV_ONLY
+    dog     Chuvash   Yakut DISAGREE_SV_ONLY
+    dog      Kazakh  Uyghur DISAGREE_SV_ONLY
+    dog      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+    dog     Turkmen  Uyghur DISAGREE_SV_ONLY
+    dog      Uyghur   Uzbek DISAGREE_SV_ONLY
+    dog      Uyghur   Yakut DISAGREE_SV_ONLY
+    ear Azerbaijani   Yakut DISAGREE_SV_ONLY
+    ear      Kazakh   Yakut DISAGREE_SV_ONLY
+    ear      Kyrgyz   Yakut DISAGREE_SV_ONLY
+    ear     Turkish   Yakut DISAGREE_SV_ONLY
+    ear     Turkmen   Yakut DISAGREE_SV_ONLY
+    ear      Uyghur   Yakut DISAGREE_SV_ONLY
+    ear       Uzbek   Yakut DISAGREE_SV_ONLY
+    egg Azerbaijani  Kazakh DISAGREE_SV_ONLY
+    egg Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+    egg Azerbaijani Turkmen DISAGREE_SV_ONLY
+    egg Azerbaijani   Yakut DISAGREE_SV_ONLY
+    egg     Chuvash  Kazakh DISAGREE_SV_ONLY
+    egg     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+    egg     Chuvash Turkmen DISAGREE_SV_ONLY
+    egg     Chuvash   Yakut DISAGREE_SV_ONLY
+    egg      Kazakh Turkish DISAGREE_SV_ONLY
+    egg      Kazakh Turkmen DISAGREE_SV_ONLY
+    egg      Kazakh   Yakut DISAGREE_SV_ONLY
+    egg      Kyrgyz Turkish DISAGREE_SV_ONLY
+    egg      Kyrgyz Turkmen DISAGREE_SV_ONLY
+    egg      Kyrgyz   Yakut DISAGREE_SV_ONLY
+    egg     Turkish Turkmen DISAGREE_SV_ONLY
+    egg     Turkish   Yakut DISAGREE_SV_ONLY
+    egg     Turkmen   Yakut DISAGREE_SV_ONLY
+    eye Azerbaijani Chuvash DISAGREE_SV_ONLY
+    eye     Chuvash  Kazakh DISAGREE_SV_ONLY
+    eye     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+    eye     Chuvash Turkish DISAGREE_SV_ONLY
+    eye     Chuvash Turkmen DISAGREE_SV_ONLY
+    eye     Chuvash  Uyghur DISAGREE_SV_ONLY
+    eye     Chuvash   Uzbek DISAGREE_SV_ONLY
+feather Azerbaijani Turkmen DISAGREE_SV_ONLY
+feather     Chuvash   Yakut DISAGREE_SV_ONLY
+feather     Turkish   Yakut DISAGREE_SV_ONLY
+   fish Azerbaijani Chuvash DISAGREE_SV_ONLY
+   fish Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   fish Azerbaijani   Yakut DISAGREE_SV_ONLY
+   fish     Chuvash  Kazakh DISAGREE_SV_ONLY
+   fish     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   fish     Chuvash Turkish DISAGREE_SV_ONLY
+   fish     Chuvash Turkmen DISAGREE_SV_ONLY
+   fish     Chuvash  Uyghur DISAGREE_SV_ONLY
+   fish     Chuvash   Uzbek DISAGREE_SV_ONLY
+   fish     Chuvash   Yakut DISAGREE_SV_ONLY
+   fish      Kazakh  Uyghur DISAGREE_SV_ONLY
+   fish      Kazakh   Yakut DISAGREE_SV_ONLY
+   fish      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+   fish      Kyrgyz   Yakut DISAGREE_SV_ONLY
+   fish     Turkish  Uyghur DISAGREE_SV_ONLY
+   fish     Turkish   Yakut DISAGREE_SV_ONLY
+   fish     Turkmen  Uyghur DISAGREE_SV_ONLY
+   fish     Turkmen   Yakut DISAGREE_SV_ONLY
+   fish      Uyghur   Uzbek DISAGREE_SV_ONLY
+   fish      Uyghur   Yakut DISAGREE_SV_ONLY
+   fish       Uzbek   Yakut DISAGREE_SV_ONLY
+ grease Azerbaijani Chuvash DISAGREE_SV_ONLY
+ grease Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+ grease Azerbaijani Turkmen DISAGREE_SV_ONLY
+ grease Azerbaijani  Uyghur DISAGREE_SV_ONLY
+ grease Azerbaijani   Uzbek DISAGREE_SV_ONLY
+ grease     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+ grease     Chuvash Turkmen DISAGREE_SV_ONLY
+ grease     Chuvash  Uyghur DISAGREE_SV_ONLY
+ grease     Chuvash   Uzbek DISAGREE_SV_ONLY
+ grease      Kazakh   Yakut DISAGREE_SV_ONLY
+ grease      Kyrgyz Turkmen DISAGREE_SV_ONLY
+ grease      Kyrgyz   Uzbek DISAGREE_SV_ONLY
+ grease     Turkmen  Uyghur DISAGREE_SV_ONLY
+ grease     Turkmen   Uzbek DISAGREE_SV_ONLY
+ grease      Uyghur   Uzbek DISAGREE_SV_ONLY
+   hair Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+   hair Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   hair Azerbaijani   Uzbek DISAGREE_SV_ONLY
+   hair     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   hair     Chuvash  Uyghur DISAGREE_SV_ONLY
+   hair     Chuvash   Uzbek DISAGREE_SV_ONLY
+   hair      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+   hair      Kazakh  Uyghur DISAGREE_SV_ONLY
+   hair      Kazakh   Uzbek DISAGREE_SV_ONLY
+   hair      Kyrgyz Turkish DISAGREE_SV_ONLY
+   hair      Kyrgyz Turkmen DISAGREE_SV_ONLY
+   hair      Kyrgyz   Uzbek DISAGREE_SV_ONLY
+   hair      Kyrgyz   Yakut DISAGREE_SV_ONLY
+   hair     Turkish  Uyghur DISAGREE_SV_ONLY
+   hair     Turkish   Uzbek DISAGREE_SV_ONLY
+   hair     Turkmen  Uyghur DISAGREE_SV_ONLY
+   hair     Turkmen   Uzbek DISAGREE_SV_ONLY
+   hair      Uyghur   Uzbek DISAGREE_SV_ONLY
+   hair      Uyghur   Yakut DISAGREE_SV_ONLY
+   hair       Uzbek   Yakut DISAGREE_SV_ONLY
+   head Azerbaijani Chuvash DISAGREE_SV_ONLY
+   head Azerbaijani  Kazakh DISAGREE_SV_ONLY
+   head Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+   head Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   head Azerbaijani   Uzbek DISAGREE_SV_ONLY
+   head Azerbaijani   Yakut DISAGREE_SV_ONLY
+   head     Chuvash  Kazakh DISAGREE_SV_ONLY
+   head     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   head     Chuvash Turkish DISAGREE_SV_ONLY
+   head     Chuvash  Uyghur DISAGREE_SV_ONLY
+   head     Chuvash   Uzbek DISAGREE_SV_ONLY
+   head     Chuvash   Yakut DISAGREE_SV_ONLY
+   head      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+   head      Kazakh Turkish DISAGREE_SV_ONLY
+   head      Kazakh   Yakut DISAGREE_SV_ONLY
+   head      Kyrgyz Turkish DISAGREE_SV_ONLY
+   head      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+   head      Kyrgyz   Uzbek DISAGREE_SV_ONLY
+   head     Turkish  Uyghur DISAGREE_SV_ONLY
+   head     Turkish   Uzbek DISAGREE_SV_ONLY
+   head     Turkish   Yakut DISAGREE_SV_ONLY
+   head      Uyghur   Yakut DISAGREE_SV_ONLY
+   head       Uzbek   Yakut DISAGREE_SV_ONLY
+   horn Azerbaijani Chuvash DISAGREE_SV_ONLY
+   horn Azerbaijani  Kazakh DISAGREE_SV_ONLY
+   horn Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+   horn Azerbaijani Turkish DISAGREE_SV_ONLY
+   horn Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   horn Azerbaijani   Yakut DISAGREE_SV_ONLY
+   horn     Chuvash  Kazakh DISAGREE_SV_ONLY
+   horn     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   horn     Chuvash Turkish DISAGREE_SV_ONLY
+   horn     Chuvash  Uyghur DISAGREE_SV_ONLY
+   horn     Chuvash   Yakut DISAGREE_SV_ONLY
+   horn      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+   horn      Kazakh Turkish DISAGREE_SV_ONLY
+   horn      Kazakh  Uyghur DISAGREE_SV_ONLY
+   horn      Kazakh   Yakut DISAGREE_SV_ONLY
+   horn      Kyrgyz Turkish DISAGREE_SV_ONLY
+   horn      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+   horn      Kyrgyz   Yakut DISAGREE_SV_ONLY
+   horn     Turkish  Uyghur DISAGREE_SV_ONLY
+   horn     Turkish   Yakut DISAGREE_SV_ONLY
+   horn      Uyghur   Yakut DISAGREE_SV_ONLY
+   leaf Azerbaijani  Kazakh DISAGREE_SV_ONLY
+   leaf Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+   leaf Azerbaijani Turkish DISAGREE_SV_ONLY
+   leaf Azerbaijani Turkmen DISAGREE_SV_ONLY
+   leaf Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   leaf Azerbaijani   Yakut DISAGREE_SV_ONLY
+   leaf      Kazakh  Uyghur DISAGREE_SV_ONLY
+   leaf      Kazakh   Yakut DISAGREE_SV_ONLY
+   leaf      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+   leaf      Kyrgyz   Yakut DISAGREE_SV_ONLY
+   leaf     Turkish  Uyghur DISAGREE_SV_ONLY
+   leaf     Turkish   Yakut DISAGREE_SV_ONLY
+   leaf     Turkmen  Uyghur DISAGREE_SV_ONLY
+   leaf     Turkmen   Yakut DISAGREE_SV_ONLY
+   leaf      Uyghur   Yakut DISAGREE_SV_ONLY
+   long Azerbaijani Chuvash DISAGREE_SV_ONLY
+   long     Chuvash  Kazakh DISAGREE_SV_ONLY
+   long     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   long     Chuvash Turkish DISAGREE_SV_ONLY
+   long     Chuvash Turkmen DISAGREE_SV_ONLY
+   long     Chuvash  Uyghur DISAGREE_SV_ONLY
+   long     Chuvash   Uzbek DISAGREE_SV_ONLY
+   long     Chuvash   Yakut DISAGREE_SV_ONLY
+  louse Azerbaijani Chuvash DISAGREE_SV_ONLY
+  louse     Chuvash  Kazakh DISAGREE_SV_ONLY
+  louse     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+  louse     Chuvash Turkish DISAGREE_SV_ONLY
+  louse     Chuvash Turkmen DISAGREE_SV_ONLY
+  louse     Chuvash  Uyghur DISAGREE_SV_ONLY
+  louse     Chuvash   Uzbek DISAGREE_SV_ONLY
+  louse     Chuvash   Yakut DISAGREE_SV_ONLY
+    man Azerbaijani Turkish DISAGREE_SV_ONLY
+    man      Kazakh Turkmen DISAGREE_SV_ONLY
+    man      Kyrgyz Turkmen DISAGREE_SV_ONLY
+    man     Turkmen  Uyghur DISAGREE_SV_ONLY
+   many Azerbaijani Turkish DISAGREE_SV_ONLY
+   many      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+   many      Kazakh Turkmen DISAGREE_SV_ONLY
+   many      Kazakh  Uyghur DISAGREE_SV_ONLY
+   many      Kazakh   Uzbek DISAGREE_SV_ONLY
+   many      Kyrgyz Turkmen DISAGREE_SV_ONLY
+   many      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+   many      Kyrgyz   Uzbek DISAGREE_SV_ONLY
+   many     Turkmen  Uyghur DISAGREE_SV_ONLY
+   many     Turkmen   Uzbek DISAGREE_SV_ONLY
+   many      Uyghur   Uzbek DISAGREE_SV_ONLY
+    not Azerbaijani Chuvash DISAGREE_SV_ONLY
+    not Azerbaijani  Kazakh DISAGREE_SV_ONLY
+    not Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+    not Azerbaijani Turkish DISAGREE_SV_ONLY
+    not Azerbaijani Turkmen DISAGREE_SV_ONLY
+    not Azerbaijani  Uyghur DISAGREE_SV_ONLY
+    not Azerbaijani   Uzbek DISAGREE_SV_ONLY
+    not Azerbaijani   Yakut DISAGREE_SV_ONLY
+    not     Chuvash  Kazakh DISAGREE_SV_ONLY
+    not     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+    not     Chuvash Turkish DISAGREE_SV_ONLY
+    not     Chuvash Turkmen DISAGREE_SV_ONLY
+    not     Chuvash  Uyghur DISAGREE_SV_ONLY
+    not     Chuvash   Yakut DISAGREE_SV_ONLY
+    not      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+    not      Kazakh Turkish DISAGREE_SV_ONLY
+    not      Kazakh Turkmen DISAGREE_SV_ONLY
+    not      Kazakh  Uyghur DISAGREE_SV_ONLY
+    not      Kazakh   Uzbek DISAGREE_SV_ONLY
+    not      Kazakh   Yakut DISAGREE_SV_ONLY
+    not      Kyrgyz Turkish DISAGREE_SV_ONLY
+    not      Kyrgyz Turkmen DISAGREE_SV_ONLY
+    not      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+    not      Kyrgyz   Uzbek DISAGREE_SV_ONLY
+    not      Kyrgyz   Yakut DISAGREE_SV_ONLY
+    not     Turkish  Uyghur DISAGREE_SV_ONLY
+    not     Turkish   Uzbek DISAGREE_SV_ONLY
+    not     Turkish   Yakut DISAGREE_SV_ONLY
+    not     Turkmen  Uyghur DISAGREE_SV_ONLY
+    not     Turkmen   Uzbek DISAGREE_SV_ONLY
+    not     Turkmen   Yakut DISAGREE_SV_ONLY
+    not      Uyghur   Uzbek DISAGREE_SV_ONLY
+    not      Uyghur   Yakut DISAGREE_SV_ONLY
+    not       Uzbek   Yakut DISAGREE_SV_ONLY
+   root     Chuvash  Kazakh DISAGREE_SV_ONLY
+   root     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   root      Uyghur   Uzbek DISAGREE_SV_ONLY
+   root      Uyghur   Yakut DISAGREE_SV_ONLY
+   root       Uzbek   Yakut DISAGREE_SV_ONLY
+  small Azerbaijani  Kazakh DISAGREE_SV_ONLY
+  small Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+  small Azerbaijani Turkmen DISAGREE_SV_ONLY
+  small Azerbaijani  Uyghur DISAGREE_SV_ONLY
+  small Azerbaijani   Uzbek DISAGREE_SV_ONLY
+  small Azerbaijani   Yakut DISAGREE_SV_ONLY
+  small      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+  small      Kazakh Turkmen DISAGREE_SV_ONLY
+  small      Kazakh  Uyghur DISAGREE_SV_ONLY
+  small      Kazakh   Yakut DISAGREE_SV_ONLY
+  small      Kyrgyz Turkmen DISAGREE_SV_ONLY
+  small      Kyrgyz   Uzbek DISAGREE_SV_ONLY
+  small      Kyrgyz   Yakut DISAGREE_SV_ONLY
+  small     Turkmen  Uyghur DISAGREE_SV_ONLY
+  small     Turkmen   Uzbek DISAGREE_SV_ONLY
+  small     Turkmen   Yakut DISAGREE_SV_ONLY
+  small      Uyghur   Uzbek DISAGREE_SV_ONLY
+  small      Uyghur   Yakut DISAGREE_SV_ONLY
+  small       Uzbek   Yakut DISAGREE_SV_ONLY
+   tail Azerbaijani Chuvash DISAGREE_SV_ONLY
+   tail Azerbaijani  Kazakh DISAGREE_SV_ONLY
+   tail Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+   tail Azerbaijani Turkmen DISAGREE_SV_ONLY
+   tail Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   tail Azerbaijani   Yakut DISAGREE_SV_ONLY
+   tail     Chuvash  Kazakh DISAGREE_SV_ONLY
+   tail     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   tail     Chuvash Turkish DISAGREE_SV_ONLY
+   tail     Chuvash Turkmen DISAGREE_SV_ONLY
+   tail     Chuvash  Uyghur DISAGREE_SV_ONLY
+   tail     Chuvash   Yakut DISAGREE_SV_ONLY
+   tail      Kazakh Turkish DISAGREE_SV_ONLY
+   tail      Kazakh Turkmen DISAGREE_SV_ONLY
+   tail      Kazakh   Yakut DISAGREE_SV_ONLY
+   tail      Kyrgyz Turkish DISAGREE_SV_ONLY
+   tail      Kyrgyz Turkmen DISAGREE_SV_ONLY
+   tail      Kyrgyz   Yakut DISAGREE_SV_ONLY
+   tail     Turkish Turkmen DISAGREE_SV_ONLY
+   tail     Turkish  Uyghur DISAGREE_SV_ONLY
+   tail     Turkish   Yakut DISAGREE_SV_ONLY
+   tail     Turkmen  Uyghur DISAGREE_SV_ONLY
+   tail     Turkmen   Yakut DISAGREE_SV_ONLY
+   tail      Uyghur   Yakut DISAGREE_SV_ONLY
+   that Azerbaijani Chuvash DISAGREE_SV_ONLY
+   that Azerbaijani   Uzbek DISAGREE_SV_ONLY
+   that Azerbaijani   Yakut DISAGREE_SV_ONLY
+   that     Chuvash Turkish DISAGREE_SV_ONLY
+   that     Chuvash Turkmen DISAGREE_SV_ONLY
+   that     Chuvash  Uyghur DISAGREE_SV_ONLY
+   that     Chuvash   Uzbek DISAGREE_SV_ONLY
+   that     Chuvash   Yakut DISAGREE_SV_ONLY
+   that     Turkish   Uzbek DISAGREE_SV_ONLY
+   that     Turkish   Yakut DISAGREE_SV_ONLY
+   that     Turkmen   Uzbek DISAGREE_SV_ONLY
+   that     Turkmen   Yakut DISAGREE_SV_ONLY
+   that      Uyghur   Uzbek DISAGREE_SV_ONLY
+   that      Uyghur   Yakut DISAGREE_SV_ONLY
+   tree Azerbaijani Chuvash DISAGREE_SV_ONLY
+   tree Azerbaijani  Kazakh DISAGREE_SV_ONLY
+   tree Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+   tree Azerbaijani Turkish DISAGREE_SV_ONLY
+   tree Azerbaijani Turkmen DISAGREE_SV_ONLY
+   tree Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   tree Azerbaijani   Yakut DISAGREE_SV_ONLY
+   tree     Chuvash  Kazakh DISAGREE_SV_ONLY
+   tree     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   tree     Chuvash Turkish DISAGREE_SV_ONLY
+   tree     Chuvash Turkmen DISAGREE_SV_ONLY
+   tree     Chuvash  Uyghur DISAGREE_SV_ONLY
+   tree     Chuvash   Yakut DISAGREE_SV_ONLY
+   tree      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+   tree      Kazakh Turkish DISAGREE_SV_ONLY
+   tree      Kazakh Turkmen DISAGREE_SV_ONLY
+   tree      Kazakh  Uyghur DISAGREE_SV_ONLY
+   tree      Kazakh   Yakut DISAGREE_SV_ONLY
+   tree      Kyrgyz Turkish DISAGREE_SV_ONLY
+   tree      Kyrgyz Turkmen DISAGREE_SV_ONLY
+   tree      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+   tree      Kyrgyz   Yakut DISAGREE_SV_ONLY
+   tree     Turkish Turkmen DISAGREE_SV_ONLY
+   tree     Turkish  Uyghur DISAGREE_SV_ONLY
+   tree     Turkish   Yakut DISAGREE_SV_ONLY
+   tree     Turkmen  Uyghur DISAGREE_SV_ONLY
+   tree     Turkmen   Yakut DISAGREE_SV_ONLY
+   tree      Uyghur   Yakut DISAGREE_SV_ONLY
+   what Azerbaijani Chuvash DISAGREE_SV_ONLY
+   what Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+   what Azerbaijani  Uyghur DISAGREE_SV_ONLY
+   what Azerbaijani   Uzbek DISAGREE_SV_ONLY
+   what Azerbaijani   Yakut DISAGREE_SV_ONLY
+   what     Chuvash  Kazakh DISAGREE_SV_ONLY
+   what     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+   what     Chuvash Turkish DISAGREE_SV_ONLY
+   what     Chuvash Turkmen DISAGREE_SV_ONLY
+   what     Chuvash  Uyghur DISAGREE_SV_ONLY
+   what     Chuvash   Uzbek DISAGREE_SV_ONLY
+   what     Chuvash   Yakut DISAGREE_SV_ONLY
+   what      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+   what      Kazakh  Uyghur DISAGREE_SV_ONLY
+   what      Kazakh   Uzbek DISAGREE_SV_ONLY
+   what      Kazakh   Yakut DISAGREE_SV_ONLY
+   what      Kyrgyz Turkish DISAGREE_SV_ONLY
+   what      Kyrgyz Turkmen DISAGREE_SV_ONLY
+   what      Kyrgyz   Uzbek DISAGREE_SV_ONLY
+   what      Kyrgyz   Yakut DISAGREE_SV_ONLY
+   what     Turkish  Uyghur DISAGREE_SV_ONLY
+   what     Turkish   Uzbek DISAGREE_SV_ONLY
+   what     Turkish   Yakut DISAGREE_SV_ONLY
+   what     Turkmen  Uyghur DISAGREE_SV_ONLY
+   what     Turkmen   Uzbek DISAGREE_SV_ONLY
+   what     Turkmen   Yakut DISAGREE_SV_ONLY
+   what      Uyghur   Uzbek DISAGREE_SV_ONLY
+   what      Uyghur   Yakut DISAGREE_SV_ONLY
+   what       Uzbek   Yakut DISAGREE_SV_ONLY
+    who Azerbaijani Chuvash DISAGREE_SV_ONLY
+    who Azerbaijani  Kazakh DISAGREE_SV_ONLY
+    who Azerbaijani  Kyrgyz DISAGREE_SV_ONLY
+    who Azerbaijani Turkish DISAGREE_SV_ONLY
+    who Azerbaijani Turkmen DISAGREE_SV_ONLY
+    who Azerbaijani  Uyghur DISAGREE_SV_ONLY
+    who Azerbaijani   Uzbek DISAGREE_SV_ONLY
+    who Azerbaijani   Yakut DISAGREE_SV_ONLY
+    who     Chuvash  Kazakh DISAGREE_SV_ONLY
+    who     Chuvash  Kyrgyz DISAGREE_SV_ONLY
+    who     Chuvash Turkish DISAGREE_SV_ONLY
+    who     Chuvash Turkmen DISAGREE_SV_ONLY
+    who     Chuvash  Uyghur DISAGREE_SV_ONLY
+    who     Chuvash   Uzbek DISAGREE_SV_ONLY
+    who     Chuvash   Yakut DISAGREE_SV_ONLY
+    who      Kazakh  Kyrgyz DISAGREE_SV_ONLY
+    who      Kazakh Turkish DISAGREE_SV_ONLY
+    who      Kazakh Turkmen DISAGREE_SV_ONLY
+    who      Kazakh  Uyghur DISAGREE_SV_ONLY
+    who      Kazakh   Uzbek DISAGREE_SV_ONLY
+    who      Kazakh   Yakut DISAGREE_SV_ONLY
+    who      Kyrgyz Turkish DISAGREE_SV_ONLY
+    who      Kyrgyz Turkmen DISAGREE_SV_ONLY
+    who      Kyrgyz  Uyghur DISAGREE_SV_ONLY
+    who      Kyrgyz   Uzbek DISAGREE_SV_ONLY
+    who      Kyrgyz   Yakut DISAGREE_SV_ONLY
+    who     Turkish Turkmen DISAGREE_SV_ONLY
+    who     Turkish  Uyghur DISAGREE_SV_ONLY
+    who     Turkish   Uzbek DISAGREE_SV_ONLY
+    who     Turkish   Yakut DISAGREE_SV_ONLY
+    who     Turkmen  Uyghur DISAGREE_SV_ONLY
+    who     Turkmen   Uzbek DISAGREE_SV_ONLY
+    who     Turkmen   Yakut DISAGREE_SV_ONLY
+    who      Uyghur   Uzbek DISAGREE_SV_ONLY
+    who      Uyghur   Yakut DISAGREE_SV_ONLY
+    who       Uzbek   Yakut DISAGREE_SV_ONLY

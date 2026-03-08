@@ -1,0 +1,357 @@
+ID	DOCULECT	CONCEPT	TOKENS	IPA	SONARS	PROSTRINGS	CLASSES	LANGID	NUMBERS	WEIGHTS	DUPLICATES	COGID
+1	Azerbaijani	I	d ɯ r n a ɢ	dɯrnaɢ	1 7 5 4 7 1	AXMBYN	TIRNAK	1	1.T.C 1.I.V 1.R.c 1.N.C 1.A.V 1.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	1
+2	Chuvash	I	tɕ ĭ r n e	ʨɘrne	2 7 5 4 7	AXMBZ	CIRNE	2	2.C.C 2.I.V 2.R.c 2.N.C 2.E.V	2.0 1.5 1.1 1.75 0.8	0	2
+3	Kazakh	I	t ɯ r n a q	tɯrnaq	1 7 5 4 7 1	AXMBYN	TIRNAK	3	3.T.C 3.I.V 3.R.c 3.N.C 3.A.V 3.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	1
+4	Turkish	I	t ɯ r n a k	tɯrnak	1 7 5 4 7 1	AXMBYN	TIRNAK	5	5.T.C 5.I.V 5.R.c 5.N.C 5.A.V 5.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	1
+5	Turkmen	I	d ɯ r n a q	dɯrnaq	1 7 5 4 7 1	AXMBYN	TIRNAK	6	6.T.C 6.I.V 6.R.c 6.N.C 6.A.V 6.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	1
+6	Uzbek	I	t i r n ɔ q	tirnɔq	1 7 5 4 7 1	AXMBYN	TIRNUK	8	8.T.C 8.I.V 8.R.c 8.N.C 8.U.V 8.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	1
+7	Yakut	I	t ɯ ŋ ɯ r a χ	tɯŋɯraχ	1 7 4 7 5 7 3	AXBYBYN	TINIRAG	9	9.T.C 9.I.V 9.N.C 9.I.V 9.R.C 9.A.V 9.G.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	0	9
+8	Kyrgyz	I	t ɯ r m a q	tɯrmaq	1 7 5 4 7 1	AXMBYN	TIRMAK	4	4.T.C 4.I.V 4.R.c 4.M.C 4.A.V 4.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	4
+9	Uyghur	I	t i r m a q	tirmaq	1 7 5 4 7 1	AXMBYN	TIRMAK	7	7.T.C 7.I.V 7.R.c 7.M.C 7.A.V 7.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	4
+119	Kazakh	all	ʒ ɯ ɣ ɯ l	? ʒɯɣɯl	3 7 3 7 5	AXBYN	SIGIL	3	3.S.C 3.I.V 3.G.C 3.I.V 3.L.c	2.0 1.5 1.75 1.3 0.8	0	12
+120	Kyrgyz	all	ʥ ɯ ɣ ɯ l	ʥɯɣɯl	2 7 3 7 5	AXBYN	CIGIL	4	4.C.C 4.I.V 4.G.C 4.I.V 4.L.c	2.0 1.5 1.75 1.3 0.8	0	13
+121	Turkmen	all	j ɯ q ɯ l	jɯqɯl	6 7 1 7 5	AXBYN	JIKIL	6	6.J.C 6.I.V 6.K.C 6.I.V 6.L.c	2.0 1.5 1.75 1.3 0.8	0	15
+122	Uyghur	all	ʒ i q i l	ʒiqil	3 7 1 7 5	AXBYN	SIKIL	7	7.S.C 7.I.V 7.K.C 7.I.V 7.L.c	2.0 1.5 1.75 1.3 0.8	0	16
+123	Uzbek	all	j i q i l	jiqil	6 7 1 7 5	AXBYN	JIKIL	8	8.J.C 8.I.V 8.K.C 8.I.V 8.L.c	2.0 1.5 1.75 1.3 0.8	0	17
+124	Azerbaijani	all	d y ʃ	dyʃ	1 7 3	AXN	TYS	1	1.T.C 1.Y.V 1.S.c	2.0 1.5 0.8	0	10
+125	Turkish	all	d y ʃ	dyʃ	1 7 3	AXN	TYS	5	5.T.C 5.Y.V 5.S.c	2.0 1.5 0.8	0	10
+126	Yakut	all	t y s	tys	1 7 3	AXN	TYS	9	9.T.C 9.Y.V 9.S.c	2.0 1.5 0.8	0	10
+127	Chuvash	all	y k	yk	7 1	XN	YK	2	2.Y.V 2.K.c	1.5 0.8	0	11
+35	Azerbaijani	bark	ɢ a b ɯ ɢ	ɢabɯɢ	1 7 1 7 1	AXBYN	KAPIK	1	1.K.C 1.A.V 1.P.C 1.I.V 1.K.c	2.0 1.5 1.75 1.3 0.8	0	18
+36	Chuvash	bark	χ u b ə	χubə̈	3 7 1 7	AXBZ	GYPE	2	2.G.C 2.Y.V 2.P.C 2.E.V	2.0 1.5 1.75 0.8	0	18
+37	Kazakh	bark	q a b ɯ q	qabɯq	1 7 1 7 1	AXBYN	KAPIK	3	3.K.C 3.A.V 3.P.C 3.I.V 3.K.c	2.0 1.5 1.75 1.3 0.8	0	18
+38	Kyrgyz	bark	q a b ɯ q	qabɯq	1 7 1 7 1	AXBYN	KAPIK	4	4.K.C 4.A.V 4.P.C 4.I.V 4.K.c	2.0 1.5 1.75 1.3 0.8	0	18
+39	Turkish	bark	k a b u k	kabuk, (aɣaʨ) kabuɣu	1 7 1 7 1	AXBYN	KAPYK	5	5.K.C 5.A.V 5.P.C 5.Y.V 5.K.c	2.0 1.5 1.75 1.3 0.8	0	18
+40	Turkmen	bark	ɢ a b ɯ q	ɢabɯq	1 7 1 7 1	AXBYN	KAPIK	6	6.K.C 6.A.V 6.P.C 6.I.V 6.K.c	2.0 1.5 1.75 1.3 0.8	0	18
+41	Uyghur	bark	q o v z a q	qovzaq	1 7 3 3 7 1	AXMBYN	KUBSAK	7	7.K.C 7.U.V 7.B.c 7.S.C 7.A.V 7.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	24
+42	Yakut	bark	χ a t ɯ r ɯ k	χatɯrɯk	3 7 1 7 5 7 1	AXBYBYN	GATIRIK	9	9.G.C 9.A.V 9.T.C 9.I.V 9.R.C 9.I.V 9.K.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	0	26
+339	Uzbek	bark	q ɒ b i q	qɒbiq	1 7 1 7 1	AXBYN	KOPIK	8	8.K.C 8.O.V 8.P.C 8.I.V 8.K.c	2.0 1.5 1.75 1.3 0.8	0	25
+43	Kazakh	big	y l k e n	ylken	7 5 1 7 4	XMBYN	YLKEN	3	3.Y.V 3.L.c 3.K.C 3.E.V 3.N.c	1.5 1.1 1.75 1.3 0.8	0	29
+44	Turkmen	big	u l ɯ	ulɯ	7 5 7	XBZ	YLI	6	6.Y.V 6.L.C 6.I.V	1.5 1.75 0.8	0	31
+45	Yakut	big	u l a χ a n	ulaχan	7 5 7 3 7 4	XBYBYN	YLAGAN	9	9.Y.V 9.L.C 9.A.V 9.G.C 9.A.V 9.N.c	1.5 1.75 1.3 1.75 1.3 0.8	0	33
+46	Azerbaijani	big	b ø j y k	bøjyk	1 7 6 7 1	AXBYN	PUJYK	1	1.P.C 1.U.V 1.J.C 1.Y.V 1.K.c	2.0 1.5 1.75 1.3 0.8	0	27
+47	Turkish	big	b y j y k	byjyk	1 7 6 7 1	AXBYN	PYJYK	5	5.P.C 5.Y.V 5.J.C 5.Y.V 5.K.c	2.0 1.5 1.75 1.3 0.8	0	30
+48	Chuvash	big	p ɯ z ə k	pɯzə̈k	1 7 3 7 1	AXBYN	PISEK	2	2.P.C 2.I.V 2.S.C 2.E.V 2.K.c	2.0 1.5 1.75 1.3 0.8	0	28
+345	Uzbek	big	b u j u k	bujuk	1 7 6 7 1	AXBYN	PYJYK	8	8.P.C 8.Y.V 8.J.C 8.Y.V 8.K.c	2.0 1.5 1.75 1.3 0.8	0	30
+49	Azerbaijani	bird	ɢ u ʃ	ɢuʃ	1 7 3	AXN	KYS	1	1.K.C 1.Y.V 1.S.c	2.0 1.5 0.8	0	34
+50	Kazakh	bird	q u s	qŭs	1 7 3	AXN	KYS	3	3.K.C 3.Y.V 3.S.c	2.0 1.5 0.8	0	34
+51	Turkish	bird	k u ʃ	kuʃ	1 7 3	AXN	KYS	5	5.K.C 5.Y.V 5.S.c	2.0 1.5 0.8	0	34
+52	Turkmen	bird	ɢ u ʃ	ɢuʃ	1 7 3	AXN	KYS	6	6.K.C 6.Y.V 6.S.c	2.0 1.5 0.8	0	34
+53	Uyghur	bird	q u ʃ	quʃ	1 7 3	AXN	KYS	7	7.K.C 7.Y.V 7.S.c	2.0 1.5 0.8	0	34
+54	Uzbek	bird	q u ʃ	quʃ	1 7 3	AXN	KYS	8	8.K.C 8.Y.V 8.S.c	2.0 1.5 0.8	0	34
+55	Yakut	bird	k ø t ø r	køtør	1 7 1 7 5	AXBYN	KUTUR	9	9.K.C 9.U.V 9.T.C 9.U.V 9.R.c	2.0 1.5 1.75 1.3 0.8	0	42
+56	Kyrgyz	bird	q a n a t t uː	qanattu:	1 7 4 7 1 1 7	AXBYMBZ	KANATTY	4	4.K.C 4.A.V 4.N.C 4.A.V 4.T.c 4.T.C 4.Y.V	2.0 1.5 1.75 1.3 1.1 1.75 0.8	0	37
+57	Chuvash	bird	k a j ə k	kajə̈k	1 7 6 7 1	AXBYN	KAJEK	2	2.K.C 2.A.V 2.J.C 2.E.V 2.K.c	2.0 1.5 1.75 1.3 0.8	0	35
+58	Azerbaijani	blood	ɢ a n	ɢan	1 7 4	AXN	KAN	1	1.K.C 1.A.V 1.N.c	2.0 1.5 0.8	0	43
+59	Chuvash	blood	j u n	jun	6 7 4	AXN	JYN	2	2.J.C 2.Y.V 2.N.c	2.0 1.5 0.8	0	44
+60	Kazakh	blood	q a n	qan	1 7 4	AXN	KAN	3	3.K.C 3.A.V 3.N.c	2.0 1.5 0.8	0	43
+61	Kyrgyz	blood	q a n	qan	1 7 4	AXN	KAN	4	4.K.C 4.A.V 4.N.c	2.0 1.5 0.8	0	43
+62	Turkish	blood	k a n	kan	1 7 4	AXN	KAN	5	5.K.C 5.A.V 5.N.c	2.0 1.5 0.8	0	43
+63	Turkmen	blood	ɢ aː n	ɢa:n	1 7 4	AXN	KAN	6	6.K.C 6.A.V 6.N.c	2.0 1.5 0.8	0	43
+64	Uyghur	blood	q a n	qan	1 7 4	AXN	KAN	7	7.K.C 7.A.V 7.N.c	2.0 1.5 0.8	0	43
+65	Uzbek	blood	q ɔ n	qɔn	1 7 4	AXN	KUN	8	8.K.C 8.U.V 8.N.c	2.0 1.5 0.8	0	43
+66	Yakut	blood	χ aː n	χa:n	3 7 4	AXN	GAN	9	9.G.C 9.A.V 9.N.c	2.0 1.5 0.8	0	43
+67	Azerbaijani	bone	s y m y k	symyk	3 7 4 7 1	AXBYN	SYMYK	1	1.S.C 1.Y.V 1.M.C 1.Y.V 1.K.c	2.0 1.5 1.75 1.3 0.8	0	45
+68	Chuvash	bone	ʃ ŏ m ŏ	ʃömö	3 7 4 7	AXBZ	SUMU	2	2.S.C 2.U.V 2.M.C 2.U.V	2.0 1.5 1.75 0.8	0	45
+69	Kazakh	bone	s y j e k	syjek	3 7 6 7 1	AXBYN	SYJEK	3	3.S.C 3.Y.V 3.J.C 3.E.V 3.K.c	2.0 1.5 1.75 1.3 0.8	0	47
+70	Kyrgyz	bone	s øː k	søøk	3 7 1	AXN	SUK	4	4.S.C 4.U.V 4.K.c	2.0 1.5 0.8	0	48
+71	Turkmen	bone	s y ŋ k	syŋk	3 7 4 1	AXLN	SYNK	6	6.S.C 6.Y.V 6.N.c 6.K.c	2.0 1.5 1.1 0.8	0	50
+72	Uyghur	bone	s ø ŋ ɛ k	søŋɛk, syŋɛk, syjɛk	3 7 4 7 1	AXBYN	SUNEK	7	7.S.C 7.U.V 7.N.C 7.E.V 7.K.c	2.0 1.5 1.75 1.3 0.8	0	48
+73	Uzbek	bone	s u j a k	sujak	3 7 6 7 1	AXBYN	SYJAK	8	8.S.C 8.Y.V 8.J.C 8.A.V 8.K.c	2.0 1.5 1.75 1.3 0.8	0	52
+74	Yakut	bone	u ŋ u o χ	uŋuoχ	7 4 7 7 3	XBYYN	YNYUG	9	9.Y.V 9.N.C 9.Y.V 9.U.V 9.G.c	1.5 1.75 1.3 1.3 0.8	0	53
+75	Turkish	bone	k e m i k	kemik	1 7 4 7 1	AXBYN	KEMIK	5	5.K.C 5.E.V 5.M.C 5.I.V 5.K.c	2.0 1.5 1.75 1.3 0.8	0	49
+76	Azerbaijani	dog	i t	it	7 1	XN	IT	1	1.I.V 1.T.c	1.5 0.8	0	54
+77	Chuvash	dog	j ɯ d ə	jɯdə̈	6 7 1 7	AXBZ	JITE	2	2.J.C 2.I.V 2.T.C 2.E.V	2.0 1.5 1.75 0.8	0	55
+78	Kazakh	dog	i t	it	7 1	XN	IT	3	3.I.V 3.T.c	1.5 0.8	0	54
+79	Kyrgyz	dog	i t	it	7 1	XN	IT	4	4.I.V 4.T.c	1.5 0.8	0	54
+80	Turkmen	dog	i t	it	7 1	XN	IT	6	6.I.V 6.T.c	1.5 0.8	0	54
+81	Uyghur	dog	i ʃ t	iʃt	7 3 1	XLN	IST	7	7.I.V 7.S.c 7.T.c	1.5 1.1 0.8	0	55
+82	Uzbek	dog	i t	it	7 1	XN	IT	8	8.I.V 8.T.c	1.5 0.8	0	54
+83	Yakut	dog	ɯ t	ɯt	7 1	XN	IT	9	9.I.V 9.T.c	1.5 0.8	0	54
+84	Turkish	dog	k ø p e k	køpek	1 7 1 7 1	AXBYN	KUPEK	5	5.K.C 5.U.V 5.P.C 5.E.V 5.K.c	2.0 1.5 1.75 1.3 0.8	0	58
+85	Azerbaijani	ear	ɢ u l a ɢ	ɢulaɢ	1 7 5 7 1	AXBYN	KYLAK	1	1.K.C 1.Y.V 1.L.C 1.A.V 1.K.c	2.0 1.5 1.75 1.3 0.8	0	59
+86	Chuvash	ear	χ ŏ l ɣ a	χölɣa	3 7 5 3 7	AXMBZ	GULGA	2	2.G.C 2.U.V 2.L.c 2.G.C 2.A.V	2.0 1.5 1.1 1.75 0.8	0	60
+87	Kazakh	ear	q u l a q	qulaq	1 7 5 7 1	AXBYN	KYLAK	3	3.K.C 3.Y.V 3.L.C 3.A.V 3.K.c	2.0 1.5 1.75 1.3 0.8	0	59
+88	Kyrgyz	ear	q u l a q	qulaq	1 7 5 7 1	AXBYN	KYLAK	4	4.K.C 4.Y.V 4.L.C 4.A.V 4.K.c	2.0 1.5 1.75 1.3 0.8	0	59
+89	Turkish	ear	k u l a k	kulak	1 7 5 7 1	AXBYN	KYLAK	5	5.K.C 5.Y.V 5.L.C 5.A.V 5.K.c	2.0 1.5 1.75 1.3 0.8	0	59
+90	Turkmen	ear	ɢ u l a q	ɢulaq	1 7 5 7 1	AXBYN	KYLAK	6	6.K.C 6.Y.V 6.L.C 6.A.V 6.K.c	2.0 1.5 1.75 1.3 0.8	0	59
+91	Uyghur	ear	q u l a q	qulaq	1 7 5 7 1	AXBYN	KYLAK	7	7.K.C 7.Y.V 7.L.C 7.A.V 7.K.c	2.0 1.5 1.75 1.3 0.8	0	59
+92	Uzbek	ear	q u l ɔ q	qulɔq	1 7 5 7 1	AXBYN	KYLUK	8	8.K.C 8.Y.V 8.L.C 8.U.V 8.K.c	2.0 1.5 1.75 1.3 0.8	0	59
+93	Yakut	ear	k u l g aː χ	kulga:χ	1 7 5 1 7 3	AXMBYN	KYLKAG	9	9.K.C 9.Y.V 9.L.c 9.K.C 9.A.V 9.G.c	2.0 1.5 1.1 1.75 1.3 0.8	0	67
+103	Azerbaijani	egg	j u m u r t a	jumurta	6 7 4 7 5 1 7	AXBYMBZ	JYMYRTA	1	1.J.C 1.Y.V 1.M.C 1.Y.V 1.R.c 1.T.C 1.A.V	2.0 1.5 1.75 1.3 1.1 1.75 0.8	0	68
+104	Chuvash	egg	ɕ ŏ m a r d a	ɕömarda	3 7 4 7 5 1 7	AXBYMBZ	SUMARTA	2	2.S.C 2.U.V 2.M.C 2.A.V 2.R.c 2.T.C 2.A.V	2.0 1.5 1.75 1.3 1.1 1.75 0.8	0	68
+105	Kazakh	egg	ʒ u m ɯ r t q a	ʒŭmɯrtqa	3 7 4 7 5 1 1 7	AXBYLMBZ	SYMIRTKA	3	3.S.C 3.Y.V 3.M.C 3.I.V 3.R.c 3.T.c 3.K.C 3.A.V	2.0 1.5 1.75 1.3 1.1 1.1 1.75 0.8	0	70
+106	Kyrgyz	egg	ʥ u m u r t q a	ʥumurtqa	2 7 4 7 5 1 1 7	AXBYLMBZ	CYMYRTKA	4	4.C.C 4.Y.V 4.M.C 4.Y.V 4.R.c 4.T.c 4.K.C 4.A.V	2.0 1.5 1.75 1.3 1.1 1.1 1.75 0.8	0	70
+107	Turkish	egg	j u m u r t a	jumurta	6 7 4 7 5 1 7	AXBYMBZ	JYMYRTA	5	5.J.C 5.Y.V 5.M.C 5.Y.V 5.R.c 5.T.C 5.A.V	2.0 1.5 1.75 1.3 1.1 1.75 0.8	0	68
+108	Turkmen	egg	j u m u r t ɢ a	jumurtɢa	6 7 4 7 5 1 1 7	AXBYLMBZ	JYMYRTKA	6	6.J.C 6.Y.V 6.M.C 6.Y.V 6.R.c 6.T.c 6.K.C 6.A.V	2.0 1.5 1.75 1.3 1.1 1.1 1.75 0.8	0	73
+109	Yakut	egg	s ɯ m ɯː t	sɯmɯ:t	3 7 4 7 1	AXBYN	SIMIT	9	9.S.C 9.I.V 9.M.C 9.I.V 9.T.c	2.0 1.5 1.75 1.3 0.8	0	75
+343	Uzbek	egg	t u χ u m	tuχum	1 7 3 7 4	AXBYN	TYGYM	8	8.T.C 8.Y.V 8.G.C 8.Y.V 8.M.c	2.0 1.5 1.75 1.3 0.8	0	74
+110	Azerbaijani	eye	k ø z	køz	1 7 3	AXN	KUS	1	1.K.C 1.U.V 1.S.c	2.0 1.5 0.8	0	76
+111	Chuvash	eye	k u ɕ	kuɕ	1 7 3	AXN	KYS	2	2.K.C 2.Y.V 2.S.c	2.0 1.5 0.8	0	77
+112	Kazakh	eye	k ø z	køz	1 7 3	AXN	KUS	3	3.K.C 3.U.V 3.S.c	2.0 1.5 0.8	0	76
+113	Kyrgyz	eye	k ø z	køz	1 7 3	AXN	KUS	4	4.K.C 4.U.V 4.S.c	2.0 1.5 0.8	0	76
+114	Turkish	eye	g ø z	gøz	1 7 3	AXN	KUS	5	5.K.C 5.U.V 5.S.c	2.0 1.5 0.8	0	76
+115	Turkmen	eye	g ø z	gøz	1 7 3	AXN	KUS	6	6.K.C 6.U.V 6.S.c	2.0 1.5 0.8	0	76
+116	Uyghur	eye	k ø z	køz	1 7 3	AXN	KUS	7	7.K.C 7.U.V 7.S.c	2.0 1.5 0.8	0	76
+117	Uzbek	eye	k o z	koz	1 7 3	AXN	KUS	8	8.K.C 8.U.V 8.S.c	2.0 1.5 0.8	0	76
+118	Yakut	eye	χ a r a χ	χaraχ	3 7 5 7 3	AXBYN	GARAG	9	9.G.C 9.A.V 9.R.C 9.A.V 9.G.c	2.0 1.5 1.75 1.3 0.8	0	84
+94	Yakut	feather	a h aː	aha:	7 3 7	XBZ	AHA	9	9.A.V 9.H.C 9.A.V	1.5 1.75 0.8	0	93
+95	Azerbaijani	feather	j e	je	6 7	AX	JE	1	1.J.C 1.E.V	2.0 1.5	0	85
+96	Chuvash	feather	ɕ i	ɕi	3 7	AX	SI	2	2.S.C 2.I.V	2.0 1.5	0	85
+97	Kazakh	feather	ʒ e	ʒe	3 7	AX	SE	3	3.S.C 3.E.V	2.0 1.5	0	85
+98	Kyrgyz	feather	ʥ e	ʥe	2 7	AX	CE	4	4.C.C 4.E.V	2.0 1.5	0	85
+99	Turkish	feather	j e	je	6 7	AX	JE	5	5.J.C 5.E.V	2.0 1.5	0	85
+100	Turkmen	feather	i j	ij	7 6	XN	IJ	6	6.I.V 6.J.c	1.5 0.8	0	90
+101	Uyghur	feather	j i	ji	6 7	AX	JI	7	7.J.C 7.I.V	2.0 1.5	0	90
+102	Uzbek	feather	j e	je	6 7	AX	JE	8	8.J.C 8.E.V	2.0 1.5	0	85
+137	Azerbaijani	fish	b a l ɯ ɢ	balɯɢ	1 7 5 7 1	AXBYN	PALIK	1	1.P.C 1.A.V 1.L.C 1.I.V 1.K.c	2.0 1.5 1.75 1.3 0.8	0	94
+138	Chuvash	fish	p u l ə	pulə̈	1 7 5 7	AXBZ	PYLE	2	2.P.C 2.Y.V 2.L.C 2.E.V	2.0 1.5 1.75 0.8	0	95
+139	Kazakh	fish	b a l ɯ q	balɯq	1 7 5 7 1	AXBYN	PALIK	3	3.P.C 3.A.V 3.L.C 3.I.V 3.K.c	2.0 1.5 1.75 1.3 0.8	0	94
+140	Kyrgyz	fish	b a l ɯ q	balɯq	1 7 5 7 1	AXBYN	PALIK	4	4.P.C 4.A.V 4.L.C 4.I.V 4.K.c	2.0 1.5 1.75 1.3 0.8	0	94
+141	Turkish	fish	b a l ɯ q	balɯq	1 7 5 7 1	AXBYN	PALIK	5	5.P.C 5.A.V 5.L.C 5.I.V 5.K.c	2.0 1.5 1.75 1.3 0.8	0	94
+142	Turkmen	fish	b a l ɯ q	balɯq	1 7 5 7 1	AXBYN	PALIK	6	6.P.C 6.A.V 6.L.C 6.I.V 6.K.c	2.0 1.5 1.75 1.3 0.8	0	94
+143	Uyghur	fish	b e l i q	beliq	1 7 5 7 1	AXBYN	PELIK	7	7.P.C 7.E.V 7.L.C 7.I.V 7.K.c	2.0 1.5 1.75 1.3 0.8	0	100
+144	Uzbek	fish	b a l i q	baliq	1 7 5 7 1	AXBYN	PALIK	8	8.P.C 8.A.V 8.L.C 8.I.V 8.K.c	2.0 1.5 1.75 1.3 0.8	0	94
+145	Yakut	fish	b a l ɯ k	balɯk	1 7 5 7 1	AXBYN	PALIK	9	9.P.C 9.A.V 9.L.C 9.I.V 9.K.c	2.0 1.5 1.75 1.3 0.8	0	102
+213	Azerbaijani	flesh	æ t	ɛt	7 1	XN	ET	1	1.E.V 1.T.c	1.5 0.8	0	103
+214	Kazakh	flesh	e t	et	7 1	XN	ET	3	3.E.V 3.T.c	1.5 0.8	0	103
+215	Kyrgyz	flesh	e t	et	7 1	XN	ET	4	4.E.V 4.T.c	1.5 0.8	0	103
+216	Turkish	flesh	e t	et	7 1	XN	ET	5	5.E.V 5.T.c	1.5 0.8	0	103
+217	Turkmen	flesh	e t	et	7 1	XN	ET	6	6.E.V 6.T.c	1.5 0.8	0	103
+218	Yakut	flesh	e t	et	7 1	XN	ET	9	9.E.V 9.T.c	1.5 0.8	0	103
+344	Uzbek	flesh	g o ʃ t	ɡoʃt	1 7 3 1	AXLN	KUST	8	8.K.C 8.U.V 8.S.c 8.T.c	2.0 1.5 1.1 0.8	0	104
+347	Chuvash	flesh	a ʂ	aʂ	7 3	XN	AS	2	2.A.V 2.S.c	1.5 0.8	0	104
+128	Kazakh	grease	m a j	maj	4 7 6	AXN	MAJ	3	3.M.C 3.A.V 3.J.c	2.0 1.5 0.8	0	107
+129	Kyrgyz	grease	m a j	maj	4 7 6	AXN	MAJ	4	4.M.C 4.A.V 4.J.c	2.0 1.5 0.8	0	107
+130	Uyghur	grease	m a j	maj	4 7 6	AXN	MAJ	7	7.M.C 7.A.V 7.J.c	2.0 1.5 0.8	0	107
+131	Azerbaijani	grease	j a ɣ	jaɣ	6 7 3	AXN	JAG	1	1.J.C 1.A.V 1.G.c	2.0 1.5 0.8	0	105
+132	Chuvash	grease	ɕ u	ɕu	3 7	AX	SY	2	2.S.C 2.Y.V	2.0 1.5	0	106
+133	Turkish	grease	j a ɣ	jaɣ	6 7 3	AXN	JAG	5	5.J.C 5.A.V 5.G.c	2.0 1.5 0.8	0	106
+134	Turkmen	grease	j a ɣ	jaɣ	6 7 3	AXN	JAG	6	6.J.C 6.A.V 6.G.c	2.0 1.5 0.8	0	110
+135	Uzbek	grease	j ɔ ɣ	jɔɣ	6 7 3	AXN	JUG	8	8.J.C 8.U.V 8.G.c	2.0 1.5 0.8	0	112
+136	Yakut	grease	s ɯ a	sɯa	3 7 7	AXZ	SIA	9	9.S.C 9.I.V 9.A.V	2.0 1.5 0.8	0	106
+152	Azerbaijani	hair	s a tɕ	saʨ	3 7 2	AXN	SAC	1	1.S.C 1.A.V 1.C.c	2.0 1.5 0.8	0	113
+153	Chuvash	hair	ɕ y ɕ	ɕyɕ	3 7 3	AXN	SYS	2	2.S.C 2.Y.V 2.S.c	2.0 1.5 0.8	0	113
+154	Kazakh	hair	ʃ a ʃ	ʃaʃ	3 7 3	AXN	SAS	3	3.S.C 3.A.V 3.S.c	2.0 1.5 0.8	0	113
+155	Kyrgyz	hair	tɕ a tɕ	ʨaʨ	2 7 2	AXN	CAC	4	4.C.C 4.A.V 4.C.c	2.0 1.5 0.8	0	116
+156	Turkish	hair	s a tɕ	saʨ	3 7 2	AXN	SAC	5	5.S.C 5.A.V 5.C.c	2.0 1.5 0.8	0	113
+157	Turkmen	hair	s a tɕ	saʨ	3 7 2	AXN	SAC	6	6.S.C 6.A.V 6.C.c	2.0 1.5 0.8	0	113
+158	Uyghur	hair	tɕ a tɕ	ʨaʨ	2 7 2	AXN	CAC	7	7.C.C 7.A.V 7.C.c	2.0 1.5 0.8	0	116
+159	Uzbek	hair	s ɔ tɕ	sɔʨ	3 7 2	AXN	SUC	8	8.S.C 8.U.V 8.C.c	2.0 1.5 0.8	0	120
+160	Yakut	hair	a s	as	7 3	XN	AS	9	9.A.V 9.S.c	1.5 0.8	0	113
+146	Azerbaijani	head	a l ɯ n	alɯn	7 5 7 4	XBYN	ALIN	1	1.A.V 1.L.C 1.I.V 1.N.c	1.5 1.75 1.3 0.8	0	121
+147	Turkish	head	a l ɯ n	alɯn	7 5 7 4	XBYN	ALIN	5	5.A.V 5.L.C 5.I.V 5.N.c	1.5 1.75 1.3 0.8	0	121
+148	Turkmen	head	a l ɯ n	? alɯn	7 5 7 4	XBYN	ALIN	6	6.A.V 6.L.C 6.I.V 6.N.c	1.5 1.75 1.3 0.8	0	121
+149	Yakut	head	s yː s	sy:s	3 7 3	AXN	SYS	9	9.S.C 9.Y.V 9.S.c	2.0 1.5 0.8	0	124
+150	Chuvash	head	ɕ a m g a	ɕamga	3 7 4 1 7	AXMBZ	SAMKA	2	2.S.C 2.A.V 2.M.c 2.K.C 2.A.V	2.0 1.5 1.1 1.75 0.8	0	122
+151	Kyrgyz	head	tɕ e k e	ʨeke	2 7 1 7	AXBZ	CEKE	4	4.C.C 4.E.V 4.K.C 4.E.V	2.0 1.5 1.75 0.8	0	124
+161	Kazakh	head	b a s	bas	1 7 3	AXN	PAS	3	3.P.C 3.A.V 3.S.c	2.0 1.5 0.8	0	123
+162	Uyghur	head	b a ʃ	baʃ	1 7 3	AXN	PAS	7	7.P.C 7.A.V 7.S.c	2.0 1.5 0.8	0	123
+163	Uzbek	head	b ɔ ʃ	bɔʃ	1 7 3	AXN	PUS	8	8.P.C 8.U.V 8.S.c	2.0 1.5 0.8	0	123
+164	Azerbaijani	horn	b u j n u z	bujnuz	1 7 6 4 7 3	AXMBYN	PYJNYS	1	1.P.C 1.Y.V 1.J.c 1.N.C 1.Y.V 1.S.c	2.0 1.5 1.1 1.75 1.3 0.8	0	125
+165	Chuvash	horn	m ŏ j r a g a	möjraga	4 7 6 5 7 1 7	AXMBYBZ	MUJRAKA	2	2.M.C 2.U.V 2.J.c 2.R.C 2.A.V 2.K.C 2.A.V	2.0 1.5 1.1 1.75 1.3 1.75 0.8	0	126
+166	Kazakh	horn	m y j ĭ z	myjɘz	4 7 6 7 3	AXBYN	MYJIS	3	3.M.C 3.Y.V 3.J.C 3.I.V 3.S.c	2.0 1.5 1.75 1.3 0.8	0	127
+167	Kyrgyz	horn	m y j y z	myjyz	4 7 6 7 3	AXBYN	MYJYS	4	4.M.C 4.Y.V 4.J.C 4.Y.V 4.S.c	2.0 1.5 1.75 1.3 0.8	0	128
+168	Turkish	horn	b o j n u z	bojnuz	1 7 6 4 7 3	AXMBYN	PUJNYS	5	5.P.C 5.U.V 5.J.c 5.N.C 5.Y.V 5.S.c	2.0 1.5 1.1 1.75 1.3 0.8	0	129
+169	Uyghur	horn	m y ŋ g y z	? myŋgyz	4 7 4 1 7 3	AXMBYN	MYNKYS	7	7.M.C 7.Y.V 7.N.c 7.K.C 7.Y.V 7.S.c	2.0 1.5 1.1 1.75 1.3 0.8	0	131
+170	Yakut	horn	m u o s	muos	4 7 7 3	AXYN	MYUS	9	9.M.C 9.Y.V 9.U.V 9.S.c	2.0 1.5 1.3 0.8	0	133
+341	Uzbek	horn	m u g i z	muɡiz	4 7 1 7 3	AXBYN	MYKIS	8	8.M.C 8.Y.V 8.K.C 8.I.V 8.S.c	2.0 1.5 1.75 1.3 0.8	0	126
+353	Turkmen	horn	ʃ a h	Sah	3 7 3	AXN	SAH	6	6.S.C 6.A.V 6.H.c	2.0 1.5 0.8	0	130
+171	Azerbaijani	leaf	j a r p a ɢ	jarpaɢ	6 7 5 1 7 1	AXMBYN	JARPAK	1	1.J.C 1.A.V 1.R.c 1.P.C 1.A.V 1.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	134
+172	Kazakh	leaf	ʒ a p ɯ r a q	ʒapɯraq	3 7 1 7 5 7 1	AXBYBYN	SAPIRAK	3	3.S.C 3.A.V 3.P.C 3.I.V 3.R.C 3.A.V 3.K.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	0	136
+173	Kyrgyz	leaf	ʥ a l b ɯ r a q	ʥalbɯraq	2 7 5 1 7 5 7 1	AXMBYBYN	CALPIRAK	4	4.C.C 4.A.V 4.L.c 4.P.C 4.I.V 4.R.C 4.A.V 4.K.c	2.0 1.5 1.1 1.75 1.3 1.75 1.3 0.8	0	136
+174	Turkish	leaf	j a p r a k	japrak	6 7 1 5 7 1	AXBCYN	JAPRAK	5	5.J.C 5.A.V 5.P.C 5.R.C 5.A.V 5.K.c	2.0 1.5 1.75 1.5 1.3 0.8	0	136
+175	Turkmen	leaf	j a p r a q	japraq	6 7 1 5 7 1	AXBCYN	JAPRAK	6	6.J.C 6.A.V 6.P.C 6.R.C 6.A.V 6.K.c	2.0 1.5 1.75 1.5 1.3 0.8	0	136
+176	Uyghur	leaf	j o p u r m a q	jopurmaq	6 7 1 7 5 4 7 1	AXBYMBYN	JUPYRMAK	7	7.J.C 7.U.V 7.P.C 7.Y.V 7.R.c 7.M.C 7.A.V 7.K.c	2.0 1.5 1.75 1.3 1.1 1.75 1.3 0.8	0	140
+177	Yakut	leaf	s e b i r d e χ	sebirdeχ	3 7 1 7 5 1 7 3	AXBYMBYN	SEPIRTEG	9	9.S.C 9.E.V 9.P.C 9.I.V 9.R.c 9.T.C 9.E.V 9.G.c	2.0 1.5 1.75 1.3 1.1 1.75 1.3 0.8	0	142
+178	Chuvash	leaf	ɕ u l ʑ ə	ɕulʑə̈	3 7 5 3 7	AXMBZ	SYLSE	2	2.S.C 2.Y.V 2.L.c 2.S.C 2.E.V	2.0 1.5 1.1 1.75 0.8	0	135
+340	Uzbek	leaf	b a r g	barɡ	1 7 5 1	AXLN	PARK	8	8.P.C 8.A.V 8.R.c 8.K.c	2.0 1.5 1.1 0.8	0	134
+179	Azerbaijani	long	u z u n	uzun	7 3 7 4	XBYN	YSYN	1	1.Y.V 1.S.C 1.Y.V 1.N.c	1.5 1.75 1.3 0.8	0	143
+180	Chuvash	long	v ŏ r ŏ m	vöröm	3 7 5 7 4	AXBYN	BURUM	2	2.B.C 2.U.V 2.R.C 2.U.V 2.M.c	2.0 1.5 1.75 1.3 0.8	0	144
+181	Kazakh	long	u z ɯ n	ŭzɯn	7 3 7 4	XBYN	YSIN	3	3.Y.V 3.S.C 3.I.V 3.N.c	1.5 1.75 1.3 0.8	0	143
+182	Kyrgyz	long	u z u n	uzun	7 3 7 4	XBYN	YSYN	4	4.Y.V 4.S.C 4.Y.V 4.N.c	1.5 1.75 1.3 0.8	0	143
+183	Turkish	long	u z u n	uzun	7 3 7 4	XBYN	YSYN	5	5.Y.V 5.S.C 5.Y.V 5.N.c	1.5 1.75 1.3 0.8	0	143
+184	Turkmen	long	u z ɯ n	uzɯn	7 3 7 4	XBYN	YSIN	6	6.Y.V 6.S.C 6.I.V 6.N.c	1.5 1.75 1.3 0.8	0	143
+185	Uyghur	long	u z u n	uzun	7 3 7 4	XBYN	YSYN	7	7.Y.V 7.S.C 7.Y.V 7.N.c	1.5 1.75 1.3 0.8	0	143
+186	Uzbek	long	u z u n	uzun	7 3 7 4	XBYN	YSYN	8	8.Y.V 8.S.C 8.Y.V 8.N.c	1.5 1.75 1.3 0.8	0	143
+187	Yakut	long	u h u n	uhun	7 3 7 4	XBYN	YHYN	9	9.Y.V 9.H.C 9.Y.V 9.N.c	1.5 1.75 1.3 0.8	0	143
+188	Azerbaijani	louse	b i t	bit	1 7 1	AXN	PIT	1	1.P.C 1.I.V 1.T.c	2.0 1.5 0.8	0	145
+189	Chuvash	louse	p ɯ j d ə	pɯjdə̈	1 7 6 1 7	AXMBZ	PIJTE	2	2.P.C 2.I.V 2.J.c 2.T.C 2.E.V	2.0 1.5 1.1 1.75 0.8	0	146
+190	Kazakh	louse	b i t	bit	1 7 1	AXN	PIT	3	3.P.C 3.I.V 3.T.c	2.0 1.5 0.8	0	145
+191	Kyrgyz	louse	b i t	bit	1 7 1	AXN	PIT	4	4.P.C 4.I.V 4.T.c	2.0 1.5 0.8	0	145
+192	Turkish	louse	b i t	bit	1 7 1	AXN	PIT	5	5.P.C 5.I.V 5.T.c	2.0 1.5 0.8	0	145
+193	Turkmen	louse	b i t	bit	1 7 1	AXN	PIT	6	6.P.C 6.I.V 6.T.c	2.0 1.5 0.8	0	145
+194	Uyghur	louse	p i t	pit, (piʃt)	1 7 1	AXN	PIT	7	7.P.C 7.I.V 7.T.c	2.0 1.5 0.8	0	145
+195	Uzbek	louse	b i t	bit	1 7 1	AXN	PIT	8	8.P.C 8.I.V 8.T.c	2.0 1.5 0.8	0	145
+196	Yakut	louse	b ɯ t	bɯt	1 7 1	AXN	PIT	9	9.P.C 9.I.V 9.T.c	2.0 1.5 0.8	0	145
+197	Kazakh	man	e r k e k	erkek	7 5 1 7 1	XMBYN	ERKEK	3	3.E.V 3.R.c 3.K.C 3.E.V 3.K.c	1.5 1.1 1.75 1.3 0.8	0	148
+198	Kyrgyz	man	e r k e k k i ʃ i	erkek (kiʃi)	7 5 1 7 1 1 7 3 7	XMBYMBYBZ	ERKEKKISI	4	4.E.V 4.R.c 4.K.C 4.E.V 4.K.c 4.K.C 4.I.V 4.S.C 4.I.V	1.5 1.1 1.75 1.3 1.1 1.75 1.3 1.75 0.8	0	148
+199	Turkish	man	e r k e k	erkek	7 5 1 7 1	XMBYN	ERKEK	5	5.E.V 5.R.c 5.K.C 5.E.V 5.K.c	1.5 1.1 1.75 1.3 0.8	0	148
+200	Turkmen	man	e r k e k a d a m	erkek (adam)	7 5 1 7 1 7 1 7 4	XMBYBYBYN	ERKEKATAM	6	6.E.V 6.R.c 6.K.C 6.E.V 6.K.C 6.A.V 6.T.C 6.A.V 6.M.c	1.5 1.1 1.75 1.3 1.75 1.3 1.75 1.3 0.8	0	152
+201	Uyghur	man	æ r k æ k	ɛrkɛk	7 5 1 7 1	XMBYN	ERKEK	7	7.E.V 7.R.c 7.K.C 7.E.V 7.K.c	1.5 1.1 1.75 1.3 0.8	0	148
+202	Uzbek	man	e r k a k k i ʃ i	erkak (kiʃi)	7 5 1 7 1 1 7 3 7	XMBYMBYBZ	ERKAKKISI	8	8.E.V 8.R.c 8.K.C 8.A.V 8.K.c 8.K.C 8.I.V 8.S.C 8.I.V	1.5 1.1 1.75 1.3 1.1 1.75 1.3 1.75 0.8	0	148
+203	Chuvash	man	a r ʑ ɯ n	arʑɯn	7 5 3 7 4	XMBYN	ARSIN	2	2.A.V 2.R.c 2.S.C 2.I.V 2.N.c	1.5 1.1 1.75 1.3 0.8	0	148
+204	Yakut	man	e r k i h i	er kihi	7 5 1 7 3 7	XMBYBZ	ERKIHI	9	9.E.V 9.R.c 9.K.C 9.I.V 9.H.C 9.I.V	1.5 1.1 1.75 1.3 1.75 0.8	0	148
+205	Azerbaijani	man	k i ʃ i	kiʃi	1 7 3 7	AXBZ	KISI	1	1.K.C 1.I.V 1.S.C 1.I.V	2.0 1.5 1.75 0.8	0	147
+206	Kazakh	many	k ø p	køp	1 7 1	AXN	KUP	3	3.K.C 3.U.V 3.P.c	2.0 1.5 0.8	0	155
+207	Kyrgyz	many	k ø p	køp	1 7 1	AXN	KUP	4	4.K.C 4.U.V 4.P.c	2.0 1.5 0.8	0	156
+208	Turkmen	many	k ø p	køp	1 7 1	AXN	KUP	6	6.K.C 6.U.V 6.P.c	2.0 1.5 0.8	0	158
+209	Uyghur	many	k ø p	køp	1 7 1	AXN	KUP	7	7.K.C 7.U.V 7.P.c	2.0 1.5 0.8	0	159
+210	Uzbek	many	k o p	kop	1 7 1	AXN	KUP	8	8.K.C 8.U.V 8.P.c	2.0 1.5 0.8	0	160
+211	Azerbaijani	many	ʨ o χ	ʨoχ(lu)	2 7 3	AXN	CUG	1	1.C.C 1.U.V 1.G.c	2.0 1.5 0.8	0	153
+212	Turkish	many	tɕ o k	ʨok	2 7 1	AXN	CUK	5	5.C.C 5.U.V 5.K.c	2.0 1.5 0.8	0	157
+349	Chuvash	many	m i ɕ ɛ	miˈɕ̬ɛ	4 7 3 7	AXBZ	MISE	2	2.M.C 2.I.V 2.S.C 2.E.V	2.0 1.5 1.75 0.8	0	154
+351	Yakut	many	t ø h ø	tøhø	1 7 3 7	AXBZ	TUHU	9	9.T.C 9.U.V 9.H.C 9.U.V	2.0 1.5 1.75 0.8	0	157
+219	Kazakh	not	s ĭ ŋ b ĭ r ĭ k	sɘŋbɘrɘk	3 7 4 1 7 5 7 1	AXMBYBYN	SINPIRIK	3	3.S.C 3.I.V 3.N.c 3.P.C 3.I.V 3.R.C 3.I.V 3.K.c	2.0 1.5 1.1 1.75 1.3 1.75 1.3 0.8	0	163
+220	Kyrgyz	not	tɕ i m k i r i k	ʨimkirik	2 7 4 1 7 5 7 1	AXMBYBYN	CIMKIRIK	4	4.C.C 4.I.V 4.M.c 4.K.C 4.I.V 4.R.C 4.I.V 4.K.c	2.0 1.5 1.1 1.75 1.3 1.75 1.3 0.8	0	164
+221	Turkish	not	s y m y k	symyk	3 7 4 7 1	AXBYN	SYMYK	5	5.S.C 5.Y.V 5.M.C 5.Y.V 5.K.c	2.0 1.5 1.75 1.3 0.8	0	165
+222	Turkmen	not	s y m y k	symyk	3 7 4 7 1	AXBYN	SYMYK	6	6.S.C 6.Y.V 6.M.C 6.Y.V 6.K.c	2.0 1.5 1.75 1.3 0.8	0	165
+223	Yakut	not	s ɯː ŋ k	sɯ:ŋk	3 7 4 1	AXLN	SINK	9	9.S.C 9.I.V 9.N.c 9.K.c	2.0 1.5 1.1 0.8	0	169
+224	Uyghur	not	m a ŋ q a	maŋqa	4 7 4 1 7	AXMBZ	MANKA	7	7.M.C 7.A.V 7.N.c 7.K.C 7.A.V	2.0 1.5 1.1 1.75 0.8	0	167
+225	Azerbaijani	not	f ɯ r t d ɯ ɢ	fɯrtdɯɢ	3 7 5 1 1 7 1	AXLMBYN	BIRTTIK	1	1.B.C 1.I.V 1.R.c 1.T.c 1.T.C 1.I.V 1.K.c	2.0 1.5 1.1 1.1 1.75 1.3 0.8	0	161
+226	Uzbek	not	m i ʃ i q	miʃi(ri)q	4 7 3 7 1	AXBYN	MISIK	8	8.M.C 8.I.V 8.S.C 8.I.V 8.K.c	2.0 1.5 1.75 1.3 0.8	0	162
+227	Chuvash	not	m a	mA	4 7	AX	MA	2	2.M.C 2.A.V	2.0 1.5	0	162
+228	Azerbaijani	one	b i r	bir	1 7 5	AXN	PIR	1	1.P.C 1.I.V 1.R.c	2.0 1.5 0.8	0	170
+229	Chuvash	one	p ĭ r	pɘrre, pɘr	1 7 5	AXN	PIR	2	2.P.C 2.I.V 2.R.c	2.0 1.5 0.8	0	170
+230	Kazakh	one	b ĭ r	bɘr	1 7 5	AXN	PIR	3	3.P.C 3.I.V 3.R.c	2.0 1.5 0.8	0	170
+231	Kyrgyz	one	b i r	bir	1 7 5	AXN	PIR	4	4.P.C 4.I.V 4.R.c	2.0 1.5 0.8	0	170
+232	Turkish	one	b i r	bir	1 7 5	AXN	PIR	5	5.P.C 5.I.V 5.R.c	2.0 1.5 0.8	0	170
+233	Turkmen	one	b i r	bir	1 7 5	AXN	PIR	6	6.P.C 6.I.V 6.R.c	2.0 1.5 0.8	0	170
+234	Uyghur	one	b i r	bir	1 7 5	AXN	PIR	7	7.P.C 7.I.V 7.R.c	2.0 1.5 0.8	0	170
+235	Uzbek	one	b i r	bir	1 7 5	AXN	PIR	8	8.P.C 8.I.V 8.R.c	2.0 1.5 0.8	0	170
+236	Yakut	one	b iː r	bi:r	1 7 5	AXN	PIR	9	9.P.C 9.I.V 9.R.c	2.0 1.5 0.8	0	170
+237	Kazakh	person	k ĭ s ĭ	kɘsɘ	1 7 3 7	AXBZ	KISI	3	3.K.C 3.I.V 3.S.C 3.I.V	2.0 1.5 1.75 0.8	0	173
+238	Kyrgyz	person	k i ʃ i	kiʃi	1 7 3 7	AXBZ	KISI	4	4.K.C 4.I.V 4.S.C 4.I.V	2.0 1.5 1.75 0.8	0	173
+239	Turkish	person	k i ʃ i	kiʃi	1 7 3 7	AXBZ	KISI	5	5.K.C 5.I.V 5.S.C 5.I.V	2.0 1.5 1.75 0.8	0	173
+240	Uyghur	person	k i ʃ i	kiʃi	1 7 3 7	AXBZ	KISI	7	7.K.C 7.I.V 7.S.C 7.I.V	2.0 1.5 1.75 0.8	0	173
+241	Uzbek	person	k i ʃ i	kiʃi	1 7 3 7	AXBZ	KISI	8	8.K.C 8.I.V 8.S.C 8.I.V	2.0 1.5 1.75 0.8	0	173
+242	Yakut	person	k i h i	kihi	1 7 3 7	AXBZ	KIHI	9	9.K.C 9.I.V 9.H.C 9.I.V	2.0 1.5 1.75 0.8	0	173
+243	Chuvash	person	ɕ ɯ n	ɕɯn	3 7 4	AXN	SIN	2	2.S.C 2.I.V 2.N.c	2.0 1.5 0.8	0	172
+337	Azerbaijani	person	ɑ d ɑ m	ɑdɑm	7 1 7 4	XBYN	ATAM	1	1.A.V 1.T.C 1.A.V 1.M.c	1.5 1.75 1.3 0.8	0	171
+352	Turkmen	person	u n s a n	unsan	7 4 3 7 4	XMBYN	YNSAN	6	6.Y.V 6.N.c 6.S.C 6.A.V 6.N.c	1.5 1.1 1.75 1.3 0.8	0	172
+244	Chuvash	root	t ɯ m a r	tɯmar	1 7 4 7 5	AXBYN	TIMAR	2	2.T.C 2.I.V 2.M.C 2.A.V 2.R.c	2.0 1.5 1.75 1.3 0.8	0	175
+245	Kazakh	root	t a m ɯ r	tamɯr	1 7 4 7 5	AXBYN	TAMIR	3	3.T.C 3.A.V 3.M.C 3.I.V 3.R.c	2.0 1.5 1.75 1.3 0.8	0	176
+246	Kyrgyz	root	t a m ɯ r	tamɯr	1 7 4 7 5	AXBYN	TAMIR	4	4.T.C 4.A.V 4.M.C 4.I.V 4.R.c	2.0 1.5 1.75 1.3 0.8	0	176
+247	Uyghur	root	t o m u r	tomur	1 7 4 7 5	AXBYN	TUMYR	7	7.T.C 7.U.V 7.M.C 7.Y.V 7.R.c	2.0 1.5 1.75 1.3 0.8	0	176
+248	Uzbek	root	i l d i z	ildiz	7 5 1 7 3	XMBYN	ILTIS	8	8.I.V 8.L.c 8.T.C 8.I.V 8.S.c	1.5 1.1 1.75 1.3 0.8	0	181
+249	Yakut	root	s i l i s	silis	3 7 5 7 3	AXBYN	SILIS	9	9.S.C 9.I.V 9.L.C 9.I.V 9.S.c	2.0 1.5 1.75 1.3 0.8	0	182
+250	Azerbaijani	root	k ø k	køk	1 7 1	AXN	KUK	1	1.K.C 1.U.V 1.K.c	2.0 1.5 0.8	0	174
+251	Turkish	root	k ø k	køk	1 7 1	AXN	KUK	5	5.K.C 5.U.V 5.K.c	2.0 1.5 0.8	0	174
+252	Turkmen	root	k ø k	køk	1 7 1	AXN	KUK	6	6.K.C 6.U.V 6.K.c	2.0 1.5 0.8	0	174
+253	Azerbaijani	seed	gʲ ø r	gjør	1 7 5	AXN	KUR	1	1.K.C 1.U.V 1.R.c	2.0 1.5 0.8	0	183
+254	Chuvash	seed	k u r	kur	1 7 5	AXN	KYR	2	2.K.C 2.Y.V 2.R.c	2.0 1.5 0.8	0	183
+255	Kazakh	seed	k ø r	kør	1 7 5	AXN	KUR	3	3.K.C 3.U.V 3.R.c	2.0 1.5 0.8	0	183
+256	Kyrgyz	seed	k ø r	kør	1 7 5	AXN	KUR	4	4.K.C 4.U.V 4.R.c	2.0 1.5 0.8	0	183
+257	Turkish	seed	g ø r	gør	1 7 5	AXN	KUR	5	5.K.C 5.U.V 5.R.c	2.0 1.5 0.8	0	183
+258	Turkmen	seed	g ø r	gør	1 7 5	AXN	KUR	6	6.K.C 6.U.V 6.R.c	2.0 1.5 0.8	0	183
+259	Uyghur	seed	k ø r	kør	1 7 5	AXN	KUR	7	7.K.C 7.U.V 7.R.c	2.0 1.5 0.8	0	183
+260	Uzbek	seed	k o r	kor	1 7 5	AXN	KUR	8	8.K.C 8.U.V 8.R.c	2.0 1.5 0.8	0	183
+261	Yakut	seed	k ø r	kør	1 7 5	AXN	KUR	9	9.K.C 9.U.V 9.R.c	2.0 1.5 0.8	0	191
+262	Azerbaijani	skin	d æ r i	dɛri	1 7 5 7	AXBZ	TERI	1	1.T.C 1.E.V 1.R.C 1.I.V	2.0 1.5 1.75 0.8	0	192
+263	Chuvash	skin	t i r ĭ	tirɘ	1 7 5 7	AXBZ	TIRI	2	2.T.C 2.I.V 2.R.C 2.I.V	2.0 1.5 1.75 0.8	0	192
+264	Kazakh	skin	t e r ĭ	terɘ	1 7 5 7	AXBZ	TERI	3	3.T.C 3.E.V 3.R.C 3.I.V	2.0 1.5 1.75 0.8	0	192
+265	Kyrgyz	skin	t e r i	teri	1 7 5 7	AXBZ	TERI	4	4.T.C 4.E.V 4.R.C 4.I.V	2.0 1.5 1.75 0.8	0	192
+266	Turkish	skin	d e r i	deri	1 7 5 7	AXBZ	TERI	5	5.T.C 5.E.V 5.R.C 5.I.V	2.0 1.5 1.75 0.8	0	192
+267	Turkmen	skin	d e r i	deri	1 7 5 7	AXBZ	TERI	6	6.T.C 6.E.V 6.R.C 6.I.V	2.0 1.5 1.75 0.8	0	192
+268	Uyghur	skin	t e r æ	terɛ	1 7 5 7	AXBZ	TERE	7	7.T.C 7.E.V 7.R.C 7.E.V	2.0 1.5 1.75 0.8	0	192
+269	Uzbek	skin	t e r i	teri	1 7 5 7	AXBZ	TERI	8	8.T.C 8.E.V 8.R.C 8.I.V	2.0 1.5 1.75 0.8	0	192
+270	Yakut	skin	t i r iː	tiri:	1 7 5 7	AXBZ	TIRI	9	9.T.C 9.I.V 9.R.C 9.I.V	2.0 1.5 1.75 0.8	0	192
+271	Azerbaijani	small	k i tɕ i k	kiʨik	1 7 2 7 1	AXBYN	KICIK	1	1.K.C 1.I.V 1.C.C 1.I.V 1.K.c	2.0 1.5 1.75 1.3 0.8	0	193
+272	Kazakh	small	k ĭ ʃ k e n e	kɘʃkene, kɘʃkentaj	1 7 3 1 7 4 7	AXMBYBZ	KISKENE	3	3.K.C 3.I.V 3.S.c 3.K.C 3.E.V 3.N.C 3.E.V	2.0 1.5 1.1 1.75 1.3 1.75 0.8	0	195
+273	Kyrgyz	small	k i ʨ i n e k e j	kiʨine(kej)	1 7 2 7 4 7 1 7 6	AXBYBYBYN	KICINEKEJ	4	4.K.C 4.I.V 4.C.C 4.I.V 4.N.C 4.E.V 4.K.C 4.E.V 4.J.c	2.0 1.5 1.75 1.3 1.75 1.3 1.75 1.3 0.8	0	196
+274	Turkish	small	k y tɕ y k	kyʨyk	1 7 2 7 1	AXBYN	KYCYK	5	5.K.C 5.Y.V 5.C.C 5.Y.V 5.K.c	2.0 1.5 1.75 1.3 0.8	0	193
+275	Turkmen	small	k i ʨ i ʥ i k	kiʨi(ʥik)	1 7 2 7 2 7 1	AXBYBYN	KICICIK	6	6.K.C 6.I.V 6.C.C 6.I.V 6.C.C 6.I.V 6.K.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	0	198
+276	Uyghur	small	k i tɕ i k	kiʨik	1 7 2 7 1	AXBYN	KICIK	7	7.K.C 7.I.V 7.C.C 7.I.V 7.K.c	2.0 1.5 1.75 1.3 0.8	0	196
+277	Uzbek	small	k i tɕ k i n a	kiʨkina	1 7 2 1 7 4 7	AXMBYBZ	KICKINA	8	8.K.C 8.I.V 8.C.c 8.K.C 8.I.V 8.N.C 8.A.V	2.0 1.5 1.1 1.75 1.3 1.75 0.8	0	195
+278	Yakut	small	k u tʃː u g u j	? kutɕ:uguj	1 7 1 7 1 7 6	AXBYBYN	KYTYKYJ	9	9.K.C 9.Y.V 9.T.C 9.Y.V 9.K.C 9.Y.V 9.J.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	0	201
+348	Chuvash	small	p ɘ tɕ ɘ k	ˈpɘt͡ɕɘk	1 7 2 7 1	AXBYN	PECEK	2	2.P.C 2.E.V 2.C.C 2.E.V 2.K.c	2.0 1.5 1.75 1.3 0.8	0	194
+279	Azerbaijani	tail	ɢ u j r u ɢ	ɢujruɢ	1 7 6 5 7 1	AXMBYN	KYJRYK	1	1.K.C 1.Y.V 1.J.c 1.R.C 1.Y.V 1.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	202
+280	Chuvash	tail	χ y r e	χyre	3 7 5 7	AXBZ	GYRE	2	2.G.C 2.Y.V 2.R.C 2.E.V	2.0 1.5 1.75 0.8	0	203
+281	Kazakh	tail	q u j r ɯ q	qŭjrɯq	1 7 6 5 7 1	AXMBYN	KYJRIK	3	3.K.C 3.Y.V 3.J.c 3.R.C 3.I.V 3.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	204
+282	Kyrgyz	tail	q u j r u q	qujruq	1 7 6 5 7 1	AXMBYN	KYJRYK	4	4.K.C 4.Y.V 4.J.c 4.R.C 4.Y.V 4.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	204
+283	Turkish	tail	k u j r u k	kujruk	1 7 6 5 7 1	AXMBYN	KYJRYK	5	5.K.C 5.Y.V 5.J.c 5.R.C 5.Y.V 5.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	202
+284	Turkmen	tail	ɢ u j r u q	ɢujruq	1 7 6 5 7 1	AXMBYN	KYJRYK	6	6.K.C 6.Y.V 6.J.c 6.R.C 6.Y.V 6.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	207
+285	Uyghur	tail	q u j r u q	qujruq	1 7 6 5 7 1	AXMBYN	KYJRYK	7	7.K.C 7.Y.V 7.J.c 7.R.C 7.Y.V 7.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	204
+286	Yakut	tail	k u t u r u k	kuturuk	1 7 1 7 5 7 1	AXBYBYN	KYTYRYK	9	9.K.C 9.Y.V 9.T.C 9.Y.V 9.R.C 9.Y.V 9.K.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	0	210
+342	Uzbek	tail	q u j r u q	qujruq	1 7 6 5 7 1	AXMBYN	KYJRYK	8	8.K.C 8.Y.V 8.J.c 8.R.C 8.Y.V 8.K.c	2.0 1.5 1.1 1.75 1.3 0.8	0	209
+28	Azerbaijani	that	d a	dA	1 7	AX	TA	1	1.T.C 1.A.V	2.0 1.5	0	211
+29	Chuvash	that	r a	rA, dA, tA	5 7	AX	RA	2	2.R.C 2.A.V	2.0 1.5	0	212
+30	Kyrgyz	that	d a	dA, tA	1 7	AX	TA	4	4.T.C 4.A.V	2.0 1.5	0	211
+31	Turkish	that	t a	tA, dA	1 7	AX	TA	5	5.T.C 5.A.V	2.0 1.5	0	211
+32	Turkmen	that	d a	dA	1 7	AX	TA	6	6.T.C 6.A.V	2.0 1.5	0	211
+33	Uyghur	that	d a	dA, tA	1 7	AX	TA	7	7.T.C 7.A.V	2.0 1.5	0	211
+34	Yakut	that	ɣ a	ɣa	3 7	AX	GA	9	9.G.C 9.A.V	2.0 1.5	0	218
+287	Uzbek	that	o	o(ʃa)	7	X	U	8	8.U.V	1.5	0	218
+288	Kazakh	that	a n a w	ana(w)	7 4 7 6	XBYN	ANAW	3	3.A.V 3.N.C 3.A.V 3.W.c	1.5 1.75 1.3 0.8	0	213
+289	Azerbaijani	this	b u	bu	1 7	AX	PY	1	1.P.C 1.Y.V	2.0 1.5	0	219
+290	Kazakh	this	b u l	bŭl	1 7 5	AXN	PYL	3	3.P.C 3.Y.V 3.L.c	2.0 1.5 0.8	0	219
+291	Kyrgyz	this	b u	bu	1 7	AX	PY	4	4.P.C 4.Y.V	2.0 1.5	0	219
+292	Turkish	this	b u	bu	1 7	AX	PY	5	5.P.C 5.Y.V	2.0 1.5	0	219
+293	Turkmen	this	b u	bu	1 7	AX	PY	6	6.P.C 6.Y.V	2.0 1.5	0	219
+294	Uyghur	this	b u	bu	1 7	AX	PY	7	7.P.C 7.Y.V	2.0 1.5	0	219
+295	Uzbek	this	b u	bu	1 7	AX	PY	8	8.P.C 8.Y.V	2.0 1.5	0	219
+296	Yakut	this	b u	bu	1 7	AX	PY	9	9.P.C 9.Y.V	2.0 1.5	0	219
+297	Chuvash	this	k u	ku	1 7	AX	KY	2	2.K.C 2.Y.V	2.0 1.5	0	220
+298	Azerbaijani	tree	a ɣ a ʥ	aɣaǰ	7 3 7 2	XBYN	AGAC	1	1.A.V 1.G.C 1.A.V 1.C.c	1.5 1.75 1.3 0.8	0	221
+299	Chuvash	tree	j ɯ v ə ɕ	jɯvə̈ɕ	6 7 3 7 3	AXBYN	JIBES	2	2.J.C 2.I.V 2.B.C 2.E.V 2.S.c	2.0 1.5 1.75 1.3 0.8	0	222
+300	Kazakh	tree	a ɣ a ʃ	aɣaʃ	7 3 7 3	XBYN	AGAS	3	3.A.V 3.G.C 3.A.V 3.S.c	1.5 1.75 1.3 0.8	0	223
+301	Kyrgyz	tree	ʥ ɯ ɣ a ʨ	ʥɯɣaʨ	2 7 3 7 2	AXBYN	CIGAC	4	4.C.C 4.I.V 4.G.C 4.A.V 4.C.c	2.0 1.5 1.75 1.3 0.8	0	224
+302	Turkish	tree	a ɣ a tɕ	aɣaʨ	7 3 7 2	XBYN	AGAC	5	5.A.V 5.G.C 5.A.V 5.C.c	1.5 1.75 1.3 0.8	0	225
+303	Turkmen	tree	a ɣ a tɕ	aɣaʨ	7 3 7 2	XBYN	AGAC	6	6.A.V 6.G.C 6.A.V 6.C.c	1.5 1.75 1.3 0.8	0	226
+304	Uyghur	tree	j a ɣ a tɕ	jaɣaʨ	6 7 3 7 2	AXBYN	JAGAC	7	7.J.C 7.A.V 7.G.C 7.A.V 7.C.c	2.0 1.5 1.75 1.3 0.8	0	227
+305	Yakut	tree	m a s	mas	4 7 3	AXN	MAS	9	9.M.C 9.A.V 9.S.c	2.0 1.5 0.8	0	229
+338	Uzbek	tree	d a r a χ t	daraχt	1 7 5 7 3 1	AXBYLN	TARAGT	8	8.T.C 8.A.V 8.R.C 8.A.V 8.G.c 8.T.c	2.0 1.5 1.75 1.3 1.1 0.8	0	228
+306	Azerbaijani	two	i k i	iki	7 1 7	XBZ	IKI	1	1.I.V 1.K.C 1.I.V	1.5 1.75 0.8	0	230
+307	Chuvash	two	i k ĭ	ikkɘ, igɘ, ik	7 1 7	XBZ	IKI	2	2.I.V 2.K.C 2.I.V	1.5 1.75 0.8	0	230
+308	Kazakh	two	e k ĭ	ekɘ	7 1 7	XBZ	EKI	3	3.E.V 3.K.C 3.I.V	1.5 1.75 0.8	0	230
+309	Kyrgyz	two	e k i	eki	7 1 7	XBZ	EKI	4	4.E.V 4.K.C 4.I.V	1.5 1.75 0.8	0	230
+310	Turkish	two	i k i	iki	7 1 7	XBZ	IKI	5	5.I.V 5.K.C 5.I.V	1.5 1.75 0.8	0	230
+311	Turkmen	two	i k i	iki	7 1 7	XBZ	IKI	6	6.I.V 6.K.C 6.I.V	1.5 1.75 0.8	0	230
+312	Uyghur	two	i kː i	ikki	7 1 7	XBZ	IKI	7	7.I.V 7.K.C 7.I.V	1.5 1.75 0.8	0	230
+313	Uzbek	two	i kː i	ikki	7 1 7	XBZ	IKI	8	8.I.V 8.K.C 8.I.V	1.5 1.75 0.8	0	230
+314	Yakut	two	i kː i	ikki	7 1 7	XBZ	IKI	9	9.I.V 9.K.C 9.I.V	1.5 1.75 0.8	0	230
+10	Azerbaijani	we	b i z	biz	1 7 3	AXN	PIS	1	1.P.C 1.I.V 1.S.c	2.0 1.5 0.8	0	231
+11	Chuvash	we	e b i r	ebir	7 1 7 5	XBYN	EPIR	2	2.E.V 2.P.C 2.I.V 2.R.c	1.5 1.75 1.3 0.8	0	232
+12	Kazakh	we	b ĭ z	bɘz	1 7 3	AXN	PIS	3	3.P.C 3.I.V 3.S.c	2.0 1.5 0.8	0	231
+13	Kyrgyz	we	b i z	biz	1 7 3	AXN	PIS	4	4.P.C 4.I.V 4.S.c	2.0 1.5 0.8	0	231
+14	Turkish	we	b i z	biz	1 7 3	AXN	PIS	5	5.P.C 5.I.V 5.S.c	2.0 1.5 0.8	0	231
+15	Turkmen	we	b i z	biz	1 7 3	AXN	PIS	6	6.P.C 6.I.V 6.S.c	2.0 1.5 0.8	0	231
+16	Uyghur	we	b i z	biz	1 7 3	AXN	PIS	7	7.P.C 7.I.V 7.S.c	2.0 1.5 0.8	0	231
+17	Uzbek	we	b i z	biz	1 7 3	AXN	PIS	8	8.P.C 8.I.V 8.S.c	2.0 1.5 0.8	0	231
+18	Yakut	we	b i h i g i	bihigi	1 7 3 7 1 7	AXBYBZ	PIHIKI	9	9.P.C 9.I.V 9.H.C 9.I.V 9.K.C 9.I.V	2.0 1.5 1.75 1.3 1.75 0.8	0	239
+315	Azerbaijani	what	n æ	nɛ	4 7	AX	NE	1	1.N.C 1.E.V	2.0 1.5	0	240
+316	Chuvash	what	m ĭ n	mɘn	4 7 4	AXN	MIN	2	2.M.C 2.I.V 2.N.c	2.0 1.5 0.8	0	241
+317	Kazakh	what	n e	ne	4 7	AX	NE	3	3.N.C 3.E.V	2.0 1.5	0	240
+318	Kyrgyz	what	e m n e	emne	7 4 4 7	XMBZ	EMNE	4	4.E.V 4.M.c 4.N.C 4.E.V	1.5 1.1 1.75 0.8	0	243
+319	Turkish	what	n e	ne	4 7	AX	NE	5	5.N.C 5.E.V	2.0 1.5	0	240
+320	Turkmen	what	n æ m e	nɛme	4 7 4 7	AXBZ	NEME	6	6.N.C 6.E.V 6.M.C 6.E.V	2.0 1.5 1.75 0.8	0	240
+321	Uyghur	what	n i m æ	nimɛ	4 7 4 7	AXBZ	NIME	7	7.N.C 7.I.V 7.M.C 7.E.V	2.0 1.5 1.75 0.8	0	243
+322	Uzbek	what	n i m a	nima	4 7 4 7	AXBZ	NIMA	8	8.N.C 8.I.V 8.M.C 8.A.V	2.0 1.5 1.75 0.8	0	247
+323	Yakut	what	t u o χ	tuoχ	1 7 7 3	AXYN	TYUG	9	9.T.C 9.Y.V 9.U.V 9.G.c	2.0 1.5 1.3 0.8	0	248
+324	Azerbaijani	who	k i m	kim	1 7 4	AXN	KIM	1	1.K.C 1.I.V 1.M.c	2.0 1.5 0.8	0	249
+325	Chuvash	who	k a m	kam	1 7 4	AXN	KAM	2	2.K.C 2.A.V 2.M.c	2.0 1.5 0.8	0	250
+326	Kazakh	who	k ĭ m	kɘm	1 7 4	AXN	KIM	3	3.K.C 3.I.V 3.M.c	2.0 1.5 0.8	0	251
+327	Kyrgyz	who	k i m	kim	1 7 4	AXN	KIM	4	4.K.C 4.I.V 4.M.c	2.0 1.5 0.8	0	252
+328	Turkish	who	k i m	kim	1 7 4	AXN	KIM	5	5.K.C 5.I.V 5.M.c	2.0 1.5 0.8	0	253
+329	Turkmen	who	k i m	kim	1 7 4	AXN	KIM	6	6.K.C 6.I.V 6.M.c	2.0 1.5 0.8	0	254
+330	Uyghur	who	k i m	kim	1 7 4	AXN	KIM	7	7.K.C 7.I.V 7.M.c	2.0 1.5 0.8	0	255
+331	Uzbek	who	k i m	kim	1 7 4	AXN	KIM	8	8.K.C 8.I.V 8.M.c	2.0 1.5 0.8	0	256
+332	Yakut	who	k i m	kim	1 7 4	AXN	KIM	9	9.K.C 9.I.V 9.M.c	2.0 1.5 0.8	0	257
+333	Chuvash	woman	χ ĭ r a r ə m	χɘrarə̈m	3 7 5 7 5 7 4	AXBYBYN	GIRAREM	2	2.G.C 2.I.V 2.R.C 2.A.V 2.R.C 2.E.V 2.M.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	0	259
+334	Azerbaijani	woman	ɢ a d ɯ n	ɢadɯn	1 7 1 7 4	AXBYN	KATIN	1	1.K.C 1.A.V 1.T.C 1.I.V 1.N.c	2.0 1.5 1.75 1.3 0.8	0	258
+335	Turkish	woman	k a d ɯ n	kadɯn	1 7 1 7 4	AXBYN	KATIN	5	5.K.C 5.A.V 5.T.C 5.I.V 5.N.c	2.0 1.5 1.75 1.3 0.8	0	258
+336	Uzbek	woman	χ ɔ t i n	χɔtin (kiʃi)	3 7 1 7 4	AXBYN	GUTIN	8	8.G.C 8.U.V 8.T.C 8.I.V 8.N.c	2.0 1.5 1.75 1.3 0.8	0	262
+346	Kazakh	woman	b ɪ j k e	bɪjke	1 7 6 1 7	AXMBZ	PIJKE	3	3.P.C 3.I.V 3.J.c 3.K.C 3.E.V	2.0 1.5 1.1 1.75 0.8	0	260
+350	Yakut	woman	ɟ a x t a ɾ	ɟaxtaɾ	1 7 3 1 7 5	AXMBYN	CAGTAR	9	9.C.C 9.A.V 9.G.c 9.T.C 9.A.V 9.R.c	2.0 1.5 1.1 1.75 1.3 0.8	0	263
+19	Azerbaijani	you_2sg	s i z	siz	3 7 3	AXN	SIS	1	1.S.C 1.I.V 1.S.c	2.0 1.5 0.8	0	265
+20	Chuvash	you_2sg	e z i r	ezir	7 3 7 5	XBYN	ESIR	2	2.E.V 2.S.C 2.I.V 2.R.c	1.5 1.75 1.3 0.8	0	265
+21	Kazakh	you_2sg	s ĭ z d e r	sɘzder	3 7 3 1 7 5	AXMBYN	SISTER	3	3.S.C 3.I.V 3.S.c 3.T.C 3.E.V 3.R.c	2.0 1.5 1.1 1.75 1.3 0.8	0	265
+22	Kyrgyz	you_2sg	s i l e r	siler	3 7 5 7 5	AXBYN	SILER	4	4.S.C 4.I.V 4.L.C 4.E.V 4.R.c	2.0 1.5 1.75 1.3 0.8	0	267
+23	Turkish	you_2sg	s i z	siz	3 7 3	AXN	SIS	5	5.S.C 5.I.V 5.S.c	2.0 1.5 0.8	0	265
+24	Turkmen	you_2sg	s i z	siz	3 7 3	AXN	SIS	6	6.S.C 6.I.V 6.S.c	2.0 1.5 0.8	0	265
+25	Uyghur	you_2sg	s i z	siz	3 7 3	AXN	SIS	7	7.S.C 7.I.V 7.S.c	2.0 1.5 0.8	0	265
+26	Uzbek	you_2sg	s i z l a r	sizlar	3 7 3 5 7 5	AXBCYN	SISLAR	8	8.S.C 8.I.V 8.S.C 8.L.C 8.A.V 8.R.c	2.0 1.5 1.75 1.5 1.3 0.8	0	271
+27	Yakut	you_2sg	e h i g i	ehigi	7 3 7 1 7	XBYBZ	EHIKI	9	9.E.V 9.H.C 9.I.V 9.K.C 9.I.V	1.5 1.75 1.3 1.75 0.8	0	265
+# Created using the LexStat class of LingPy-2.6.13
+# Parameters: 2:1_1.00_0_0.70_global-2-0.50:local-1-0.50_0.30__T_shuffle_False:upgma:-2_0.7_0.00_-5.00
+# Cluster: lexstat_upgma_0.50
